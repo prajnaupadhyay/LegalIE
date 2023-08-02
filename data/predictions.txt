@@ -1,0 +1,765 @@
+Input: The Inter-State Migrant Workmen ( Regulation of Employment and Conditions of Service ) Act, 1979 was an Act of the Parliament of India enacted to regulate the condition of service of inter-state labourers in Indian labour law.
+Prediction: 
+
+Input: Whenever an employer faces shortage of skills among the locally available workers, the interstate migrant worksmen act created provision to employ better skilled workers available outside the state.
+Prediction: 
+
+Input: The employment system of interstate migrant labour was an exploitative system prevalent more or less in all over India.
+Prediction: 
+
+Input: In Orissa the migrant labour ( called dadan labour locally ) through contractors or agents ( called Sardars / Khatedars ) are sent for work outside the state in large construction projects.
+Prediction: 
+
+Input: Once the worker came under clutches of the contractor he took him to a far off place on payment of railways fare only.
+Prediction: 
+
+Input: No working hours were fixed for interstate migrant workers and they had to work on all the days in a week under extremely bad working conditions.
+Prediction: 
+
+Input: The Inter-State Migrant Workmen Act was replaced by the Occupational Safety, Health and Working Conditions Code, 2020.
+Prediction: 
+
+Input: In addition to the general labour laws applicable to all workers, the interstate workers are entitled with equal or better wages for the similar nature & duration of work applicable for the local workmen or stipulated minimum wages under the Minimum Wages Act, 1948 whichever is more, displacement allowance ( Section 14 ), home journey allowance Section 15 ) including payment of wages during the period of journey, suitable residential accommodation and medical facilities free of charge on mandatory basis.
+Prediction: 
+
+Input: In addition to the general labour laws applicable to all workers, the interstate workers are entitled with termination of employment after the contract period without any liability.
+Prediction: 
+
+Input: In addition to the general labour laws applicable to all workers, the interstate workers are entitled with right to lodge compliant with the authorities within three months of any incident, accident, etc.
+Prediction: 
+
+Input: The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law that sets the minimum wages that must be paid to skilled and unskilled labours.
+Prediction: 
+
+Input: The Indian Constitution has defined a 'living wage'that is the level of income for a worker which will ensure a basic standard of living including good health, dignity, comfort, education and provide for any contingency.
+Prediction: 
+
+Input: Fair wage is that level of wage that not just maintains a level of employment, but seeks to increase it keeping in perspective the industry's capacity to pay.
+Prediction: 
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis, [ 23 ] and extends to the entire country and is revised within a period of not less than five years, however there is a provision to increase dearness allowance every two years.
+Prediction: 
+
+Input: Revision of minimum wage rates is based on a 'cost of living index'and wages can be fixed for an entire state, part of the state, class or classes and employments pertaining to these categories.
+Prediction: 
+
+Input: The Industrial Disputes Act, 1947 extended to the whole of India and regulated Indian labour law so far as that concerns trade unions as well as Individual workman employed in any Industry within the territory of Indian mainland.
+Prediction: 
+
+Input: The Industrial Disputes Act, 1947 was replaced by the Industrial Relations Code, 2020.
+Prediction: 
+
+Input: Industrial Relations Code, 2020 consolidates and amends the laws relating to Trade Unions, conditions of employment in industrial establishment or undertaking, investigation and settlement of industrial disputes.
+Prediction: 
+
+Input: The Industrial Relations Code Bill, 2020 proposed for amalgamating, simplifying and rationalising the relevant provisions of three Acts namely Trade Unions Act, 1926, Industrial Employment ( Standing Orders ) Act, 1946 and Industrial Disputes Act, 1947.
+Prediction: 
+
+Input: The Payment of Wages Act 1936 mandates the payment of wages on time on the last working day of every month via bank transfer or postal service.
+Prediction: 
+
+Input: The Factories Act 1948 and the Shops and Establishment Act 1960 mandate 15 working days of fully paid vacation leave each year to each employee with an additional 7 fully paid sick days.
+Prediction: 
+
+Input: The Maternity Benefit ( Amendment ) Act, 2017 gives female employees of every company the right to take 6 months'worth of fully paid maternity leave.
+Prediction: 
+
+Input: The Maternity Benefit ( Amendment ) Act, 2017 provides for 6 weeks worth of paid leaves in case of miscarriage or medical termination of pregnancy.
+Prediction: 
+
+Input: The Employees'Provident Fund Organisation and the Employees'State Insurance, governed by statutory acts provide workers with necessary social security for retirement benefits and medical and unemployment benefits respectively.
+Prediction: 
+
+Input: Workers entitled to be covered under the Employees'State Insurance ( those making less than Rs 21000/month ) are also entitled to 90 days worth of paid medical leaves.
+Prediction: 
+
+Input: A contract of employment can always provide for more rights than the statutory minimum set rights
+Prediction: 
+
+Input: Gratuity is payable to the employee if he or she resigns or retires.
+Prediction: 
+
+Input: The Indian government mandates that the gratuity payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of  2000000.
+Prediction: 
+
+Input: The Payment of Gratuity Act, 1972 is an Indian law that makes companies pay a one-time gratuity to retired employees or an employee who resigns after a minimum of 5 years of service.
+Prediction: 
+
+Input: A workman who has been employed for over a year can only be dismissed if permission is sought from and granted by the appropriate government office.
+Prediction: 
+
+Input: The 42nd Amendment also amended Preamble and changed the description of India from  sovereign democratic republic  to a  sovereign, socialist secular democratic republic , and also changed the words  unity of the nation  to  unity and integrity of the nation .
+Prediction: 
+
+Input: The 42nd Amendment provides for curtailment of fundamental rights, imposes fundamental duties and changes to the basic structure of the constitution.
+Prediction: 
+
+Input: The 42nd amendment transferred more power from the state governments to the central government, eroding India's federal structure.
+Prediction: 
+
+Input: The 42nd Amendment gives Parliament unrestrained power to amend any parts of the Constitution, without judicial review.
+Prediction: 
+
+Input: Another purpose of 42nd Amendment was to make any law passed in pursuance of a Directive Principle immune from scrutiny by the Supreme Court.
+Prediction: 
+
+Input: On 31 July 1980, in its judgement on Minerva Mills v. Union of India, the Supreme Court declared two provisions of the 42nd Amendment as unconstitutional which prevent any constitutional amendment from being  called in question in any Court on any ground  and accord precedence to the Directive Principles of State Policy over the Fundamental Rights of individuals respectively.
+Prediction: 
+
+Input: The Code on Wages Bill was introduced in the Lok Sabha on 10 August 2017 by the Minister of State for Labour and Employment ( Independent Charge ), Santosh Gangwar.
+Prediction: 
+
+Input: If an individual feels that he/she is being paid less than the minimum wages specified for his region/sector/occupation, or is not paid for a duration of work, a complaint can be made to the appointed authority.
+Prediction: 
+
+Input: While fixing hours for a normal working day as per the minimum wage act should make sure the number of hours that are to be fixed for a normal working day should have one or more intervals/breaks included.
+Prediction: 
+
+Input: While fixing hours for a normal working day as per the minimum wage act should make sure at least one day off from an entire week should be given to the employee for rest.
+Prediction: 
+
+Input: While fixing hours for a normal working day as per the minimum wage act should make sure Payment for the day decided to be given for rest should be paid at a rate not less than the overtime rate.
+Prediction: 
+
+Input: If an employee is involved in work that categorises his service in two or more scheduled employments, the employee's wage will include respective wage rate of all work for the number of hours dedicated at each task.
+Prediction: 
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis, and extends to the entire country and is revised within a period of not less than five years, however there is a provision to increase dearness allowance every two years.
+Prediction: 
+
+Input: Employees'State Insurance Corporation ( abbreviated as ESIC ) is one of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment, Government of India, the other being the Employees'Provident Fund Organisation.
+Prediction: 
+
+Input: The promulgation of Employees'State Insurance Act, 1948 envisaged an integrated need based social insurance scheme that would protect the interest of workers in contingencies such as sickness, maternity, temporary or permanent physical disablement, death due to employment injury resulting in loss of wages or earning capacity.
+Prediction: 
+
+Input: The ESI act was initially intended for factory workers but later became applicable to all establishments having 10 or more workers.
+Prediction: 
+
+Input: Six benefits are envisaged to ESI subscribers are Medical benefit, Sickness benefit, Maternity benefit, Disablement benefit, Dependants benefit and funeral expenses.
+Prediction: 
+
+Input: It was held by the Supreme Court of India in Indian Hume Pipe Co Ltd v Its Workmen that the general principle underlying a gratuity scheme is that by service over a long period the employee is entitled to claim a certain amount as a retirement benefit.
+Prediction: 
+
+Input: Unorganised sector, also known as own account enterprises, refers to all unlicensed, self-employed or unregistered economic activity such as owner manned general stores, handicrafts and handloom workers, rural traders, farmers, etc.
+Prediction: 
+
+Input: Even though unorganised sector accounted for over 94 percent of workers, India's unorganised sector created just 57 percent of India's national domestic product in 2006, or about nine fold less per worker than the organised sector.
+Prediction: 
+
+Input: The state of Kerala at 9,800 trade unions had the highest number of registered unions, but only few filed income and expenditure reports with the government of India.
+Prediction: 
+
+Input: Migrant workers are typically employed for remuneration in cash or kind, in any household through any agency or directly, to do the household work, but do not include any member of the family of an employer.
+Prediction: 
+
+Input: Article 24 of India's constitution prohibits child labour, but only in factories, mines or hazardous employment.
+Prediction: 
+
+Input: India has a new code to simplify law on minimum wages – but it doesn't give workers any real benefit.
+Prediction: 
+
+Input: Poverty rates are reported to be significantly higher in families where all working age members have only worked the unorganised sector throughout their lives.
+Prediction: 
+
+Input: India has two broad groups of migrant labourers - one that migrates to temporarily work overseas, and another that migrates domestically on a seasonal and work available basis.
+Prediction: 
+
+Input: Despite importance of migrant labour and despite many of migrant labours praising the state for its welfare schemes and environment, they are often ignored in comparison and suffer from comparatively poor living conditions.
+Prediction: 
+
+Input: Bonded labour is a forced relationship between an employer and an employee, where the compulsion is derived from outstanding debt.
+Prediction: 
+
+Input: Although the Industrial Dispute Act does not prohibit layoffs and retrenchments, it does require [ 96 ] entrepreneurs and companies to get the permission from government officials to fire an employee for absenteeism, retrench employees for economic reasons, or to close an economically nonviable company.
+Prediction: 
+
+Input: As per the Child and Adolescent Labour ( Prohibition and Regulation ) Act, 1986, amended in 2016 (  CLPR Act '' ), a  Child '' is defined as any person below the age of 14, and the CLPR Act prohibits employment of a Child in any employment including as a domestic help.
+Prediction: 
+
+Input: Some child rights activists argue that child labour must include every child who is not in school because he or she is a hidden child worker.
+Prediction: 
+
+Input: Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation.
+Prediction: 
+
+Input: The unpaid gratuity amount is seized by government which is further used in holiday, vacations, parties and other fun related activities.
+Prediction: 
+
+Input: The Gratuity law applies to all companies of at least 20 employees.
+Prediction: 
+
+Input: The Payment of Gratuity Act does not applies to apprentices and persons who hold civil posts under the Central Government or State Governments and are subjected to any other act or rule other than this act.
+Prediction: 
+
+Input: An employee joining the central or state services prior to 1 January 2004 would receive pension payments as lifetime income security from the time of retirement ( at age 58, in most cases ) until death.
+Prediction: 
+
+Input: Defined Benefit ( DB ) scheme like OPS is a type in which the beneficiary pension is based on a defined formula which may have a percentage of salary or a percentage of salary times the years of service or a flat rate per year of service as its parameters.
+Prediction: 
+
+Input: Defined Contribution ( DC ) scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service and the receivable pension is based on the balance in his pension fund at the time of his retirement.
+Prediction: 
+
+Input: Since pension is both a reward for continuous service till the formal age of retirement as well as a form social security in old age, India favored a restructured pension ensuring a balance between retirement benefit of the government employees and the financial burden on the economy by moving from DB scheme to DC scheme.
+Prediction: 
+
+Input: A major portion of outgo in government revenue is paid as pension benefits to its retired employees and hence considered as economic liability with potential to adversely impact the  fiscal soundness of the Government entities ''.
+Prediction: 
+
+Input: The bill for the Constitution ( Forty-second Amendment ) Act, 1976 was introduced in the Lok Sabha on 1 September 1976, as the Constitution ( Forty-Second Amendment ) Bill, 1976 ( Bill No.91 of 1976 ).
+Prediction: 
+
+Input: The 42nd Amendment changed the description of India from a  sovereign democratic republic '' to a  sovereign, socialist secular democratic republic '', and also changed the words  unity of the nation '' to  unity and integrity of the nation ''.
+Prediction: 
+
+Input: The promulgation of Employees'State Insurance Act, 1948 envisaged an integrated need based social insurance scheme that would protect the interest of workers in contingencies such as sickness, maternity, temporary or permanent physical disablement, death due to employment injury resulting in loss of wages or earning capacity.
+Prediction: 
+
+Input: For all employees earning 21,000 ( US $ 280 ) or less per month as wages, the employer contributes 3.25 % and the employee contributes 0.75 %, total share 4 %.
+Prediction: 
+
+Input: This fund is managed by the ESI Corporation ( ESIC ) according to rules and regulations stipulated there in the ESI Act 1948, which oversees the provision of medical and cash benefits to the employees and their family.
+Prediction: 
+
+Input: The 42nd amendment, officially known as The Constitution ( Forty-second amendment ) Act, 1976, was enacted during the Emergency ( 25 June 1975 – 21 March 1977 ) by the Indian National Congress government headed by Indira Gandhi.
+Prediction: 
+
+Input: The Caste Disabilities Removal Act, 1850, was a law passed in British India under East India Company rule, that abolished all laws affecting the rights of people converting to another religion or caste.
+Prediction: 
+
+Input: The new Caste Disabilities Removal Act allowed hindus who converted from Hindu religion to another religion equal rights under new law, especially in the case of inheritance.
+Prediction: 
+
+Input: Children between age of 14 and 18 are defined as  Adolescent  and the law allows Adolescent to be employed except in the listed hazardous occupation and processes which include mining, inflammable substance and explosives related work and any other hazardous process as per the Factories Act, 1948.
+Prediction: 
+
+Input: The Constitution of India prohibits child labour in hazardous industries ( but not in non-hazardous industries ) as a Fundamental Right under Article 24.
+Prediction: 
+
+Input: UNICEF estimates that India with its larger population, has the highest number of labourers in the world under 14 years of age, while sub-Saharan African countries have the highest percentage of children who are deployed as child labourers.
+Prediction: 
+
+Input: The International Labour Organization estimates that agriculture, at 60 percent, is the largest employer of child labour in the world, [ 10 ] while the United Nations Food and Agriculture Organization estimates 70 % of child labour is deployed in agriculture and related activities.
+Prediction: 
+
+Input: Outside of agriculture, child labour is observed in almost all informal sectors of the Indian economy.
+Prediction: 
+
+Input: The companies claim they have strict policies against selling products made by underage children for their own profit, but there are many links in a supply chain making it difficult to oversee them all.
+Prediction: 
+
+Input: A child, suggests UNICEF, is involved in child labour activities if between 5 and 11 years of age, he or she did at least one hour of economic activity or at least 28 hours of domestic work in a week, and in case of children between 12 and 14 years of age, he or she did at least 14 hours of economic activity or at least 42 hours of economic activity and domestic work per week.
+Prediction: 
+
+Input: A  Child  is defined as any person below the age of 14 and the CLPR Act prohibits employment of a Child in any employment including as a domestic help ( except helping own family in non-hazardous occupations ).
+Prediction: 
+
+Input: The term 'child labour ', suggests ILO, is best defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.
+Prediction: 
+
+Input: In terms of the physical condition of children, children are not ready for long monotonous work because they become exhausted more quickly than adults.
+Prediction: 
+
+Input: Children who work, instead of going to school, will remain illiterate which limits their ability to contribute to their own well being as well as to the community they live in.
+Prediction: 
+
+Input: Child labour in India are employed with the majority ( 70 % ) in agriculture some in low-skilled labour-intensive sectors such as sari weaving or as domestic helpers, which require neither formal education nor training, but some in heavy industry such as coal mining.
+Prediction: 
+
+Input: Without education, children do not gain the necessary skills such as English literacy and technical aptitude that will increase their productivity to enable them to secure higher-skilled jobs in future with higher wages that will lift them out of poverty.
+Prediction: 
+
+Input: A large number of brick kilns around Bangalore and Hosur employ bonded and child labour, under the pretext of offering high wages.
+Prediction: 
+
+Input: Unorganised Workers'Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security and welfare of the unorganised workers ( meaning home-based workers, self-employed workers or daily-wage workers ).
+Prediction: 
+
+Input: In Maharashtra the mathadis are organised under a welfare board, set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers ( Regulation of Employment and Welfare ) Act 1969.
+Prediction: 
+
+Input: The Occupational Safety, Health And Working Conditions Code, 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment.
+Prediction: 
+
+Input: The Code on Social Security, 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors.
+Prediction: 
+
+Input: The Social Security Code, 2020 brings unorganised sector, gig workers and platform workers under the ambit of social security schemes, including life insurance and disability insurance, health and maternity benefits, provident insurance, pension and skill upgradation, etc.
+Prediction: 
+
+Input: If the punishment is harsh, albeit a lesser punishment may be imposed, but such an order can not be passed on an irrational or extraneous factor and certainly not on a compassionate ground.
+Prediction: 
+
+Input: In Regional Manager, Rajasthan State Road Transport Corporation v Sohan Lal ( 2004 ) 8 SCC 218, it has been held that it is not the normal jurisdiction of the superior courts to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved.
+Prediction: 
+
+Input: Huge pension costs over long time raises concerns on fiscal sustainability of the economy and given the magnitude of the problem, structural alteration in the existing pension scheme would therefore appear to be necessary.
+Prediction: 
+
+Input: The Code on Wages, 2019, also known as the Wage Code, is an Act of the Parliament of India that consolidates the provisions of four labour laws concerning wage and bonus payments and makes universal the provisions for minimum wages and timely payment of wages for all workers in India.
+Prediction: 
+
+Input: The Code on Wages, 2019 repeals and replaces the Payment of Wages Act, 1936, the Minimum Wages Act, 1948, the Payment of Bonus Act, 1965, and the Equal Remuneration Act, 1976.
+Prediction: 
+
+Input: Gangwar added that existing labour laws only governed payment of wages for about 40 % of the labour force and the Code on Wages would extend coverage to the entire labour force irrespective of sector or wage ceiling.
+Prediction: 
+
+Input: The fund is managed by the Employees'State Insurance Corporation ( ESIC ) according to rules and regulations stipulated in the ESI Act 1948.
+Prediction: 
+
+Input: Employees'State Insurance Corporation ( ESIC ), established by ESI Act, is an autonomous corporation under Ministry of Labour and Employment, Government of India.
+Prediction: 
+
+Input: As it is a legal entity, the ESI corporation can raise loans and take measures for discharging such loans with the prior sanction of the central government and it can acquire both movable and immovable property and all incomes from the property shall vest with the corporation.
+Prediction: 
+
+Input: The corporation can set up hospitals either independently or in collaboration with state government or other private entities, but most of the dispensaries and hospitals are run by concerned state governments.
+Prediction: 
+
+Input: For all employees earning 21,000 ( US $ 260 ) or less per month as wages, the employer contributes 3.25 % and the employee contributes 0.75 %, total share 4 %.
+Prediction: 
+
+Input: The employees registered under the scheme are entitled to medical treatment for themselves and their dependents, unemployment cash benefit in certain contingencies and maternity benefit in case of women employees.
+Prediction: 
+
+Input: In case of employment-related disablement or death, there is provision for a disablement benefit and a family pension respectively.
+Prediction: 
+
+Input: The Payment of Gratuity Act was passed by the Parliament of India on 21 August 1972 and it came into force on 16 September 1972.
+Prediction: 
+
+Input: If the number of employee is below 10, the employer must still pay gratuities.
+Prediction: 
+
+Input: The act does not applies to apprentices and persons who hold civil posts under the Central Government or State Governments and are subjected to any other act or rule other than this act.
+Prediction: 
+
+Input: Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation.
+Prediction: 
+
+Input: The unpaid gratuity amount is seized by government which is further used in holiday, vacations, parties and other fun related activities.
+Prediction: 
+
+Input: Industrial Relations Code, 2020 introduced more conditions for workers to strike, alongside an increase in the threshold relating to layoffs and retrenchment in industrial establishments having 300 workers from 100 workers to provide more flexibility to employers for hiring and firing workers without government permission.
+Prediction: 
+
+Input: If over 50 per cent of a company's workers take concerted casual leave, it will be treated as a strike.
+Prediction: 
+
+Input: However, workers can not go on strike without a 14 days ( not exceeding 60 days ) notice.
+Prediction: 
+
+Input: The Inter-state Migrant Workmen Act's purpose was to protect workers whose services are requisitioned outside their native states in India.
+Prediction: 
+
+Input: The National Pension System ( NPS ) is a defined-contribution pension system in India regulated by Pension Fund Regulatory and Development Authority ( PFRDA ) which is under the jurisdiction of Ministry of Finance of the Government of India.
+Prediction: 
+
+Input: A citizen of India, whether resident or non-resident or an OCI card holder can join NPS ( Through a circular issued on 29 October 2019 PFRDA has stated that now Overseas Citizen of India ( OCIs ) can enrol to invest in NPS tier-1 accounts ), subject to the certain conditions.
+Prediction: 
+
+Input: A non-resident can open an NPS account, but the account will be closed if the citizenship status of the NRI has been changed.
+Prediction: 
+
+Input: National Pension System, like PPF and EPF is an EEE ( Exempt-Exempt-Exempt ) instrument in India where the entire corpus escapes tax at maturity and entire pension withdrawal amount is tax-free.
+Prediction: 
+
+Input: NPS started with the decision of the Government of India to stop defined benefit pensions for all its employees who joined after 1 April 2004.
+Prediction: 
+
+Input: While the scheme was initially designed for government employees only, NPS was opened up for all citizens of India between the age of 18 and 65 in 2009, for OCI card holders and PIO's in October 2019.
+Prediction: 
+
+Input: As per the revised norms, any Indian Citizen, resident or non-resident and Overseas Citizen of India ( OCI ) between the age of 65–70 years can join NPS and continue or defer their NPS Account up to the age of 75 years.
+Prediction: 
+
+Input: NPS is considered one of the best tax saving instruments, after 40 % of the corpus was made tax-free at the time of maturity and it is ranked just below equity-linked savings scheme.
+Prediction: 
+
+Input: One can withdraw 20 percent of the corpus before 60 years but he/she must buy annuity with 80 percent of the corpus.
+Prediction: 
+
+Input: In 2016, the NPS allowed withdrawal of up to 25 % of contributions for specified reasons, if the scheme is at least 3 years old with certain conditions.
+Prediction: 
+
+Input: One can withdraw the complete amount if the pension collected is less than INR 5,00,000.
+Prediction: 
+
+Input: Mahatma Gandhi National Rural Employment Guarantee Act 2005 or MGNREGA, earlier known as the National Rural Employment Guarantee Act or NREGA, [ 3 ] is an Indian labour law and social security measure that aims to guarantee the 'right to work '.
+Prediction: 
+
+Input: NREGA act was passed in 23 August 2005 [ 1 ] under the UPA government of Prime Minister Manmohan Singh following tabling of the bill in parliament by the Minister for Rural Development Raghuvansh Prasad Singh.
+Prediction: 
+
+Input: NREGA aims to enhance livelihood security in rural areas by providing at least 100 days of wage employment in a financial year to at least one member of every household whose adult members volunteer to do unskilled manual work.
+Prediction: 
+
+Input: Employment is to be provided within 5 km of an applicant's residence, and minimum wages are to be paid.
+Prediction: 
+
+Input: If work is not provided within 15 days of applying, applicants are entitled to an unemployment allowance.
+Prediction: 
+
+Input: If the government fails to provide employment, it has to provide certain unemployment allowances to those people.
+Prediction: 
+
+Input: The NREGA law lists permissible works : water conservation and water harvesting ; drought proofing including afforestation ; irrigation works ; restoration of traditional water bodies ; land development ; flood control ; rural connectivity ; and works notified by the government.
+Prediction: 
+
+Input: Unemployment allowance must be paid if the work is not provided within the statutory limit of 15 days.
+Prediction: 
+
+Input: The law stipulates Gram Panchayats to have a single bank account for NREGA works which shall be subjected to public scrutiny.
+Prediction: 
+
+Input: To promote transparency and accountability, the NREGA act mandates'monthly squaring of accounts '.
+Prediction: 
+
+Input: To ensure public accountability through public vigilance, the NREGA designates ‘ social audits'as key to its implementation.
+Prediction: 
+
+Input: The most detailed part of the NREGA Act ( chapter 10 and 11 ) deals with transparency and accountability that lays out role of the state, the public vigilance and, above all, the social audits.
+Prediction: 
+
+Input: For evaluation of outcomes, the law also requires management of data and maintenance of records, like registers related to employment, job cards, assets, muster rolls and complaints, by the implementing agencies at the village, block and state level.
+Prediction: 
+
+Input: Assets created include rural connectivity assets such as pucca roads and brick soling, land development assets which improve productivity of land such as the creation of new plantations, unskilled construction such as poultry shelters, cattle shelters and fish drying yard platform.
+Prediction: 
+
+Input: The Public Provident Fund ( PPF ) is a savings-cum-tax-saving instrument in India, introduced by the National Savings Institute of the Ministry of Finance in 1968.
+Prediction: 
+
+Input: The main objective of the PPF scheme is to mobilize small savings by offering an investment with reasonable returns combined with income tax benefits.
+Prediction: 
+
+Input: The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing information proactively, preparation of annual reports by the Central Employment Guarantee Council for the Parliament and State Employment Guarantee Councils for state legislatures, undertaking mandatory financial audits by each district along with physical audit, taking action on audit reports, developing a Citizen's Charter, establishing vigilance and monitoring committees, and developing a grievance redressal system.
+Prediction: 
+
+Input: Balance in the PPF account is not subject to attachment under any order or decree of court under the Government Savings Banks Act, 1873.
+Prediction: 
+
+Input: As of August 2018, according to the Indian Ministry of finance ( Department of Economic Affairs ), NRIs ( Non resident Indians ) are not allowed to open new PPF accounts.
+Prediction: 
+
+Input: In October 2017, a notification was passed by the Ministry of Finance regarding an amendment to the PPF scheme of 1968, which would deem a PPF account closed from the day a person became a non resident.
+Prediction: 
+
+Input: Individuals who are residents of India are eligible to open their account under the Public Provident Fund, and are entitled to tax-free returns.
+Prediction: 
+
+Input: An amendment to earlier rules allowing NRIs to invest in PPF was proposed in the finance bill 2018, but has not yet been approved.
+Prediction: 
+
+Input: In October 2017, a notification was passed by the Ministry of finance regarding an amendment to the PPF scheme of 1968, which would deem a PPF account closed from the day a person became a non resident.
+Prediction: 
+
+Input: A minimum yearly deposit of Rs. 500 is required to open and maintain a PPF account.
+Prediction: 
+
+Input: If any contribution of minimum amount in any year is not invested, then the account will be deactivated.
+Prediction: 
+
+Input: In case death of account holder then the balance amount will be paid to his nominee or legal heir even before 15 years.
+Prediction: 
+
+Input: If balance amount in the account of a deceased is higher than 150,000 then the nominee or legal heir has to prove the identity to claim the amount.
+Prediction: 
+
+Input: Any amount deposited more than 1.5 lacs in a financial year will not earn any interest.
+Prediction: 
+
+Input: Premature closure of PPF account is permitted after completion of 5 years for medical treatment of family members and for higher education of PPF account holder.
+Prediction: 
+
+Input: According to R.K. Mohapatra, General Manager-Finance, [ 44 ] IRCON International, [ 45 ] and author of the award-winning book ‘ Retirement Planning : A Simple Guide for Individuals ', in the falling interest rate era, investment in PPF make senses for people who are in higher income tax brackets because of the advantages of exempt-exempt-exempt ( EEE ) scheme, which means they get tax deduction under Section 80C when they invest, and the accrual of interest as well as withdrawal is completely tax-free.
+Prediction: 
+
+Input: India need a universal pension plan for its entire population, especially the elderly which is estimated to reach 31.5 crores ( 315 million ) by 2050.
+Prediction: 
+
+Input: The Supreme Court of India in one of its judgement noted that pension for a retiree  is neither a bounty nor a matter of grace depending upon the sweet will of the employer. ''
+Prediction: 
+
+Input: The court held that it is a social welfare measure, aimed at rendering socioeconomic justice  to those who in the heyday of their life ceaselessly toiled for the employer on an assurance that in their old age they would not be left in the lurch.
+Prediction: 
+
+Input: After the economic liberalization of 1991, the pay in Private sector was gradually seen as better than that in Public sector.
+Prediction: 
+
+Input: However, it is also a fact that the work efficiency of most government employees with long service is always under question.
+Prediction: 
+
+Input: In 2023, RBI published a report in 2023 titled 'State Finances : A Study of Budgets of 2022-23'in which it remarked the decision of some state governments to restore OPS will give rise to a major risk on  subnational fiscal horizon ''.
+Prediction: 
+
+Input: A large chunk of government finance will go to as pension for a few retired government employees because of which many in the majority population will be deprived of basic health, education and other social welfare measures when the economic constraints rise eventually.
+Prediction: 
+
+Input: Tamil Nadu has not implemented the NPS for its government employees and is not not in agreement with PFRDA.
+Prediction: 
+
+Input: The Amendment simultaneously stated that laws prohibiting  anti-national activities '' or the formation of  anti-national associations '' could not be invalidated because they infringed on any of the Fundamental Rights.
+Prediction: 
+
+Input: The 42nd Amendment granted power to the President, in consultation with the Election Commission, to disqualify members of State Legislatures.
+Prediction: 
+
+Input: If you state in the Constitution that the social organisation of the State shall take a particular form, you are, in my judgment, taking away the liberty of the people to decide what should be the social organisation in which they wish to live.
+Prediction: 
+
+Input: During the Emergency, Indira Gandhi implemented a 20-point program of economic reforms that resulted in greater economic growth, aided by the absence of strikes and trade union conflicts.
+Prediction: 
+
+Input: Since the Constitution had conferred a limited amending power on the Parliament, the Parliament can not under the exercise of that limited power enlarge that very power into an absolute power.
+Prediction: 
+
+Input: In March 1943, Prof. B.P.Adarkar was appointed by the Government of India to create a report on the health insurance scheme for industrial workers.
+Prediction: 
+
+Input: The primary objective of Shram Suvidha is a unified portal for all compliance pertaining to Chief Labour Commissioner of India, Director General Mines and Safety, Employee State Insurance Corporation, and Employee Provident Fund Organization. There are 16 laws that are covered here like Payment of Wages Act, Minimum Wages Act, Contract Labour ( Abolition and Regulation ) Act.
+Prediction: 
+
+Input: The primary objective of Shram Suvidha is creation of a unique number known as the Labour Identification Number or LIN to supplement all other registration numbers such as PF Establishment Code, ESIC Registration Number, Contract Labour Registration Number, etc.
+Prediction: 
+
+Input: The primary objective of Shram Suvidha is online servicing of notices from the labour department and online submission of answers with document.
+Prediction: 
+
+Input: The primary objective of Shram Suvidha is employee grievances can now be received online and employer has to clear them and submit proof of clearance.
+Prediction: 
+
+Input: Registration of all contractors who employs or employed five or more Interstate Migrant Workmen on any day of the preceding 12 months.
+Prediction: 
+
+Input: Contrators should furnish the details of workmen periodically in such forms as prescribed by state government.
+Prediction: 
+
+Input: Contractors should maintain the registers indicating the details of interstate workers and make available for scrutiny by the statutory authorities.
+Prediction: 
+
+Input: Contractors should issue passbook affixed with a passport-sized photograph of the workman indicating the name and the place of the establishment where the worker is employed, the period of employment, rates of wages, etc. to every inter-state migrant workman.
+Prediction: 
+
+Input: Contractors should report the incidence of fatal accident or serious injury of such workman to the specified authorities of both the States and also the next of kin of the workman.
+Prediction: 
+
+Input: Contractors are liable for the prescribed punishments for violations committed under Interstate Migrant Worksmen Act.
+Prediction: 
+
+Input: The Interstate Migrant Workers ( Regulation of Employment and Conditions of Service ) Amendment Bill, 2011 is proposed to make this Act gender neutral by amending its title and replacing the word ‘ workman and workmen'by the words ‘ worker and workers'respectively.
+Prediction: 
+
+Input: The remuneration to interstate workers shall be deposited in their bank accounts and not by cash by the contractors.
+Prediction: 
+
+Input: No contractor shall deploy the workers outside the state without getting registered in that state.
+Prediction: 
+
+Input: The state government authorities shall conduct mandatory yearly audit of all employers / contractors in a state regarding deployment of interstate workers and submit yearly compliance status or implementation report to the state assembly for their scrutiny.
+Prediction: 
+
+Input: The workers employed on minimum guaranteed time rate of wages per day shall be entitled to time rate of minimum wages plus special allowance, if any, for unskilled category of above ground workers revised from time to time by the Central Government in respect of scheduled employment in stone mines.
+Prediction: 
+
+Input: The Mahatma Gandhi National Rural Employment Guarantee Act is an employment guarantee scheme that guarantees employment for 100 days at a wage rate of INR120 per day ( as fixed in 2009 ).
+Prediction: 
+
+Input: The benefits of Mahatma Gandhi National Rural Employment Guarantee Act can be secured by any household regardless of whether they fall below or above national poverty line.
+Prediction: 
+
+Input: While the 1970s in India was a period characterised by political instability, the 1980s was characterised by the beginnings of a distinct turn towards more market-friendly policies, support for industrialists and an implicit opposition to workers.
+Prediction: 
+
+Input: The first clearly registered trade-union is considered to be the Madras Labour Union founded by B.P. Wadia in 1918, while the first trade union federation to be set up was the All India Trade Union Congress in 1920.
+Prediction: 
+
+Input: This is the default option meaning if subscriber doesn't take any action within one year of his PPF account maturity this option activates automatically.
+Prediction: 
+
+Input: If subscriber wants to choose Extend the PPF account with contribution option then he needs to submit Form H in the bank where he is having a PPF account within one year from the date of maturity ( before the completion of 16 yrs in PPF ).
+Prediction: 
+
+Input: The 2019 Public Provident Fund Scheme, introduced by the Government on 12 December 2019, resulted in the rescinding of the earlier 1968 Public Provident Fund Scheme.
+Prediction: 
+
+Input: According to Bhalla, the productivity gap sharply worsens when rural unorganised sector is compared to urban unorganised sector, with gross value added productivity gap spiking an additional two to four fold depending on occupation.
+Prediction: 
+
+Input: If state-owned companies and municipal government employees were included, India had a 1.8:1 ratio between public sector employees and private sector employees.
+Prediction: 
+
+Input: The period following the economic liberalisation in 1991 was characterised by declining government intervention in the economy, a decline in the creation of public sector employment and encouragement for the private sector.
+Prediction: 
+
+Input: A gradual shift in focus about the importance of the Informal sector and 'Informal employment in the formal sector'from the late 1990s onwards meant that trade unions also began to focus on these workers.
+Prediction: 
+
+Input: Almost all the CTUOs now have at least 20 percent of their official members coming from the informal sector.
+Prediction: 
+
+Input: Complications around membership verification have existed due to discrepancies between membership claimed by the unions and actual members.
+Prediction: 
+
+Input: According to the Periodic Labour Force Survey ( PLFS ) of 2019, it shows that the Indian economy has shrunk for the first time in four decades, from 467.7 million in 2011-12 to 461.5 million in 2017-18.
+Prediction: 
+
+Input: Women account for the vast majority of those who have lost their jobs ( 24.7 million ).
+Prediction: 
+
+Input: The most significant change was the decentralization of implementation by involving the local people through local village governments or Panchayati Raj Institutions ( PRIs ) and hence a decreasing role of bureaucracy.
+Prediction: 
+
+Input: The role of PRIs was reinforced with the local self-government at the district level called the 'Zilla Parishad'as the main implementing authority.
+Prediction: 
+
+Input: The colonial era, when India was governed by the British, is when the problems of poverty and a lack of employment possibilities in rural areas first surfaced.
+Prediction: 
+
+Input: The lopsided economic development pattern was caused by the colonial government's emphasis on growing the urban economy at the expense of the rural economy, which remained even after India attained independence.
+Prediction: 
+
+Input: The colonial authority established land revenue procedures that led to a concentration of land ownership in the hands of a select few, which in turn marginalized the rural poor.
+Prediction: 
+
+Input: The MGNREGA was created with the idea of giving rural households a safety net in the form of guaranteed work possibilities.
+Prediction: 
+
+Input: The work entitlement of 100 days per household per year may be shared between different adult members of the same household.
+Prediction: 
+
+Input: The MGNREGA Act recommends establishment of 'Technical Resource Support Groups'at district, state and central level and active use of information technology, like creation of a 'Monitoring and Information System ( MIS )'and a NREGA website, to assure quality in implementation of NREGA through technical support.
+Prediction: 
+
+Input: The statute also seeks to protect the environment through rural works which is consistent with Article 48A that directs the State to protect the environment.
+Prediction: 
+
+Input: In accordance with the Article 21 of the Constitution of India that guarantees the right to life with dignity to every citizen of India, this act imparts dignity to the rural people through an assurance of livelihood security.
+Prediction: 
+
+Input: NREGA also follows Article 46 that requires the State to promote the interests of and work for the economic uplift of the scheduled castes and scheduled tribes and protect them from discrimination and exploitation.
+Prediction: 
+
+Input: Article 40 mandates the State to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government.
+Prediction: 
+
+Input: An early overall assessment in 2008 in six north Indian states suggested that NREGA was  making a difference to the lives of the rural poor, slowly but surely. ''
+Prediction: 
+
+Input: A majority of NREGA workers live in kaccha houses, belong to Scheduled Castes and Scheduled Tribes, are illiterate and do not have electricity at home.
+Prediction: 
+
+Input: Studies have suggested that women's participation has remained high, though there are inter-state variations.
+Prediction: 
+
+Input: One study in border villages of Rajasthan, Madhya Pradesh and Gujarat studied the effect on short term migration and child welfare and found that among children who do not migrate, grade completed is higher.
+Prediction: 
+
+Input: India has placed emphasis on MGNREGA as a contributor to carbon sequestration in its Third Biennial Update Report submitted to the United Nations Framework Convention on Climate Change in 2021.
+Prediction: 
+
+Input: The comprehensive assessment of the performance of the law by the constitutional auditor revealed serious lapses arising mainly due to lack of public awareness, mismanagement and institutional incapacity.
+Prediction: 
+
+Input: Government of India should increase the Central allocation for the scheme so that number of workdays can be increased to 200 and per day wage can be increased to Rs. 300.
+Prediction: 
+
+Input: A major criticism of the MGNREGA is that a lot of money disbursed by the government gets siphoned off by middlemen, thus leaving a number of MGNREGA workers either with unpaid wages or less than standard wages.
+Prediction: 
+
+Input: Up to a maximum of 25 percent of the balance at the end of the 2nd immediately preceding year would be allowed as loan.
+Prediction: 
+
+Input: A second loan could be availed as long as you are within the 3rd and before the 6th year, and only if the first one is fully repaid.
+Prediction: 
+
+Input: After 15 years of maturity, the full PPF amount can be withdrawn which is tax free, including the interest amount as well.
+Prediction: 
+
+Input: Every person employed in an establishment for hire or reward including contract labour, apprentices and part-time employees to do any manual, clerical, skilled, unskilled, technical, operational or supervisory work, is covered by the Act.
+Prediction: 
+
+Input: The Industrial Dispute Act does not apply to persons mainly in managerial or administrative capacity, persons engaged in a supervisory capacity and drawing > 10,000 p.m or executing managerial functions and persons subject to Army Act, Air Force and Navy Act or those in police service or officer or employee of a prison.
+Prediction: 
+
+Input: Workers who sought better conditions, and trade unions who campaigned through strike action were frequently, and violently suppressed.
+Prediction: 
+
+Input: After independence was won in 1947, the Constitution of India of 1950 embedded a series of fundamental labour rights in the constitution, particularly the right to join and take action in a trade union, the principle of equality at work, and the aspiration of creating a living wage with decent working conditions.
+Prediction: 
+
+Input: Articles 38-39, and 41-43A, however, like all rights listed in Part IV of the Constitution are not enforceable by courts, rather than creating an aspirational  duty of the State to apply these principles in making laws ''.
+Prediction: 
+
+Input: The scope of labour laws extend from regulating the height of urinals in workers'washrooms to how often a work space must be lime-washed.
+Prediction: 
+
+Input: Among the employment contracts that are regulated in India, the regulation involves significant government involvement which is rare in developed countries.
+Prediction: 
+
+Input: The Industrial Employment ( Standing Orders ) Act 1946 requires that employers have terms including working hours, leave, productivity goals, dismissal procedures or worker classifications, approved by a government body.
+Prediction: 
+
+Input: The Latin phrase 'dies non'is being widely used by disciplinary authorities in government and industries for denoting the 'unauthorised absence'to the delinquent employees.
+Prediction: 
+
+Input: A person can be marked dies-non, if absent without proper permission, when on duty left without proper permission and while in office but refused to perform duties.
+Prediction: 
+
+Input: In cases of such willful and unauthorised absence from work, the leave sanctioning authority may decide and order that the days on which the work is not performed be treated as dies non-on the principle of no work no pay.
+Prediction: 
+
+Input: The term 'industry'infuses a contractual relationship between the employer and the employee for sale of products and services which are produced through their cooperative endeavor.
+Prediction: 
+
+Input: Where the contract of employment is not fulfilled or work is not done as prescribed, the principle of 'no work no pay'is brought into play.
+Prediction: 
+
+Input: In the Labour Law 2021, the government has approved an overtime payment to the employees working more than 15 minutes of scheduled shift.
+Prediction: 
+
+Input: Section 6 requires that people are paid in money rather than in kind.
+Prediction: 
+
+Input: New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees.
+Prediction: 
+
+Input: On 10 December 2018, the Government of India made NPS an entirely tax-free instrument in India where the entire corpus escapes tax at maturity ; the 40 % annuity also became tax-free.
+Prediction: 
+
+Input: In addition to the constitutional prohibition of hazardous child labour, various laws in India, such as the Juvenile Justice ( care and protection ) of Children Act-2000, and the Child Labour ( Prohibition and Abolition ) Act 1986 provide a basis in law to identify, prosecute and stop child labour in India.
+Prediction: 
+
+Input: Indian government classifies child labourers into two groups : main workers are those who work 6 months or more per year, and marginal child workers are those who work at any time during the year but less than 6 months in a year.
+Prediction: 
+
+Input: UNICEF, however, points out that India faces major shortages of schools, classrooms and teachers particularly in rural areas where 90 percent of child labour problem is observed.
+Prediction: 
+
+Input: Income from a child's work is felt to be crucial for his/her own survival or for that of the household.
+Prediction: 
+
+Input: According to a 2008 study by ILO, among the most important factors driving children to harmful labour is the lack of availability and quality of schooling.
+Prediction: 
+
+Input: Even when schools are sometimes available, they are too far away, difficult to reach, unaffordable or the quality of education is so poor that parents wonder if going to school is really worthwhile.
+Prediction: 
+
+Input: In government-run primary schools, even when children show up, government-paid teachers do not show up 25 % of the time.
+Prediction: 
+
+Input: The 2008 ILO study suggests that illiteracy resulting from a child going to work, rather than a quality primary and secondary school, limits the child's ability to get a basic educational grounding which would in normal situations enable them to acquire skills and to improve their prospects for a decent adult working life.
+Prediction: 
+
+Input: While poverty and unavailability of good schools explain the child labour supply side, they suggest that the growth of low paying informal economy rather than higher paying formal economy – called organised economy in India – is amongst the causes of the demand side.
+Prediction: 
+
+Input: India has rigid labour laws and numerous regulations that prevent growth of organised sector where work protections are easier to monitor, and work more productive and higher paying.
+Prediction: 
+
+Input: Even in situations where children are going to school, claim Biggeri and Mehrotra, children engage in routine after-school home-based manufacturing and economic activity.
+Prediction: 
+
