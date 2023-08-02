@@ -169,8 +169,12 @@ def prepare_train():
 
 
 def prepare_test():
+    # load saved model
+    model = AutoModel.from_pretrained(sys.argv[3])
+
     # Load and preprocess your test data (from input file)
     # test_file_path = '/home/prajna/LegalIE/exp3/TestFinalCordinationTree.txt'
+
     test_file_path = sys.argv[4]
     test_data, test_targets = process_input_file(test_file_path)
 
@@ -185,8 +189,6 @@ def prepare_test():
     # read the output file path
     output_file_path = sys.argv[5]
 
-    # load saved model
-    model = AutoModel.from_pretrained(sys.argv[3])
 
     # test function to test the model and write predictions to file
     test(test_dataloader, model, output_file_path)
