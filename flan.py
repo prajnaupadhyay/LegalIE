@@ -37,6 +37,8 @@ def process_input_file(file_path):
             data.append(line.replace('#', '').strip())
         else:
             targets.append(line.strip())
+    print(len(targets))
+    print(len(data))
 
     return data, targets
 
