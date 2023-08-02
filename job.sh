@@ -15,4 +15,4 @@ conda init bash
 eval "$(conda shell.bash hook)"
 conda activate /home/prajna/.conda/envs/legalIE
 cd /scratch/prajna/LegalIE/exp3
-python flan.py $1 $2 $3 $4 
+python run.py $1 $2 $3 $4 $5 
