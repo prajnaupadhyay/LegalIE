@@ -1,0 +1,762 @@
+Input: The Inter-State Migrant Workmen (Regulation of Employment and Conditions of Service) Act, 1979 was an Act of the Parliament of India enacted to regulate the condition of service of inter-state labourers in Indian labour law.
+Prediction: COORDINATION( ['The Inter-State Migrant Workmen (Regulation of Employment and Conditions of Service) Act, 1979 was an Act of the Parliament of India enacted to regulate the condition of service of inter-state labourers in Indian labour law.'] )
+
+Input: Whenever an employer faces shortage of skills among the locally available workers, the interstate migrant worksmen act created provision to employ better skilled workers available outside the state.
+Prediction: NONE
+
+Input: The employment system of interstate migrant labour was an exploitative system prevalent more or less in all over India.
+Prediction: NONE
+
+Input: In Orissa the migrant labour (called dadan labour locally) through contractors or agents (called Sardars / Khatedars) are sent for work outside the state in large construction projects.
+Prediction: COORDINATION( ['In Orissa the migrant labour (called dadan labour locally) through contractors (called Sardars / Khatedars) are sent for work outside the state in large construction projects.', 'In Oriss the migrant labor (called fatheran labor locally ) through agents (called Sarars /Khatedars] are sentFor work outsidethe state in small construction projects.'] )
+
+Input: Once the worker came under clutches of the contractor he took him to a far off place on payment of railways fare only.
+Prediction: NONE
+
+Input: No working hours were fixed for interstate migrant workers and they had to work on all the days in a week under extremely bad working conditions.
+Prediction: COORDINATION( ['No working hours were fixed for interstate migrant workers.', 'they had to work on all the days in a week under extremely bad working conditions.'] )
+
+Input: The Inter-State Migrant Workmen Act was replaced by the Occupational Safety, Health and Working Conditions Code, 2020.
+Prediction: COORDINATION( ['The Inter-State Migrant Workmen Act was replaced by the Occupational Safety, Health Conditions Code, 2020.', 'The Inter -State M.Hmen Actwas replaced by a Occupational Security, Working Conditions Code, 2020.'] )
+
+Input: In addition to the general labour laws applicable to all workers, the interstate workers are entitled with equal or better wages for the similar nature & duration of work applicable for the local workmen or stipulated minimum wages under the Minimum Wages Act, 1948 whichever is more, displacement allowance (Section 14), home journey allowance Section 15) including payment of wages during the period of journey, suitable residential accommodation and medical facilities free of charge on mandatory basis.
+Prediction: COORDINATION( ['In addition to the general labour laws applicable to all workers, the interstate workers are entitled with equal or better wages for the similar nature & duration of work applicable for the local workmen or stipulated minimum wages under the Minimum Wages Act, 1948 whichever is more, displacement allowance (Section 14, home journey allowance Section 15) including payment of wages during the period of journey, suitable residential accommodation free of charge on mandatory basis.', 'In additionto the general labor laws applicableto all workers, the interstate players are entitledwith equal orbetter wages for reserves for the same nature &duration of work available for thelocal workmen and stipulated maximum wages underthe Minimum WAGES Act, 1948 whichever are more, displ allowance(Section 14), home journey allowances Section 15 ) including payment for wages duringthe period of Journey, suitable medical facilities free ofcharge on mandatory ground.'] )
+
+Input: In addition to the general labour laws applicable to all workers, the interstate workers are entitled with termination of employment after the contract period without any liability.
+Prediction: NONE
+
+Input: In addition to the general labour laws applicable to all workers, the interstate workers are entitled with right to lodge compliant with the authorities within three months of any incident, accident, etc.
+Prediction: NONE
+
+Input: The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law that sets the minimum wages that must be paid to skilled and unskilled labours.
+Prediction: COORDINATION( ['The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law that sets the minimum wages that must be paid to skilled labours.', 'The minimum Wages act 1948 isan Act of Congress concerning Indian labor law that Sets the minimum wage that mustbe paid to unskilled labours.'] )
+
+Input: The Indian Constitution has defined a 'living wage' that is the level of income for a worker which will ensure a basic standard of living including good health, dignity, comfort, education and provide for any contingency.
+Prediction: COORDINATION( ["The Indian Constitution has defined a 'living wage' that is the level of income for a worker which will ensure a basic standard of living including good health, dignity, comfort, education and provide for any contingency.", "The Indian constitution has defined A 'living Wage' that will ensure an level ofincome for aworker which will provide a basic level of living includes good health, dignity, comfort, education and provides for any conting."] )
+
+Input: Fair wage is that level of wage that not just maintains a level of employment, but seeks to increase it keeping in perspective the industry's capacity to pay.
+Prediction: COORDINATION( ['Fair wage is that level of wage that not just maintains a level of employment, but seeks to increase it keeping in perspective the industry'capacity to pay.'] )
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis,[23] and extends to the entire country and is revised within a period of not less than five years, however there is a provision to increase dearness allowance every two years.
+Prediction: COORDINATION( ['The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis,[23] and extends to the entire country, however there is a provision to increase dearness allowance every two years.', 'TheMinimum Wages ACT 1948 generally is revised within a period of not less than five years, However there isa provision to increasing dearness allowances every two weeks.'] COORDINATOR( ['If is revisedWithin a periodof not less less than 5 years, howeverthere is a provisions to increase wellness allowanceevery two years.','The Minimum Wagers Act 1948Generally specifies minimum Wage rates on an per day appearance, however it is a proposal to increase minimum wage allowances every day basis.', ['The minimum WagesAct 1948 generally extends tothe entire country, however there are a provision for increase dearNESS allowance everytwo years.'] ))
+
+Input: Revision of minimum wage rates is based on a 'cost of living index' and wages can be fixed for an entire state, part of the state, class or classes and employments pertaining to these categories.
+Prediction: COORDINATION( ["Revision of minimum wage rates is based on a 'cost of living index'.", 'wage can be fixed for an entire state, part of the state, class or classes and employments pertaining to these categories.'] COORDINATIONAL( ["revision ofminimum wage rates at a 'Cost of living Index'.". 'wage will be fixedfor an entire day, part part of a state, including class.', 'wage plans can befixed for an additional state, part of an state, parts of the class.'] ))
+
+Input: The Industrial Disputes Act, 1947 extended to the whole of India and regulated Indian labour law so far as that concerns trade unions as well as Individual workman employed in any Industry within the territory of Indian mainland.
+Prediction: COORDINATION( ['The Industrial Disputes Act, 1947 extended to the whole of India and regulated Indian labour law so far as that concerns trade unions as well as Individual workman employed in any Industry within the territory of Indian mainland.'] )
+
+Input: The Industrial Disputes Act, 1947 was replaced by the Industrial Relations Code, 2020.
+Prediction: NONE
+
+Input: Industrial Relations Code, 2020 consolidates and amends the laws relating to Trade Unions, conditions of employment in industrial establishment or undertaking, investigation and settlement of industrial disputes.
+Prediction: COORDINATION( ['Industrial Relations Code, 2020 consolidates the laws relating to Trade Unions, conditions of employment in industrial establishment or undertaking, investigation of industrial disputes.', 'Industrial relations Code, 2020 consolidateates the rules relating toTrade Unions, conditions ofemployment in industrial building or undertaking, settlement of industrial dispute.', ['Industry Relations Code,2020 amends the laws governing to TradeUnions, condition of employmentin industrial establishment and undertaking, investigation of Industrial disputes.'] COORDINATED( ['industrial RelationsCode, 2020 amendsthe laws relating on Trade UnIONS, conditionsof employment in Industrial establishment, settlement of Industrial dispute., 'Industry relations Code,2020 amended the laws requiring to Trade unions, Conditions of employmentIn industrial undertaking, investigations of industrial wars.', "IndustrialRelations Code, 2019 amends and amends changes the laws regulating to Trade Uions, requirements of employment In industrial establishment, settlements of industrial conflicts.", 'industrial relations code, 2020 Amends the law relating to trade Unions the conditions of Employment in industrial undertaking, conduct of industrial contracts.'] ))
+
+Input: The Industrial Relations Code Bill, 2020 proposed for amalgamating, simplifying and rationalising the relevant provisions of three Acts namely Trade Unions Act, 1926, Industrial Employment (Standing Orders) Act, 1946 and Industrial Disputes Act, 1947.
+Prediction: COORDINATION( ['The Industrial Relations Code Bill, 2020 proposed for amalgamating and rationalising the relevant provisions of three Acts namely Trade Unions Act, 1926.', 'The Industrial relations Code Bill, 2020 proposed to amalgamated and rationalizing the relevant provision of three acts namely Industrial Employment (Standing Orders) Act, 1946.', ', 'The industrial Relations code Bill,2020 proposed for consolidating and Rationalising the necessary provisions of two Acts namely Industrial Disputes Act, 1947.'] )
+
+Input: The Payment of Wages Act 1936 mandates the payment of wages on time on the last working day of every month via bank transfer or postal service.
+Prediction: COORDINATION( ['The Payment of Wages Act 1936 mandates the payment of wages on time on the last working day of every month via bank transfer, postal service.', 'The Payment Of Wages ACT 1936 mandatesthe payment of salaries on timeon the lastworking day of each month via Bank transfer, Postal service.'] )
+
+Input: The Factories Act 1948 and the Shops and Establishment Act 1960 mandate 15 working days of fully paid vacation leave each year to each employee with an additional 7 fully paid sick days.
+Prediction: COORDINATION( ['The Factories Act 1948 mandate 15 working days of fully paid vacation leave each year to each employee with an additional 7 fully paid sick days.', 'the Shops and Establishment Act 1960 mandate 15 worked days of full paid vacationleave each yearto each employeewith an additional 3 fully paid sickness days.'] COORDINATIONS( ['the Factories act 1948 mandate 16 working days for fully paid leave each week to each worker with an extra 7 fully paying sick days.','the Shops mandate 15Working days of well paid vacation Leave each year at each employee today with an added 7 fully $ sick days each year.',', 'The Establishment Act 60 mandate 15 work days of half paid vacation leaves each year on each employee WITH an additional 8 fully paid Sick days.] ))
+
+Input: The Maternity Benefit (Amendment) Act, 2017 gives female employees of every company the right to take 6 months' worth of fully paid maternity leave.
+Prediction: NONE
+
+Input: The Maternity Benefit (Amendment) Act, 2017 provides for 6 weeks worth of paid leaves in case of miscarriage or medical termination of pregnancy.
+Prediction: COORDINATION( ['The Maternity Benefit (Amendment) Act, 2017 provides for 6 weeks worth of paid leaves in case of miscarriage.', 'The Maternal Benefit (NONE
+
+Input: The Employees' Provident Fund Organisation and the Employees' State Insurance, governed by statutory acts provide workers with necessary social security for retirement benefits and medical and unemployment benefits respectively.
+Prediction: COORDINATION( ["The Employees' Provident Fund Organisation, governed by statutory acts provide workers with necessary social security for retirement benefits respectively.", "The Employees'Provident fund Organisation, controlled by statutory act provide workerswith necessary social Security for medical benefits respectively.', "The employees'Providential Fund Organisation, governed by statute acts provide worker with necessary Social security for unemployment benefits respectively...", "the Employees'State Insurance, governed for statutory acts give workers with sufficient social security on retirement benefits together.", 'the Employees' State Insurance, governed forutory acts provideworkers with necessarySocial security for medical benefit respectively.", 'the employees'State insurance, governed over statutory acts create workers with appropriate social securityfor unemployment benefits together.'] )
+
+Input: Workers entitled to be covered under the Employees' State Insurance (those making less than Rs 21000/month) are also entitled to 90 days worth of paid medical leaves.
+Prediction: NONE
+
+Input: A contract of employment can always provide for more rights than the statutory minimum set rights
+Prediction: NONE
+
+Input: Gratuity is payable to the employee if he or she resigns or retires.
+Prediction: COORDINATION( ['Gratuity is payable to the employee if he or she resigns.', 'If he or her retires.'] )
+
+Input: The Indian government mandates that the gratuity payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of ₹ 2000000.
+Prediction: NONE
+
+Input: The Payment of Gratuity Act, 1972 is an Indian law that makes companies pay a one-time gratuity to retired employees or an employee who resigns after a minimum of 5 years of service.
+Prediction: COORDINATION( ['The Payment of Gratuity Act, 1972 is an Indian law that makes companies pay a one-time gratuity to retired employees who resigns after a minimum of 5 years of service.', 'The Payment for Gratuation Act, 1973 is anIndian law that make companies pay $ one-etime gratuityto an employee who resigneds after the minimum of five years ofservice.'] )
+
+Input: A workman who has been employed for over a year can only be dismissed if permission is sought from and granted by the appropriate government office.
+Prediction: COORDINATION( ['A workman who has been employed for over a year can only be dismissed if permission is sought from the appropriate government office.', 'A workmen who has be employed for well a year will only be dismiss if permission was granted by the appropriate family office.'] )
+
+Input: To acquire status as a CTUO, a trade union federation must have a verified membership of at least 500,000 workers who are spread over a minimum of four states and four industries ( including agriculture ).The compact committee which was constituted in February 1977, recommended the enactment of a separate central legislation to regulate the employment of interstate migrant workers as it was felt the provisions of the Contract Labour ( Regulation and Abolition ) Act 1970, [ 1 ] even after necessary amendments would not adequately take care of the variety of malpractices indulged in by the principal employers/contractors/Sardars/Khatedars etc.
+Prediction: COORDINATION( ['To acquire status as a CTUO, a trade union federation must have a verified membership of at least 500,000 workers who are spread over a minimum of four states, [ 1 ] even after necessary amendments would not adequately take care of the variety of malpractices indulged in by the principal employers/contractors/Sardars/Khatedars etc.'] )
+
+Input: The 42nd Amendment also amended Preamble and changed the description of India from `` sovereign democratic republic '' to a `` sovereign, socialist secular democratic republic '', and also changed the words `` unity of the nation '' to `` unity and integrity of the nation ''.
+Prediction: COORDINATION( ['The 42nd Amendment also amended Preamble and changed the description of India from `` sovereign democratic republic '' to a `` sovereign, socialist secular democratic republic'',.', 'The 42ND Amendment also changed the words `` unity of the nation '' to `` unity and integrity of the father ''.'] COORDINATIONAL( ['It also amendedPreamble,. ', 'The 44nd Amendment still changed the definition of Indiafrom `` sovereign Democratic republic ''to a `` Sovereign, socialist democratic republic,.'] ))
+
+Input: The 42nd Amendment provides for curtailment of fundamental rights, imposes fundamental duties and changes to the basic structure of the constitution.
+Prediction: COORDINATION( ['The 42nd Amendment provides for curtailment of fundamental rights.', 'The42nd Amendment imposes fundamental duties and changes to the basic structure of the constitution.'] COORDINATIONAL( ['A 42nd amendment provides for haltment of basic rights., 'The 42ND Amendment imposes basic duties.', ['The42ND Amendment impose fundamental changes tothe basic Structure of the constit.'] ))
+
+Input: The 42nd amendment transferred more power from the state governments to the central government, eroding India's federal structure.
+Prediction: NONE
+
+Input: The 42nd Amendment gives Parliament unrestrained power to amend any parts of the Constitution, without judicial review.
+Prediction: NONE
+
+Input: Another purpose of 42nd Amendment was to make any law passed in pursuance of a Directive Principle immune from scrutiny by the Supreme Court.
+Prediction: NONE
+
+Input: On 31 July 1980, in its judgement on Minerva Mills v. Union of India, the Supreme Court declared two provisions of the 42nd Amendment as unconstitutional which prevent any constitutional amendment from being `` called in question in any Court on any ground '' and accord precedence to the Directive Principles of State Policy over the Fundamental Rights of individuals respectively.
+Prediction: COORDINATION( ['On 31 July 1980, in its judgement on Minerva Mills v. Union of India, the Supreme Court declared two provisions of the 42nd Amendment as unconstitutional which prevent any constitutional amendment from being `` called in question in any Court on any ground ''.', 'On 31 JUL 1980, In its judgementOn Minerva Mills vs. Unionof India, The Supreme Court declare two provisions on Minerva Mill v. University of India, the Supreme court declared two provision of the 41nd Amendmentas unconstitutional which accord precedence to the Directive Principles of State Policy over the Fundamental Rights of individuals respectively.'] )
+
+Input: The Code on Wages Bill was introduced in the Lok Sabha on 10 August 2017 by the Minister of State for Labour and Employment ( Independent Charge ), Santosh Gangwar.
+Prediction: COORDINATION( ['The Code on Wages Bill was introduced in the Lok Sabha on 10 August 2017 by the Minister of State for Labour and Employment ( Independent Charge ), Santosh Gangwar.', 'The Code On WagesBill was introduced into the Lokhya on 10 Aug 2017 by a Minister of state for Labourand Employment, Independent Charge, Santush Gangwar.'] )
+
+Input: If an individual feels that he/she is being paid less than the minimum wages specified for his region/sector/occupation, or is not paid for a duration of work, a complaint can be made to the appointed authority.
+Prediction: COORDINATION( ['If an individual feels that he/she is being paid less than the minimum wages specified for his region/sector/occupation, or is not paid for a duration of work, a complaint can be made to the appointed authority.'] )
+
+Input: While fixing hours for a normal working day as per the minimum wage act should make sure the number of hours that are to be fixed for a normal working day should have one or more intervals/breaks included.
+Prediction: NONE
+
+Input: While fixing hours for a normal working day as per the minimum wage act should make sure at least one day off from an entire week should be given to the employee for rest.
+Prediction: NONE
+
+Input: While fixing hours for a normal working day as per the minimum wage act should make sure Payment for the day decided to be given for rest should be paid at a rate not less than the overtime rate.
+Prediction: NONE
+
+Input: If an employee is involved in work that categorises his service in two or more scheduled employments, the employee's wage will include respective wage rate of all work for the number of hours dedicated at each task.
+Prediction: NONE
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis,and extends to the entire country and is revised within a period of not less than five years, however there is a provision to increase dearness allowance every two years.
+Prediction: COORDINATION( ['The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis, however there is a provision to increase dearness allowance every two years.', 'The Minimum Wage Act 1948 extends to the entire country and is revised within a period of not less than five years, howeverthere is a provisions to increase wellwages allowance everytwo years.'] COORDinATION( [', ['TheMinimum Wages ACT 1948 generally specify minimum wage rate on aper day basis.',','The Minimum Wagers Act 1948 extend to the whole country, however it is a Provision to increase goodness allowanceevery two years.'] ))
+
+Input: Employees' State Insurance Corporation (abbreviated as ESIC) is one of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment, Government of India, the other being the Employees' Provident Fund Organisation.
+Prediction: COORDINATION( ["Employees'State Insurance Corporation (abbreviated as ESIC) is one of the two main statutory social security bodies under the ownership of Ministry of Labour, Government of India, the other being the Employees'Provident Fund Organisation.", "Employees' State Insurance corporation (abBreviatedas ESIC ) is one among the two most statutory social Security bodies underthe ownership of ministry of Employment, Governmentof India,the other beingthe Employees 'Provident Fund Organization."] )
+
+Input: The promulgation of Employees'State Insurance Act, 1948 envisaged an integrated need based social insurance scheme that would protect the interest of workers in contingencies such as sickness, maternity, temporary or permanent physical disablement, death due to employment injury resulting in loss of wages or earning capacity.
+Prediction: COORDINATION( ["The promulgation of Employees'State Insurance Act, 1948 envisaged an integrated need based social insurance scheme that would protect the interest of workers in contingencies such as sickness, maternity, temporary or permanent physical disablement, death due to employment injury resulting in loss of wages.", "The promulgATION of Engineers'State insurance Act, 1947 envisaged An Integrated need based Social insurance schemethat would protect reserves in contingency such as sick, pregnant, temporary and permanent physicalDisablement, deaths due toemployment injury resulting into loss of earning capacity."] COORDINATIONS( ["It promulgation by Employees'state Insurance Act, 1948 envisaging an integrated needs based social Insurance scheme that Would protect the interests of workers IN contingenciessuch as sickness, maternity, death according to employment Injury resulting in losses of wages.", "The promulation of Engineers " State InsuranceAct, 1948 foreseeaged an Integrated need basis social insurance Scheme that would Protect the interest OF workers in contingencyencies suchas sickness, pregnant, temporary physical disableMENT, death resulting to employment injuries resulting in gains.", "-The promulgating of Employees " State insurance act, 1948 camouflaged an integral need basedSocial insurance schemeThat would protect their interest of worker in contingences such as weak, maternity or permanentphysical disablement, death dueto employment injury resulted in loss thereof."] ))
+
+Input: The ESI act was initially intended for factory workers but later became applicable to all establishments having 10 or more workers.
+Prediction: COORDINATION( ['The ESI act was initially intended for factory workers, but later became applicable to all establishments having 10 or more workers.'] )
+
+Input: Six benefits are envisaged to ESI subscribers are Medical benefit, Sickness benefit, Maternity benefit, Disablement benefit, Dependants benefit and funeral expenses.
+Prediction: COORDINATION( ['Six benefits are envisaged to ESI subscribers are Medical benefit, Sickness benefit, Maternity benefit, Disablement benefit, Dependants benefit, funeral expenses.'] )
+
+Input: It was held by the Supreme Court of India in Indian Hume Pipe Co Ltd v Its Workmen that the general principle underlying a gratuity scheme is that by service over a long period the employee is entitled to claim a certain amount as a retirement benefit.
+Prediction: NONE
+
+Input: Unorganised sector, also known as own account enterprises, refers to all unlicensed, self-employed or unregistered economic activity such as owner manned general stores, handicrafts and handloom workers, rural traders, farmers, etc.
+Prediction: COORDINATION( ['Unorganised sector, also known as own account enterprises, refers to all unlicensed economic activity such as owner manned general stores, rural traders, farmers, etc.', 'Unorganized sector, especially known as Own account enterprises, refers to All unlicensed financial activity suchas handicrafts and handloom workers, rural traders, farmers, etc.'] COORDINATIONAL( ['unorganised region, also well as ownaccount enterprises, refer to all Unlicensed economic activities such as operator manned general store, rural trader, farmers, too.', ['Unorganized sector, including known as its own account Enterprises, refers at all unregistered economic activitysuch as handicraft workers, Rural traders, farmer, etc.', 'unorganising sector, as well known as coorganised segment, also know as own accounting enterprises, referring to all uncregistered economic activitiessuch as handloo workers, rural reporters, farmers at etc.] ))
+
+Input: Even though unorganised sector accounted for over 94 percent of workers, India's unorganised sector created just 57 percent of India's national domestic product in 2006, or about nine fold less per worker than the organised sector.
+Prediction: COORDINATION( ["Even though unorganised sector accounted for over 94 percent of workers, India's unorganise sector created just 57 percent of India'national domestic product in 2006.", "Even though Unorganisedsector accounted for nearly 94 percentof workers,India's s unorganized sector created about nine fold less per worker than the organised sector."] )
+
+Input: The state of Kerala at 9,800 trade unions had the highest number of registered unions, but only few filed income and expenditure reports with the government of India.
+Prediction: COORDINATION( ['The state of Kerala at 9,800 trade unions had the highest number of registered unions.', 'only few filed income and expenditure reports with the government of India.'] COORDINATIONS( ['A state oferala at 9,800 trade union had the largest number ofregistered unions.'] ))
+
+Input: Migrant workers are typically employed for remuneration in cash or kind, in any household through any agency or directly, to do the household work, but do not include any member of the family of an employer.
+Prediction: COORDINATION( ['Migrants workers are typically employed for remuneration in cash or kind, in any household through any agency or directly, to do the household work.', 'Migrant workers do not include any member of the family of an employer.'] COORDINATIONS( ['Msigrant workers Do not include Any member ofthe family of An employer.', ['Migration workers are often employed for Remuneration, in cash, inany household by any agency, to doing the householdwork.',','Migrant workers are usually employed, in money, at any household directly, at do the home work.'] ))
+
+Input: Article 24 of India's constitution prohibits child labour, but only in factories, mines or hazardous employment.
+Prediction: COORDINATION( ["Article 24 of India'constitution prohibits child labour, but only in factories.", "Article 24of India's constitution prohibits Child labour, But only in mines.", Article 24 ofIndia 'S constitution prohibit child labour, but only only in hazardous employment."] )
+
+Input: India has a new code to simplify law on minimum wages – but it doesn't give workers any real benefit.
+Prediction: COORDINATION( ['India has a new code to simplify law on minimum wages.', "it doesn't give workers any real benefit."] )
+
+Input: Poverty rates are reported to be significantly higher in families where all working age members have only worked the unorganised sector throughout their lives.
+Prediction: NONE
+
+Input: India has two broad groups of migrant labourers - one that migrates to temporarily work overseas, and another that migrates domestically on a seasonal and work available basis.
+Prediction: COORDINATION( ['India has two broad groups of migrant labourers - one that migrates to temporarily work overseas.', 'India has another that migrATES domestically on a seasonal and work available basis.'] COORDINATIONAL( [' India has two broader groups of migrants labourers -- one that migrateates to temporary work overseas?','India has anotherthat migrates domestically ona seasonal basis.', `India has an another that builds domestically on an work available appearance.'] ))
+
+Input: Despite importance of migrant labour and despite many of migrant labours praising the state for its welfare schemes and environment, they are often ignored in comparison and suffer from comparatively poor living conditions.
+Prediction: COORDINATION( ['Despite importance of migrant labour, they are often ignored in comparison and suffer from comparatively poor living conditions.', 'despite many of migrant labours praising the state for its welfare schemes and environment, they suffer from relatively poor living condition.'] COORDINATIONAL( ['despite importance of immigrant labour,they are often neglected in comparison.', ['Despite important of migrant labor, they suffering from comparatively weak living conditions?', 'Despite many of migrants laboured praising the State for itselfare schemes, they have often ignoredIn many of immigrant labours praise the statefor its environment,they suffer from comparative poor living Conditions.'] ))
+
+Input: Bonded labour is a forced relationship between an employer and an employee, where the compulsion is derived from outstanding debt.
+Prediction: NONE
+
+Input: Although the Industrial Dispute Act does not prohibit layoffs and retrenchments, it does require[96] entrepreneurs and companies to get the permission from government officials to fire an employee for absenteeism, retrench employees for economic reasons, or to close an economically nonviable company.
+Prediction: COORDINATION( ['Although the Industrial Dispute Act does not prohibit layoffs, it does require[96] entrepreneurs to get the permission from government officials to fire an employee for absenteeism, retrench employees for economic reasons, or to close an economically nonviable company.', 'Although the industrial Dispute act does not require layoffs, It does require [96] companies to getthe permission from state officials to show an employeefor absenteeism, retrenchees for economic reason, orto close an economy nonviability company.'] COORDINATIONAL( ['If the Industrial Discute Act has not prohibit retrenchments, it do require[ 96] entrepreneurs at get the approval from governmentOfficials to fire An employee for earlyism, it did require[94] companies at getthe request from government official to firean employee for absentism, he does require,[96] entrepreneur to get a permission fromgovernment officials to retrench employee for economic grounds, he did require [94] entrepreneurs for fire an officer for early reasons, he is require[95] companies in get the request from stateOfficials to return an economicallynonviable man.', ['Although The Industrial DispUTE Act does no prohibit layoffs, it does requires[96 [ entrepreneurs toget the permission by government officials for fire An Employee for absenteeISM, it will require[97] entrepreneurs a get the consent from government authorities to retrenches employees for financial reasons, it may require[98] entrepreneurs companies to fire the permissionfrom government officials at fire an Employee for early management, it would require[99] companies companies to return the permissionFrom government officialsto retrench individuals for economic purposes, it could require[91] companies firms to get reserves from government offices to fire one employee for workplace reasons, they do require [92] entrepreneurs firms to return a worker for business reasons, she does require $96 [ companies to back an economically noviable country.'] ))
+
+Input: As per the Child and Adolescent Labour (Prohibition and Regulation) Act, 1986, amended in 2016 ("CLPR Act"), a "Child" is defined as any person below the age of 14, and the CLPR Act prohibits employment of a Child in any employment including as a domestic help.
+Prediction: COORDINATION( ["As per the Child and Adolescent Labour (Prohibition and Regulation) Act, 1986, amended in 2016 ("CLPR Act"), a "Child" is defined as any person below the age of 14.", 'As per their Child and adolescent Labour(Prohibition or Regulation, Act, 1986, amended in2016 ("CL PR Act"), the CLPR Act prohibits employment of a Child in any employment including as a domestic help.'] )
+
+Input: Some child rights activists argue that child labour must include every child who is not in school because he or she is a hidden child worker.
+Prediction: COORDINATION( ['Some child rights activists argue that child labour must include every child who is not in school because he is a hidden child worker.', 'Some childrights activists arguethat child labor must include all child who has not inschool because she is ahidden child worker.'] )
+
+Input: Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation.
+Prediction: NONE
+
+Input: The unpaid gratuity amount is seized by government which is further used in holiday, vacations, parties and other fun related activities.
+Prediction: NONE
+
+Input: The Gratuity law applies to all companies of at least 20 employees.
+Prediction: NONE
+
+Input: The Payment of Gratuity Act does not applies to apprentices and persons who hold civil posts under the Central Government or State Governments and are subjected to any other act or rule other than this act.
+Prediction: COORDINATION( ['The Payment of Gratuity Act does not applies to apprentices who hold civil posts under the Central Government or State Governments and are subjected to any other act or rule other than this act.', 'The payment of Grachtuity Act Does not apply to apprentice persons who hold Civil posts underthe Central Government and State Governments.', ['The Payments of Grastuity Act is not applying to apprentices persons who are subjectedto any other acts or ruleother than this Act.',', 'If the Payment ofGratuity act does not Apply to persons who carry civil posts within the Central government or State governments and are subject to anyother act or Rule other than these act.'] COORDINATIONAL( ['If the payment of gratuity ACT does not applyto apprentices who held civil posts in the CentralGovernment and State governments.', `The Paymentof Gratability Act doesnot applies to persons whose hold civil seats under the central Government.', �The Payment OF Gratitude Act does no applies to people who hold naval posts under State Governments....', "The Payment Of Gratuously Act does Not apply to apprentices whose are subjected subjected toany other act other than the act.", 'The Payment. Gratuation Act doesNot applies to apprentice who are subjectioned to any rule other about this act?', 'It Payment of grachtuity act will not apply for persons who were subjected to some other actother than the Act.'] ))
+
+Input: An employee joining the central or state services prior to 1 January 2004 would receive pension payments as lifetime income security from the time of retirement (at age 58, in most cases) until death.
+Prediction: COORDINATION( ['An employee joining the central services prior to 1 January 2004 would receive pension payments as lifetime income security from the time of retirement (at age 58, in most cases) until death.', 'An employee joins the state services prior before 1 January 2003 would receive retirement payments as lifelong income securityfrom the timeof retirement ( at age 58, in most situations) until Death.'] )
+
+Input: Defined Benefit (DB) scheme like OPS is a type in which the beneficiary pension is based on a defined formula which may have a percentage of salary or a percentage of salary times the years of service or a flat rate per year of service as its parameters.
+Prediction: COORDINATION( ['Defined Benefit (DB) scheme like OPS is a type in which the beneficiary pension is based on a defined formula which may have a percentage of salary or a percentage from salary times the years of service as its parameters.', 'Defined Benefigation (DB ) schemelike OPS is the type in that the beneficiary Pension is based ON a defined Formula which may be a flat rate per year ofservice as its Parameters.'] COORDINATOR( ['defined Benefit,DB) program like OPS was a type of which the beneficiaries pension isbased on a definition formula which could be aflat rate per years ofService as its parameter.', `Defined Benefits (DB] scheme like Olympus is atype in whichthe beneficiary pension may havea percentage of Salary times the year of service.', ['Defining Benefit ( DB) schemelike Olympus is the kind in which as the beneficiary pensions is based upon a defined calculation which may a percentage on salary timesthe years ofservice.'] ))
+
+Input: Defined Contribution (DC) scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service and the receivable pension is based on the balance in his pension fund at the time of his retirement.
+Prediction: COORDINATION( ['Defined Contribution (DC) scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service.', 'Defined Contraption (DC ) scheme like nPS is an type of, which the receivable pension is based on the balance in his pension fund at the time of his retirement.'] )
+
+Input: Since pension is both a reward for continuous service till the formal age of retirement as well as a form social security in old age, India favored a restructured pension ensuring a balance between retirement benefit of the government employees and the financial burden on the economy by moving from DB scheme to DC scheme.
+Prediction: NONE
+
+Input: A major portion of outgo in government revenue is paid as pension benefits to its retired employees and hence considered as economic liability with potential to adversely impact the "fiscal soundness of the Government entities".
+Prediction: COORDINATION( ['A major portion of outgo in government revenue is paid as pension benefits to its retired employees, hence considered as economic liability with potential to adversely impact the "fiscal soundness of the Government entities".'] )
+
+Input: The bill for the Constitution (Forty-second Amendment) Act, 1976 was introduced in the Lok Sabha on 1 September 1976, as the Constitution (Forty-Second Amendment) Bill, 1976 (Bill No.91 of 1976).
+Prediction: NONE
+
+Input: The 42nd Amendment changed the description of India from a "sovereign democratic republic" to a "sovereign, socialist secular democratic republic", and also changed the words "unity of the nation" to "unity and integrity of the nation".
+Prediction: COORDINATION( ['The 42nd Amendment changed the description of India from a "sovereign democratic republic" to a'sovereignt, socialist secular democratic republic,.', 'The 41nd Amendment also changed the words "unity of the nation" to "unity and integrity of the nations.'] COORDINATIONAL( ["The 42ND Amendment changed its description ofIndia from a 'orvereign Democratic republic"to a "SOvereign, socialist democratic republic",.', "The 42ld Amendment also change the words 'unity ofthe nation"to "unityof the nation",.'] ))
+
+Input: The promulgation of Employees'State Insurance Act, 1948 envisaged an integrated need based social insurance scheme that would protect the interest of workers in contingencies such as sickness, maternity, temporary or permanent physical disablement, death due to employment injury resulting in loss of wages or earning capacity.
+Prediction: NONE
+
+Input: For all employees earning ₹21,000 ( US $ 280 ) or less per month as wages, the employer contributes 3.25 % and the employee contributes 0.75 %, total share 4 %.
+Prediction: COORDINATION( ['For all employees earning ₹21,000 ( US $ 280 ) or less per month as wages, the employer contributes 3.25 %, total share 4 %.', 'For all employee earning � ¹ 21,000 or more per monthas wages,the employee contributes 0.75 %, maximum share 4 percentage.'] )
+
+Input: This fund is managed by the ESI Corporation ( ESIC ) according to rules and regulations stipulated there in the ESI Act 1948, which oversees the provision of medical and cash benefits to the employees and their family.
+Prediction: COORDINATION( ['This fund is managed by the ESI Corporation ( ESIC ) according to rules stipulated there in the E SI Act 1948, which oversees the provision of medical benefits to the employees.', 'This fund will managed by Japan Corporation, ESIC, according torules stipulatedthere in the SSI Act 1948, which oversees The provision of Medical benefits to their family.', ', 'These fund ismanaged by the S SI Corporation (ESIC ) based to rules regulations stipulated here in the EESI Act 1947, which oversee the provision for cash benefits tothe employees.'] )
+
+Input: The 42nd amendment, officially known as The Constitution (Forty-second amendment) Act, 1976, was enacted during the Emergency (25 June 1975 – 21 March 1977) by the Indian National Congress government headed by Indira Gandhi.
+Prediction: NONE
+
+Input: The Caste Disabilities Removal Act, 1850, was a law passed in British India under East India Company rule, that abolished all laws affecting the rights of people converting to another religion or caste.
+Prediction: COORDINATION( ['The Caste Disabilities Removal Act, 1850, was a law passed in British India under East India Company rule, that abolished all laws affecting the rights of people converting to another religion.', 'The Cattle Disabilities removal Act, 1950, wasa law passed into British India over East IndiaCompany rule,that abolished all rules affecting the right of people converted to another caste.'] )
+
+Input: The Caste Disabilities Removal Act, 1850 is enacted as follows: — So much of any law or usage now in force within the territories subject to the government of the East India Company as inflicts on any person forfeiture of rights or property, or may be held in any way to impair or affect any right of inheritance, by reason of his or her renouncing, or having been excluded from the communion of, any religion, or being deprived of caste, shall cease to be enforced as law in the Courts of the East India Company, and in the Courts established by Royal Charter within the said territories.
+Prediction: NONE
+
+Input: The new Caste Disabilities Removal Act allowed hindus who converted from Hindu religion to another religion equal rights under new law, especially in the case of inheritance.
+Prediction: NONE
+
+Input: Children between age of 14 and 18 are defined as `` Adolescent '' and the law allows Adolescent to be employed except in the listed hazardous occupation and processes which include mining, inflammable substance and explosives related work and any other hazardous process as per the Factories Act, 1948.
+Prediction: COORDINATION( ['Children between age of 14 and 18 are defined as `` Adolescent ''.', 'the law allows Adolescent to be employed except in the listed hazardous occupation and processes which include mining, inflammable substance and explosives related work and any other hazardous process as per the Factories Act, 1948.'] COORDinATION( [', 'Children betweenage of 14 or 18 are define as`` Adolescent.', "the law provides Adolescent at be employedexcept in the listing hazardous occupation.', ', 'the laws allows Adolesc to beemployed except in a listed hazardous occupations.',', 'The law allowsAdolescent tobe employed except at the listed dangerous occupation.", 'the rules allows Ad adolescent to be used except in an listed hazardous process which include Mining, inflammatory substance and Explos related work or anyother hazardous processas per theFactories act, 1948?'] COINATIONINATION
+
+Input: The Constitution of India prohibits child labour in hazardous industries ( but not in non-hazardous industries ) as a Fundamental Right under Article 24.
+Prediction: COORDINATION( ['The Constitution of India prohibits child labour in hazardous industries ( but not in non-hazardous industries ) as a Fundamental Right under Article 24.'] )
+
+Input: UNICEF estimates that India with its larger population, has the highest number of labourers in the world under 14 years of age, while sub-Saharan African countries have the highest percentage of children who are deployed as child labourers.
+Prediction: NONE
+
+Input: The International Labour Organization estimates that agriculture, at 60 percent, is the largest employer of child labour in the world, [ 10 ] while the United Nations Food and Agriculture Organization estimates 70 % of child labour is deployed in agriculture and related activities.
+Prediction: COORDINATION( ['The International Labour Organization estimates that agriculture, at 60 percent, is the largest employer of child labour in the world, [ 10 ] while the United Nations Food Organization estimates 70 % of child child labour is deployed in agriculture activities.', 'The InternationalLabour Organization estimatesthat agriculture,at 60 percent -- is thelargest employer of Child labour in Japan,... 10 ], while theUnited Nations Agriculture Organization estimates 67 % ofchild labour is deploy in related activities.'] )
+
+Input: Outside of agriculture, child labour is observed in almost all informal sectors of the Indian economy.
+Prediction: NONE
+
+Input: The companies claim they have strict policies against selling products made by underage children for their own profit, but there are many links in a supply chain making it difficult to oversee them all.
+Prediction: COORDINATION( ['The companies claim they have strict policies against selling products made by underage children for their own profit.', 'there are many links in a supply chain making it difficult to oversee them all.'] )
+
+Input: A child, suggests UNICEF, is involved in child labour activities if between 5 and 11 years of age, he or she did at least one hour of economic activity or at least 28 hours of domestic work in a week, and in case of children between 12 and 14 years of age, he or she did at least 14 hours of economic activity or at least 42 hours of economic activity and domestic work per week.
+Prediction: COORDINATION( ['A child, suggests UNICEF, is involved in child labour activities if between 5 and 11 years of age, he or she did at least one hour of economic activity or at least 28 hours of domestic work in a week.', 'in case of children between 12 and 14 years of old, he and she didat least 14 hours of financial activity and at least 42 hours of international activity and domestic work per week.'] COORDinATION( [', 'A child, suggestsUNICEF, is involved In child labour Activities if between five and 11 year of age, he did at at least 1 hour of industrial activity in a year.',', 'a child, suggesting UNICEFs, is involvement in child labor activities if by 5 and 10 years of size, he did more than at least 38 hours of Domestic work ina week., 'A children, suggestsUNISAF, the child, suggested UNICEFS, is interested in child Labour activities if both 5 and 9 years of years, she did more of economic activities in an week?','A child, points UNICEFI, the children between 5 or 11 years or age, she at least 14.8 hours of foreign work per weekly.'] ))
+
+Input: A `` Child '' is defined as any person below the age of 14 and the CLPR Act prohibits employment of a Child in any employment including as a domestic help ( except helping own family in non-hazardous occupations ).
+Prediction: COORDINATION( ['A `` Child '' is defined as any person below the age of 14.', 'the CLPR Act prohibits employment of a Child in any employment including as a domestic help ( except helping own family in non-hazardous occupations ).'] )
+
+Input: The term 'child labour', suggests ILO, is best defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.
+Prediction: COORDINATION( ["The term 'child labour, suggests ILO, is best defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical development.", "The term "child labour', suggests ILo, is better defined as a work that depriveves children from their childhood, their potential or their dignity, and that that is detrimental to mental development."] )
+
+Input: In terms of the physical condition of children, children are not ready for long monotonous work because they become exhausted more quickly than adults.
+Prediction: NONE
+
+Input: Children who work, instead of going to school, will remain illiterate which limits their ability to contribute to their own well being as well as to the community they live in.
+Prediction: NONE
+
+Input: Child labour in India are employed with the majority (70%) in agriculture some in low-skilled labour-intensive sectors such as sari weaving or as domestic helpers, which require neither formal education nor training, but some in heavy industry such as coal mining.
+Prediction: NONE
+
+Input: Without education, children do not gain the necessary skills such as English literacy and technical aptitude that will increase their productivity to enable them to secure higher-skilled jobs in future with higher wages that will lift them out of poverty.
+Prediction: COORDINATION( ['Without education, children do not gain the necessary skills such as English literacy that will increase their productivity to enable them to secure higher-skilled jobs in future with higher wages that will lift them out of poverty.', 'Without education, children are not gain reserves such as technical aptitude that will increasing their productivity at enable themto secure higher levels in futurewith higher wagesthat will lift themselves out of poor.'] )
+
+Input: A large number of brick kilns around Bangalore and Hosur employ bonded and child labour, under the pretext of offering high wages.
+Prediction: COORDINATION( ['A large number of brick kilns around Bangalore employ bonded labour, under the pretext of offering high wages.', 'A largenumber of brickkilns around Karnataka employ child labour, under the guise of offering higher wages.'] )
+
+Input: Unorganised Workers' Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security and welfare of the unorganised workers(meaning home-based workers, self-employed workers or daily-wage workers).
+Prediction: COORDINATION( ["Unorganised Workers' Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security of the unorganised workers(meaning home-based workers.", "Unorganized Workers'Social Security act2008 was an act of the parliament of India conducted to provide the social Security of the Unorganised worker(meaning self-employed workers).", "unorganised Worker'Social security Act 2008, an Act on the Parliamentof India enacted at provide for reserves of theunorganized workers( meaning daily-wage workers."] )
+
+Input: In Maharashtra the mathadis are organised under a welfare board, set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers (Regulation of Employment and Welfare) Act 1969.
+Prediction: COORDINATION( ['In Maharashtra the mathadis are organised under a welfare board, set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers (Regulation of Employment of Welfare) Act 1969.', 'In Maharashtrathe mathadias are organized under a Welfare board, Set up in Compliance to the Mumbai Hamal,Mathadi andother unprotected workers -Regulation for Employment of welfare) Act 1970.'] )
+
+Input: The Occupational Safety, Health And Working Conditions Code, 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment.
+Prediction: COORDINATION( ['The Occupational Safety Code, 2020 is a code to consolidate the laws regulating the Occupational safety and health conditions of the persons employed in an establishment.', 'The Occupating Safety Code, 2020 isa code to consolid the laws regulate the Occupating safety and working conditions ofthe persons employed at an establishment.', 'In The Occupational Health Conditions Code,2020 is a Code to amend the laws regulates the Occupaton safety and work conditions of those persons involved in an Establishment.'] )
+
+Input: The Code on Social Security, 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors.
+Prediction: COORDINATION( ['The Code on Social Security, 2020 is a code to amend the laws relating to social security with the goal to extend social security to all employees or workers either in the organised or unorganised sectors.', 'The Code On Social Security, 2020 isa code to alter the laws relates to social Security with the aim to extend Social security to each employees or employees either in or any other sectors.'] )
+
+Input: The Social Security Code, 2020 brings unorganised sector, gig workers and platform workers under the ambit of social security schemes, including life insurance and disability insurance, health and maternity benefits, provident insurance, pension and skill upgradation, etc.
+Prediction: COORDINATION( ['The Social Security Code, 2020 brings unorganised sector, gig workers under the ambit of social security schemes, including life insurance and disability insurance, health and maternity benefits, provident insurance, pension, skill upgradation, etc.', 'The Social security Code,2020 brings unorganized sector, Gig workers underthe ambitof social security scheme, including Life insurance and Disability insurance, Health or maternity benefits, provident Insurance, pension and skill upgradration, respectively.', ['TheSocial Security Code, 2020 brings gig workers in the am bit of social Security schemes, like life insurance or disability insurance, health and paternal benefits, Provident insurance, pension and skills upgradATION, etc.', 'It Social Security code, 2020 bring unorganized sector, gigs workers under reserves under the Ambit of Social security schemes, including life Insurance and disability Insurance, health insurance, wombe benefits,provident insurance and pension, etc?', 'In the Social SecurityCode, 2020 bringing unorganise sector, job workers under reserve workers under labor under the pmbit ofsocial security schemes to include life insurance but disability insurance and health benefits, PROVident insurance.', "The SocialSecurity Code, 2019 brings unauthorised sector, gig workers at reserves underthe Ambitof Social security Scheme, including disability insurance or health benefits, Provident Insurance.", 'The social Security Code*, 2020 brings underorganised industry, gigworkers at reserves at the am BIT of socialsecurity schemes, include pension andskill upgradement, etc,.', `The Socialsecurity Code, 2021 brings unprovised sector under the AMbit of state security schemes for life insurance plans, including death insurance, PROVIDENT insurance, Pension, skill upgradeadation, etc.'] COORDINATIONAL( ['A Social Security Scheme, 2020 brought unorganising sector, giant workers under a ambit OF social security plans, including Life Insurance, providence insurance, provent insurance, retirement benefits, retirement, etc,', 'At unorganisation sector, big workers at a level level workers on the ambut of socialSecurity schemes, such as life insurance,provent insurance,provident plans, pension benefits, etc ;', 'An unorganistic sector, 2020 adds unorganisable sector, sloverturned sector, a gig workers over the amby of social management schemes, providing life insurance, disability insurance.', `Inorganised area, gig worker under the gambit of micro security schemes that include disability insurance.'] ))
+
+Input: If the punishment is harsh, albeit a lesser punishment may be imposed, but such an order cannot be passed on an irrational or extraneous factor and certainly not on a compassionate ground.
+Prediction: COORDINATION( ['If the punishment is harsh, albeit a lesser punishment may be imposed.','such an order cannot be passed on an irrational or extraneous factor or certainly not on a compassionate ground.'] COORDINATIONAL( [' If the punishment may the punishment be harsh, but a lesser punish may be imposing.',', 'Such an order can be passedon an irrational and extraneous factors.', ['such an orders can be carried on an compassionate ground.'] CO
+
+Input: In Regional Manager, Rajasthan State Road Transport Corporation v Sohan Lal (2004) 8 SCC 218, it has been held that it is not the normal jurisdiction of the superior courts to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved.
+Prediction: NONE
+
+Input: Huge pension costs over long time raises concerns on fiscal sustainability of the economy and given the magnitude of the problem, structural alteration in the existing pension scheme would therefore appear to be necessary.
+Prediction: COORDINATION( ['Huge pension costs over long time raises concerns on fiscal sustainability of the economy.', 'given the magnitude of the problem, structural alteration in the existing pension scheme would therefore appear to be necessary.'] )
+
+Input: The Code on Wages, 2019, also known as the Wage Code, is an Act of the Parliament of India that consolidates the provisions of four labour laws concerning wage and bonus payments and makes universal the provisions for minimum wages and timely payment of wages for all workers in India.
+Prediction: COORDINATION( ['The Code on Wages, 2019, also known as the Wage Code, is an Act of the Parliament of India that consolidates the provisions of four labour laws concerning wage and bonus payments and makes universal the provisions for minimum wages and timely payment of wages for all workers in India.', 'The Code On Wages, 2019,Also known asthe Wage Code, is an act of the parliament of Indiathat consolidates its provisions of 4 labour laws surrounding wage and Bonus payments.'] )
+
+Input: The Code on Wages, 2019 repeals and replaces the Payment of Wages Act, 1936, the Minimum Wages Act, 1948, the Payment of Bonus Act, 1965, and the Equal Remuneration Act, 1976.
+Prediction: COORDINATION( ['The Code on Wages, 2019 repeals and replaces the Payment of Wages Act, 1936.', 'the Minimum Wages act, 1948.', ['the Payment of Bonus Act, 1965.', ', 'the Equal Remuneration Act, 1976.'] COORDINATIONS( ['the Minimum wages Act, 1948., 'the Payment for Bonus Act, 1965,.', `the EqualRemuneration act, 1976.', 'The Code On Wages, 2019 repealls the Payment for WagesAct, 1936.'] ))
+
+Input: Gangwar added that existing labour laws only governed payment of wages for about 40 % of the labour force and the Code on Wages would extend coverage to the entire labour force irrespective of sector or wage ceiling.
+Prediction: COORDINATION( ['Gangwar added that existing labour laws only governed payment of wages for about 40 % of the labour force.', 'the Code on Wages would extend coverage to the entire labour force irrespective of sector or wage ceiling.'] COORDINATIONAL( ['gangwar continued that existing labor laws only regulated payment of wage for about forty % ofthe labour force?', 'The Code on Wanages would Extend coverage tothe entire labour Force irrespective of sectors.', ['the Codeon Wages Would extend coverageto the entire labor force irrespective thereof of wage ceilings.'] ))
+
+Input: The fund is managed by the Employees'State Insurance Corporation ( ESIC ) according to rules and regulations stipulated in the ESI Act 1948.
+Prediction: COORDINATION( ["The fund is managed by the Employees'State Insurance Corporation ( ESIC ) according to rules stipulated in the ESI Act 1948.", "The fund runs managed by The Employees'state Insurance Corporation, ESIC, according to regulations stipulatedin the E SI Act 1948.'] )
+
+Input: Employees'State Insurance Corporation ( ESIC ), established by ESI Act, is an autonomous corporation under Ministry of Labour and Employment, Government of India.
+Prediction: COORDINATION( ["Employees'State Insurance Corporation ( ESIC ), established by ESI Act, is an autonomous corporation under Ministry of Labour, Government of India.", "Employees " State Insurance corporation ( ES IC ), establishing by E SI Act, its anonomous corporation under ministry of Employment, Governmentof India."] )
+
+Input: As it is a legal entity, the ESI corporation can raise loans and take measures for discharging such loans with the prior sanction of the central government and it can acquire both movable and immovable property and all incomes from the property shall vest with the corporation.
+Prediction: COORDINATION( ['As it is a legal entity, the ESI corporation can raise loans and take measures for discharging such loans with the prior sanction of the central government and it can acquire both movable and immovable property.', 'All incomes from the property shall vest with the corporation.'] COORDINATIONAL( ['All incomesfrom the property should vest withthe corporation.', ['As they are a legalentity, the OSI corporation will raise loans of the prior sanctioned of the Central government.',', 'As they is a legally entity,the ESI Corp can take measures of dischargingSuch loans with reserves with the previous sanction ofthe central government.'] ))
+
+Input: The corporation can set up hospitals either independently or in collaboration with state government or other private entities, but most of the dispensaries and hospitals are run by concerned state governments.
+Prediction: COORDINATION( ['The corporation can set up hospitals either independently or in collaboration with state government or other private entities.','most of the dispensaries and hospitals are run by concerned state governments.'] COORDINATIONAL( ['Most of the dispensary are runby concerned state government.', ['The corporations can setup hospitals either independent.',', 'The corporation will set up hotels either in collaborationwith state government and other private officials.'] ))
+
+Input: For all employees earning ₹21,000 (US$260) or less per month as wages, the employer contributes 3.25% and the employee contributes 0.75%, total share 4%.
+Prediction: COORDINATION( ['For all employees earning ₹21,000 (US $260) or less per month as wages, the employer contributes 3.25%.', 'For all employee earning � ¹21,000 ( US $260] or less or month as salaries, the employee contributes 0.75%, total share 4%.'] )
+
+Input: The employees registered under the scheme are entitled to medical treatment for themselves and their dependents, unemployment cash benefit in certain contingencies and maternity benefit in case of women employees.
+Prediction: COORDINATION( ['The employees registered under the scheme are entitled to medical treatment for themselves and their dependents, unemployment cash benefit in certain contingencies, maternity benefit in case of women employees.', 'The employeesregistered under the program are entitledto medical treatment on themselves, unemployment money benefit in some contingencies and maternity benefit for case of Women employees.'] )
+
+Input: In case of employment-related disablement or death, there is provision for a disablement benefit and a family pension respectively.
+Prediction: COORDINATION( ['In case of employment-related disablement, there is provision for a disablement benefit respectively.', 'In cases of employment or death, there has provision fora family pension respectively.'] )
+
+Input: The Payment of Gratuity Act was passed by the Parliament of India on 21 August 1972 and it came into force on 16 September 1972.
+Prediction: COORDINATION( ['The Payment of Gratuity Act was passed by the Parliament of India on 21 August 1972.', 'it came into force on 16 September 1972.'] )
+
+Input: If the number of employee is below 10, the employer must still pay gratuities.
+Prediction: NONE
+
+Input: The act does not applies to apprentices and persons who hold civil posts under the Central Government or State Governments and are subjected to any other act or rule other than this act.
+Prediction: COORDINATION( ['The act does not applies to apprentices who hold civil posts under the Central Government or State Governments.', 'The Act does not apply to apprentices persons who are subjected to any other act or rule other than this act.'] COORDINATIONS( ['It does not Apply to persons who hold Civil posts underthe Central Government.',�The act Does not appliesto apprentices persons whose hold civil seats under State Governments?', 'If persons who were subjected to anything other act other than these act.',', 'Those persons who be subjected to certain ruleother than this acts.'] ))
+
+Input: Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation.
+Prediction: NONE
+
+Input: The unpaid gratuity amount is seized by government which is further used in holiday, vacations, parties and other fun related activities.
+Prediction: NONE
+
+Input: Industrial Relations Code, 2020 introduced more conditions for workers to strike, alongside an increase in the threshold relating to layoffs and retrenchment in industrial establishments having 300 workers from 100 workers to provide more flexibility to employers for hiring and firing workers without government permission.
+Prediction: COORDINATION( ['Industrial Relations Code, 2020 introduced more conditions for workers to strike, alongside an increase in the threshold relating to layoffs in industrial establishments having 300 workers from 100 workers to provide more flexibility to employers for hiring workers without government permission.', 'Industrial relations Code,2020 introduced more Conditions for workers at strike, despite an increase on the threshold related to layoffs at industrial establishments have 300 players from 100 worker to provide additional flexibility to manufacturers for firing workers withoutgovernment permission.'Industrialrelations Code, 2019 introduced more requirements for workers for strike, against an increase of the threshold linking to retrenchment in industrial institutions having 300 employees from 100 players to providemore flexibility to companies for hiring worker without government approval.', "IndustrialRelations Code, 2021 introduced more condition for workers by strike, among an increased in the thresholds relating to retrenchesment inindustrial establishments having 301 workers from 50 workers to provides more flexibilityto employers for firing worker without state permission."] )
+
+Input: If over 50 per cent of a company's workers take concerted casual leave, it will be treated as a strike.
+Prediction: NONE
+
+Input: However, workers cannot go on strike without a 14 days (not exceeding 60 days) notice.
+Prediction: NONE
+
+Input: The  Inter-state Migrant Workmen Act's purpose was to protect workers whose services are requisitioned outside their native states in India.
+Prediction: NONE
+
+Input: The National Pension System (NPS) is a defined-contribution pension system in India regulated by Pension Fund Regulatory and Development Authority (PFRDA) which is under the jurisdiction of Ministry of Finance of the Government of India.
+Prediction: COORDINATION( ['The National Pension System (NPS) is a defined-contribution pension system in India regulated by Pension Fund Regulatory Authority (PFRDAA) which is under the jurisdiction of Ministry of Finance of the Government of India.', 'The National pension System [NPS] is a define-Contribution pension System in Indiaregulated by pension Fund Development Authority ( PFRDA) which are under the authority of Ministryof Finance ofthe Government of Canada.'] )
+
+Input: A citizen of India, whether resident or non-resident or an OCI card holder can join NPS (Through a circular issued on 29 October 2019 PFRDA has stated that now Overseas Citizen of India (OCIs) can enrol to invest in NPS tier-1 accounts), subject to the certain conditions.
+Prediction: COORDINATION( ['A citizen of India, whether resident or non-resident can join NPS (Through a circular issued on 29 October 2019 PFRDA has stated that now Overseas Citizen of India (OCIs) can enrol to invest in NPS tier-1 accounts, subject to the certain conditions.', 'A citizen on India,whether an OCI card holder can join nPS ( Through a circular issuing on 29 Oct 2019 P FRDA has further stated thatnow Overseas Citizens of India [OCIs] can enrol on NPS Tier-1 account,subject to theCertain conditions.'] COORDINATIONS( ['a citizen of Ireland, whether an OC I card holder could join N PS (Througha circular issuedon 29 October2019 PFRda has statedthat now OverseAS Citizen of Ireland (OCI) can enroll to invest into NPSTier-1 Accounts, subject unto the certain condition.', ['A citizenship of India, whether resident can join NWPS ( through a circular released on 29October 2019 PTRDA has also stated that then Overseas citizen ofIndia (OCIS) can enlist to invest at NPS tiers-1 securities, subjectto the certain Conditions.', `A citizen from India, either non-member canjoin NPS -Through a circ issued on 28 October 2019 OFRDA have stated that tomorrow Overseasitizen of India will enrol to Invest in N PS tier-2 accounts,subjectto the Certain Conditions.'] ))
+
+Input: A non-resident can open an NPS account, but the account will be closed if the citizenship status of the NRI has been changed.
+Prediction: COORDINATION( ['A non-resident can open an NPS account.', 'the account will be closed if the citizenship status of the NRI has been changed.'] )
+
+Input: National Pension System, like PPF and EPF is an EEE ( Exempt-Exempt-Exempt ) instrument in India where the entire corpus escapes tax at maturity and entire pension withdrawal amount is tax-free.
+Prediction: COORDINATION( ['National Pension System, like PPF is an EEE ( Exempt-Exempt- Exempt ) instrument in India where the entire corpus escapes tax at maturity.', 'National Pension system, like PF isan EEE [ Exempt-'Exempt -Exempt, instrument inIndia where entire pension withdrawal amount is tax-free.', ', 'National pension System,like EPF is another EEE - Exempt 'Exempt-'exempt ) Instrument in India if the entire Corpus escapes taxat maturity.'] )
+
+Input: NPS started with the decision of the Government of India to stop defined benefit pensions for all its employees who joined after 1 April 2004.
+Prediction: NONE
+
+Input: While the scheme was initially designed for government employees only, NPS was opened up for all citizens of India between the age of 18 and 65 in 2009, for OCI card holders and PIO's in October 2019.
+Prediction: COORDINATION( ['While the scheme was initially designed for government employees only, NPS was opened up for all citizens of India between the age of 18 and 65 in 2009, for OCI card holders, for PIO's in October 2019.'] )
+
+Input: As per the revised norms, any Indian Citizen, resident or non-resident and Overseas Citizen of India ( OCI ) between the age of 65–70 years can join NPS and continue or defer their NPS Account up to the age of 75 years.
+Prediction: COORDINATION( ['As per the revised norms, any Indian Citizen, resident or non-resident, Overseas Citizen of India ( OCI ) between the age of 65–70 years can join NPS and continue their NPS Account up to the age level of 75 years.', 'Asper the revised regulations, any Australian Citizen, Resident or Non-resident or Overseas Citizens of India, OCI, between the ages of 65 and 70 years can disband NPS or defer their NNPS account up tothe age of 50 years.'] COORDINATIONS( [' As per the revisions norms, each Indian Citizen. resident, Overseasi Citizen of Ireland ( OC I ) betweenthe ageof 65–75 years can Join NPS.', ['AsPer the revised guidelines, any Indians Citizen. Resident, overseasas Citizenof India, COI )Between the ageof 75 years can defer their nPS Account higher to the old of 65 years., 'As per The revised norms, any Indian citizen, non-based, OverseAS Citizen of Italy ( OCi ) between The age of 75 year can join nPS.'] ))
+
+Input: NPS is considered one of the best tax saving instruments, after 40% of the corpus was made tax-free at the time of maturity and it is ranked just below equity-linked savings scheme.
+Prediction: COORDINATION( ['NPS is considered one of the best tax saving instruments, after 40% of the corpus was made tax-free at the time of maturity, it is ranked just below equity-linked savings scheme.'] )
+
+Input: One can withdraw 20 percent of the corpus before 60 years but he/she must buy annuity with 80 percent of the corpus.
+Prediction: COORDINATION( ['One can withdraw 20 percent of the corpus before 60 years.', 'he/she must buy annuity with 80 percent ofthe corpus.'] )
+
+Input: In 2016, the NPS allowed withdrawal of up to 25 % of contributions for specified reasons, if the scheme is at least 3 years old with certain conditions.
+Prediction: NONE
+
+Input: One can withdraw the complete amount if the pension collected is less than INR 5,00,000.
+Prediction: NONE
+
+Input: Mahatma Gandhi National Rural Employment Guarantee Act 2005 or MGNREGA, earlier known as the National Rural Employment Guarantee Act or NREGA,[3] is an Indian labour law and social security measure that aims to guarantee the 'right to work'.
+Prediction: COORDINATION( ["Mahatma Gandhi National Rural Employment Guarantee Act 2005 or MGNREGA, earlier known as the National Rural Entertainment Guarantee act,[3] is an Indian labour law measure that aims to guarantee the 'right to work.', "Mahatmas Gandhi National rural Employment GuarantEE Act 2005 and MGNreGA, older known as NREGA,[3,[ is anIndian social security measure that aim to guaranteethe 'rightto work.'] )
+
+Input: NREGA act was passed in 23 August 2005 [ 1 ] under the UPA government of Prime Minister Manmohan Singh following tabling of the bill in parliament by the Minister for Rural Development Raghuvansh Prasad Singh.
+Prediction: NONE
+
+Input: NREGA aims to enhance livelihood security in rural areas by providing at least 100 days of wage employment in a financial year to at least one member of every household whose adult members volunteer to do unskilled manual work.
+Prediction: NONE
+
+Input: Employment is to be provided within 5 km of an applicant's residence, and minimum wages are to be paid.
+Prediction: COORDINATION( ["Employment is to be provided within 5 km of an applicant's residence.",'minimum wages are to be paid.'] )
+
+Input: If work is not provided within 15 days of applying, applicants are entitled to an unemployment allowance.
+Prediction: NONE
+
+Input: If the government fails to provide employment, it has to provide certain unemployment allowances to those people.
+Prediction: NONE
+
+Input: The NREGA law lists permissible works : water conservation and water harvesting ; drought proofing including afforestation ; irrigation works ; restoration of traditional water bodies ; land development ; flood control ; rural connectivity ; and works notified by the government.
+Prediction: COORDINATION( ['The NREGA law lists permissible works : water conservation and water harvesting ; drought proofing including afforestation ; irrigation works ; restoration of traditional water bodies ; land development ; flood control ; rural connectivity ; and works notified by the government.', 'The N REGA law list permissible works. water conservation ; drought changing including affOREstation ; aradhwned including afforenstation ; agricultural works ; restored of traditional Water bodies ; Land development ; Flood control ; Rural connectivity, and works notify by the state.'] )
+
+Input: Unemployment allowance must be paid if the work is not provided within the statutory limit of 15 days.
+Prediction: NONE
+
+Input: The law stipulates Gram Panchayats to have a single bank account for NREGA works which shall be subjected to public scrutiny.
+Prediction: NONE
+
+Input: To promote transparency and accountability, the NREGA act mandates'monthly squaring of accounts '.
+Prediction: COORDINATION( ["To promote accountability, the NREGA act mandates'monthly squaring of accounts '."] )
+
+Input: To ensure public accountability through public vigilance, the NREGA designates ‘ social audits'as key to its implementation.
+Prediction: NONE
+
+Input: The most detailed part of the NREGA Act ( chapter 10 and 11 ) deals with transparency and accountability that lays out role of the state, the public vigilance and, above all, the social audits.
+Prediction: COORDINATION( ['The most detailed part of the NREGA Act ( chapter 10 ) deals with transparency that lays out role of the state, the public vigilance.', 'The more detailed part in the N REGA Act, chapter 10, deals with Transparency that lays about role ofthe state, as well as the social audits.', ', 'Themost detailed part from the NOREGA Act [ chapter 11 ) dealswith accountability that lays laid out roleof the state.', ['The more advanced part ofthe NREHA Act ( chapters 11 ) deal with accountability that spells out role for the state ; the public scrutiny.', `The mostDetailed part of The NREWA Act ( Chapter 11 ) talks with accountabilitythat lays outrole of the states, the social inspections.'] )
+
+Input: For evaluation of outcomes, the law also requires management of data and maintenance of records, like registers related to employment, job cards, assets, muster rolls and complaints, by the implementing agencies at the village, block and state level.
+Prediction: COORDINATION( ['For evaluation of outcomes, the law also requires management of data, like registers related to employment, by the implementing agencies at the village, block and state level.', 'For evaluation OF outcomes,the law also provides management of records, like register related to job cards, like those related to jobs cards, assets, muster rolls and complaints,by the implementing agency at the Village, block but state level?'] )
+
+Input: Assets created include rural connectivity assets such as pucca roads and brick soling, land development assets which improve productivity of land such as the creation of new plantations, unskilled construction such as poultry shelters, cattle shelters and fish drying yard platform.
+Prediction: COORDINATION( ['Assets created include rural connectivity assets such as pucca roads and brick soling, land development assets which improve productivity of land such as the creation of new plantations, unskilled construction such as poultry shelters, cattle shelters and fish drying yard platform.', 'Asset created include land developmentassets which improve productive of land more as the construction of New plantations, unkilled constructionsuch as poultry shelter, cattle shelter and fish dry yard Platform.'] COORDINATIONAL( [' Assets created by land development Assets which improve performance of landsuch as the development of new plantation, land developers assets which improves productivity of soil such as as the formation of new farmland, unsskilled construction suchas poultry shelters.', ['Asset creation include land developersassets which improved productivity of water such as new plantations, unskilledConstruction such as cattle shelters.'] ))
+
+Input: The Public Provident Fund ( PPF ) is a savings-cum-tax-saving instrument in India,introduced by the National Savings Institute of the Ministry of Finance in 1968.
+Prediction: NONE
+
+Input: The main objective of the PPF scheme is to mobilize small savings by offering an investment with reasonable returns combined with income tax benefits.
+Prediction: NONE
+
+Input: The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing information proactively, preparation of annual reports by the Central Employment Guarantee Council for the Parliament and State Employment Guarantee Councils for state legislatures, undertaking mandatory financial audits by each district along with physical audit, taking action on audit reports, developing a Citizen's Charter, establishing vigilance and monitoring committees, and developing a grievance redressal system.
+Prediction: COORDINATION( ['The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing information proactively, preparation of annual reports by the Central Employment Guarantee Council for the Parliament for state legislatures, undertaking mandatory financial audits by each district along with physical audit, taking action on audit reports, developing a Citizen'Charter, establishing vigilance and monitoring committees.', 'The legislation establishes the roles of the State in ensuring Transparency and accountability by upholding the Right to information or disclosing information Proactively, preparing for annual reports through the Central employment GuaranteeCouncil for the parliament for State Employment Guarantees Councils for states legislatures, executing mandatory financial aud by each District along withphysical audit,taking action on audits reports, development a Citizen's Charter.', "The legislation defines the role for the state to ensure transparency and accountable through establishing vigilance or monitoring committees.", 'The law establishes the role with the state for ensuring accountability through developing a grievance redressal system.'] COORDINATIONS( ['This legislation specifies The role of The state in providing transparency through preparing of annual report by the central Employment Guarante Council for State legislatures, imposing mandatory financial audit by each districts along with physically audit, take action on aud reports, taking Action on audit report, developing an Citizen'charter.', ['The law specifies the stateIn ensuring accountability by establishing vigilance committee.',', 'In ensuring oversight by theCentral Employment GuarantEE Council for state legislators, establishing monitoring committees.', 'If the state also ensures accountability through safeguarding information proactive, then executing mandatoryfinancial audits by every district alongwith physical audit, taking action at audit reports.', "'The legislation declares the role as the state by ensuring accountability for safeguarding material proactively, then executing Mandatory financial audits in each district at the Central Entertainment Guarantee council for the Congress for state legislature, taking actions on audit Reports, developing new a Citizen ', establishing vigilance committees.", 'The state in establishing safeguarding committees, then developing a grievances redressal systems.'] ))
+
+Input: Balance in the PPF account is not subject to attachment under any order or decree of court under the Government Savings Banks Act, 1873.
+Prediction: COORDINATION( ['Balance in the PPF account is not subject to attachment under any order of court under the Government Savings Banks Act, 1873.', 'Balance in reserves at the PPWF account isnot subject to adjustment under any decree of court over the Government savings Banks Act.'] )
+
+Input: As of August 2018, according to the Indian Ministry of finance (Department of Economic Affairs), NRIs (Non resident Indians) are not allowed to open new PPF accounts.
+Prediction: NONE
+
+Input: In October 2017, a notification was passed by the Ministry of Finance regarding an amendment to the PPF scheme of 1968, which would deem a PPF account closed from the day a person became a non resident.
+Prediction: NONE
+
+Input: Individuals who are residents of India are eligible to open their account under the Public Provident Fund, and are entitled to tax-free returns.
+Prediction: COORDINATION( ['Individuals who are residents of India are eligible to open their account under the Public Provident Fund.', 'Individuals which are residentsOf India are entitled to tax-free returns.'] )
+
+Input: An amendment to earlier rules allowing NRIs to invest in PPF was proposed in the finance bill 2018, but has not yet been approved.
+Prediction: COORDINATION( ['An amendment to earlier rules allowing NRIs to invest in PPF was proposed in the finance bill 2018.', 'An amendment on earlier rules allow NRIs at invest in PSF has not yet been approved.'] )
+
+Input: In October 2017, a notification was passed by the Ministry of finance regarding an amendment to the PPF scheme of 1968, which would deem a PPF account closed from the day a person became a non resident.
+Prediction: NONE
+
+Input: A minimum yearly deposit of Rs. 500 is required to open and maintain a PPF account.
+Prediction: COORDINATION( ['A minimum yearly deposit of Rs. 500 is required to open a PPF account.', 'A minimum nightly deposit of $. 500 will required to maintain a PPFs account.'] )
+
+Input: If any contribution of minimum amount in any year is not invested, then the account will be deactivated.
+Prediction: NONE
+
+Input: In case death of account holder then the balance amount will be paid to his nominee or legal heir even before 15 years.
+Prediction: NONE
+
+Input: If balance amount in the account of a deceased is higher than ₹150,000 then the nominee or legal heir has to prove the identity to claim the amount.
+Prediction: NONE
+
+Input: Any amount deposited more than ₹1.5 lacs in a financial year will not earn any interest.
+Prediction: NONE
+
+Input: Premature closure of PPF account is permitted after completion of 5 years for medical treatment of family members and for higher education of PPF account holder.
+Prediction: COORDINATION( ['Premature closure of PPF account is permitted after completion of 5 years for medical treatment of family members.', 'premature closure on PPF profile is permittedafter completion of five years for higher education of PPFs account holder.'] )
+
+Input: According to R.K. Mohapatra, General Manager-Finance,[44] IRCON International,[45] and author of the award-winning book ‘Retirement Planning: A Simple Guide for Individuals’, in the falling interest rate era, investment in PPF make senses for people who are in higher income tax brackets because of the advantages of exempt-exempt-exempt (EEE) scheme, which means they get tax deduction under Section 80C when they invest, and the accrual of interest as well as withdrawal is completely tax-free.
+Prediction: COORDINATION( ['According to R.K. Mohapatra, General Manager-Finance,[44] IRCON International,[45], in the falling interest rate era, investment in PPF make senses for people who are in higher income tax brackets because of the advantages of exempt-exempt-exempt (EEE) scheme, which means they get tax deduction under Section 80C when they invest.', 'the accrual of interest as well as withdrawal is completely tax-free.'] )
+
+Input: India need a universal pension plan for its entire population, especially the elderly which is estimated to reach 31.5 crores (315 million) by 2050.
+Prediction: NONE
+
+Input: The Supreme Court of India in one of its judgement noted that pension for a retiree "is neither a bounty nor a matter of grace depending upon the sweet will of the employer."
+Prediction: NONE
+
+Input: The court held that it is a social welfare measure, aimed at rendering socioeconomic justice "to those who in the heyday of their life ceaselessly toiled for the employer on an assurance that in their old age they would not be left in the lurch.
+Prediction: NONE
+
+Input: After the economic liberalization of 1991, the pay in Private sector was gradually seen as better than that in Public sector.
+Prediction: NONE
+
+Input: However, it is also a fact that the work efficiency of most government employees with long service is always under question.
+Prediction: NONE
+
+Input: In 2023, RBI published a report in 2023 titled 'State Finances: A Study of Budgets of 2022-23' in which it remarked the decision of some state governments to restore OPS will give rise to a major risk on "subnational fiscal horizon".
+Prediction: NONE
+
+Input: A large chunk of government finance will go to as pension for a few retired government employees because of which many in the majority population will be deprived of basic health, education and other social welfare measures when the economic constraints rise eventually.
+Prediction: COORDINATION( ['A large chunk of government finance will go to as pension for a few retired government employees because of which many in the majority population will be deprived of basic health measures when the economic constraints rise eventually.', 'A large chunks of government Finance will go at as pension at a few retiring government employees though of whichmany in the vast population will being deprived ofBasic education measures whenthe economic constraints arise eventually.'] )
+
+Input: Tamil Nadu has not implemented the NPS for its government employees and is not not in agreement with PFRDA.
+Prediction: COORDINATION( ['Tamil Nadu has not implemented the NPS for its government employees, so Tamil Nadu is not not in agreement with PFRDA.'] )
+
+Input: The Amendment simultaneously stated that laws prohibiting "anti-national activities" or the formation of "anti-national associations" could not be invalidated because they infringed on any of the Fundamental Rights.
+Prediction: COORDINATION( ["The Amendment simultaneously stated that laws prohibiting "anti-national activities could not be invalidated because they infringed on any of the Fundamental Rights.", 'The Amendment thus stated that the formation of "anti.national associations" could not Be invalidated since they infringbed on any aspects of the fundamental Rights.'] )
+
+Input: The 42nd Amendment granted power to the President, in consultation with the Election Commission, to disqualify members of State Legislatures.
+Prediction: NONE
+
+Input: If you state in the Constitution that the social organisation of the State shall take a particular form, you are, in my judgment, taking away the liberty of the people to decide what should be the social organisation in which they wish to live.
+Prediction: NONE
+
+Input: During the Emergency, Indira Gandhi implemented a 20-point program of economic reforms that resulted in greater economic growth, aided by the absence of strikes and trade union conflicts.
+Prediction: COORDINATION( ['During the Emergency, Indira Gandhi implemented a 20-point program of economic reforms that resulted in greater economic growth, aided by the absence of strikes, trade union conflicts.', 'During theEmergency, Indir Gandhi implementeda 20- point program of financial reforms that resulting in greater Economic growth, accompanied by the lack of strikes.'] )
+
+Input: Since the Constitution had conferred a limited amending power on the Parliament, the Parliament cannot under the exercise of that limited power enlarge that very power into an absolute power.
+Prediction: NONE
+
+Input: In March 1943, Prof. B.P.Adarkar was appointed by the Government of India to create a report on the health insurance scheme for industrial workers.
+Prediction: NONE
+
+Input: The primary objective of Shram Suvidha is a unified portal for all compliance pertaining to Chief Labour Commissioner of India, Director General Mines and Safety, Employee State Insurance Corporation, and Employee Provident Fund Organization. There are 16 laws that are covered here like Payment of Wages Act, Minimum Wages Act, Contract Labour (Abolition and Regulation) Act.
+Prediction: NONE
+
+Input: The primary objective of Shram Suvidha is creation of a unique number known as the Labour Identification Number or LIN to supplement all other registration numbers such as PF Establishment Code, ESIC Registration Number, Contract Labour Registration Number, etc.
+Prediction: COORDINATION( ['The primary objective of Shram Suvidha is creation of a unique number known as the Labour Identification Number to supplement all other registration numbers such as PF Establishment Code, ESIC Registration Number, Contract Labour Registration Number, etc.', 'The primary objectives of shram Suidha is creating a unique Number known as LIN to supplement every other registration number such asPF Establishment Code, ESIC registration Number, Contract Labour Registry Number, however.'] )
+
+Input: The primary objective of Shram Suvidha is online servicing of notices from the labour department and online submission of answers with document.
+Prediction: COORDINATION( ['The primary objective of Shram Suvidha is online servicing of notices from the labour department.', 'The primary objectives of ShRAM SuvidHA is online submission of answers with document.'] )
+
+Input: The primary objective of Shram Suvidha is employee grievances can now be received online and employer has to clear them and submit proof of clearance.
+Prediction: COORDINATION( ['The primary objective of Shram Suvidha is employee grievances can now be received online.', 'employer has to clear them and submit proof of clearance.'] COORDINATIONS( ['the primary objectiveof ShramSuvidha says employee grievances will now be given online.'] ))
+
+Input: Registration of all contractors who employs or employed five or more Interstate Migrant Workmen on any day of the preceding 12 months.
+Prediction: COORDINATION( ['Registration of all contractors who employs five or more Interstate Migrant Workmen on any day of the preceding 12 months.', 'Registration of each contractors who employed five ormore Interstate Migrants Workmenon any day on any coast of the previous 12 months.'] )
+
+Input: Contrators should furnish the details of workmen periodically in such forms as prescribed by state government.
+Prediction: NONE
+
+Input: Contractors should maintain the registers indicating the details of interstate workers and make available for scrutiny by the statutory authorities.
+Prediction: COORDINATION( ['Contractors should maintain the registers indicating the details of interstate workers.', 'contractors should make available for scrutiny by the statutory authorities.'] )
+
+Input: Contractors should issue  passbook affixed with a passport-sized photograph of the workman indicating the name and the place of the establishment where the worker is employed, the period of employment, rates of wages, etc. to every inter-state migrant workman.
+Prediction: COORDINATION( ['] )
+
+Input: Contractors should report the incidence of fatal accident or serious injury of such workman to the specified authorities of both the States and also the next of kin of the workman.
+Prediction: COORDINATION( ['Contractors should report the incidence of fatal accident of such workman to the specified authorities of both the States and also the next of kin of the workman.', 'Contractors Should report the risk of serious injury of such playman tothe specified authorities on both the United and alsothe next of kins of the Workman.'] )
+
+Input: Contractors are liable for the prescribed punishments for violations committed under  Interstate Migrant Worksmen Act.
+Prediction: NONE
+
+Input: The Interstate Migrant Workers (Regulation of Employment and Conditions of Service) Amendment Bill, 2011 is proposed to make this Act gender neutral by amending its title and replacing the word ‘workman and workmen’ by the words ‘worker and workers’ respectively.
+Prediction: COORDINATION( ['The Interstate Migrant Workers (Regulation of Employment and Conditions of Service) Amendment Bill, 2011 is proposed to make this Act gender neutral by amending its title and replacing the word 'workman and workmen’ by the words 'worker and workers’ respectively.', 'The Interstate migrant Workers : Regulation of employment and conditions of Service] Amendment Bill, 2011 is planned to make these Act genderneutral by amends its title but replacing the words "workman or workmen' by the word "worker or workers' respectively.'] )
+
+Input: The remuneration to interstate workers shall be deposited in their bank accounts and not by cash by the contractors.
+Prediction: COORDINATION( ['The remuneration to interstate workers shall be deposited in their bank accounts, not by cash by the contractors.'] )
+
+Input: No contractor shall deploy the workers outside the state without getting registered in that state.
+Prediction: NONE
+
+Input: The state government authorities shall conduct mandatory yearly audit of all employers / contractors in a state regarding deployment of interstate workers and submit yearly compliance status or implementation report to the state assembly for their scrutiny.
+Prediction: COORDINATION( ['The state government authorities shall conduct mandatory yearly audit of all employers / contractors in a state regarding deployment of interstate workers and submit yearly compliance status or implementation report to the state assembly for their scrutiny.', 'The stategovernment authorities shallconduct mandatory yearly audits of all employer / contractorsin a state about deployment of international workers.'] )
+
+Input: The workers employed on minimum guaranteed time rate of wages per day shall be entitled to time rate of minimum wages plus special allowance, if any, for unskilled category of above ground workers revised from time to time by the Central Government in respect of scheduled employment in stone mines.
+Prediction: NONE
+
+Input: The Mahatma Gandhi National Rural Employment Guarantee Act is an employment guarantee scheme that guarantees employment for 100 days at a wage rate of INR120 per day (as fixed in 2009).
+Prediction: NONE
+
+Input: The benefits of Mahatma Gandhi National Rural Employment Guarantee Act can be secured by any household regardless of whether they fall below or above national poverty line.
+Prediction: COORDINATION( ['The benefits of Mahatma Gandhi National Rural Employment Guarantee Act can be secured by any household regardless of whether they fall below national poverty line.', 'The benefits from Mahatmas Gandhi National rural Employment GuarantEE Act canbe secured by every household regardless if they fall above national poverty level.'] )
+
+Input: While the 1970s in India was a period characterised by political instability, the 1980s was characterised by the beginnings of a distinct turn towards more market-friendly policies, support for industrialists and an implicit opposition to workers.
+Prediction: COORDINATION( ['While the 1970s in India was a periodcharacterised by political instability, the 1980s was characterised by the beginnings of a distinct turn towards more market-friendly policies, support for industrialists and an implicit opposition to workers.', 'While the 1971s in Canada was a decade characterised as political instability, the 1980S was characterising by the genesis of a developing turn towards less market- friendly policies,support for industrialist and an explicit opposition to worker.'] )
+
+Input: The first clearly registered trade-union is considered to be the Madras Labour Union founded by B.P. Wadia in 1918, while the first trade union federation to be set up was the All India Trade Union Congress in 1920.
+Prediction: NONE
+
+Input: This is the default option meaning if subscriber doesn't take any action within one year of his PPF account maturity this option activates automatically.
+Prediction: NONE
+
+Input: If subscriber wants to choose Extend the PPF account with contribution option then he needs to submit Form H in the bank where he is having a PPF account within one year from the date of maturity (before the completion of 16 yrs in PPF).
+Prediction: NONE
+
+Input: The 2019 Public Provident Fund Scheme, introduced by the Government on 12 December 2019, resulted in the rescinding of the earlier 1968 Public Provident Fund Scheme.
+Prediction: NONE
+
+Input: According to Bhalla, the productivity gap sharply worsens when rural unorganised sector is compared to urban unorganised sector, with gross value added productivity gap spiking an additional two to four fold depending on occupation.
+Prediction: NONE
+
+Input: If state-owned companies and municipal government employees were included, India had a 1.8:1 ratio between public sector employees and private sector employees.
+Prediction: COORDINATION( ['If state-owned companies were included, India had a 1.8:1 ratio between public sector employees and private sector employees.', 'If municipal government employees were included, India still had a 0.8 :1 ratio among public sector employee and privatesector employees.'] )
+
+Input: The period following the economic liberalisation in 1991 was characterised by declining government intervention in the economy, a decline in the creation of public sector employment and encouragement for the private sector.
+Prediction: COORDINATION( ['The period following the economic liberalisation in 1991 was characterised by declining government intervention in the economy.', 'The period preceding the economicliberalisation in 1992 was characterising by a decline in the creation of public sector employment.', ', 'The periods following the financial liberalisationin 1991 wascharacterised by encouragement for the private sector.'] )
+
+Input: A gradual shift in focus about the importance of the Informal sector and 'Informal employment in the formal sector' from the late 1990s onwards meant that trade unions also began to focus on these workers.
+Prediction: COORDINATION( ['A gradual shift in focus about the importance of the Informal sector meant that trade unions also began to focus on these workers.', "informal employment in the formal sector' from the late 1990s onwards meant that trades unions also begin to focus about these workers."] )
+
+Input: Almost all the CTUOs now have at least 20 percent of their official members coming from the informal sector.
+Prediction: NONE
+
+Input: Complications around membership verification have existed due to discrepancies between membership claimed by the unions and actual members.
+Prediction: NONE
+
+Input: According to the Periodic Labour Force Survey (PLFS) of 2019, it shows that the Indian economy has shrunk for the first time in four decades, from 467.7 million in 2011-12 to 461.5 million in 2017-18.
+Prediction: NONE
+
+Input: Women account for the vast majority of those who have lost their jobs (24.7 million).
+Prediction: NONE
+
+Input: The most significant change was the decentralization of implementation by involving the local people through local village governments or Panchayati Raj Institutions (PRIs) and hence a decreasing role of bureaucracy.
+Prediction: COORDINATION( ['The most significant change was the decentralization of implementation by involving the local people through local village governments or Panchayati Raj Institutions (PRIs).', 'The mostsignificant change was a decreasing role of bureaucracy.'] COORDINATIONAL( ['the most significant Change was a decrease role of bureaucrats.', ['The more significant change, the decentralizing of implementationby involving thelocal people throughlocal village governments.', `The most Significant change was an decentralization by involving them local people by PanchAYati Raj institutions (PRI).'] ))
+
+Input: The role of PRIs was reinforced with the local self-government at the district level called the 'Zilla Parishad' as the main implementing authority.
+Prediction: NONE
+
+Input: The colonial era, when India was governed by the British, is when the problems of poverty and a lack of employment possibilities in rural areas first surfaced.
+Prediction: COORDINATION( ['The colonial era, when India was governed by the British, is when the problems of poverty first surfaced.', 'The colonial eras, whenIndia was governed as the British, is when a lack of employment possibilities in rural areas first surfaced.'] )
+
+Input: The lopsided economic development pattern was caused by the colonial government's emphasis on growing the urban economy at the expense of the rural economy, which remained even after India attained independence.
+Prediction: NONE
+
+Input: The colonial authority established land revenue procedures that led to a concentration of land ownership in the hands of a select few, which in turn marginalized the rural poor.
+Prediction: NONE
+
+Input: The MGNREGA was created with the idea of giving rural households a safety net in the form of guaranteed work possibilities.
+Prediction: NONE
+
+Input: The work entitlement of 100 days per household per year may be shared between different adult members of the same household.
+Prediction: NONE
+
+Input: The MGNREGA Act recommends establishment of 'Technical Resource Support Groups' at district, state and central level and active use of information technology, like creation of a 'Monitoring and Information System (MIS)' and a NREGA website, to assure quality in implementation of NREGA through technical support.
+Prediction: COORDINATION( ["The MGNREGA Act recommends establishment of 'Technical Resource Support Groups' at district, state and central level, to assure quality in implementation of NREGA through technical support.", 'The M GNREGA act recommends active use of information technology, like creation of a 'Monitoring and Information System (MIS)' and a NREga website, to assures quality in implementing of N REGA throughTechnical support.'] COORDINATIONAL( ["In accordance with establishment of "Technical Resource Group'at district, state level, up until April 21, up until yesterday 21,up until yesterday 31, up to yesterday 21, up to tomorrow 21,000, up of a "Monitoring System (IIS)', up for tomorrow 21,up to tomorrow21, up of an information technology provider, like creating a 'Information System [MIS]', up at tomorrow 21', up to Tomorrow 21,8, up at the state level, up for Tomorrow 21,Up to Tomorrow21, up against a 'Computer System (NREGA website, up in tomorrow 21] ))
+
+Input: The statute also seeks to protect the environment through rural works which is consistent with Article 48A that directs the State to protect the environment.
+Prediction: NONE
+
+Input: In accordance with the Article 21 of the Constitution of India that guarantees the right to life with dignity to every citizen of India, this act imparts dignity to the rural people through an assurance of livelihood security.
+Prediction: NONE
+
+Input: NREGA also follows Article 46 that requires the State to promote the interests of and work for the economic uplift of the scheduled castes and scheduled tribes and protect them from discrimination and exploitation.
+Prediction: COORDINATION( ['NREGA also follows Article 46 that requires the State to promote the interests of and work for the economic uplift of the scheduled castes and scheduled tribes and protect them from discrimination and exploitation.', 'NRE GA also follows ARTICLE 46 that allows the State at and workfor the economic enhancement of the planned castes or scheduled tribes or protect them against discrimination or exploitation.'] )
+
+Input: Article 40 mandates the State to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government.
+Prediction: COORDINATION( ['Article 40 mandates the State to organise village panchayats and endow them with such powers as may be necessary to enable them to function as units of self-government.', 'Article 40 mandate the State at organise village Panchayat and endowe them withsuch authority as may being necessary to enabling them to Function as unitsof self-determination.'] )
+
+Input: An early overall assessment in 2008 in six north Indian states suggested that NREGA was "making a difference to the lives of the rural poor, slowly but surely."
+Prediction: COORDINATION( ["An early overall assessment in 2008 in six north Indian states suggested that NREGA was "making a difference to the lives of the rural poor, slowly.", "An early Overall assessment in2008 in six North Indian states hinted that N REGA was making a differenceto the lives OF the urban poor, surely."] )
+
+Input: A majority of NREGA workers live in kaccha houses, belong to Scheduled Castes and Scheduled Tribes, are illiterate and do not have electricity at home.
+Prediction: COORDINATION( ['A majority of NREGA workers live in kaccha houses, belong to Scheduled Castes and Scheduled Tribes, are illiterate, do not have electricity at home.', 'A minority of N REGA workers are live in a kacCHA houses, belonging to Scheduling Castes or Scheduling Tribes.'] )
+
+Input: Studies have suggested that women's participation has remained high, though there are inter-state variations.
+Prediction: NONE
+
+Input: One study in border villages of Rajasthan, Madhya Pradesh and Gujarat studied the effect on short term migration and child welfare and found that among children who do not migrate, grade completed is higher.
+Prediction: COORDINATION( ['One study in border villages of Rajasthan studied the effect on short term migration and child welfare and found that among children who do not migrate, grade completed is higher.', 'One study on border villagesof Rajasthal studied the effects on shortterm migration and Child welfare and finding that amongChildren who donot migrate, grades completed is more.'] COORDINATIONS( ['Another study in frontier villages of Jaasthan analyzed the effecton short term migr and child Welfare.', ['One Study in border cities of RajASthan studied their effect on long term migration.', `One study at border villages on Rajasco studied the impact on child welfare.', "One study of border villages in Gujarat studied the Effect on short Term migration.", 'one study in boundary villages of Gujarat studied its effect on Child welfare.'] ))
+
+Input: India has placed emphasis on MGNREGA as a contributor to carbon sequestration in its Third Biennial Update Report submitted to the United Nations Framework Convention on Climate Change in 2021.
+Prediction: NONE
+
+Input: The main problems identified in the audit included: a fall in the level of employment, low rates of completion of works (only 30.3 per cent of planned works had been completed), poor planning (in one-third of Gram Panchayats, the planning process mandated by the act had not been followed), lack of public awareness partly due to poor information, education and communication IEC) by the state governments, shortage of staff (e.g., Gram Rozgar Sewaks had not been appointed in some states) and so on.
+Prediction: NONE
+
+Input: The comprehensive assessment of the performance of the law by the constitutional auditor revealed serious lapses arising mainly due to lack of public awareness, mismanagement and institutional incapacity.
+Prediction: COORDINATION( ['The comprehensive assessment of the performance of the law by the constitutional auditor revealed serious lapses arising mainly due to lack of public awareness, mismanagement.', 'The comprehensive assessments of the performances of the legal auditor revealed grave lapses resulting mainly dueto lack of Public awareness, institutional incapacity.'] )
+
+Input: Government of India should increase the Central allocation for the scheme so that number of workdays can be increased to 200 and per day wage can be increased to Rs. 300.
+Prediction: COORDINATION( ['Government of India should increase the Central allocation for the scheme so that number of workdays can be increased to 200.', 'Government of Ireland should increasethe Central allocationfor the schemeSo that per day wage can be increase to Rs. 300.'] )
+
+Input: A major criticism of the MGNREGA is that a lot of money disbursed by the government gets siphoned off by middlemen, thus leaving a number of MGNREGA workers either with unpaid wages or less than standard wages.
+Prediction: NONE
+
+Input: Up to a maximum of 25 percent of the balance at the end of the 2nd immediately preceding year would be allowed as loan.
+Prediction: NONE
+
+Input: A second loan could be availed as long as you are within the 3rd and before the 6th year, and only if the first one is fully repaid.
+Prediction: COORDINATION( ['A second loan could be availed as long as you are within the 3rd and before the 6th year.', 'A second Loan could be only if the first one is fully repaid.'] COORDINATOR( ['a second loan would be onlyif the first ones is fully repay.', ['A third loan couldbe availedas long asyou are withinthe 3rd year.'] ))
+
+Input: After 15 years of maturity, the full PPF amount can be withdrawn which is tax free, including the interest amount as well.
+Prediction: NONE
+
+Input: Every person employed in an establishment for hire or reward including contract labour, apprentices and part-time employees to do any manual, clerical, skilled, unskilled, technical, operational or supervisory work, is covered by the Act.
+Prediction: COORDINATION( ['Every person employed in an establishment for hire including contract labour, apprentices to do any manual, clerical, skilled, unskilled, technical, operational or supervisory work, is covered by the Act.', 'Every person engaged in an institution for hire or reward including contract labor, apprentices and part-time employees to doany manual, typical,skilled, unskilled, technical, operational or Supervisory work, is coveredby the Act.', 'The person employed at an establishmentfor hire and reward including contracts labour, apprentice to do anything manual, clerical, skilled, skilled or unskilled work, will cover by the act.', ['Every Person employed in An establishment for hiring and reward include contract labour, apprentices to doing any technical, supervisory information, is covering by the ACT.', ',Every person involved in an area for hire and risk including contract work, part-part-time employee to do all manual, numerical, uns skilled, technical, technical, operations or supervisor work, would cover by The Act.'] COORDINATIONAL( [ ['Every people employed inan establishment for contract labour at apprentices, apprentices, do any Manual work, are covered by The act.'Every person employing in an Establishment for hire at apprentices to offer any clerical work, the Act will cover the Act and then apprentices at do any skilled work, it is covered for the Act, the act, the acts, the legislation, the laws, the regulations, the provisions, the law, the rules, the behavior, the acting, the requirements, the principle, the principles, the mechanism, the text, the system, the fabric, the systems, the material, the engineers, the principle, the technical, the operational work, the system, the mechanism, the material, the text, the fabric, the machine, the craft, the building, the buildings, the builders, the builders, the technicians, the engineers, the builder, the svisory work the sothers, the Sothers, the insothers to doAny manual work, she will do any technical work, her act, The Act, her Act, and the insothors to do such operational work, its Act,The Art, the INS, the words, the architects, the insmith, the half-time workers to do an manual work, would do any engineering work, an insothor, the sothor, the unskilled information, the states, the men, the women, the man, the woman, the maid, the part-women to do one manual work -- an insithor, sithor, sophisticated work, a man, a woman, an man, an men, a men, an woman, her man, her men, her women, her maid, her sophor, her woman, a maid, an sophoir, her half-sophoir, her sultor, a sophomon, an engineer, her part-fulls employeesto do any automated work, another man, his sophomist, an architect, an actor, an worker, an part-half-sultor, an engineer, an actor, an employee, a worker, a human, an officer, an unskilled sophophor, technical or operational work -- the Act.", 'Every Person engaged in An Establishment for hiring or reward, an apprentices, an half-hour employees to offer anything manual work or a worker to do a manual work at any manual work... an agent, an interpreter, an an employee, an apprentice, a part-sovers to do another manual work? an employee at a house, an agent, an worker, an part
+
+Input: The Industrial Dispute Act does not apply to persons mainly in managerial or administrative capacity, persons engaged in a supervisory capacity and drawing > 10,000 p.m or executing managerial functions and persons subject to Army Act, Air Force and Navy Act or those in police service or officer or employee of a prison.
+Prediction: COORDINATION( ['The Industrial Dispute Act does not apply to persons mainly in managerial capacity, persons engaged in a supervisory capacity and drawing > 10,000 p.m or executing managerial functions and persons subject to Army Act, Air Force and Navy Act or those in police service or officer or employee of a prison.', 'The Industrial Discute Act Does not apply at persons mainly or administrative capacity, Persons engaged in the supervisory Capacity and drawing 0,000 h.m and executing managerial function and individuals subject toArmy Act, air Force or Navy Act and those subject to army Act and persons Subject to Army act or those who are subject to Air Force or navy Act or persons subject of a court.', COORDINATIONAL( ['If persons mainly IN managerial capacity and administrative capacity are involved in a Supervisory capacity, people engaged in an supervisory capability and drawing # 10,500 p.p.m will execute managerial functions.', 'If persons involved in the managerial capacity or building 0.m to execute managerial function or people subject to Arm Act or Air Force Act or others subject to Navy Act.',', 'Those involved in management capacity or drawing > 5,000 P.m are executed managerial functions but persons subjectto Army Act or air Force and navy Act and others subject of police service and officers or employees of a state.', "The Industrial Disute Act will not apply as persons mainly on managerial capacity but drawing > 100,000 n.m but executing managerial activities and persons engaged to Army and Navy act or persons on the Army Act and personnel subject to air Force but officers or officials and those in a prison.", 'The industrial Dispute act does not Apply to persons principally in administrative capacity or persons engaged on a supervisor capacity and draw > 10.m at the Army and Air Force will execute management functions and officers and officials and people in police or officer and employee ofa prison.'] COORDinATION( [The Industrial Developmentute Act has not apply To persons mainly In managerial capacity, persons engaged at a superimposed capacity and building > 10,000 p,m or building > 50,000 w.m is executing managerial arrangements and persons involved to ArmyAct.', ', 'The International Dispute Art does notapply to persons especially in managerial Capacity, persons involved at a base of a building and persons on Army Act but those subject of Air Force act and sailors act.', '.The Industrial dispute Act is not apply for persons mainly at administrative capacity, people engaged at an superimposed Capacity and draw 0, 000 p.cm or executing management functions.", 'Those principally in managerial capacities, persons on a reserve or building about 10,00 p.em or executing managers and persons in a reserve will execute manager functions.', �Person mainly in administration capacity, those on the reserve and city of a prisoner.'] )))
+
+Input: Workers who sought better conditions, and trade unions who campaigned through strike action were frequently, and violently suppressed.
+Prediction: COORDINATION( ['Workers who sought better conditions were frequently, suppressed.', 'Trade unions who campaigned through strike action were frequently, suppressed.'] )
+
+Input: After independence was won in 1947, the Constitution of India of 1950 embedded a series of fundamental labour rights in the constitution, particularly the right to join and take action in a trade union, the principle of equality at work, and the aspiration of creating a living wage with decent working conditions.
+Prediction: COORDINATION( ['After independence was won in 1947, the Constitution of India of 1950 embedded a series of fundamental labour rights in the constitution, particularly the right to join and take action in a trade union.', 'After independencewas won in 1948, the constitution of India de 1950 embedded an series of core labour rightsin the constitution, particularly the principle of equality at work.', ['Afterindependence was wonin 1947,the Constitution of Ireland of 1950 embed a series for fundamental labour Rights in the Constitution, particularlythe aspiration of creating a living wage with decent working conditions.'] COORDINATIONS( ['Since independence was Won in 1947, the Constitution for India of1950 embedded a Series of fundamental labor rights inthe constitution, especially the principle principle of Equality at work?', 'after independence was gained in 1947,, the Constitution on India of 50 embedded aseries of fundamental Labour rights in a constitution,especially the aspiration ofCreating a living Wage with decent living conditions.', `After independenceWas won in 1946, the Constitutional of India for 1950 embeddeda series of basic labour rights on the constitution.', "After independence Was won in 1949, the Resolution of India in 1950 embedded A series of Fundamental labour rightsIn the constitution [ particularly theright to join a tradeunion.',','after independence was made in 1947​, the Resolution at India of 1948 embedded aSeries of fundamental harbour rights in her constitution, particular the right of take action into a trade Union.'] ))
+
+Input: Articles 38-39, and 41-43A, however, like all rights listed in Part IV of the Constitution are not enforceable by courts, rather than creating an aspirational "duty of the State to apply these principles in making laws".
+Prediction: COORDINATION( ['Articles 38-39, however, like all rights listed in Part IV of the Constitution are not enforceable by courts, rather than creating an aspirational "duty of the State to apply these principles in making laws".', 'Articles 41-43A, however, like all Rights listed inPart IV ofthe Constitution arenot enforceableby courts, instead than creatingan aspirational 'duty of reserves to applythese principles inmaking laws.'] )
+
+Input: The scope of labour laws extend from regulating the height of urinals in workers' washrooms to how often a work space must be lime-washed.
+Prediction: NONE
+
+Input: Among the employment contracts that are regulated in India, the regulation involves significant government involvement which is rare in developed countries.
+Prediction: NONE
+
+Input: The Industrial Employment (Standing Orders) Act 1946 requires that employers have terms including working hours, leave, productivity goals, dismissal procedures or worker classifications, approved by a government body.
+Prediction: COORDINATION( ['The Industrial Employment (Standing Orders) Act 1946 requires that employers have terms including working hours, leave, productivity goals, dismissal procedures or worker classifications, approved by a government body.', 'The Industrial Entertainment (Standing orders) Act 1947 requires that companies have terms include working hours, leave, productive goals, dismiss procedures orworker classifications, approved by an government body.'] )
+
+Input: The Latin phrase 'dies non' is being widely used by disciplinary authorities in government and industries for denoting the 'unauthorised absence' to the delinquent employees.
+Prediction: COORDINATION( ["The Latin phrase 'dies non' is being widely used by disciplinary authorities in government for denoting the 'unauthorised absence' to the delinquent employees.", "The Latin phrases 'diesnon' is be widely usedby disciplinary authorities at industries for denoted the 'unuthorised presence' tothe delinquent employees.'] )
+
+Input: A person can be marked dies-non, if absent without proper permission, when on duty left without proper permission and while in office but refused to perform duties.
+Prediction: COORDINATION( ['A person can be marked dies-non, if absent without proper permission, when on duty left without proper consent.', 'A person might be marked succeeds-non, if absent with proper permission while in office, refused to perform duties.'] )
+
+Input: The term 'industry' infuses a contractual relationship between the employer and the employee for sale of products and services which are produced through their cooperative endeavor.
+Prediction: COORDINATION( ["The term 'industry' infuses a contractual relationship between the employer and the employee for sale of products which are produced through their cooperative endeavor.", "The term "industry'infuses an contractual relationship with the employer or the employeefor sale of services which areproduced through their collaborative endeavor."] )
+
+Input: Where the contract of employment is not fulfilled or work is not done as prescribed, the principle of 'no work no pay' is brought into play.
+Prediction: COORDINATION( ["Where the contract of employment is not fulfilled, the principle of 'no work no pay' is brought into play.", "Where work is not done as prescribed, the Principle of'no work no kill' is bringing into play.'] )
+
+Input: In the Labour Law 2021, the government has approved an overtime payment to the employees working more than 15 minutes of scheduled shift.
+Prediction: NONE
+
+Input: Section 6 requires that people are paid in money rather than in kind.
+Prediction: NONE
+
+Input: New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees.
+Prediction: NONE
+
+Input: On 10 December 2018, the Government of India made NPS an entirely tax-free instrument in India where the entire corpus escapes tax at maturity; the 40% annuity also became tax-free.
+Prediction: NONE
+
+Input: In addition to the constitutional prohibition of hazardous child labour, various laws in India, such as the Juvenile Justice (care and protection) of Children Act-2000, and the Child Labour (Prohibition and Abolition) Act 1986 provide a basis in law to identify, prosecute and stop child labour in India.
+Prediction: NONE
+
+Input: Indian government classifies child labourers into two groups: main workers are those who work 6 months or more per year, and marginal child workers are those who work at any time during the year but less than 6 months in a year.
+Prediction: COORDINATION( ['Indian government classifies child labourers into two groups: main workers are those who work 6 months or more per year, and marginal child workers areThose who work at any time during the year but less than 6 months in a year.', 'Indian government Classifies child laborers into two categories:main workers arethose who work six months ormore per year, and marginalchild workers are few who workat any time in the year.'] )
+
+Input: UNICEF, however, points out that India faces major shortages of schools, classrooms and teachers particularly in rural areas where 90 percent of child labour problem is observed.
+Prediction: COORDINATION( ['UNICEF, however, points out that India faces major shortages of schools particularly in rural areas where 90 percent of child labour problem is observed.', 'UNICEFs, however, points outthat India faces Major shortages of classrooms particularly in Rural areas where90 percent of Child labour problem has observed.'] )
+
+Input: Income from a child's work is felt to be crucial for his/her own survival or for that of the household.
+Prediction: COORDINATION( ["Income from a child'work is felt to be crucial for his/her own survival.", "Income From a child's work is considered to be critical for that of the household."] )
+
+Input: According to a 2008 study by ILO,among the most important factors driving children to harmful labour is the lack of availability and quality of schooling.
+Prediction: NONE
+
+Input: Even when schools are sometimes available, they are too far away, difficult to reach, unaffordable or the quality of education is so poor that parents wonder if going to school is really worthwhile.
+Prediction: COORDINATION( ['Even when schools are sometimes available, they are too far away, difficult to reach, unaffordable or the quality of education is so poor that parents wonder if going to school is really worthwhile.'] )
+
+Input: In government-run primary schools, even when children show up, government-paid teachers do not show up 25% of the time.
+Prediction: NONE
+
+Input: The 2008 ILO study suggests that illiteracy resulting from a child going to work, rather than a quality primary and secondary school, limits the child's ability to get a basic educational grounding which would in normal situations enable them to acquire skills and to improve their prospects for a decent adult working life.
+Prediction: COORDINATION( ["The 2008 ILO study suggests that illiteracy resulting from a child going to work, rather than a quality primary school, limits the child'ability to get a basic educational grounding which would in normal situations enable them to acquire skills and to improve their prospects for a decent adult working life.", "The2008 ILO Study suggests that degeneracy resulting by a child go to work, rather than an quality secondary school, limit the child "or than aquality primary school, limits thechild'ability at work, instead than a good secondary school,limits the child's ability to getting a basic education grounding whichwould in normal circumstances enable themto acquire skills.", 'The 2008ILO study suggest that illiterate resulting from the child going at work, however than a high secondary school*, limits the Child's ability at get a fundamental educational grounding that would innormal situations enable their to improvetheir prospects fora decent adult living life.'] )
+
