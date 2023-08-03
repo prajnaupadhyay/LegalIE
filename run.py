@@ -182,7 +182,7 @@ def prepare_test():
     batch_size = 3
 
     # Define your test dataloader
-    test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, collate_fn=batch_encode_fn)
+    test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, collate_fn=batch_encode_fn(tokenizer))
 
     # read the output file path
     output_file_path = sys.argv[5]
