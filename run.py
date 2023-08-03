@@ -156,7 +156,7 @@ def prepare_train():
 
     # Define your training dataloader
     batch_size = 3
-    train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=batch_encode_fn)
+    train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=batch_encode_fn(tokenizer))
     num_epochs = 30
 
     # define directory to store the model
