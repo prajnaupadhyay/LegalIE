@@ -157,7 +157,7 @@ def prepare_train():
 
     # Define your training dataloader
     batch_size = 3
-    train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=batch_encode_fn())
+    train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=batch_encode_fn)
     num_epochs = 30
 
     # define directory to store the model
@@ -168,7 +168,8 @@ def prepare_train():
 
 def prepare_test():
     # load saved model and tokenizer
-    model = AutoModel.from_pretrained(sys.argv[3])
+    model = BartForConditionalGeneration.from_pretrained(sys.argv[3])
+    model.to('cuda')
     # tokenizer = AutoTokenizer.from_pretrained(sys.argv[3])
 
     # Load and preprocess your test data (from input file)
@@ -183,7 +184,7 @@ def prepare_test():
     batch_size = 3
 
     # Define your test dataloader
-    test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, collate_fn=batch_encode_fn())
+    test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, collate_fn=batch_encode_fn)
 
     # read the output file path
     output_file_path = sys.argv[5]
