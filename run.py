@@ -17,6 +17,7 @@ from sklearn.metrics import f1_score
 import numpy as np
 from transformers import AutoModel
 
+tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
 
 # Define function to process input file
 def process_input_file(file_path):
@@ -39,7 +40,7 @@ def process_input_file(file_path):
 
 
 # Define batch encoding function
-def batch_encode_fn(batch, tokenizer):
+def batch_encode_fn(batch):
     src_texts = [item["source"] for item in batch]
     tgt_texts = [item["target"] for item in batch]
     inputs = tokenizer(src_texts, padding=True, truncation=True, return_tensors="pt")
@@ -145,7 +146,7 @@ def prepare_train():
     # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
 
     # Initialize bart model and tokenizer
-    tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
+    # tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
     model = BartForConditionalGeneration.from_pretrained("facebook/bart-base").to(device)
 
     # Set up optimizer
@@ -156,7 +157,7 @@ def prepare_train():
 
     # Define your training dataloader
     batch_size = 3
-    train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=batch_encode_fn(tokenizer))
+    train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=batch_encode_fn())
     num_epochs = 30
 
     # define directory to store the model
@@ -168,7 +169,7 @@ def prepare_train():
 def prepare_test():
     # load saved model and tokenizer
     model = AutoModel.from_pretrained(sys.argv[3])
-    tokenizer = AutoTokenizer.from_pretrained(sys.argv[3])
+    # tokenizer = AutoTokenizer.from_pretrained(sys.argv[3])
 
     # Load and preprocess your test data (from input file)
     # test_file_path = '/home/prajna/LegalIE/exp3/TestFinalCordinationTree.txt'
@@ -182,7 +183,7 @@ def prepare_test():
     batch_size = 3
 
     # Define your test dataloader
-    test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, collate_fn=batch_encode_fn(tokenizer))
+    test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, collate_fn=batch_encode_fn())
 
     # read the output file path
     output_file_path = sys.argv[5]
