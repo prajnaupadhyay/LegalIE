@@ -63,21 +63,6 @@ with open(infile,"r") as file:
             output.write(line)
         
 
-
-# In[9]:
-
-
-count=0
-with open("test.txt","r") as file:
-    for line in file:
-        if line.startswith('#'):
-            count = count+1
-print(count)
-
-
-# In[1]:
-
-
 #Adds NONE between two consecutive lines starting with #
 def add_none_between_lines(file_path):
     lines = []
@@ -97,10 +82,3 @@ def add_none_between_lines(file_path):
 if __name__ == "__main__":
     file_path = "test.txt"
     add_none_between_lines(file_path)
-
-
-# In[ ]:
-
-
-
-
