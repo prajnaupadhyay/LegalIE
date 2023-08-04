@@ -8,7 +8,7 @@
 #SBATCH -e logs/slurm.%j.err
 #SBATCH --gres=gpu:1
 
-# usage sbatch job5.sh train.txt model_dir test.txt predictions.txt
+# usage sbatch job5.sh test train.txt model_dir test.txt predictions.txt
 
 spack load anaconda3
 conda init bash
