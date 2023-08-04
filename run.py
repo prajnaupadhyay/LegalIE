@@ -205,5 +205,7 @@ if __name__ == '__main__':
         prepare_train()
     elif sys.argv[1] == 'test':
         prepare_test()
+    elif sys.argv[1] == 'predict':
+        print('predict')
 
     # output_file_path = "/home/prajna/LegalIE/exp3/predictions.txt"
