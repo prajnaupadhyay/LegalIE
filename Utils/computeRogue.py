@@ -3,20 +3,14 @@ from rouge_score import rouge_scorer
 def calculate_rouge_score(reference_file, prediction_file):
     test_labels = []
     predictions = []
-    #with open(reference_file, 'r') as ref_file:
-     #   references = ref_file.readlines()
+    
     with open(reference_file, 'r') as file:
         for line in file:
             if not line.startswith('#'):
                 test_labels.append(line)
                 #print(line)
     test_labels = np.array(test_labels)
-            
-
-        
-
-    #with open(prediction_file, 'r') as pred_file:
-     #   predictions = pred_file.readlines()
+    
     with open(prediction_file, 'r') as file:
         for line in file:
             if line.startswith('Prediction'):
