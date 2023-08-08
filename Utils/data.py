@@ -411,13 +411,15 @@ def coords_to_sentences(conj_coords, words):
         for child in child_mapping[conj]:
             q.append(child)
             word_sentences = [' '.join([words[i] for i in sorted(sentence)]) for sentence in sentences]
-            print("COORDINATION("+word_sentences)
+            print("COORDINATION("+word_sentences, end =" ")
            # print(child)
             new_count += 1
+	
 
         
     
     word_sentences = [' '.join([words[i] for i in sorted(sentence)]) for sentence in sentences]
+    print("NONE")
 
     return word_sentences, conj_words, sentences
     # return '\n'.join(word_sentences) + '\n'
