@@ -19,6 +19,7 @@ from transformers import AutoModel
 
 tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
 
+
 # Define function to process input file
 def process_input_file(file_path):
     with open(file_path, 'r') as file:
@@ -188,7 +189,6 @@ def prepare_test():
 
     # read the output file path
     output_file_path = sys.argv[5]
-
 
     # test function to test the model and write predictions to file
     test(test_dataloader, model, output_file_path, tokenizer)
