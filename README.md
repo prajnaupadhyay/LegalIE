@@ -28,8 +28,8 @@ Bell , based in Los Angeles , distributes building products . <br>
 
 **cmd:** python SplitCoordination.py predictions.txt.conj outputSplit.txt
 
-output:
-#Bell , based in Los Angeles , makes and distributes electronic , computer and building products .
+output: <br>
+#Bell , based in Los Angeles , makes and distributes electronic , computer and building products . <br>
 COORDINATION( Bell , based in Los Angeles , makes electronic products .,COORDINATION( Bell , based in Los Angeles , makes computer products .,COORDINATION( Bell , based in Los Angeles , makes building products .,COORDINATION( Bell , based in Los Angeles , distributes electronic products .,COORDINATION( Bell , based in Los Angeles , distributes computer products .,COORDINATION( Bell , based in Los Angeles , distributes building products .,))))))
 
 **Dataset 2**: In order to obtain coordiantion sentences at every level, make the changes as shown in data.py file of openIe6 and then run
