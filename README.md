@@ -48,11 +48,17 @@ To use MergeIO.py,
 3. Add brackets to mergeIO.txt
 4. Add NONE between two input sentences
    
-output :
-#Bell , based in Los Angeles , makes and distributes electronic , computer and building products .
+output : <br>
+#Bell , based in Los Angeles , makes and distributes electronic , computer and building products . <br>
 COORDINATION( ['Bell , based in Los Angeles , makes electronic products .', 'Bell , based in Los Angeles , makes computer products .', 'Bell , based in Los Angeles , makes building products .', 'Bell , based in Los Angeles , distributes electronic products .', 'Bell , based in Los Angeles , distributes computer products .', 'Bell , based in Los Angeles , distributes building products .'] )
 
 **Dataset3** To obtain linearized output from Graphene's tree hierarchical sentence structure, run ProcessingDisSimTree.py.
 Input: treeStructure.txt output:LinearizedTree.txt
+
+**cmd:** python ProcessingDisSimTree.py output.txt
+
+output: <br>
+#Bell , based in Los Angeles , makes and distributes electronic , computer and building products . <br>
+SUB/UNKNOWN_SUBORDINATION('Bell makes and distributes electronic , computer and building products .','Bell is based in Los Angeles .')
 
 
