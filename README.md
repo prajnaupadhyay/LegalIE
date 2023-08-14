@@ -32,7 +32,7 @@ output: <br>
 #Bell , based in Los Angeles , makes and distributes electronic , computer and building products . <br>
 COORDINATION( Bell , based in Los Angeles , makes electronic products .,COORDINATION( Bell , based in Los Angeles , makes computer products .,COORDINATION( Bell , based in Los Angeles , makes building products .,COORDINATION( Bell , based in Los Angeles , distributes electronic products .,COORDINATION( Bell , based in Los Angeles , distributes computer products .,COORDINATION( Bell , based in Los Angeles , distributes building products .,))))))
 
-**Dataset 2**: In order to obtain coordiantion sentences at every level, make the changes as shown in data.py file of openIe6 and then run
+**Dataset 2**: In order to obtain coordiantion sentences at every level, use data.py file of openIe6 and then run
 
 python run.py --mode splitpredict --inp sentences.txt --out predictions.txt --rescoring --task oie --gpus 1 --oie_model models/oie_model/epoch=14_eval_acc=0.551_v0.ckpt --conj_model models/conj_model/epoch=28_eval_acc=0.854.ckpt --rescore_model models/rescore_model --num_extractions 5 
 
