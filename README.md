@@ -18,13 +18,13 @@ predictions.txt.conj obtained from running openIE6 is processed using SplitCoord
 
 prediction.txt.conj contents : 
 
-Bell , based in Los Angeles , makes and distributes electronic , computer and building products .
-Bell , based in Los Angeles , makes electronic products .
-Bell , based in Los Angeles , makes computer products .
-Bell , based in Los Angeles , makes building products .
-Bell , based in Los Angeles , distributes electronic products .
-Bell , based in Los Angeles , distributes computer products .
-Bell , based in Los Angeles , distributes building products .
+Bell , based in Los Angeles , makes and distributes electronic , computer and building products . <br>
+Bell , based in Los Angeles , makes electronic products . <br>
+Bell , based in Los Angeles , makes computer products . <br>
+Bell , based in Los Angeles , makes building products .<br>
+Bell , based in Los Angeles , distributes electronic products . <br>
+Bell , based in Los Angeles , distributes computer products . <br>
+Bell , based in Los Angeles , distributes building products . <br>
 
 **cmd:** python SplitCoordination.py predictions.txt.conj outputSplit.txt
 
