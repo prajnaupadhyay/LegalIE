@@ -8,8 +8,9 @@ label_dict = {'CP_START': 2, 'CP': 1,
 
 # function that returns the split sentences from
 # openie labels
-def get_sentences_from_openie_labels(input_file):
+def get_sentences_from_openie_labels(input_file, output_file):
     file = open(input_file)
+    o = open(output_file, "w")
     sentence = ""
     predictions = []
     all_predictions = []
@@ -28,20 +29,51 @@ def get_sentences_from_openie_labels(input_file):
         else:
             if len(all_predictions) != 0:
                 coords = metric.get_coords(all_predictions)
-                print("sentence is: " + sentence + "\n, coords are: " + str(coords))
+                o.write("#" + sentence + "\n")
+                # print("sentence is: " + sentence + "\n, coords are: " + str(coords))
                 words = sentence.split()
                 split_sentences, conj_words, sentences_indices = coords_to_sentences(
                     coords, words)
                 roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
 
                 discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
-                print("discource tree is: "+str(discource_tree))
+                discource_tree_inverse = {}
+                # print("discource tree is: " + str(discource_tree))
+                for sent_index in discource_tree:
+                    if discource_tree[sent_index] not in discource_tree_inverse:
+                        discource_tree_inverse[discource_tree[sent_index]] = []
+                        discource_tree_inverse[discource_tree[sent_index]].append(sent_index)
+                    else:
+                        discource_tree_inverse[discource_tree[sent_index]].append(sent_index)
+                # print(str(discource_tree_inverse))
 
-                print("split_sentences are: " + str(split_sentences) +
-                      ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
+                count = 0
+                partial_coordination_str = ""
+                while count in discource_tree_inverse:
+                    sent_indices = discource_tree_inverse[count]
+                    partial_coordination_str = get_coordination_string(sent_indices, partial_coordination_str,
+                                                                       split_sentences)
+                    count = count + 1
+                # print(partial_coordination_str)
+                if partial_coordination_str == "":
+                    partial_coordination_str = "NONE"
+                o.write(partial_coordination_str + "\n")
+
+                # print("split_sentences are: " + str(split_sentences) +
+                #      ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
 
                 all_predictions = []
             sentence = line_in_file
+
+
+def get_coordination_string(sent_indices, partial_coordination_str, split_sentences):
+    coordination_str = "COORDINATION("
+    # print(sent_indices)
+    # print(split_sentences)
+    for indexes in sent_indices:
+        coordination_str = coordination_str + split_sentences[indexes] + " \SEP "
+    coordination_str = coordination_str + partial_coordination_str + ")"
+    return coordination_str
 
 
 def construct_discource_tree(sentences_indices, roots, parent_mapping, coords):
@@ -62,18 +94,21 @@ def construct_discource_tree(sentences_indices, roots, parent_mapping, coords):
         for r in roots:
             coords_for_root = coords[r]
             conjuncts_for_root = coords_for_root.conjuncts
-            
+
             for conjunct_for_root in conjuncts_for_root:
                 for i in range(0, len(sentences_indices)):
                     if conjunct_for_root[0] in sentences_indices[i] and conjunct_for_root[1] in sentences_indices[i]:
                         if i not in discource_tree:
                             discource_tree[i] = count
                             break
+    else:
+        for i in range(0, len(sentences_indices)):
+            discource_tree[i] = 0
     return discource_tree
 
 
 def coords_to_tree(conj_coords, words):
-    print("length of words: " + str(len(words)))
+    # print("length of words: " + str(len(words)))
     word_sentences = []
     # print("length of conj_coords: "+str(len(conj_coords)))
     for k in list(conj_coords):
@@ -81,11 +116,11 @@ def coords_to_tree(conj_coords, words):
             conj_coords.pop(k)
     try:
         for k in list(conj_coords):
-            print(conj_coords[k].cc)
+            # print(conj_coords[k].cc)
             if words[conj_coords[k].cc] in ['nor', '&']:  # , 'or']:
                 conj_coords.pop(k)
     except:
-        print("problem with conj_coords")
+        # print("problem with conj_coords")
         return [], [], []
 
     # print("words are: "+str(words))
@@ -95,8 +130,8 @@ def coords_to_tree(conj_coords, words):
     remove_unbreakable_conjuncts(conj_coords, words)
 
     roots, parent_mapping, child_mapping = get_tree(conj_coords)
-    print("after get_tree, roots: " + str(roots) + ", parent_mapping: " +
-          str(parent_mapping) + ", child_mapping: " + str(child_mapping))
+    # print("after get_tree, roots: " + str(roots) + ", parent_mapping: " +
+    #      str(parent_mapping) + ", child_mapping: " + str(child_mapping))
     return roots, parent_mapping, child_mapping
 
 
@@ -111,8 +146,8 @@ def coords_to_sentences(conj_coords, words):
             conj_words.append(' '.join(words[conjunct[0]:conjunct[1] + 1]))
 
     roots, parent_mapping, child_mapping = coords_to_tree(conj_coords, words)
-    print("roots: " + str(roots) + ", parent_mapping: " +
-          str(parent_mapping) + ", child_mapping: " + str(child_mapping))
+    # print("roots: " + str(roots) + ", parent_mapping: " +
+    #      str(parent_mapping) + ", child_mapping: " + str(child_mapping))
 
     q = list(roots)
 
@@ -291,4 +326,5 @@ def preprocess_input(arg1, arg2):
 
 if __name__ == '__main__':
     get_sentences_from_openie_labels(
-        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split_small.labels")
+        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels",
+        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")
