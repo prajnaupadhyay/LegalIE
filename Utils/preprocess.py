@@ -30,19 +30,52 @@ def get_sentences_from_openie_labels(input_file):
                 coords = metric.get_coords(all_predictions)
                 print("sentence is: " + sentence + "\n, coords are: " + str(coords))
                 words = sentence.split()
-                sentence_str = sentence + '\n'
                 split_sentences, conj_words, sentences_indices = coords_to_sentences(
                     coords, words)
+                roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
+
+                discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
+                print("discource tree is: "+str(discource_tree))
+
                 print("split_sentences are: " + str(split_sentences) +
-                      ", conj_words are: " + str(conj_words) + ", sentences_indices are: " + str(sentences_indices));
+                      ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
+
                 all_predictions = []
             sentence = line_in_file
 
 
-def coords_to_sentences(conj_coords, words):
-    print("length of words: "+str(len(words)))
+def construct_discource_tree(sentences_indices, roots, parent_mapping, coords):
+    discource_tree = {}
+    count = 0
+    if len(parent_mapping) != 0:
+        for child in parent_mapping:
+            coords_for_child = coords[child]
+            conjuncts_for_child = coords_for_child.conjuncts
+
+            for conjunct_for_child in conjuncts_for_child:
+                for i in range(0, len(sentences_indices)):
+                    if (conjunct_for_child[0] in sentences_indices[i] and
+                            conjunct_for_child[1] in sentences_indices[i]):
+                        discource_tree[i] = count
+                        break
+            count = count + 1
+        for r in roots:
+            coords_for_root = coords[r]
+            conjuncts_for_root = coords_for_root.conjuncts
+            
+            for conjunct_for_root in conjuncts_for_root:
+                for i in range(0, len(sentences_indices)):
+                    if conjunct_for_root[0] in sentences_indices[i] and conjunct_for_root[1] in sentences_indices[i]:
+                        if i not in discource_tree:
+                            discource_tree[i] = count
+                            break
+    return discource_tree
+
+
+def coords_to_tree(conj_coords, words):
+    print("length of words: " + str(len(words)))
     word_sentences = []
-    #print("length of conj_coords: "+str(len(conj_coords)))
+    # print("length of conj_coords: "+str(len(conj_coords)))
     for k in list(conj_coords):
         if conj_coords[k] is None:
             conj_coords.pop(k)
@@ -55,24 +88,31 @@ def coords_to_sentences(conj_coords, words):
         print("problem with conj_coords")
         return [], [], []
 
-    #print("words are: "+str(words))
-    #print("length of words: "+str(len(words)))
+    # print("words are: "+str(words))
+    # print("length of words: "+str(len(words)))
 
     num_coords = len(conj_coords)
     remove_unbreakable_conjuncts(conj_coords, words)
+
+    roots, parent_mapping, child_mapping = get_tree(conj_coords)
+    print("after get_tree, roots: " + str(roots) + ", parent_mapping: " +
+          str(parent_mapping) + ", child_mapping: " + str(child_mapping))
+    return roots, parent_mapping, child_mapping
+
+
+def coords_to_sentences(conj_coords, words):
+    sentence_indices = []
+    for i in range(0, len(words)):
+        sentence_indices.append(i)
 
     conj_words = []
     for k in list(conj_coords):
         for conjunct in conj_coords[k].conjuncts:
             conj_words.append(' '.join(words[conjunct[0]:conjunct[1] + 1]))
 
-    sentence_indices = []
-    for i in range(0, len(words)):
-        sentence_indices.append(i)
-
-    roots, parent_mapping, child_mapping = get_tree(conj_coords)
-    #print("after get_tree, roots: "+str(roots)+", parent_mapping: "+
-    #      str(parent_mapping)+", child_mapping: "+str(child_mapping))
+    roots, parent_mapping, child_mapping = coords_to_tree(conj_coords, words)
+    print("roots: " + str(roots) + ", parent_mapping: " +
+          str(parent_mapping) + ", child_mapping: " + str(child_mapping))
 
     q = list(roots)
 
@@ -95,7 +135,7 @@ def coords_to_sentences(conj_coords, words):
         if count == 0:
             get_sentences(sentences, conj_same_level,
                           conj_coords, sentence_indices)
-            #print("sentences list is: "+str(sentences))
+            # print("sentences list is: "+str(sentences))
             count = new_count
             new_count = 0
             conj_same_level = []
@@ -104,9 +144,10 @@ def coords_to_sentences(conj_coords, words):
         word_sentences = [' '.join([words[i] for i in sorted(sentence)]) for sentence in sentences]
 
     except:
-        print("exception occurred for "+str(words))
+        print("exception occurred for " + str(words))
     return word_sentences, conj_words, sentences
     # return '\n'.join(word_sentences) + '\n'
+
 
 def get_tree(conj):
     parent_child_list = []
@@ -142,6 +183,7 @@ def get_tree(conj):
 
     return roots, parent_mapping, child_mapping
 
+
 def is_parent(parent, child):
     min = child.conjuncts[0][0]
     max = child.conjuncts[-1][-1]
@@ -150,6 +192,7 @@ def is_parent(parent, child):
         if conjunct[0] <= min and conjunct[1] >= max:
             return True
     return False
+
 
 def get_sentences(sentences, conj_same_level, conj_coords, sentence_indices):
     for conj in conj_same_level:
@@ -225,6 +268,8 @@ def get_sentences_from_tree_labels():
 
 
 def convert_seq_labels_to_tree():
+    # get the parent to child mapping
+
     return 0
 
 
@@ -245,4 +290,5 @@ def preprocess_input(arg1, arg2):
 
 
 if __name__ == '__main__':
-    get_sentences_from_openie_labels("/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels")
+    get_sentences_from_openie_labels(
+        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split_small.labels")
