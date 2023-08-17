@@ -14,8 +14,8 @@ def calculate_rouge_score(reference_file, prediction_file):
                 if "COORDINATION( " in line:
                     line = line.replace("COORDINATION(", "")
                     
-                    #print(line[:-2].strip()
-                    line = line[:-2].strip()
+                    #print(line[:-3].strip()
+                    line = line[:-3].strip()
                     test_labels.append(line)
                 else:
                     test_labels.append(line)
@@ -34,7 +34,7 @@ def calculate_rouge_score(reference_file, prediction_file):
                 line = line.strip("Prediction:")
                 if "COORDINATION( " in line:
                     line = line.replace("COORDINATION(", "")
-                    line = line[:-2]
+                    line = line[:-3]
                     predictions.append(line)
                    
                 else:
