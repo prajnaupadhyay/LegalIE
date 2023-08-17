@@ -1,24 +1,47 @@
+
+#!pip install rouge_score
 from rouge_score import rouge_scorer
+import numpy as np
 
 def calculate_rouge_score(reference_file, prediction_file):
     test_labels = []
     predictions = []
-    
+    #with open(reference_file, 'r') as ref_file:
+     #   references = ref_file.readlines()
     with open(reference_file, 'r') as file:
         for line in file:
             if not line.startswith('#'):
-                test_labels.append(line)
-                #print(line)
+                if "COORDINATION( " in line:
+                    line = line.replace("COORDINATION(", "")
+                    
+                    #print(line[:-3].strip()
+                    line = line[:-3].strip()
+                    test_labels.append(line)
+                else:
+                    test_labels.append(line)
+                          
+                
     test_labels = np.array(test_labels)
-    
+            
+
+        
+
+    #with open(prediction_file, 'r') as pred_file:
+     #   predictions = pred_file.readlines()
     with open(prediction_file, 'r') as file:
         for line in file:
             if line.startswith('Prediction'):
                 line = line.strip("Prediction:")
-                predictions.append(line)
+                if "COORDINATION( " in line:
+                    line = line.replace("COORDINATION(", "")
+                    line = line[:-3]
+                    predictions.append(line)
+                   
+                else:
+                    predictions.append(line)
     predictions = np.array(predictions)
 
-    scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
+    scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL']) #, use_stemmer=True
 
     rouge_scores = {
         'rouge1': {'f': 0, 'p': 0, 'r': 0},
@@ -40,8 +63,12 @@ def calculate_rouge_score(reference_file, prediction_file):
         rouge_scores[metric]['r'] /= num_examples
 
     return rouge_scores
+
+
+
 reference_file_path = 'ptb_test.txt'
 prediction_file_path = 'prediction_ptb_Level.txt'
+
 test_labels = []
 predictions = []
 
@@ -52,16 +79,3 @@ for metric, values in rouge_scores.items():
     print(f"  Precision: {values['p']:.4f}")
     print(f"  Recall: {values['r']:.4f}")
     print(f"  F1 Score: {values['f']:.4f}")
-#results obtained
-# rouge1:
-#   Precision: 0.8734
-#   Recall: 0.8051
-#   F1 Score: 0.8276
-# rouge2:
-#   Precision: 0.6471
-#   Recall: 0.5874
-#   F1 Score: 0.6076
-# rougeL:
-#   Precision: 0.8634
-#   Recall: 0.7957
-#   F1 Score: 0.8183
