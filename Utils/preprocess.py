@@ -30,22 +30,23 @@ def get_sentences_from_openie_labels(input_file, output_file):
             if len(all_predictions) != 0:
                 coords = metric.get_coords(all_predictions)
                 o.write("#" + sentence + "\n")
-                # print("sentence is: " + sentence + "\n, coords are: " + str(coords))
+                print("sentence is: " + sentence + "\n, coords are: " + str(coords))
                 words = sentence.split()
                 split_sentences, conj_words, sentences_indices = coords_to_sentences(
                     coords, words)
                 roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
+                print("parent_mapping: "+str(parent_mapping))
 
                 discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
                 discource_tree_inverse = {}
-                # print("discource tree is: " + str(discource_tree))
+                print("discource tree is: " + str(discource_tree))
                 for sent_index in discource_tree:
                     if discource_tree[sent_index] not in discource_tree_inverse:
                         discource_tree_inverse[discource_tree[sent_index]] = []
                         discource_tree_inverse[discource_tree[sent_index]].append(sent_index)
                     else:
                         discource_tree_inverse[discource_tree[sent_index]].append(sent_index)
-                # print(str(discource_tree_inverse))
+                print(str(discource_tree_inverse))
 
                 count = 0
                 partial_coordination_str = ""
@@ -54,14 +55,14 @@ def get_sentences_from_openie_labels(input_file, output_file):
                     partial_coordination_str = get_coordination_string(sent_indices, partial_coordination_str,
                                                                        split_sentences)
                     count = count + 1
-                # print(partial_coordination_str)
+                print(partial_coordination_str)
                 if partial_coordination_str == "":
                     partial_coordination_str = "NONE"
 
-                o.write("\""+partial_coordination_str + "\"\n")
+                o.write(partial_coordination_str + "\n")
 
-                # print("split_sentences are: " + str(split_sentences) +
-                #      ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
+                print("split_sentences are: " + str(split_sentences) +
+                      ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
 
                 all_predictions = []
             sentence = line_in_file
@@ -72,7 +73,7 @@ def get_coordination_string(sent_indices, partial_coordination_str, split_senten
     # print(sent_indices)
     # print(split_sentences)
     for indexes in sent_indices:
-        coordination_str = coordination_str + split_sentences[indexes] + " \SEP "
+        coordination_str = coordination_str + "\" "+split_sentences[indexes] + "\" \SEP "
     coordination_str = coordination_str + partial_coordination_str + ")"
     return coordination_str
 
