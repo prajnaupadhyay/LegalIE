@@ -57,7 +57,8 @@ def get_sentences_from_openie_labels(input_file, output_file):
                 # print(partial_coordination_str)
                 if partial_coordination_str == "":
                     partial_coordination_str = "NONE"
-                o.write(partial_coordination_str + "\n")
+
+                o.write("\""+partial_coordination_str + "\"\n")
 
                 # print("split_sentences are: " + str(split_sentences) +
                 #      ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
