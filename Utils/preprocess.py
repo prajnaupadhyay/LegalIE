@@ -35,7 +35,7 @@ def get_sentences_from_openie_labels(input_file, output_file):
                 split_sentences, conj_words, sentences_indices = coords_to_sentences(
                     coords, words)
                 roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
-                print("parent_mapping: "+str(parent_mapping))
+                print("parent_mapping: " + str(parent_mapping))
 
                 discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
                 discource_tree_inverse = {}
@@ -72,9 +72,14 @@ def get_coordination_string(sent_indices, partial_coordination_str, split_senten
     coordination_str = "COORDINATION("
     # print(sent_indices)
     # print(split_sentences)
+    count = 0
     for indexes in sent_indices:
-        coordination_str = coordination_str + "\" "+split_sentences[indexes] + "\" \SEP "
-    coordination_str = coordination_str + partial_coordination_str + ")"
+        if count == len(sent_indices) - 1:
+            coordination_str = coordination_str + "\" " + split_sentences[indexes] + "\""
+        else:
+            coordination_str = coordination_str + "\" " + split_sentences[indexes] + "\" , "
+        count = count + 1
+    coordination_str = coordination_str + " " + partial_coordination_str + ")"
     return coordination_str
 
 
