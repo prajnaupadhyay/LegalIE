@@ -11,7 +11,7 @@ def calculate_rouge_score(reference_file, prediction_file):
     with open(reference_file, 'r') as file:
         for line in file:
             if not line.startswith('#'):
-                if "COORDINATION( " in line:
+                if "COORDINATION(" in line:
                     line = line.replace("COORDINATION(", "")
                     
                     #print(line[:-3].strip()
@@ -32,7 +32,7 @@ def calculate_rouge_score(reference_file, prediction_file):
         for line in file:
             if line.startswith('Prediction'):
                 line = line.strip("Prediction:")
-                if "COORDINATION( " in line:
+                if "COORDINATION(" in line:
                     line = line.replace("COORDINATION(", "")
                     line = line[:-3]
                     predictions.append(line)
