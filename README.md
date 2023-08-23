@@ -16,7 +16,7 @@ output: <br>
 #Bell , based in Los Angeles , makes and distributes electronic , computer and building products . <br>
 SUB/UNKNOWN_SUBORDINATION('Bell makes and distributes electronic , computer and building products .','Bell is based in Los Angeles .')
 
-**Dataset2 ** To obtain coordiantion from OpenIE6, use preprocess.py file . It takes ptb_train_split_labels file as input and generates coordiantion tree file as output
+**Dataset2** To obtain coordiantion from OpenIE6, use preprocess.py file . It takes ptb_train_split_labels file as input and generates coordiantion tree file as output
 
 Input file content : <br>
 
