@@ -1,4 +1,3 @@
-
 #!pip install rouge_score
 from rouge_score import rouge_scorer
 import numpy as np
@@ -17,41 +16,28 @@ def calculate_rouge_score(reference_file, prediction_file):
                 else:
                     test_labels.append(line)
                     
-    test_labesl = np.array(test_labels)
+    #test_labesl = np.array(test_labels)
    
-            
-
-        
-
     #Predictions File - BART
-#     with open(prediction_file, 'r') as file:
-#         for line in file:
-#             if line.startswith('Prediction'):
-#                 line = line.strip("Prediction:")
-#                 if "COORDINATION(" in line:
-#                     line = line.replace("COORDINATION(", "")
-#                     line = line.replace("COORDINATIONAL(", '')
-#                     line = line.replace(')','')
-#                     #line = line.replace(',None','')
-                
-#                     predictions.append(line)
-                   
-#                 else:
-#                     predictions.append(line)
-
-                    
-    
-                
-#     predictions = np.array(predictions)
-    #Processing Conj file
-    with open(prediction_file, "r") as file:
+    with open(prediction_file, 'r') as file:
         for line in file:
-            if not line.startswith('#') and line != '\n':
-                predictions.append(line.strip()[:-1])
+            if line.startswith('Prediction:'):
+                line = line.strip("Prediction: ")
                 
+                if "COORDINATION(" in line:
+                    line = line.replace("COORDINATION(", "")
+                    line = line.replace("COORDINATIONAL(", '')
+                    line = line.replace(')','')
+                    #line = line.replace(',None','')
+                
+                    predictions.append(line.strip())    
+                if line.endswith(','):
+                    predictions.append(line.strip()[-1])
+                else:
+                    predictions.append(line.strip())
  
     
-    print("Total number of test and predictions:",len(test_labels), len(predictions))
+    print("Total number of test and predictions:",len(test_labels), len(predictions),"\n", test_labels[0], predictions[0])
     scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL']) #, use_stemmer=True
 
     rouge_scores = {
@@ -77,11 +63,10 @@ def calculate_rouge_score(reference_file, prediction_file):
 
 
 
+
+
 reference_file_path = '/Users/chaitrakaustubh/LegalIE/LegalIE-master/data/NewDataset/coordination_tree_encoding.txt'
 prediction_file_path = '/Users/chaitrakaustubh/LegalIE/LegalIE-master/data/NewDataset/ConvertedConj.txt'
-
-test_labels = []
-predictions = []
 
 rouge_scores = calculate_rouge_score(reference_file_path, prediction_file_path)
 result = open("Result_Conj.txt", "w")
