@@ -1,9 +1,9 @@
-Total number of test and predictions: 985 985 
+Total number of test and predictions: 985 985
 rouge1:
 
-  Precision: 0.8207
-  Recall: 0.8236
-  F1 Score: 0.8213
+  Precision: 0.9832
+  Recall: 0.9861
+  F1 Score: 0.9838
 rouge2:
 
   Precision: 0.8166
@@ -11,6 +11,7 @@ rouge2:
   F1 Score: 0.8172
 rougeL:
 
-  Precision: 0.8165
-  Recall: 0.8194
-  F1 Score: 0.8172
+  Precision: 0.9790
+  Recall: 0.9818
+  F1 Score: 0.9796
+
