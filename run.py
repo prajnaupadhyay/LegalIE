@@ -10,6 +10,7 @@ import sys
 from torch.utils.data import DataLoader, Dataset
 from sklearn.model_selection import train_test_split
 from transformers import BartTokenizer, BartForConditionalGeneration, AdamW
+from transformers import T5Tokenizer, T5ForConditionalGeneration
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from sklearn.metrics import accuracy_score, f1_score
 import numpy as np
@@ -18,7 +19,7 @@ import numpy as np
 from transformers import AutoModel
 
 tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
-
+tokenizer = T5Tokenizer.from_pretrained("t5-small")
 
 # Define function to process input file
 def process_input_file(file_path):
