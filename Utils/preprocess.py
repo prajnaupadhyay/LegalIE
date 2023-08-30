@@ -344,12 +344,14 @@ def remove_unbreakable_conjuncts(conj, words):
 
 
 def get_sentences_from_tree_labels(tree_label):
-    #tree_label = "COORDINATION(\" This confusion effectively halted one form of program trading, stock index arbitrage, that has been blamed by some for the market's big swings.\" COORDINATIONAL(\" This uncertainty effectively halted another form of Program trading, Stock index arbitrag, that closely links the futures markets.\", \" This confusion essentially halted one forms of program Trading, stockindex arbitrage ) that closely ties the stock markets.\" ))"
-    #tree_label = "hello"
-    #print(tree_label)
+    # tree_label = "COORDINATION(\" This confusion effectively halted one form of program trading, stock index arbitrage, that has been blamed by some for the market's big swings.\" COORDINATIONAL(\" This uncertainty effectively halted another form of Program trading, Stock index arbitrag, that closely links the futures markets.\", \" This confusion essentially halted one forms of program Trading, stockindex arbitrage ) that closely ties the stock markets.\" ))"
+    # tree_label = "hello"
+    # print(tree_label)
+    if tree_label == "NONE":
+        return [""]
     count = tree_label.count("COORDINATION")
-    #print(tree_label)
-    #print(count)
+    # print(tree_label)
+    # print(count)
     if count == 2:
         tree_label = tree_label[:-4]
     elif count == 1:
@@ -360,7 +362,7 @@ def get_sentences_from_tree_labels(tree_label):
         if "\" COORDINATIONAL" in s:
             s1 = s.split("\" COORDINATIONAL(\"")
             for ss in s1:
-                ss = ss.replace("COORDINATION(\" ","")
+                ss = ss.replace("COORDINATION(\" ", "")
                 new_sentenes.append(ss)
         elif "COORDINATIONAL" in s:
             s1 = s.split("COORDINATIONAL(\"")
@@ -370,8 +372,9 @@ def get_sentences_from_tree_labels(tree_label):
         else:
             s = s.replace("COORDINATION(\" ", "")
             new_sentenes.append(s)
-    #print(new_sentenes)
+    # print(new_sentenes)
     return new_sentenes
+
 
 def convert_discource_tree_to_conj(input_file, output_file):
     f = open(input_file)
@@ -380,15 +383,16 @@ def convert_discource_tree_to_conj(input_file, output_file):
     prediction = ""
     for line in f:
         if line.startswith("Input: "):
-            sentence = line.replace("Input: ","")[:-1]
+            sentence = line.replace("Input: ", "")[:-1]
         elif line.startswith("Prediction: "):
-            prediction = line.replace("Prediction: ","")[:-1]
+            prediction = line.replace("Prediction: ", "")[:-1]
             new_sentences = get_sentences_from_tree_labels(prediction)
-            o.write(sentence+"\n")
+            o.write(sentence + "\n")
             for sentences in new_sentences:
-                o.write(sentences+"\n")
+                o.write(sentences.strip() + "\n")
             o.write("\n")
     o.close()
+
 
 def convert_seq_labels_to_tree():
     # get the parent to child mapping
@@ -412,12 +416,10 @@ def preprocess_input(arg1, arg2):
     o.close()
 
 
-
 if __name__ == '__main__':
-    convert_discource_tree_to_conj("data/NewDataset/")
+    convert_discource_tree_to_conj(
+        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.txt",
+        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.conj")
     # get_sentences_from_openie_labels(
     #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels",
     #  "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")
-
-
-
