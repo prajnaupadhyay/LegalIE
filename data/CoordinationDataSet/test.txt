@@ -1966,3 +1966,5 @@ COORDINATION(" Among classes for which details were available , yields ranged fr
 COORDINATION(" The agency 's first strips issue , collateralized by Freddie Mac 8 % securities pooled into a single security called a Giant , will be divided into interest-only securities ." , " The agency 's first strips issue , collateralized by Freddie Mac 8 % securities pooled into a single security called a Giant , will be divided into principal-only securities ." )
 #Freddie Mac said the principal-only securities were priced at 58 1\/4 to yield 8.45 % , assuming an average life of eight years and a prepayment of 160 % of the PSA model .
 COORDINATION(" Freddie Mac said the principal-only securities were priced at 58 1\/4 to yield 8.45 % , assuming an average life of eight years ." , " Freddie Mac said the principal-only securities were priced at 58 1\/4 to yield 8.45 % , assuming a prepayment of 160 % of the PSA model ." )
+#There were no major Eurobond or foreign bond offerings in Europe Friday .
+COORDINATION(" There were no major Eurobond offerings in Europe Friday ." , " There were no major foreign bond offerings in Europe Friday ." )
