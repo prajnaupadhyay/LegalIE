@@ -116,7 +116,7 @@ def test(test_dataloader, model, output_file_path, tokenizer):
         for batch in test_dataloader:
             inputs, batch_targets = batch
             inputs = {k: v.to(device) for k, v in inputs.items()}  # Move inputs to device
-            sentence_bias = {tokenizer([k], add_special_tokens = False).input_ids[0]: 10.0 for k, v in inputs.items()}
+            sentence_bias = {tuple(tokenizer([k], add_special_tokens = False).input_ids[0]): 10.0 for k, v in inputs.items()}
             outputs = model.generate(input_ids=inputs["input_ids"].to(device), max_length=1000, sequence_bias = sentence_bias)  # Generate predictions
 
             # Decode the generated output and convert to text
