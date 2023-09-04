@@ -8,11 +8,11 @@
 #SBATCH -e logs/slurm.%j.err
 #SBATCH --gres=gpu:1
 
-# usage sbatch job5.sh test data/train.txt model_dir data/test.txt data/predictions.txt BART or T5
+# usage sbatch job5.sh test data/CoordinationDataSet/train.txt model_dir data/CoordinationDataSet/test.txt data/predictions_T5_Coordination.txt BART or T5
 
 spack load anaconda3
 conda init bash
 eval "$(conda shell.bash hook)"
 conda activate /home/prajna/.conda/envs/legalIE
-cd /scratch/prajna/LegalIE/sankalp
-python run.py $1 $2 $3 $4 $5 $6
+cd /scratch/prajna/LegalIE/sankalp/exp1
+python /scratch/prajna/LegalIE/sankalp/exp1/run.py $1 $2 $3 $4 $5 $6
