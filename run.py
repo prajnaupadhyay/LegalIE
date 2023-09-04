@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
-Usage: python run.py test train.txt model_dir test.txt predictions.txt
-Usage: python run.py train train.txt model_dir test.txt predictions.txt
+Usage: python run.py test train.txt model_dir test.txt predictions.txt T5
+Usage: python run.py train train.txt model_dir test.txt predictions.txt T5
 
 '''
 # !pip install transformers
@@ -102,7 +102,7 @@ def write_predictions_to_file(file_path, inputs, predictions):
         for i in range(len(inputs)):
             file.write("Input: " + inputs[i] + "\n")
             file.write("Prediction: " + predictions[i] + "\n")
-            print("Prediction:", predictions[i])
+            # print("Prediction:", predictions[i])
             file.write("\n")
 
 
@@ -116,7 +116,8 @@ def test(test_dataloader, model, output_file_path, tokenizer):
         for batch in test_dataloader:
             inputs, batch_targets = batch
             inputs = {k: v.to(device) for k, v in inputs.items()}  # Move inputs to device
-            outputs = model.generate(input_ids=inputs["input_ids"].to(device), max_length=1000)  # Generate predictions
+            sentence_bias = {tokenizer([k], add_special_tokens = False).input_ids[0]: 10.0 for k, v in inputs.items()}
+            outputs = model.generate(input_ids=inputs["input_ids"].to(device), max_length=1000, sequence_bias = sentence_bias)  # Generate predictions
 
             # Decode the generated output and convert to text
             batch_predictions = [tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
@@ -205,7 +206,7 @@ if __name__ == '__main__':
     if sys.argv[6].upper() == 'BART':
         tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
     elif sys.argv[6].upper() == 'T5':
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small", add_prefix_space=True)
     else:
         print('Wrong model name. Use BART ot T5')
         sys.exit(1)
