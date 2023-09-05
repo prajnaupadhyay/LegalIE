@@ -418,8 +418,8 @@ def preprocess_input(arg1, arg2):
 
 if __name__ == '__main__':
     convert_discource_tree_to_conj(
-        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.txt",
-        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.conj")
+        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Predictions_T5_Coordination_LB.txt",
+        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Predictions_T5_Coordination_LB.conj")
     # get_sentences_from_openie_labels(
     #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels",
     #  "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")
