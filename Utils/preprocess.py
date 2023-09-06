@@ -64,7 +64,7 @@ def get_sentences_from_openie_labels(input_file, output_file):
                 if partial_coordination_str == "":
                     partial_coordination_str = "NONE"
 
-                o.write(partial_coordination_str + "\n")
+                o.write(partial_coordination_str + "\n\n")
 
                 print("split_sentences are: " + str(split_sentences) +
                       ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
@@ -108,7 +108,7 @@ def get_sentences_from_openie_labels(input_file, output_file):
         if partial_coordination_str == "":
             partial_coordination_str = "NONE"
 
-        o.write(partial_coordination_str + "\n")
+        o.write(partial_coordination_str + "\n\n")
 
         print("split_sentences are: " + str(split_sentences) +
               ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
@@ -356,14 +356,13 @@ def remove_unbreakable_conjuncts(conj, words):
 
 
 def get_sentences_from_tree_labels(tree_label):
-    # tree_label = "COORDINATION(\" This confusion effectively halted one form of program trading, stock index arbitrage, that has been blamed by some for the market's big swings.\" COORDINATIONAL(\" This uncertainty effectively halted another form of Program trading, Stock index arbitrag, that closely links the futures markets.\", \" This confusion essentially halted one forms of program Trading, stockindex arbitrage ) that closely ties the stock markets.\" ))"
     # tree_label = "hello"
     # print(tree_label)
     if tree_label == "NONE":
         return [""]
     count = tree_label.count("COORDINATION")
     # print(tree_label)
-    # print(count)
+    print(count)
     if count == 2:
         tree_label = tree_label[:-4]
     elif count == 1:
@@ -378,6 +377,16 @@ def get_sentences_from_tree_labels(tree_label):
                 new_sentenes.append(ss)
         elif "COORDINATIONAL" in s:
             s1 = s.split("COORDINATIONAL(\"")
+            for ss in s1:
+                ss = ss.replace("COORDINATION(\" ", "")
+                new_sentenes.append(ss)
+        elif "\" COORDINATION" in s:
+            s1 = s.split("\" COORDINATION(\"")
+            for ss in s1:
+                ss = ss.replace("COORDINATION(\" ", "")
+                new_sentenes.append(ss)
+        elif "COORDINATION" in s:
+            s1 = s.split("COORDINATION(\"")
             for ss in s1:
                 ss = ss.replace("COORDINATION(\" ", "")
                 new_sentenes.append(ss)
@@ -429,9 +438,10 @@ def preprocess_input(arg1, arg2):
 
 
 if __name__ == '__main__':
-    #convert_discource_tree_to_conj(
-     #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Predictions_T5_Coordination_LB.txt",
-     #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Predictions_T5_Coordination_LB.conj")
-     get_sentences_from_openie_labels(
-       "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels",
-      "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")
+    #tree_label = "COORDINATION(\" Mr. Simpson said he resigned in 1988.\" COORDINATION(\" Eventually Mr. Simpson had a falling out over the direction of the company.\", \" Eventually Mr. Herscu had a falling out over the direction of the company.\" ))"
+    #new_sentences = get_sentences_from_tree_labels(tree_label)
+    #print(new_sentences)
+    convert_discource_tree_to_conj(
+        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_T5_Coordination.txt",
+       "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_T5_Coordination.conj")
+     #get_sentences_from_openie_labels( "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels","/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")
