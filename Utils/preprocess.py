@@ -11,6 +11,7 @@ label_dict = {'CP_START': 2, 'CP': 1,
 def get_sentences_from_openie_labels(input_file, output_file):
     file = open(input_file)
     o = open(output_file, "w")
+    o1 = open(output_file.replace(".txt", "") + ".conj", "w")
     sentence = ""
     predictions = []
     all_predictions = []
@@ -30,12 +31,16 @@ def get_sentences_from_openie_labels(input_file, output_file):
             if len(all_predictions) != 0:
                 coords = metric.get_coords(all_predictions)
                 o.write("#" + sentence + "\n")
+                o1.write(sentence + "\n")
                 print("sentence is: " + sentence + "\n, coords are: " + str(coords))
                 words = sentence.split()
                 split_sentences, conj_words, sentences_indices = coords_to_sentences(
                     coords, words)
                 roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
                 print("parent_mapping: " + str(parent_mapping))
+                for ss in split_sentences:
+                    o1.write(ss+"\n")
+                o1.write("\n")
 
                 discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
                 discource_tree_inverse = {}
@@ -69,12 +74,17 @@ def get_sentences_from_openie_labels(input_file, output_file):
     if len(all_predictions) != 0:
         coords = metric.get_coords(all_predictions)
         o.write("#" + sentence + "\n")
+        o1.write(sentence + "\n")
         print("sentence is: " + sentence + "\n, coords are: " + str(coords))
         words = sentence.split()
         split_sentences, conj_words, sentences_indices = coords_to_sentences(
             coords, words)
         roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
         print("parent_mapping: " + str(parent_mapping))
+
+        for ss in split_sentences:
+            o1.write(ss + "\n")
+        o1.write("\n")
 
         discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
         discource_tree_inverse = {}
@@ -104,6 +114,8 @@ def get_sentences_from_openie_labels(input_file, output_file):
               ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
 
         all_predictions = []
+    o.close()
+    o1.close()
 
 
 def get_coordination_string(sent_indices, partial_coordination_str, split_sentences):
@@ -417,9 +429,9 @@ def preprocess_input(arg1, arg2):
 
 
 if __name__ == '__main__':
-    convert_discource_tree_to_conj(
-        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Predictions_T5_Coordination_LB.txt",
-        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Predictions_T5_Coordination_LB.conj")
-    # get_sentences_from_openie_labels(
-    #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels",
-    #  "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")
+    #convert_discource_tree_to_conj(
+     #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Predictions_T5_Coordination_LB.txt",
+     #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Predictions_T5_Coordination_LB.conj")
+     get_sentences_from_openie_labels(
+       "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels",
+      "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")
