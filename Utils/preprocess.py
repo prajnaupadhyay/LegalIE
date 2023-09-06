@@ -410,6 +410,8 @@ def convert_discource_tree_to_conj(input_file, output_file):
             new_sentences = get_sentences_from_tree_labels(prediction)
             o.write(sentence + "\n")
             for sentences in new_sentences:
+                if sentences.strip()=="":
+                    continue
                 o.write(sentences.strip() + "\n")
             o.write("\n")
     o.close()
