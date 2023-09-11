@@ -1,6 +1,7 @@
 import sys
 
-from Utils import metric
+# from ..Utils import metric
+import metric
 
 label_dict = {'CP_START': 2, 'CP': 1,
               'CC': 3, 'SEP': 4, 'OTHERS': 5, 'NONE': 0}
@@ -417,9 +418,13 @@ def preprocess_input(arg1, arg2):
 
 
 if __name__ == '__main__':
-    convert_discource_tree_to_conj(
-        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.txt",
-        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.conj")
+    if len(sys.argv) != 3:
+        print("Usage: python3 preprocess.py <input_file> <output_file>")
+        exit(0)
+    convert_discource_tree_to_conj(sys.argv[1], sys.argv[2])
+    # convert_discource_tree_to_conj(
+    #     "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.txt",
+    #     "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.conj")
     # get_sentences_from_openie_labels(
     #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels",
     #  "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")

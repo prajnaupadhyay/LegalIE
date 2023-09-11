@@ -71,8 +71,10 @@ def train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
             # Flatten the targets and predictions tensors
             flat_targets = targets["input_ids"].flatten()
             flat_predictions = predictions.flatten()
-            flat_predictions_cpu = flat_predictions.cpu()  # Move tensor from CUDA device to CPU
-            flat_targets_cpu = flat_targets.cpu()  # Move tensor from CUDA device to CPU
+            
+            # Move tensor from CUDA device to CPU
+            flat_predictions_cpu = flat_predictions.cpu()  
+            flat_targets_cpu = flat_targets.cpu()
 
             flat_predictions_np = flat_predictions_cpu.numpy()  # Convert tensor to NumPy array
             flat_targets_np = flat_targets_cpu.numpy()
@@ -117,7 +119,7 @@ def test(test_dataloader, model, output_file_path, tokenizer):
             inputs, batch_targets = batch
             inputs = {k: v.to(device) for k, v in inputs.items()}  # Move inputs to device
             sentence_bias = {tuple(tokenizer([k], add_special_tokens = False).input_ids[0]): 10.0 for k, v in inputs.items()}
-            outputs = model.generate(input_ids=inputs["input_ids"].to(device), max_length=1000, sequence_bias = sentence_bias)  # Generate predictions
+            outputs = model.generate(input_ids=inputs["input_ids"].to(device), max_length=1000, num_beams = 4, sequence_bias = sentence_bias)  # Generate predictions
 
             # Decode the generated output and convert to text
             batch_predictions = [tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
