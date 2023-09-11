@@ -12,6 +12,7 @@ label_dict = {'CP_START': 2, 'CP': 1,
 def get_sentences_from_openie_labels(input_file, output_file):
     file = open(input_file)
     o = open(output_file, "w")
+    o1 = open(output_file.replace(".txt", "") + ".conj", "w")
     sentence = ""
     predictions = []
     all_predictions = []
@@ -31,12 +32,16 @@ def get_sentences_from_openie_labels(input_file, output_file):
             if len(all_predictions) != 0:
                 coords = metric.get_coords(all_predictions)
                 o.write("#" + sentence + "\n")
+                o1.write(sentence + "\n")
                 print("sentence is: " + sentence + "\n, coords are: " + str(coords))
                 words = sentence.split()
                 split_sentences, conj_words, sentences_indices = coords_to_sentences(
                     coords, words)
                 roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
                 print("parent_mapping: " + str(parent_mapping))
+                for ss in split_sentences:
+                    o1.write(ss+"\n")
+                o1.write("\n")
 
                 discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
                 discource_tree_inverse = {}
@@ -60,7 +65,7 @@ def get_sentences_from_openie_labels(input_file, output_file):
                 if partial_coordination_str == "":
                     partial_coordination_str = "NONE"
 
-                o.write(partial_coordination_str + "\n")
+                o.write(partial_coordination_str + "\n\n")
 
                 print("split_sentences are: " + str(split_sentences) +
                       ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
@@ -70,12 +75,17 @@ def get_sentences_from_openie_labels(input_file, output_file):
     if len(all_predictions) != 0:
         coords = metric.get_coords(all_predictions)
         o.write("#" + sentence + "\n")
+        o1.write(sentence + "\n")
         print("sentence is: " + sentence + "\n, coords are: " + str(coords))
         words = sentence.split()
         split_sentences, conj_words, sentences_indices = coords_to_sentences(
             coords, words)
         roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
         print("parent_mapping: " + str(parent_mapping))
+
+        for ss in split_sentences:
+            o1.write(ss + "\n")
+        o1.write("\n")
 
         discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
         discource_tree_inverse = {}
@@ -99,12 +109,14 @@ def get_sentences_from_openie_labels(input_file, output_file):
         if partial_coordination_str == "":
             partial_coordination_str = "NONE"
 
-        o.write(partial_coordination_str + "\n")
+        o.write(partial_coordination_str + "\n\n")
 
         print("split_sentences are: " + str(split_sentences) +
               ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
 
         all_predictions = []
+    o.close()
+    o1.close()
 
 
 def get_coordination_string(sent_indices, partial_coordination_str, split_sentences):
@@ -345,14 +357,13 @@ def remove_unbreakable_conjuncts(conj, words):
 
 
 def get_sentences_from_tree_labels(tree_label):
-    # tree_label = "COORDINATION(\" This confusion effectively halted one form of program trading, stock index arbitrage, that has been blamed by some for the market's big swings.\" COORDINATIONAL(\" This uncertainty effectively halted another form of Program trading, Stock index arbitrag, that closely links the futures markets.\", \" This confusion essentially halted one forms of program Trading, stockindex arbitrage ) that closely ties the stock markets.\" ))"
     # tree_label = "hello"
     # print(tree_label)
     if tree_label == "NONE":
         return [""]
     count = tree_label.count("COORDINATION")
     # print(tree_label)
-    # print(count)
+    print(count)
     if count == 2:
         tree_label = tree_label[:-4]
     elif count == 1:
@@ -367,6 +378,16 @@ def get_sentences_from_tree_labels(tree_label):
                 new_sentenes.append(ss)
         elif "COORDINATIONAL" in s:
             s1 = s.split("COORDINATIONAL(\"")
+            for ss in s1:
+                ss = ss.replace("COORDINATION(\" ", "")
+                new_sentenes.append(ss)
+        elif "\" COORDINATION" in s:
+            s1 = s.split("\" COORDINATION(\"")
+            for ss in s1:
+                ss = ss.replace("COORDINATION(\" ", "")
+                new_sentenes.append(ss)
+        elif "COORDINATION" in s:
+            s1 = s.split("COORDINATION(\"")
             for ss in s1:
                 ss = ss.replace("COORDINATION(\" ", "")
                 new_sentenes.append(ss)
@@ -390,6 +411,8 @@ def convert_discource_tree_to_conj(input_file, output_file):
             new_sentences = get_sentences_from_tree_labels(prediction)
             o.write(sentence + "\n")
             for sentences in new_sentences:
+                if sentences.strip()=="":
+                    continue
                 o.write(sentences.strip() + "\n")
             o.write("\n")
     o.close()
