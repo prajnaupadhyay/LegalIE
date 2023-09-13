@@ -8,15 +8,15 @@ Python 3.10 is needed to run the code.
 
 ## Dataset
 
-Coordination Datasets are located under `data/CoordinationDataSet`. There There are 3 folders:
+Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 folders:
 
-#### gold: This contains the gold data or the test data (terms can be interchangeably used). The same dataset is present in 3 formats:
-##### test.coord: in the format of coordination trees
-##### test.conj: in the format of split sentences
-##### test.labels: in the format OpenIE uses (we do not use this format)
+#### 1) gold: This contains the gold data or the test data (terms can be interchangeably used). The same dataset is present in 3 formats:
+###### test.coord: in the format of coordination trees
+###### test.conj: in the format of split sentences
+###### test.labels: in the format OpenIE uses (we do not use this format)
 
-#### input: all input files with the appropriate formats
-#### output: all output files with the appropriate formats
+#### 2) input: all input files with the appropriate formats
+#### 3) output: all output files with the appropriate formats
 
 
 **Dataset1** To obtain linearized output from Graphene's tree hierarchical sentence structure, run ProcessingDisSimTree.py.
