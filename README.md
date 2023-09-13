@@ -18,9 +18,10 @@ Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 
 #### 2) input: all input files with the appropriate formats
 #### 3) output: all output files with the appropriate formats
 
+<!---
 ## Steps
 
-<!---
+
 
 **Dataset1** To obtain linearized output from Graphene's tree hierarchical sentence structure, run ProcessingDisSimTree.py.
 Input: treeStructure.txt output:LinearizedTree.txt
