@@ -10,7 +10,7 @@ Python 3.10 is needed to run the code.
 
 Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 folders:
 
-#### 1) `gold`: This contains the gold data or the test data (terms can be interchangeably used). The same dataset is present in 3 formats:
+#### 1) `gold`: This contains the gold data or the test data (terms can be interchangeably used). The same dataset is present in 4 formats:
 ###### `test.coord`: in the format of coordination trees
 ###### `test.conj`: in the format of split sentences
 ###### `test.labels`: in the format OpenIE uses (we do not use this format)
