@@ -1,6 +1,7 @@
 #!pip install rouge_score
 from rouge_score import rouge_scorer
 import numpy as np
+import sys
 
 def calculate_rouge_score(reference_file, prediction_file):
     test_labels = []
@@ -31,8 +32,8 @@ def calculate_rouge_score(reference_file, prediction_file):
                     #line = line.replace(',None','')
                 
                     predictions.append(line.strip())    
-                if line.endswith(','):
-                    predictions.append(line.strip()[-1])
+                # if line.endswith(','):
+                #     predictions.append(line.strip()[-1])
                 else:
                     predictions.append(line.strip())
  
@@ -64,19 +65,26 @@ def calculate_rouge_score(reference_file, prediction_file):
 
 
 
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        print("Usage: python computeRougue.py <input_file> <output_file>")
+        exit(0)
+    reference_file_path = 'data/CoordinationDataSet/test.txt'
+    # prediction_file_path = '/Users/chaitrakaustubh/LegalIE/LegalIE-master/data/NewDataset/ConvertedConj.txt'
 
-reference_file_path = '/Users/chaitrakaustubh/LegalIE/LegalIE-master/data/NewDataset/coordination_tree_encoding.txt'
-prediction_file_path = '/Users/chaitrakaustubh/LegalIE/LegalIE-master/data/NewDataset/ConvertedConj.txt'
+    # reference_file_path = sys.argv[1]
+    prediction_file_path = sys.argv[1]
 
-rouge_scores = calculate_rouge_score(reference_file_path, prediction_file_path)
-result = open("Result_Conj.txt", "w")
-for metric, values in rouge_scores.items():
-    print(f"{metric}:")
-    print(f"  Precision: {values['p']:.4f}")
-    print(f"  Recall: {values['r']:.4f}")
-    print(f"  F1 Score: {values['f']:.4f}")
-    
-    result.write(f"{metric}:"+"\n\n")
-    result.write(f"  Precision: {values['p']:.4f}"+"\n")
-    result.write(f"  Recall: {values['r']:.4f}"+"\n")
-    result.write(f"  F1 Score: {values['f']:.4f}"+"\n")
+
+    rouge_scores = calculate_rouge_score(reference_file_path, prediction_file_path)
+    result = open(sys.argv[2], "w")
+    for metric, values in rouge_scores.items():
+        print(f"{metric}:")
+        print(f"  Precision: {values['p']:.4f}")
+        print(f"  Recall: {values['r']:.4f}")
+        print(f"  F1 Score: {values['f']:.4f}")
+        
+        result.write(f"{metric}:"+"\n\n")
+        result.write(f"  Precision: {values['p']:.4f}"+"\n")
+        result.write(f"  Recall: {values['r']:.4f}"+"\n")
+        result.write(f"  F1 Score: {values['f']:.4f}"+"\n")

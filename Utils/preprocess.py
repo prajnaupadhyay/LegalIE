@@ -1,6 +1,7 @@
 import sys
 
-from Utils import metric
+# from ..Utils import metric
+import metric
 
 label_dict = {'CP_START': 2, 'CP': 1,
               'CC': 3, 'SEP': 4, 'OTHERS': 5, 'NONE': 0}
@@ -11,6 +12,7 @@ label_dict = {'CP_START': 2, 'CP': 1,
 def get_sentences_from_openie_labels(input_file, output_file):
     file = open(input_file)
     o = open(output_file, "w")
+    o1 = open(output_file.replace(".txt", "") + ".conj", "w")
     sentence = ""
     predictions = []
     all_predictions = []
@@ -30,12 +32,16 @@ def get_sentences_from_openie_labels(input_file, output_file):
             if len(all_predictions) != 0:
                 coords = metric.get_coords(all_predictions)
                 o.write("#" + sentence + "\n")
+                o1.write(sentence + "\n")
                 print("sentence is: " + sentence + "\n, coords are: " + str(coords))
                 words = sentence.split()
                 split_sentences, conj_words, sentences_indices = coords_to_sentences(
                     coords, words)
                 roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
                 print("parent_mapping: " + str(parent_mapping))
+                for ss in split_sentences:
+                    o1.write(ss+"\n")
+                o1.write("\n")
 
                 discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
                 discource_tree_inverse = {}
@@ -59,7 +65,7 @@ def get_sentences_from_openie_labels(input_file, output_file):
                 if partial_coordination_str == "":
                     partial_coordination_str = "NONE"
 
-                o.write(partial_coordination_str + "\n")
+                o.write(partial_coordination_str + "\n\n")
 
                 print("split_sentences are: " + str(split_sentences) +
                       ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
@@ -69,12 +75,17 @@ def get_sentences_from_openie_labels(input_file, output_file):
     if len(all_predictions) != 0:
         coords = metric.get_coords(all_predictions)
         o.write("#" + sentence + "\n")
+        o1.write(sentence + "\n")
         print("sentence is: " + sentence + "\n, coords are: " + str(coords))
         words = sentence.split()
         split_sentences, conj_words, sentences_indices = coords_to_sentences(
             coords, words)
         roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
         print("parent_mapping: " + str(parent_mapping))
+
+        for ss in split_sentences:
+            o1.write(ss + "\n")
+        o1.write("\n")
 
         discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
         discource_tree_inverse = {}
@@ -98,12 +109,14 @@ def get_sentences_from_openie_labels(input_file, output_file):
         if partial_coordination_str == "":
             partial_coordination_str = "NONE"
 
-        o.write(partial_coordination_str + "\n")
+        o.write(partial_coordination_str + "\n\n")
 
         print("split_sentences are: " + str(split_sentences) +
               ",\n conj_words are: " + str(conj_words) + ",\n sentences_indices are: " + str(sentences_indices))
 
         all_predictions = []
+    o.close()
+    o1.close()
 
 
 def get_coordination_string(sent_indices, partial_coordination_str, split_sentences):
@@ -343,40 +356,63 @@ def remove_unbreakable_conjuncts(conj, words):
         conj.pop(k)
 
 
-def get_sentences_from_tree_labels(tree_label):
-    # tree_label = "COORDINATION(\" This confusion effectively halted one form of program trading, stock index arbitrage, that has been blamed by some for the market's big swings.\" COORDINATIONAL(\" This uncertainty effectively halted another form of Program trading, Stock index arbitrag, that closely links the futures markets.\", \" This confusion essentially halted one forms of program Trading, stockindex arbitrage ) that closely ties the stock markets.\" ))"
-    # tree_label = "hello"
-    # print(tree_label)
+def get_sentences_from_tree_labels(model, tree_label):
     if tree_label == "NONE":
         return [""]
     count = tree_label.count("COORDINATION")
-    # print(tree_label)
-    # print(count)
-    if count == 2:
-        tree_label = tree_label[:-4]
-    elif count == 1:
-        tree_label = tree_label[:-3]
+    # Removing " )) from the end
+    if count >= 1:
+        tree_label = tree_label[:-(count + 2)]
+
     sentences = tree_label.split("\", \"")
     new_sentenes = []
-    for s in sentences:
-        if "\" COORDINATIONAL" in s:
-            s1 = s.split("\" COORDINATIONAL(\"")
-            for ss in s1:
-                ss = ss.replace("COORDINATION(\" ", "")
-                new_sentenes.append(ss)
-        elif "COORDINATIONAL" in s:
-            s1 = s.split("COORDINATIONAL(\"")
-            for ss in s1:
-                ss = ss.replace("COORDINATION(\" ", "")
-                new_sentenes.append(ss)
-        else:
-            s = s.replace("COORDINATION(\" ", "")
-            new_sentenes.append(s)
-    # print(new_sentenes)
+    if model == "BART":
+        for s in sentences:
+            if "\" COORDINATIONAL" in s:
+                s1 = s.split("\" COORDINATIONAL(\"")
+                for ss in s1:
+                    ss = ss.replace("COORDINATION(\" ", "")
+                    new_sentenes.append(ss)
+            elif "COORDINATIONAL" in s:
+                s1 = s.split("COORDINATIONAL(\"")
+                for ss in s1:
+                    ss = ss.replace("COORDINATION(\" ", "")
+                    new_sentenes.append(ss)
+            elif "\" COORDINATION" in s:
+                s1 = s.split("\" COORDINATION(\"")
+                for ss in s1:
+                    ss = ss.replace("COORDINATION(\" ", "")
+                    new_sentenes.append(ss)
+            elif "COORDINATION" in s:
+                s1 = s.split("COORDINATION(\"")
+                for ss in s1:
+                    ss = ss.replace("COORDINATION(\" ", "")
+                    new_sentenes.append(ss)
+            else:
+                s = s.replace("COORDINATION(\" ", "")
+                new_sentenes.append(s)
+    elif model == "T5":
+        for s in sentences:
+            if "\" COORDINATION" in s:
+                s1 = s.split("\" COORDINATION(\"")
+                for ss in s1:
+                    ss = ss.replace("COORDINATION(\" ", "")
+                    new_sentenes.append(ss)
+            elif "COORDINATION" in s:
+                s1 = s.split("COORDINATION(\"")
+                for ss in s1:
+                    ss = ss.replace("COORDINATION(\"", "")
+                    new_sentenes.append(ss)
+            else:
+                s = s.replace("COORDINATION(\" ", "")
+                new_sentenes.append(s)
+    else:
+        print("Invalid model name")
+        sys.exit(0)
     return new_sentenes
 
 
-def convert_discource_tree_to_conj(input_file, output_file):
+def convert_discource_tree_to_conj(model, input_file, output_file):
     f = open(input_file)
     o = open(output_file, "w")
     sentence = ""
@@ -386,9 +422,11 @@ def convert_discource_tree_to_conj(input_file, output_file):
             sentence = line.replace("Input: ", "")[:-1]
         elif line.startswith("Prediction: "):
             prediction = line.replace("Prediction: ", "")[:-1]
-            new_sentences = get_sentences_from_tree_labels(prediction)
+            new_sentences = get_sentences_from_tree_labels(model, prediction)
             o.write(sentence + "\n")
             for sentences in new_sentences:
+                if sentences.strip()=="":
+                    continue
                 o.write(sentences.strip() + "\n")
             o.write("\n")
     o.close()
@@ -417,9 +455,13 @@ def preprocess_input(arg1, arg2):
 
 
 if __name__ == '__main__':
-    convert_discource_tree_to_conj(
-        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.txt",
-        "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.conj")
+    if len(sys.argv) != 4:
+        print("Usage: python3 preprocess.py T5 <input_file> <output_file>")
+        exit(0)
+    convert_discource_tree_to_conj(sys.argv[1], sys.argv[2], sys.argv[3])
+    # convert_discource_tree_to_conj(
+    #     "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.txt",
+    #     "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.conj")
     # get_sentences_from_openie_labels(
     #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels",
     #  "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")

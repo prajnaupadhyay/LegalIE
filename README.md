@@ -6,6 +6,23 @@ Python 3.10 is needed to run the code.
 
 `conda activate legalIE`
 
+## Dataset
+
+Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 folders:
+
+#### 1) `gold`: This contains the gold data or the test data (terms can be interchangeably used). The same dataset is present in 4 formats:
+###### `test.coord`: in the format of coordination trees
+###### `test.conj`: in the format of split sentences
+###### `test.labels`: in the format OpenIE uses (we do not use this format)
+###### `test.txt`: in the format of plain text sentences
+
+#### 2) `input`: all input files with the appropriate formats (contains `train.coord`)
+#### 3) `output`: all output files with the appropriate formats
+
+<!---
+## Steps
+
+
 
 **Dataset1** To obtain linearized output from Graphene's tree hierarchical sentence structure, run ProcessingDisSimTree.py.
 Input: treeStructure.txt output:LinearizedTree.txt
@@ -30,5 +47,5 @@ Output: <br>
 #Seven Big Board stocks -- UAL , AMR , BankAmerica , Walt Disney , Capital Cities\/ABC , Philip Morris and Pacific Telesis Group -- stopped trading and never resumed . <br>
 COORDINATION(" Seven Big Board stocks -- UAL -- stopped trading ." , " Seven Big Board stocks -- UAL -- never resumed ." , " Seven Big Board stocks -- AMR -- stopped trading ." , " Seven Big Board stocks -- AMR -- never resumed ." , " Seven Big Board stocks -- BankAmerica -- stopped trading ." , " Seven Big Board stocks -- BankAmerica -- never resumed ." , " Seven Big Board stocks -- Walt Disney -- stopped trading ." , " Seven Big Board stocks -- Walt Disney -- never resumed ." , " Seven Big Board stocks -- Capital Cities\/ABC -- stopped trading ." , " Seven Big Board stocks -- Capital Cities\/ABC -- never resumed ." , " Seven Big Board stocks -- Philip Morris -- stopped trading ." , " Seven Big Board stocks -- Philip Morris -- never resumed ." , " Seven Big Board stocks -- Pacific Telesis Group -- stopped trading ." , " Seven Big Board stocks -- Pacific Telesis Group -- never resumed ." ) <br>
 
-
+-->
 
