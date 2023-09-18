@@ -9,7 +9,7 @@ def calculate_rouge_score(reference_file, prediction_file):
     #REfernce file 
     with open(reference_file, 'r') as file:
         for line in file:
-            if not line.startswith('#'):
+            if not line.startswith('#') and line.strip() != "":
                 if "COORDINATION(" in line:
                     line = line.replace("COORDINATION(", "")
                     line = line.replace(')', '')
@@ -69,7 +69,7 @@ if __name__ == '__main__':
     if len(sys.argv) != 3:
         print("Usage: python computeRougue.py <input_file> <output_file>")
         exit(0)
-    reference_file_path = 'data/CoordinationDataSet/test.txt'
+    reference_file_path = 'data/CoordinationDataSet/gold/test.coord'
     # prediction_file_path = '/Users/chaitrakaustubh/LegalIE/LegalIE-master/data/NewDataset/ConvertedConj.txt'
 
     # reference_file_path = sys.argv[1]

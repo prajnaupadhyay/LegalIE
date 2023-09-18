@@ -363,8 +363,10 @@ def get_sentences_from_tree_labels(model, tree_label):
     # Removing " )) from the end
     if count >= 1:
         tree_label = tree_label[:-(count + 2)]
-
-    sentences = tree_label.split("\", \"")
+    if(model == "OpenIE"):
+        sentences = tree_label.split("\" , \"")
+    else:
+        sentences = tree_label.split("\", \"")
     new_sentenes = []
     if model == "BART":
         for s in sentences:
@@ -391,7 +393,7 @@ def get_sentences_from_tree_labels(model, tree_label):
             else:
                 s = s.replace("COORDINATION(\" ", "")
                 new_sentenes.append(s)
-    elif model == "T5":
+    elif model == "T5" or model == "OpenIE":
         for s in sentences:
             if "\" COORDINATION" in s:
                 s1 = s.split("\" COORDINATION(\"")
