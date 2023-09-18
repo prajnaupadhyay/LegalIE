@@ -112,13 +112,37 @@ class wire57_scorer:
         recall = [float(intsec[i])/len(ref_set[i]) for i in range(len(intsec))]
         
         return sum(precision)/len(pred_set), sum(recall)/len(ref_set)
-           
+    
+    @classmethod
+    def matcher3(cls, ref_set, pred_set):
+        if(len(ref_set) == 0 and len(pred_set) == 0):
+            return 1.0, 1.0
+        elif(len(ref_set) == 0 or len(pred_set) == 0):
+            return 0.0, 0.0
+        intsec = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
+        precision = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
+        recall = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
+        f1_score = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
+        for i in range(len(pred_set)):
+            for j in range(len(ref_set)):
+                intsec[i][j] = len(pred_set[i].intersection(ref_set[j]))
+                precision[i][j] = float(intsec[i][j]) / len(pred_set[i])
+                recall[i][j] = float(intsec[i][j]) / len(ref_set[j])
+                if(precision[i][j] ==0 and recall[i][j]==0 ):
+                    f1_score[i][j] = 0
+                else:
+                    f1_score[i][j] = (2*precision[i][j]*recall[i][j])/(precision[i][j] + recall[i][j])
+                
+        row_ind, col_ind = linear_sum_assignment(f1_score, maximize = True)
+        
+        return (precision[row_ind, col_ind].sum())/len(pred_set), (recall[row_ind, col_ind].sum())/len(ref_set)
+                
     @classmethod
     def scorer(cls, model, ref_path, pred_path):
         ref, pred = cls.reader(model, ref_path, pred_path)
         precision, recall, f1_score, f1 = 0, 0, 0, 0
         for i in range(len(ref)):
-            p, r = cls.matcher2(ref[i], pred[i])
+            p, r = cls.matcher3(ref[i], pred[i])
             # print(p, r)
             if(p != 0 and r != 0):
                 f1 = 2*p*r/(p+r)
