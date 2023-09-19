@@ -19,21 +19,26 @@ import numpy as np
 from transformers import AutoModel
 
 # Define function to process input file
-def process_input_file(file_path):
+def process_input_file(file_path, carb):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
     data = []
     targets = []
-
-    for line in lines:
-        line = line.strip()  # Remove leading/trailing whitespace and newline characters
-        if line.startswith('#'):
-            data.append(line.replace('#', '').strip())
-        else:
-            targets.append(line.strip())
-    print(len(targets))
-    print(len(data))
+    if carb:
+        data = [line.strip() for line in lines]
+        print(len(data))
+        print("No targets given for CARB dataset")
+        targets = data
+    else:    
+        for line in lines:
+            line = line.strip()  # Remove leading/trailing whitespace and newline characters
+            if line.startswith('#'):
+                data.append(line.replace('#', '').strip())
+            else:
+                targets.append(line.strip())
+        print(len(targets))
+        print(len(data))
 
     return data, targets
 
@@ -147,7 +152,7 @@ def prepare_train(model_name):
     if model_name.upper() == 'BART':
         model = BartForConditionalGeneration.from_pretrained("facebook/bart-base").to(device)
     elif model_name.upper() == 'T5':
-        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-large").to(device)
+        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base").to(device)
     else:
         print('Please enter a valid model name')
 
@@ -168,7 +173,7 @@ def prepare_train(model_name):
     train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
 
 
-def prepare_test(model_name):
+def prepare_test(model_name, carb):
     # load saved model and tokenizer
     model = None
     if model_name.upper() == 'BART':
@@ -180,7 +185,7 @@ def prepare_test(model_name):
     # test_file_path = '/home/prajna/LegalIE/exp3/TestFinalCordinationTree.txt'
 
     test_file_path = sys.argv[4]
-    test_data, test_targets = process_input_file(test_file_path)
+    test_data, test_targets = process_input_file(test_file_path, carb)
 
     # Define your test dataset
     test_dataset = [{"source": test_data[i], "target": test_targets[i]} for i in range(len(test_data))]
@@ -201,25 +206,28 @@ if __name__ == '__main__':
     # Set up device (CPU or GPU)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if len(sys.argv) < 7:
-        print('Usage: python run.py test train.txt model_dir test.txt predictions.txt BART or T5')
+        print('Usage: python run.py test train.txt model_dir test.txt predictions.txt BART or T5 [CARB]')
         sys.exit(1)
         
     tokenizer = None
     if sys.argv[6].upper() == 'BART':
         tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
     elif sys.argv[6].upper() == 'T5':
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
     else:
         print('Wrong model name. Use BART ot T5')
         sys.exit(1)
-        
+    carb = False
+    if len(sys.argv) == 8 and sys.argv[7] == 'carb':
+        carb = True
+        print("CARB dataset")
     if sys.argv[1] == 'train-test':
         prepare_train(sys.argv[6])
-        prepare_test(sys.argv[6])
+        prepare_test(sys.argv[6], carb)
     elif sys.argv[1] == 'train':
         prepare_train(sys.argv[6])
     elif sys.argv[1] == 'test':
-        prepare_test(sys.argv[6])
+        prepare_test(sys.argv[6], carb)
     elif sys.argv[1] == 'predict':
         print('predict')
 

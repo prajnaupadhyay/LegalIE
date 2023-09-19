@@ -21,4 +21,4 @@ conda init bash
 eval "$(conda shell.bash hook)"
 conda activate /home/prajna/.conda/envs/legalIE
 cd /scratch/prajna/LegalIE/sankalp/exp1
-python /scratch/prajna/LegalIE/sankalp/exp1/run.py $1 $2 $3 $4 $5 $6
+python /scratch/prajna/LegalIE/sankalp/exp1/run.py $1 $2 $3 $4 $5 $6 $7
