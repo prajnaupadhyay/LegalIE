@@ -152,7 +152,7 @@ def prepare_train(model_name):
     if model_name.upper() == 'BART':
         model = BartForConditionalGeneration.from_pretrained("facebook/bart-base").to(device)
     elif model_name.upper() == 'T5':
-        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base").to(device)
+        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-small").to(device)
     else:
         print('Please enter a valid model name')
 
@@ -213,7 +213,7 @@ if __name__ == '__main__':
     if sys.argv[6].upper() == 'BART':
         tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
     elif sys.argv[6].upper() == 'T5':
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
     else:
         print('Wrong model name. Use BART ot T5')
         sys.exit(1)

@@ -12,6 +12,7 @@
 # sbatch job.sh test data/CoordinationDataSet/input/train.coord model_dir data/CoordinationDataSet/gold/test.coord data/CoordinationDataSet/output/Predictions_T5_base.txt T5
 # python3 Utils/wire57.py T5 data/CoordinationDataSet/gold/test_mod.coord  data/CoordinationDataSet/output/predictions/Prediction_T5_base.coord > data/CoordinationDataSet/output/evaluations/wire57_f1/Result_T5_base_wire57v2.txt
 # python3 Utils/computeRogue.py data/CoordinationDataSet/output/predictions/Prediction_T5_base.coord data/CoordinationDataSet/output/evaluations/rouge/Result_T5_base.txt
+# python3 Utils/preprocess.py T5 data/CoordinationDataSet/output/predictions/Prediction_T5_large.coord data/CoordinationDataSet/output/predictions/Prediction_T5_large.conj
 
 
 
