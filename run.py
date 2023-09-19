@@ -118,8 +118,8 @@ def test(test_dataloader, model, output_file_path, tokenizer):
         for batch in test_dataloader:
             inputs, batch_targets = batch
             inputs = {k: v.to(device) for k, v in inputs.items()}  # Move inputs to device
-            sentence_bias = {tuple(tokenizer([k], add_special_tokens = False).input_ids[0]): 10.0 for k, v in inputs.items()}
-            outputs = model.generate(input_ids=inputs["input_ids"].to(device), max_length=1000, num_beams = 4, sequence_bias = sentence_bias)  # Generate predictions
+
+            outputs = model.generate(input_ids=inputs["input_ids"].to(device), max_length=1000)  # Generate predictions
 
             # Decode the generated output and convert to text
             batch_predictions = [tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
@@ -147,7 +147,7 @@ def prepare_train(model_name):
     if model_name.upper() == 'BART':
         model = BartForConditionalGeneration.from_pretrained("facebook/bart-base").to(device)
     elif model_name.upper() == 'T5':
-        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-small").to(device)
+        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-large").to(device)
     else:
         print('Please enter a valid model name')
 
@@ -208,7 +208,7 @@ if __name__ == '__main__':
     if sys.argv[6].upper() == 'BART':
         tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
     elif sys.argv[6].upper() == 'T5':
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small", add_prefix_space=True)
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
     else:
         print('Wrong model name. Use BART ot T5')
         sys.exit(1)
