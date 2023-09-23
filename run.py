@@ -17,26 +17,31 @@ import numpy as np
 from sklearn.metrics import f1_score
 import numpy as np
 from transformers import AutoModel
+import spacy
+
+def get_PoS_tags(sentence):
+    pass
 
 # Define function to process input file
-def process_input_file(file_path, carb):
+def process_input_file(file_path, dataset = "Coord"):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
     data = []
     targets = []
-    if carb:
+    if dataset.lower() == "carb":
         data = [line.strip() for line in lines]
         print(len(data))
         print("No targets given for CARB dataset")
         targets = data
     else:    
         for line in lines:
-            line = line.strip()  # Remove leading/trailing whitespace and newline characters
-            if line.startswith('#'):
-                data.append(line.replace('#', '').strip())
-            else:
-                targets.append(line.strip())
+            line = line.strip()
+            if line.startswith('Input: '):
+                line = get_PoS_tags(line)
+                data.append(line.replace('Input: ', '').strip())
+            elif line.startswith('Prediction: '):
+                targets.append(line.replace('Prediction: ', '').strip())
         print(len(targets))
         print(len(data))
 
@@ -105,10 +110,15 @@ def train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
 
 # Define the function to write predictions to a file
 def write_predictions_to_file(file_path, inputs, predictions):
+    nlp = spacy.load("en_core_web_sm")
     with open(file_path, 'w', encoding='utf-8') as file:
         for i in range(len(inputs)):
             file.write("Input: " + inputs[i] + "\n")
-            file.write("Prediction: " + predictions[i] + "\n")
+            # predictions[i] = predictions[i].replace("..", ".")
+            # predictions[i] = predictions[i].replace(",.", ".")
+
+            doc = nlp(predictions[i])
+            file.write(" ".join([sent.text for sent in doc]) + "\n")
             # print("Prediction:", predictions[i])
             file.write("\n")
 
@@ -152,7 +162,7 @@ def prepare_train(model_name):
     if model_name.upper() == 'BART':
         model = BartForConditionalGeneration.from_pretrained("facebook/bart-base").to(device)
     elif model_name.upper() == 'T5':
-        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-small").to(device)
+        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-large").to(device)
     else:
         print('Please enter a valid model name')
 
@@ -173,7 +183,7 @@ def prepare_train(model_name):
     train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
 
 
-def prepare_test(model_name, carb):
+def prepare_test(model_name, carb = False):
     # load saved model and tokenizer
     model = None
     if model_name.upper() == 'BART':
@@ -208,26 +218,34 @@ if __name__ == '__main__':
     if len(sys.argv) < 7:
         print('Usage: python run.py test train.txt model_dir test.txt predictions.txt BART or T5 [CARB]')
         sys.exit(1)
-        
+    
+    # Choose model    
     tokenizer = None
     if sys.argv[6].upper() == 'BART':
         tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
     elif sys.argv[6].upper() == 'T5':
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
     else:
         print('Wrong model name. Use BART ot T5')
         sys.exit(1)
-    carb = False
-    if len(sys.argv) == 8 and sys.argv[7] == 'carb':
-        carb = True
-        print("CARB dataset")
+        
+    # Choose Dataset    
+    dataset = "coord"
+    if len(sys.argv) == 8 and sys.argv[7].lower() in ["coord", "subord", "carb"]:
+        dataset = sys.argv[7].lower()
+        print("Dataset: ", dataset.upper())
+    else:
+        print("Wrong Dataset")
+        sys.exit(1)
+    
+    # Choose task
     if sys.argv[1] == 'train-test':
         prepare_train(sys.argv[6])
-        prepare_test(sys.argv[6], carb)
+        prepare_test(sys.argv[6], dataset)
     elif sys.argv[1] == 'train':
         prepare_train(sys.argv[6])
     elif sys.argv[1] == 'test':
-        prepare_test(sys.argv[6], carb)
+        prepare_test(sys.argv[6], dataset)
     elif sys.argv[1] == 'predict':
         print('predict')
 

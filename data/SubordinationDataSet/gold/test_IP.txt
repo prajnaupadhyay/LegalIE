@@ -1,0 +1,776 @@
+Input: The Inter-State Migrant Workmen (Regulation of Employment and Conditions of Service) Act, 1979 was an Act of the Parliament of India enacted to regulate the condition of service of inter-state labourers in Indian labour law.
+Prediction: SUB/ELABORATION('The Inter-State Migrant Workmen -LRB- Regulation of Employment and Conditions of Service -RRB- Act were 1979 .', SUB/ELABORATION('The Inter-State Migrant Workmen -LRB- Regulation of Employment and Conditions of Service -RRB- Act was an Act of the Parliament of India .', SUB/ELABORATION('This was in Indian labour law .','India was enacted to regulate the condition of service of inter-state labourers .')))
+
+Input: Whenever an employer faces shortage of skills among the locally available workers , the interstate migrant worksmen act created provision to employ better skilled workers available outside the state .
+Prediction: SUB/CONDITION('An employer faces shortage of skills among the locally available workers .', SUB/PURPOSE('The interstate migrant worksmen act created provision .','This was to employ better skilled workers available outside the state .'))
+
+Input: The employment system of interstate migrant labour was an exploitative system prevalent more or less in all over India.
+Prediction: NONE
+
+Input: In Orissa the migrant labour (called dadan labour locally) through contractors or agents (called Sardars / Khatedars) are sent for work outside the state in large construction projects.
+Prediction: SUB/ELABORATION('This was outside the state in large construction projects .', SUB/SPATIAL('This was in Orissa .','The migrant labour -LRB- called dadan labour locally -RRB- through contractors or agents -LRB- called Sardars / Khatedars -RRB- are sent for work .'))
+
+Input: Once the worker came under clutches of the contractor he took him to a far off place on payment of railways fare only.
+Prediction: SUB/ELABORATION('The worker came under clutches of the contractor .', SUB/ELABORATION('This was to a far off place on payment of railways fare only .','He took him .'))
+
+Input: No working hours were fixed for interstate migrant workers and they had to work on all the days in a week under extremely bad working conditions.
+Prediction: CO/LIST('No working hours were fixed for interstate migrant workers .', SUB/ELABORATION('This was under extremely bad working conditions .','They had to work on all the days in a week .'))
+
+Input: The Inter-State Migrant Workmen Act was replaced by the Occupational Safety, Health and Working Conditions Code, 2020.
+Prediction: SUB/ELABORATION('Working Conditions Code were 2020 .', CO/LIST('The Inter-State Migrant Workmen Act was replaced by the Occupational Safety .','The Inter-State Migrant Workmen Act was replaced by Health .','The Inter-State Migrant Workmen Act was replaced by Working Conditions Code .'))
+
+Input: In addition to the general labour laws applicable to all workers, the interstate workers are entitled with equal or better wages for the similar nature & duration of work applicable for the local workmen or stipulated minimum wages under the Minimum Wages Act, 1948 whichever is more, displacement allowance (Section 14), home journey allowance Section 15) including payment of wages during the period of journey, suitable residential accommodation and medical facilities free of charge on mandatory basis.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(CO/DISJUNCTION('Equal were 1948 .','Better wages for the similar nature & duration of work applicable for the local workmen or stipulated minimum wages under the Minimum Wages Act were 1948 .' )SUB/ELABORATION('This is home .', SUB/ELABORATION(SUB/ELABORATION('More is displacement allowance -LRB- Section 14 -RRB- .','Displacement allowance -LRB- Section 14 -RRB- is journey allowance Section 15 .' ), '1948 is more -RRB- including payment of wages during the period of journey .' )SUB/ELABORATION('This was in addition to the general labour laws applicable to all workers .', CO/LIST('The interstate workers are entitled with equal or better wages for the similar nature & duration of work applicable for the local workmen or stipulated minimum wages under the Minimum Wages Act suitable residential accommodation .','The interstate workers are entitled with medical facilities free of charge on mandatory basis .')))))
+
+Input: In addition to the general labour laws applicable to all workers, the interstate workers are entitled with termination of employment after the contract period without any liability.
+Prediction: SUB/ELABORATION('This was after the contract period .', SUB/ELABORATION('This was without any liability .', SUB/ELABORATION('This was in addition to the general labour laws applicable to all workers .','The interstate workers are entitled with termination of employment .')))
+
+Input: In addition to the general labour laws applicable to all workers, the interstate workers are entitled with right to lodge compliant with the authorities within three months of any incident, accident, etc.
+Prediction: SUB/PURPOSE(SUB/ELABORATION('This was in addition to the general labour laws applicable to all workers .','The interstate workers are entitled with right .' ), 'This was to lodge compliant with the authorities within three months of any incident , accident , etc. .')
+
+Input: The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law that sets the minimum wages that must be paid to skilled and unskilled labours.
+Prediction: SUB/ELABORATION('The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law .', SUB/ELABORATION('Indian labour law sets the minimum wages .','The minimum wages must be paid to skilled and unskilled labours .'))
+
+Input: The Indian Constitution has defined a 'living wage' that is the level of income for a worker which will ensure a basic standard of living including good health, dignity, comfort, education and provide for any contingency.
+Prediction: SUB/ELABORATION('The Indian Constitution has defined a ` living wage ' .', SUB/ELABORATION('A ` living wage ' is the level of income for a worker .', CO/LIST('A worker will ensure a basic standard of living including good health , dignity , comfort , education .','A worker will provide for any contingency .')))
+
+Input: Fair wage is that level of wage that not just maintains a level of employment, but seeks to increase it keeping in perspective the industry's capacity to pay.
+Prediction: SUB/ELABORATION('Fair wage is that level of wage .', CO/CONTRAST('That level of wage not just maintains a level of employment .','That level of wage not just seeks to increase it keeping in perspective the industry 's capacity to pay .'))
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis,[23] and extends to the entire country and is revised within a period of not less than five years, however there is a provision to increase dearness allowance every two years.
+Prediction: CO/CONTRAST(SUB/ELABORATION('A per day basis was -lsb- 23 -RSB- .', CO/LIST(CO/LIST(SUB/ELABORATION('This is on a per day basis .','The Minimum Wages Act 1948 generally specifies minimum wage rates .' ), 'The Minimum Wages Act 1948 generally extends to the entire country .' ), 'The Minimum Wages Act 1948 is revised within a period of not less than five years .' ), 'There is a provision to increase dearness allowance every two years .'))
+
+Input: Revision of minimum wage rates is based on a 'cost of living index' and wages can be fixed for an entire state, part of the state, class or classes and employments pertaining to these categories.
+Prediction: CO/LIST('Revision of minimum wage rates is based on a ` cost of living index .', SUB/ELABORATION(CO/DISJUNCTION('An entire state was part of the state .','An entire state was part of class .','An entire state was part of classes and employments .' )SUB/ELABORATION('Wages can be fixed for an entire state .','An entire state was pertaining to these categories .')))
+
+Input: The Industrial Disputes Act, 1947 extended to the whole of India and regulated Indian labour law so far as that concerns trade unions as well as Individual workman employed in any Industry within the territory of Indian mainland.
+Prediction: SUB/ELABORATION('The Industrial Disputes Act was 1947 extended to the whole of India and regulated Indian labour law so far as that concerns trade unions as well as Individual workman .','The Industrial Disputes Act employed in any Industry within the territory of Indian mainland .')
+
+Input: The Industrial Disputes Act, 1947 was replaced by the Industrial Relations Code, 2020.
+Prediction: SUB/ELABORATION('The Industrial Disputes Act was 1947 .', SUB/ELABORATION('The Industrial Relations Code were 2020 .','The Industrial Disputes Act was replaced by the Industrial Relations Code .'))
+
+Input: Industrial Relations Code, 2020 consolidates and amends the laws relating to Trade Unions, conditions of employment in industrial establishment or undertaking, investigation and settlement of industrial disputes.
+Prediction: SUB/ELABORATION('Industrial Relations Code are 2020 .', SUB/ELABORATION('Industrial Relations Code consolidates and amends the laws .', CO/DISJUNCTION('The laws are relating to Trade Unions .','The laws are relating to conditions of employment in industrial establishment .','The laws are relating to undertaking , investigation and settlement of industrial disputes .')))
+
+Input: The Industrial Relations Code Bill, 2020 proposed for amalgamating, simplifying and rationalising the relevant provisions of three Acts namely Trade Unions Act, 1926 , Industrial Employment (Standing Orders) Act, 1946 and Industrial Disputes Act, 1947.
+Prediction: NONE
+
+Input: The Payment of Wages Act 1936 mandates the payment of wages on time on the last working day of every month via bank transfer or postal service.
+Prediction: SUB/ELABORATION(CO/DISJUNCTION('This is on the last working day of every month via bank transfer .','This is on the last working day of every month via postal service .' ), 'The Payment of Wages Act 1936 mandates the payment of wages on time .')
+
+Input: The Factories Act 1948 and the Shops and Establishment Act 1960 mandate 15 working days of fully paid vacation leave each year to each employee with an additional 7 fully paid sick days.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This was with an additional 7 fully paid .','This was to each employee .' ), 'The Factories leave each year sick days .' )CO/LIST('Act 1948 mandate 15 working days of fully paid vacation The Factories .','The Shops and Establishment Act 1960 mandate 15 working days of fully paid vacation The Factories .'))
+
+Input: The Maternity Benefit (Amendment) Act, 2017 gives female employees of every company the right to take 6 months' worth of fully paid maternity leave.
+Prediction: SUB/ELABORATION('This was 2017 .','The Maternity Benefit -LRB- Amendment -RRB- Act gives female employees of every company the right to take 6 months ' worth of fully paid maternity leave .')
+
+Input: The Maternity Benefit (Amendment) Act, 2017 provides for 6 weeks worth of paid leaves in case of miscarriage or medical termination of pregnancy.
+Prediction: SUB/ELABORATION('This was 2017 .', CO/DISJUNCTION('The Maternity Benefit -LRB- Amendment -RRB- Act provides for 6 weeks worth of paid leaves in case of miscarriage .','The Maternity Benefit -LRB- Amendment -RRB- Act provides for 6 weeks worth of paid leaves in medical termination of pregnancy .'))
+
+Input: The Employees' Provident Fund Organisation and the Employees' State Insurance, governed by statutory acts provide workers with necessary social security for retirement benefits and medical and unemployment benefits respectively.
+Prediction: CO/LIST(SUB/ELABORATION('This is with necessary social security for retirement benefits .', CO/LIST('The Employees ' Provident Fund Organisation , governed by statutory acts provide workers .','The Employees ' State Insurance , governed by statutory acts provide workers .' ), 'The Employees ' Provident Fund Organisation and the Employees ' State Insurance , medical and unemployment benefits respectively .'))
+
+Input: Workers entitled to be covered under the Employees' State Insurance (those making less than Rs 21000/month) are also entitled to 90 days worth of paid medical leaves.
+Prediction: NONE
+
+Input: A contract of employment can always provide for more rights than the statutory minimum set rights
+Prediction: NONE
+
+Input: Gratuity is payable to the employee if he or she resigns or retires.
+Prediction: SUB/CONDITION('Gratuity is payable to the employee .', CO/DISJUNCTION('He or she resigns .','He or she retires .'))
+
+Input: The Indian government mandates that the gratuity payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of ₹ 2000000.
+Prediction: SUB/ELABORATION('The Indian government mandates .','The gratuity payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of 2000000 .')
+
+Input: The Payment of Gratuity Act, 1972 is an Indian law that makes companies pay a one-time gratuity to retired employees or an employee who resigns after a minimum of 5 years of service.
+Prediction: SUB/ELABORATION('Gratuity Act is 1972 .', SUB/ELABORATION(SUB/ELABORATION(CO/DISJUNCTION('The Payment of Gratuity Act is an Indian law .','The Payment of Gratuity Act is an employee .' ), 'An employee resigns after a minimum of 5 years of service .' )SUB/ELABORATION('This is to retired employees .','An Indian law makes companies pay a one-time gratuity .')))
+
+Input: A workman who has been employed for over a year can only be dismissed if permission is sought from and granted by the appropriate government office.
+Prediction: SUB/ATTRIBUTION('This was what a workman who has been employed for over a year can only be dismissed .','If permission is sought from and granted by the appropriate government office .')
+
+Input: To acquire status as a CTUO , a trade union federation must have a verified membership of at least 500,000 workers who are spread over a minimum of four states and four industries ( including agriculture ) .
+Prediction: SUB/PURPOSE('This was to acquire status as a CTUO .', SUB/ELABORATION('A trade union federation must have a verified membership of at least 500,000 workers .', CO/LIST('A verified membership of at least 500,000 workers are spread over a minimum of four states -LRB- including agriculture -RRB- .','A verified membership of at least 500,000 workers are spread over a minimum of four industries -LRB- including agriculture -RRB- .')))
+
+Input: The compact committee which was constituted in February 1977 , recommended the enactment of a separate central legislation to regulate the employment of interstate migrant workers as it was felt the provisions of the Contract Labour ( Regulation and Abolition ) Act 1970 , [ 1 ] even after necessary amendments would not adequately take care of the variety of malpractices indulged in by the principal employers/contractors/Sardars/Khatedars etc .
+Prediction: SUB/PURPOSE(SUB/ELABORATION('The compact committee , recommended the enactment of a separate central legislation .','The compact committee was constituted in February 1977 .' ), 'This was to regulate the employment of interstate migrant workers as it was felt the provisions of the Contract Labour -LRB- Regulation and Abolition -RRB- Act 1970 , -LSB- 1 -RSB- even after necessary amendments would not adequately take care of the variety of malpractices indulged in by the principal employers/contractors/Sardars / Khatedars etc .')
+
+Input: The 42nd Amendment also amended Preamble and changed the description of India from `` sovereign democratic republic ',' to a `` sovereign , socialist secular democratic republic ',' , and also changed the words `` unity of the nation ',' to `` unity and integrity of the nation ',' .
+Prediction: CO/LIST('The 42nd Amendment also amended Preamble .', SUB/ELABORATION('This was from `` sovereign democratic republic ',' .','The 42nd Amendment also changed the description of India to a `` sovereign , socialist secular democratic republic ',' .' ), 'The 42nd Amendment also also changed the words `` unity of the nation ',' to `` unity and integrity of the nation ',' .')
+
+Input: The 42nd Amendment provides for curtailment of fundamental rights, imposes fundamental duties and changes to the basic structure of the constitution.
+Prediction: NONE
+
+Input: The 42nd amendment transferred more power from the state governments to the central government, eroding India's federal structure.
+Prediction: CO/LIST(SUB/ELABORATION('This was from the state governments .', SUB/ELABORATION('This was to the central government .','The 42nd amendment transferred more power .' ), 'The 42nd amendment was eroding India 's federal structure .'))
+
+Input: The 42nd Amendment gives Parliament unrestrained power to amend any parts of the Constitution, without judicial review.
+Prediction: SUB/ELABORATION('This is without judicial review .', SUB/PURPOSE('The 42nd Amendment gives Parliament unrestrained power .','This is to amend any parts of the Constitution .'))
+
+Input: Another purpose of 42nd Amendment was to make any law passed in pursuance of a Directive Principle immune from scrutiny by the Supreme Court.
+Prediction: NONE
+
+Input: On 31 July 1980 , in its judgement on Minerva Mills v. Union of India , the Supreme Court declared two provisions of the 42nd Amendment as unconstitutional which prevent any constitutional amendment from being `` called in question in any Court on any ground ',' and accord precedence to the Directive Principles of State Policy over the Fundamental Rights of individuals respectively.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This was as unconstitutional .', SUB/ELABORATION('This was on 31 .', SUB/SPATIAL('This was in its judgement on Minerva Mills v. Union of India .','July 1980 the Supreme Court declared two provisions of the 42nd Amendment .' )CO/LIST(SUB/ELABORATION('This is from .','Two provisions of the 42nd Amendment as unconstitutional prevent any constitutional amendment .' )SUB/ELABORATION('This was on any ground ',' and accord precedence to the Directive Principles of State Policy over the Fundamental Rights of individuals respectively .','Two provisions of the 42nd Amendment as unconstitutional were being `` called in question in any Court .')))))
+
+Input: The Code on Wages Bill was introduced in the Lok Sabha on 10 August 2017 by the Minister of State for Labour and Employment ( Independent Charge ) , Santosh Gangwar.
+Prediction: SUB/ELABORATION('Bill was The Code on Wages .', SUB/ELABORATION(', Santosh Gangwar was State for Labour and Employment -LRB- Independent Charge -RRB- .','Bill was introduced in the Lok Sabha on 10 August 2017 by the Minister of State for Labour and Employment -LRB- Independent Charge -RRB- .'))
+
+Input: If an individual feels that he/she is being paid less than the minimum wages specified for his region/sector/occupation, or is not paid for a duration of work, a complaint can be made to the appointed authority.
+Prediction: SUB/CONDITION(SUB/ATTRIBUTION('This is what an individual feels .', CO/DISJUNCTION(SUB/ELABORATION('He/she is being paid less than the minimum wages .','The minimum wages were specified for his region/sector/occupation .' ), 'He/she is not paid for a duration of work .' ), 'A complaint can be made to the appointed authority .'))
+
+Input: While fixing hours for a normal working day as per the minimum wage act should make sure the number of hours that are to be fixed for a normal working day should have one or more intervals/breaks included.
+Prediction: SUB/ELABORATION(CO/CONTRAST('Fixing hours for a normal working day as per the minimum wage act should make sure .','The number of hours should have one or more intervals/breaks included .' ), 'Hours are to be fixed for a normal working day .')
+
+Input: While fixing hours for a normal working day as per the minimum wage act should make sure at least one day off from an entire week should be given to the employee for rest.
+Prediction: NONE
+
+Input: While fixing hours for a normal working day as per the minimum wage act should make sure Payment for the day decided to be given for rest should be paid at a rate not less than the overtime rate.
+Prediction: SUB/ELABORATION('This was than the overtime rate .', SUB/ELABORATION('While fixing hours for a normal working day as per the minimum wage act should make sure Payment for the day should be paid at a rate not less .','The day was decided to be given for rest .'))
+
+Input: If an employee is involved in work that categorises his service in two or more scheduled employments, the employee's wage will include respective wage rate of all work for the number of hours dedicated at each task.
+Prediction: SUB/CONDITION(SUB/ELABORATION('An employee is involved in work .', SUB/ELABORATION('This was in two or more scheduled employments .','Work categorises his service .' )SUB/ELABORATION(SUB/ELABORATION('This was for the number of hours .','Hours were dedicated at each task .' ), 'The employee 's wage will include respective wage rate of all work .')))
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis,and extends to the entire country and is revised within a period of not less than five years, however there is a provision to increase dearness allowance every two years.
+Prediction: CO/CONTRAST(CO/LIST(SUB/ELABORATION('This is on a per day basis .','The Minimum Wages Act 1948 generally specifies minimum wage rates .' )CO/LIST('The Minimum Wages Act 1948 generally extends to the entire country .','The Minimum Wages Act 1948 generally is revised within a period of not less than five years .' ), 'There is a provision to increase dearness allowance every two years .'))
+
+Input: Employees' State Insurance Corporation (abbreviated as ESIC) is one of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment, Government of India, the other being the Employees' Provident Fund Organisation.
+Prediction: SUB/ELABORATION('One of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment are Government of India .','Employees ' State Insurance Corporation -LRB- abbreviated as ESIC -RRB- is one of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment the other being the Employees ' Provident Fund Organisation .')
+
+Input: The promulgation of Employees ' State Insurance Act , 1948 envisaged an integrated need based social insurance scheme that would protect the interest of workers in contingencies such as sickness , maternity , temporary or permanent physical disablement , death due to employment injury resulting in loss of wages or earning capacity.
+Prediction: SUB/ELABORATION('Employees ' State Insurance Act was 1948 .', SUB/ELABORATION(SUB/ELABORATION(', Sickness were maternity , temporary or permanent physical disablement .', SUB/ELABORATION(', Sickness was death due to employment injury .', CO/DISJUNCTION('Employment injury was resulting in loss of wages .','Employment injury was resulting in loss of earning capacity .' )SUB/ELABORATION(SUB/ELABORATION('The promulgation of Employees ' State Insurance Act envisaged an integrated need .','An integrated need was based social insurance scheme .' ), ', Social insurance scheme would protect the interest of workers in contingencies such as sickness , maternity , temporary or permanent physical disablement .')))))
+
+Input: The ESI act was initially intended for factory workers but later became applicable to all establishments having 10 or more workers.
+Prediction: CO/CONTRAST('The ESI act was initially intended for factory workers .', SUB/ELABORATION('The ESI act became applicable to all establishments .','All establishments were having 10 or more workers .'))
+
+Input: Six benefits are envisaged to ESI subscribers are Medical benefit, Sickness benefit, Maternity benefit, Disablement benefit, Dependants benefit and funeral expenses.
+Prediction: CO/LIST(', Six benefits are envisaged to ESI subscribers are Medical benefit .',', Six benefits are envisaged to ESI subscribers are Sickness benefit .',', Six benefits are envisaged to ESI subscribers are Maternity benefit .',', Six benefits are envisaged to ESI subscribers are Disablement benefit .',', Six benefits are envisaged to ESI subscribers are Dependants benefit .',', Six benefits are envisaged to ESI subscribers are funeral expenses .')
+
+Input: It was held by the Supreme Court of India in Indian Hume Pipe Co Ltd v Its Workmen that the general principle underlying a gratuity scheme is that by service over a long period the employee is entitled to claim a certain amount as a retirement benefit.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This was in Indian Hume Pipe Co Ltd .','Indian Hume Pipe Co Ltd was v Its Workmen .' )SUB/ELABORATION('The general principle underlying a gratuity scheme is .', SUB/ELABORATION('This was as a retirement benefit .', SUB/ELABORATION('This was by service over a long period .','The employee is entitled to claim a certain amount .' ), 'It was held by the Supreme Court of India .'))))
+
+Input: Unorganised sector, also known as own account enterprises, refers to all unlicensed, self-employed or unregistered economic activity such as owner manned general stores, handicrafts and handloom workers, rural traders, farmers, etc.
+Prediction: NONE
+
+Input: Even though unorganised sector accounted for over 94 percent of workers, India's unorganised sector created just 57 percent of India's national domestic product in 2006, or about nine fold less per worker than the organised sector.
+Prediction: CO/CONTRAST('Unorganised sector accounted for over 94 percent of workers .', SUB/ELABORATION('India 's unorganised sector created .', SUB/ELABORATION('This is than the organised sector .','Just 57 percent of India 's national domestic product in 2006 , or about nine fold less per worker .')))
+
+Input: The state of Kerala at 9,800 trade unions had the highest number of registered unions, but only few filed income and expenditure reports with the government of India.
+Prediction: CO/CONTRAST('The state of Kerala at 9,800 trade unions had the highest number of registered unions .', SUB/SPATIAL('This was with the government of India .','Only few filed income and expenditure reports .'))
+
+Input: Migrant workers are typically employed for remuneration in cash or kind, in any household through any agency or directly, to do the household work, but do not include any member of the family of an employer.
+Prediction: CO/CONTRAST(SUB/PURPOSE(SUB/ELABORATION('This was in cash or kind .', SUB/ELABORATION('This was in any household through any agency or directly .','Migrant workers are typically employed for remuneration .' ), 'This was to do the household work .' ), 'Migrant workers do not include any member of the family of an employer .'))
+
+Input: Article 24 of India's constitution prohibits child labour, but only in factories, mines or hazardous employment.
+Prediction: CO/DISJUNCTION('Article 24 of India 's constitution prohibits child labour , but only in factories .','Article 24 of India 's constitution prohibits child labour , but only in mines .','Article 24 of India 's constitution prohibits child labour , but only in hazardous employment .')
+
+Input: India has a new code to simplify law on minimum wages – but it doesn't give workers any real benefit.
+Prediction: CO/CONTRAST('India has a new code to simplify law on minimum wages .','It does n't give workers any real benefit .')
+
+Input: Poverty rates are reported to be significantly higher in families where all working age members have only worked the unorganised sector throughout their lives.
+Prediction: NONE
+
+Input: India has two broad groups of migrant labourers - one that migrates to temporarily work overseas, and another that migrates domestically on a seasonal and work available basis.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(CO/LIST('India has two broad groups of migrant labourers - one .','India has two broad groups of migrant labourers - another .' )CO/LIST('Another migrates domestically on a seasonal .','Another migrates domestically on work available basis .' ), 'One migrates to temporarily work overseas .'))
+
+Input: Despite importance of migrant labour and despite many of migrant labours praising the state for its welfare schemes and environment, they are often ignored in comparison and suffer from comparatively poor living conditions .
+Prediction: CO/LIST(SUB/ELABORATION(SUB/ELABORATION('This was despite importance of migrant labour and despite many of migrant labours .','Migrant labours were praising the state for its welfare schemes and environment .' ), 'They are often ignored in comparison .' )SUB/ELABORATION(SUB/ELABORATION('This is despite importance of migrant labour and despite many of migrant labours .','Migrant labours are praising the state for its welfare schemes and environment .' ), 'They suffer from comparatively poor living conditions .'))
+
+Input: Bonded labour is a forced relationship between an employer and an employee, where the compulsion is derived from outstanding debt.
+Prediction: SUB/SPATIAL(CO/LIST('Bonded labour is a forced relationship between an employer .','Bonded labour is a forced relationship between an employee .' ), 'The compulsion is derived from outstanding debt .')
+
+Input: Although the Industrial Dispute Act does not prohibit layoffs and retrenchments, it does require[96] entrepreneurs and companies to get the permission from government officials to fire an employee for absenteeism, retrench employees for economic reasons, or to close an economically nonviable company.
+Prediction: SUB/ELABORATION('Absenteeism is retrench employees for economic reasons .', CO/CONTRAST('The Industrial Dispute Act does not prohibit layoffs and retrenchments .', SUB/PURPOSE('It does require -LSB- 96 -RSB- entrepreneurs and companies .','This is to get the permission from government officials to fire an employee for absenteeism or to close an economically nonviable company .')))
+
+Input: As per the Child and Adolescent Labour (Prohibition and Regulation) Act, 1986, amended in 2016 ("CLPR Act"), a "Child" is defined as any person below the age of 14, and the CLPR Act prohibits employment of a Child in any employment including as a domestic help.
+Prediction: CO/LIST(SUB/ELABORATION('Adolescent Labour -LRB- Prohibition and Regulation -RRB- Act were 1986 .', SUB/ELABORATION(CO/LIST('The Child amended in 2016 -LRB- `` CLPR Act ',' -RRB- .','Adolescent Labour -LRB- Prohibition and Regulation -RRB- Act amended in 2016 -LRB- `` CLPR Act ',' -RRB- .' )SUB/ELABORATION('This was below the age of 14 .','A `` Child ',' is defined as any person .' )SUB/ELABORATION('Adolescent Labour -LRB- Prohibition and Regulation -RRB- Act are 1986 .', SUB/ELABORATION(CO/LIST('The Child amended in 2016 -LRB- `` CLPR Act ',' -RRB- .','Adolescent Labour -LRB- Prohibition and Regulation -RRB- Act amended in 2016 -LRB- `` CLPR Act ',' -RRB- .' )SUB/ELABORATION('This is including as a domestic help .','The CLPR Act prohibits employment of a Child in any employment .'))))))
+
+Input: Some child rights activists argue that child labour must include every child who is not in school because he or she is a hidden child worker.
+Prediction: SUB/ATTRIBUTION('This is what some child rights activists argue .', SUB/ELABORATION(', Child labour must include every child .', SUB/CAUSE('Every child is not in school .','He or she is a hidden child worker .')))
+
+Input: Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation.
+Prediction: SUB/TEMPORAL('Gratuity shall be payable to an employee on termination of employment .', SUB/ELABORATION('This was for not less than five years in a single organisation .','He has rendered continuous service .'))
+
+Input: The unpaid gratuity amount is seized by government which is further used in holiday , vacations , parties and other fun related activities.
+Prediction: SUB/ELABORATION('The unpaid gratuity amount is seized by government .', CO/LIST('Government is further used in holiday .','Government is further used in vacations .','Government is further used in parties .','Government is further used in other fun related activities .'))
+
+Input: The Gratuity law applies to all companies of at least 20 employees.
+Prediction: NONE
+
+Input: The Payment of Gratuity Act does not applies to apprentices and persons who hold civil posts under the Central Government or State Governments and are subjected to any other act or rule other than this act.
+Prediction: CO/DISJUNCTION(SUB/ELABORATION('The Payment of Gratuity Act does not applies to apprentices and persons .', CO/LIST(SUB/ELABORATION('This is under the Central Government or State Governments .','Apprentices and persons hold civil posts .' ), 'Apprentices and persons are subjected to any other act .' ), 'The Payment of Gratuity Act does not rule other than this act .'))
+
+Input: An employee joining the central or state services prior to 1 January 2004 would receive pension payments as lifetime income security from the time of retirement (at age 58, in most cases) until death .
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is in most cases .','This is as lifetime income security from the time of retirement -LRB- at age 58 -RRB- .' )SUB/ELABORATION('This is until death .','An employee joining the central or state services prior to 1 January 2004 would receive pension payments .'))
+
+Input: Defined Benefit (DB) scheme like OPS is a type in which the beneficiary pension is based on a defined formula which may have a percentage of salary or a percentage of salary times the years of service or a flat rate per year of service as its parameters .
+Prediction: SUB/ELABORATION('Defined Benefit -LRB- DB -RRB- scheme like OPS is a type in which the beneficiary pension is based on a defined formula .', SUB/ELABORATION('This is as its parameters .', CO/DISJUNCTION('A defined formula may have a percentage of salary .','A defined formula may have a percentage of salary times the years of service or a flat rate per year of service .')))
+
+Input: Defined Contribution (DC) scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service and the receivable pension is based on the balance in his pension fund at the time of his retirement.
+Prediction: SUB/ELABORATION('Defined Contribution -LRB- DC -RRB- scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service and the receivable pension .', SUB/ELABORATION('This was at the time of his retirement the receivable pension .','Is based on the balance in his pension fund .'))
+
+Input: Since pension is both a reward for continuous service till the formal age of retirement as well as a form social security in old age, India favored a restructured pension ensuring a balance between retirement benefit of the government employees and the financial burden on the economy by moving from DB scheme to DC scheme.
+Prediction: SUB/CAUSE(SUB/ELABORATION('This is for continuous service .', SUB/ELABORATION('This is till the formal age of retirement as well as a form social security in old age .','Pension is both a reward .' )SUB/ELABORATION('India favored a restructured pension .', CO/LIST(SUB/ELABORATION('This was by .', CO/LIST('A restructured pension was ensuring a balance between retirement benefit of the government employees .','A restructured pension was ensuring a balance between the financial burden on the economy .' )SUB/ELABORATION('This was to DC scheme .','A restructured pension was moving from DB scheme .'))))))
+
+Input: A major portion of outgo in government revenue is paid as pension benefits to its retired employees and hence considered as economic liability with potential to adversely impact the "fiscal soundness of the Government entities" .
+Prediction: CO/LIST(SUB/ELABORATION('This was to its retired employees .','A major portion of outgo in government revenue is paid as pension benefits .' )SUB/PURPOSE(SUB/ELABORATION('This was with potential .','A major portion of outgo in government revenue is hence considered as economic liability .' ), 'This was to adversely impact the `` fiscal soundness of the Government entities ',' .'))
+
+Input: The bill for the Constitution (Forty-second Amendment) Act, 1976 was introduced in the Lok Sabha on 1 September 1976, as the Constitution (Forty-Second Amendment) Bill, 1976 (Bill No.91 of 1976).
+Prediction: SUB/ELABORATION('The bill for the Constitution -LRB- Forty-second Amendment -RRB- Act was 1976 .', SUB/ELABORATION('This was as the Constitution -LRB- Forty-Second Amendment -RRB- Bill .','The bill for the Constitution -LRB- Forty-second Amendment -RRB- Act was introduced in the Lok Sabha on 1 September 1976 1976 -LRB- Bill No. 91 of 1976 -RRB- .'))
+
+Input: The 42nd Amendment changed the description of India from a "sovereign democratic republic" to a "sovereign, socialist secular democratic republic", and also changed the words "unity of the nation" to "unity and integrity of the nation".
+Prediction: CO/LIST(SUB/ELABORATION('This was from a `` sovereign democratic republic ',' to a `` sovereign , socialist secular democratic republic ',' .','The 42nd Amendment changed the description of India .' ), 'The 42nd Amendment also changed the words `` unity of the nation ',' to `` unity and integrity of the nation ',' .')
+
+Input: The promulgation of Employees ' State Insurance Act , 1948 envisaged an integrated need based social insurance scheme that would protect the interest of workers in contingencies such as sickness , maternity , temporary or permanent physical disablement , death due to employment injury resulting in loss of wages or earning capacity .
+Prediction: SUB/ELABORATION('Employees ' State Insurance Act was 1948 .', SUB/ELABORATION(SUB/ELABORATION(', Sickness were maternity , temporary or permanent physical disablement .', SUB/ELABORATION(', Sickness was death due to employment injury .', CO/DISJUNCTION('Employment injury was resulting in loss of wages .','Employment injury was resulting in loss of earning capacity .' )SUB/ELABORATION(SUB/ELABORATION('The promulgation of Employees ' State Insurance Act envisaged an integrated need .','An integrated need was based social insurance scheme .' ), ', Social insurance scheme would protect the interest of workers in contingencies such as sickness , maternity , temporary or permanent physical disablement .')))))
+
+Input: For all employees earning ₹21,000 ( US $ 280 ) or less per month as wages , the employer contributes 3.25 % and the employee contributes 0.75 % , total share 4 % .
+Prediction: NONE
+
+Input: This fund is managed by the ESI Corporation ( ESIC ) according to rules and regulations stipulated there in the ESI Act 1948 , which oversees the provision of medical and cash benefits to the employees and their family .
+Prediction: NONE
+
+Input: The 42nd amendment, officially known as The Constitution (Forty-second amendment) Act, 1976, was enacted during the Emergency (25 June 1975 – 21 March 1977) by the Indian National Congress government headed by Indira Gandhi.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This was by the Indian National Congress government .','The Indian National Congress government was headed by Indira Gandhi .' ), 'The 42nd amendment 1976 , was enacted during the Emergency -LRB- 25 June 1975 -- 21 March 1977 -RRB- .' ), 'The 42nd amendment was officially known as The Constitution -LRB- Forty-second amendment -RRB- Act .')
+
+Input: The Caste Disabilities Removal Act , 1850 , was a law passed in British India under East India Company rule , that abolished all laws affecting the rights of people converting to another religion or caste .
+Prediction: SUB/ELABORATION(SUB/ELABORATION('The Caste Disabilities Removal Act was 1850 .', SUB/ELABORATION('The Caste Disabilities Removal Act was a law .','A law was passed in British India under East India Company rule .' )CO/LIST('East India Company rule abolished all laws .', SUB/ELABORATION('East India Company rule was affecting the rights of people .','People were converting to another religion or caste .'))))
+
+Input: The Caste Disabilities Removal Act, 1850 is enacted as follows: — So much of any law or usage now in force within the territories subject to the government of the East India Company as inflicts on any person forfeiture of rights or property, or may be held in any way to impair or affect any right of inheritance, by reason of his or her renouncing, or having been excluded from the communion of, any religion, or being deprived of caste, shall cease to be enforced as law in the Courts of the East India Company, and in the Courts established by Royal Charter within the said territories.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This was in the Courts of the East India Company , and in the Courts .','The Courts were established by Royal Charter within the said territories .' )SUB/ELABORATION('This was by reason of his or her renouncing .','The Caste Disabilities Removal Act , 1850 is enacted as follows : -- So much of any law or usage now in force within the territories subject to the government of the East India Company as inflicts on any person forfeiture of rights or property , or may be held in any way to impair or affect any right of inheritance , or having been excluded from the communion of , any religion , or being deprived of caste , shall cease to be enforced as law .'))
+
+Input: The new Caste Disabilities Removal Act allowed hindus who converted from Hindu religion to another religion equal rights under new law, especially in the case of inheritance.
+Prediction: SUB/ELABORATION('The new Caste Disabilities Removal Act allowed hindus .', SUB/ELABORATION(SUB/ELABORATION('This is especially .','This is under new law in the case of inheritance .' )SUB/ELABORATION('This was to another religion equal rights .','Hindus converted from Hindu religion .')))
+
+Input: Children between age of 14 and 18 are defined as `` Adolescent ',' and the law allows Adolescent to be employed except in the listed hazardous occupation and processes which include mining , inflammable substance and explosives related work and any other hazardous process as per the Factories Act , 1948 .
+Prediction: CO/LIST(', Children between age of 14 and 18 are defined as `` Adolescent ',' .', SUB/ELABORATION('The Factories Act was 1948 .', SUB/ELABORATION(CO/LIST('The law allows Adolescent to be employed except in the listed hazardous occupation and processes .','The law allows Adolescent to be employed except in inflammable substance and explosives related work .','The law allows Adolescent to be employed except in any other hazardous process as per the Factories Act .' ), 'Processes include mining .')))
+
+Input: The Constitution of India prohibits child labour in hazardous industries ( but not in non-hazardous industries ) as a Fundamental Right under Article 24 .
+Prediction: SUB/ELABORATION('This is as a Fundamental Right under Article 24 .','The Constitution of India prohibits child labour in hazardous industries -LRB- but not in non-hazardous industries -RRB- .')
+
+Input: UNICEF estimates that India with its larger population , has the highest number of labourers in the world under 14 years of age , while sub-Saharan African countries have the highest percentage of children who are deployed as child labourers .
+Prediction: SUB/ATTRIBUTION('This is what UNICEF estimates .', CO/CONTRAST('India with its larger population , has the highest number of labourers in the world under 14 years of age .', SUB/ELABORATION(', Sub-Saharan African countries have the highest percentage of children .',', Children are deployed as child labourers .')))
+
+Input: The International Labour Organization estimates that agriculture , at 60 percent , is the largest employer of child labour in the world , [ 10 ] while the United Nations Food and Agriculture Organization estimates 70 % of child labour is deployed in agriculture and related activities .
+Prediction: SUB/ELABORATION(CO/LIST('-LSB- 10 -RSB- while the United Nations Food and Agriculture Organization estimates 70 % of child labour is deployed in agriculture were the world .','Related activities were the world .' )SUB/ATTRIBUTION('This is what the International Labour Organization estimates .', SUB/ELABORATION('This is at 60 percent .','Agriculture is the largest employer of child labour in the world .')))
+
+Input: Outside of agriculture , child labour is observed in almost all informal sectors of the Indian economy .
+Prediction: SUB/ELABORATION('This was outside of agriculture .',', Child labour is observed in almost all informal sectors of the Indian economy .')
+
+Input: The companies claim they have strict policies against selling products made by underage children for their own profit , but there are many links in a supply chain making it difficult to oversee them all .
+Prediction: CO/CONTRAST(SUB/ATTRIBUTION('This is what the companies claim .', SUB/ELABORATION('They have strict policies against selling products .',', Selling products were made by underage children for their own profit .' )SUB/ELABORATION('There are many links in a supply chain .','A supply chain is making it difficult to oversee them all .')))
+
+Input: A child, suggests UNICEF, is involved in child labour activities if between 5 and 11 years of age, he or she did at least one hour of economic activity or at least 28 hours of domestic work in a week, and in case of children between 12 and 14 years of age, he or she did at least 14 hours of economic activity or at least 42 hours of economic activity and domestic work per week.
+Prediction: SUB/ELABORATION(', Suggests UNICEF was a child .', SUB/ELABORATION(CO/DISJUNCTION('Between 5 and 11 years of age were he .','Between 5 and 11 years of age were she .' )CO/LIST(SUB/CONDITION('A child is involved in child labour activities .', SUB/ELABORATION('This was in a week .', CO/DISJUNCTION('Between 5 and 11 years of age did at least one hour of economic activity .','Between 5 and 11 years of age did at least 28 hours of domestic work .' )SUB/ELABORATION('This was in case of children between 12 and 14 years of age .', CO/DISJUNCTION('He or she did at least 14 hours of economic activity .','He or she did at least 42 hours of economic activity and domestic work per week .')))))))
+
+Input: A `` Child ',' is defined as any person below the age of 14 and the CLPR Act prohibits employment of a Child in any employment including as a domestic help ( except helping own family in non-hazardous occupations ) .
+Prediction: CO/LIST(SUB/ELABORATION('This was below the age of 14 .','A `` Child ',' is defined as any person .' )SUB/ELABORATION('This is including as a domestic help -LRB- except helping own family in non-hazardous occupations -RRB- .','The CLPR Act prohibits employment of a Child in any employment .'))
+
+Input: The term 'child labour', suggests ILO, is best defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.
+Prediction: CO/LIST(SUB/ELABORATION('The term ` child labour ' was suggests ILO .', SUB/ELABORATION('The term ` child labour ' is best defined as work .', CO/LIST('Work deprives children of their childhood .','Work deprives children of their potential .','Work deprives children of their dignity .' ), 'That is harmful to physical and mental development .')))
+
+Input: In terms of the physical condition of children, children are not ready for long monotonous work because they become exhausted more quickly than adults.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is in terms of the physical condition of children .',', Children are not ready .' )SUB/CAUSE('Long monotonous work .','They become exhausted more quickly than adults .'))
+
+Input: Children who work, instead of going to school, will remain illiterate which limits their ability to contribute to their own well being as well as to the community they live in.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This is instead of going to school .',', Children will remain illiterate .' )SUB/ELABORATION('Illiterate limits their ability to contribute to their own well being as well as to the community .','They live in the community .' ), ', Children work .'))
+
+Input: Child labour in India are employed with the majority (70%) in agriculture some in low-skilled labour-intensive sectors such as sari weaving or as domestic helpers, which require neither formal education nor training, but some in heavy industry such as coal mining.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(', Child labour in India are employed with the majority -LRB- 70 % -RRB- in agriculture some in low-skilled labour-intensive sectors such as sari .',', Sari were weaving or as domestic helpers .' ), 'Domestic helpers require neither formal education nor training , but some in heavy industry such as coal mining .')
+
+Input: Without education, children do not gain the necessary skills such as English literacy and technical aptitude that will increase their productivity to enable them to secure higher-skilled jobs in future with higher wages that will lift them out of poverty.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is without education .', CO/LIST(', Children do not gain the necessary skills such as English literacy .',', Children do not gain the necessary skills such as technical aptitude .' )SUB/ELABORATION('The necessary skills such as English literacy and technical aptitude will increase their productivity to enable them to secure higher-skilled jobs in future with higher wages .','Higher wages will lift them out of poverty .')))
+
+Input: A large number of brick kilns around Bangalore and Hosur employ bonded and child labour, under the pretext of offering high wages.
+Prediction: SUB/ELABORATION('This is under the pretext of offering high wages .','A large number of brick kilns around Bangalore and Hosur employ bonded and child labour .')
+
+Input: Unorganised Workers' Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security and welfare of the unorganised workers(meaning home-based workers, self-employed workers or daily-wage workers).
+Prediction: SUB/ELABORATION(CO/DISJUNCTION('Unorganised Workers ' Social Security Act 2008 was an Act of the Parliament of India -LRB- meaning home-based workers -RRB- .','Unorganised Workers ' Social Security Act 2008 was an Act of the Parliament of India -LRB- meaning self-employed workers -RRB- .','Unorganised Workers ' Social Security Act 2008 was an Act of the Parliament of India -LRB- meaning daily-wage workers -RRB- .' )CO/DISJUNCTION('An Act of the Parliament of India was enacted to provide for the social security and welfare of the unorganised workers -LRB- meaning home-based workers -RRB- .','An Act of the Parliament of India was enacted to provide for the social security and welfare of the unorganised workers -LRB- meaning self-employed workers -RRB- .','An Act of the Parliament of India was enacted to provide for the social security and welfare of the unorganised workers -LRB- meaning daily-wage workers -RRB- .'))
+
+Input: In Maharashtra the mathadis are organised under a welfare board, set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers (Regulation of Employment and Welfare) Act 1969.
+Prediction: NONE
+
+Input: The Occupational Safety, Health And Working Conditions Code, 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment.
+Prediction: SUB/ELABORATION('The Occupational Safety was Health And Working Conditions Code .', SUB/ELABORATION('The Occupational Safety 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons .','The persons were employed in an establishment .'))
+
+Input: The Code on Social Security, 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors.
+Prediction: SUB/ELABORATION(', Social Security is 2020 .', CO/DISJUNCTION('The Code on Social Security is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised .','The Code on Social Security is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in any other sectors .'))
+
+Input: The Social Security Code, 2020 brings unorganised sector, gig workers and platform workers under the ambit of social security schemes, including life insurance and disability insurance, health and maternity benefits, provident insurance, pension and skill upgradation, etc.
+Prediction: SUB/ELABORATION('The Social Security Code is 2020 .', SUB/ELABORATION(CO/LIST('Life insurance are health and maternity benefits .','Disability insurance are health and maternity benefits .' )SUB/ELABORATION(SUB/ELABORATION(CO/LIST('This is including life insurance .','This is including disability insurance provident insurance , pension and skill upgradation , etc. .' ), 'This is under the ambit of social security schemes .' ), 'The Social Security Code brings unorganised sector , gig workers and platform workers .')))
+
+Input: If the punishment is harsh, albeit a lesser punishment may be imposed, but such an order cannot be passed on an irrational or extraneous factor and certainly not on a compassionate ground.
+Prediction: CO/CONTRAST(SUB/CONDITION('The punishment is harsh .','Albeit a lesser punishment may be imposed .' )SUB/ELABORATION('This was on a compassionate ground .', CO/LIST(', Such an order can not be passed on an irrational or extraneous factor .',', Such an order can not be passed on certainly not .')))
+
+Input: In Regional Manager, Rajasthan State Road Transport Corporation v Sohan Lal (2004) 8 SCC 218, it has been held that it is not the normal jurisdiction of the superior courts to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved.
+Prediction: SUB/ELABORATION('Rajasthan State Road Transport Corporation v Sohan Lal was Regional Manager .', SUB/ATTRIBUTION('This was what it has been held in Regional Manager -LRB- 2004 -RRB- 8 SCC 218 .', SUB/PURPOSE('It is not the normal jurisdiction of the superior courts .','This was to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved .')))
+
+Input: Huge pension costs over long time raises concerns on fiscal sustainability of the economy and given the magnitude of the problem, structural alteration in the existing pension scheme would therefore appear to be necessary.
+Prediction: CO/LIST(SUB/ELABORATION('This is on fiscal sustainability of the economy .','Huge pension costs over long time raises concerns .' )SUB/ELABORATION('This is given the magnitude of the problem .',', Structural alteration in the existing pension scheme would therefore appear to be necessary .'))
+
+Input: The Code on Wages , 2019 , also known as the Wage Code , is an Act of the Parliament of India that consolidates the provisions of four labour laws concerning wage and bonus payments and makes universal the provisions for minimum wages and timely payment of wages for all workers in India .
+Prediction: SUB/ELABORATION('Wages is 2019 .', SUB/ELABORATION(SUB/ELABORATION('The Code on Wages is an Act of the Parliament of India .', CO/LIST('An Act of the Parliament of India consolidates the provisions of four labour laws concerning wage and bonus payments .', CO/LIST('An Act of the Parliament of India makes universal the provisions for minimum wages .','An Act of the Parliament of India makes timely payment of wages for all workers in India .' ), 'The Code on Wages is also known as the Wage Code .'))))
+
+Input: The Code on Wages, 2019 repeals and replaces the Payment of Wages Act, 1936, the Minimum Wages Act, 1948, the Payment of Bonus Act, 1965, and the Equal Remuneration Act, 1976.
+Prediction: SUB/ELABORATION('Wages is 2019 .', SUB/ELABORATION(SUB/ELABORATION(CO/LIST('Wages Act is 1936 .','Wages Act is the Minimum Wages Act .','Wages Act is 1948 .','Wages Act is the Payment of Bonus Act .','Wages Act is 1965 .','Wages Act is the Equal Remuneration Act .' ), 'Wages Act are 1976 .' )CO/LIST('The Code on Wages repeals and replaces the Payment of Wages Act .','The Code on Wages repeals and replaces the Payment of 1936 .','The Code on Wages repeals and replaces the Payment of the Minimum Wages Act .','The Code on Wages repeals and replaces the Payment of 1948 .','The Code on Wages repeals and replaces the Payment of the Payment of Bonus Act .','The Code on Wages repeals and replaces the Payment of 1965 .','The Code on Wages repeals and replaces the Payment of the Equal Remuneration Act .')))
+
+Input: Gangwar added that existing labour laws only governed payment of wages for about 40 % of the labour force and the Code on Wages would extend coverage to the entire labour force irrespective of sector or wage ceiling .
+Prediction: NONE
+
+Input: The fund is managed by the Employees ' State Insurance Corporation ( ESIC ) according to rules and regulations stipulated in the ESI Act 1948 .
+Prediction: NONE
+
+Input: Employees ' State Insurance Corporation ( ESIC ) , established by ESI Act , is an autonomous corporation under Ministry of Labour and Employment , Government of India .
+Prediction: SUB/ELABORATION('Ministry of Labour and Employment are Government of India .', SUB/ELABORATION('Employees ' State Insurance Corporation -LRB- ESIC -RRB- is an autonomous corporation under Ministry of Labour and Employment .','Employees ' State Insurance Corporation -LRB- ESIC -RRB- is established by ESI Act .'))
+
+Input: As it is a legal entity, the ESI corporation can raise loans and take measures for discharging such loans with the prior sanction of the central government and it can acquire both movable and immovable property and all incomes from the property shall vest with the corporation.
+Prediction: CO/LIST(SUB/ELABORATION('It is a legal entity .', CO/LIST('The ESI corporation can raise loans .', CO/LIST(SUB/ELABORATION('This is for .','The ESI corporation can take measures .' )SUB/ELABORATION('This is with the prior sanction of the central government .','The ESI corporation is discharging such loans .' )CO/LIST('It can acquire both movable and immovable property .','All incomes from the property shall vest with the corporation .')))))
+
+Input: The corporation can set up hospitals either independently or in collaboration with state government or other private entities, but most of the dispensaries and hospitals are run by concerned state governments.
+Prediction: CO/CONTRAST(SUB/ELABORATION('This is with state government or other private entities .','The corporation can set up hospitals either independently or in collaboration .' ), 'Most of the dispensaries and hospitals are run by concerned state governments .')
+
+Input: For all employees earning ₹21,000 (US$260) or less per month as wages, the employer contributes 3.25% and the employee contributes 0.75%, total share 4%.
+Prediction: NONE
+
+Input: The employees registered under the scheme are entitled to medical treatment for themselves and their dependents , unemployment cash benefit in certain contingencies and maternity benefit in case of women employees .
+Prediction: CO/LIST('The employees registered under the scheme are entitled to medical treatment for themselves and their dependents .','The employees registered under the scheme are entitled to unemployment cash benefit in certain contingencies .','The employees registered under the scheme are entitled to maternity benefit in case of women employees .')
+
+Input: In case of employment-related disablement or death , there is provision for a disablement benefit and a family pension respectively .
+Prediction: SUB/ELABORATION('This is in case of employment-related disablement or death .', CO/LIST('There is provision for a disablement benefit respectively .','There is provision for a family pension respectively .'))
+
+Input: The Payment of Gratuity Act was passed by the Parliament of India on 21 August 1972 and it came into force on 16 September 1972 .
+Prediction: CO/LIST(SUB/ELABORATION('This was on 21 .','The Payment of Gratuity Act was passed by the Parliament of India August 1972 .' ), 'It came into force on 16 September 1972 .')
+
+Input: If the number of employee is below 10 , the employer must still pay gratuities .
+Prediction: SUB/CONDITION('The number of employee is below 10 .','The employer must still pay gratuities .')
+
+Input: The act does not applies to apprentices and persons who hold civil posts under the Central Government or State Governments and are subjected to any other act or rule other than this act .
+Prediction: CO/DISJUNCTION(SUB/ELABORATION('The act does not applies to apprentices and persons .', CO/LIST(SUB/ELABORATION('This is under the Central Government or State Governments .','Apprentices and persons hold civil posts .' ), 'Apprentices and persons are subjected to any other act .' ), 'The act does not rule other than this act .'))
+
+Input: Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation .
+Prediction: SUB/TEMPORAL('Gratuity shall be payable to an employee on termination of employment .', SUB/ELABORATION('This was for not less than five years in a single organisation .','He has rendered continuous service .'))
+
+Input: The unpaid gratuity amount is seized by government which is further used in holiday , vacations , parties and other fun related activities .
+Prediction: SUB/ELABORATION('The unpaid gratuity amount is seized by government .', CO/LIST('Government is further used in holiday .','Government is further used in vacations .','Government is further used in parties .','Government is further used in other fun related activities .'))
+
+Input: Industrial Relations Code, 2020 introduced more conditions for workers to strike, alongside an increase in the threshold relating to layoffs and retrenchment in industrial establishments having 300 workers from 100 workers to provide more flexibility to employers for hiring and firing workers without government permission.
+Prediction: SUB/ELABORATION('Industrial Relations Code were 2020 .', SUB/ELABORATION('This was for workers .', SUB/ELABORATION('This was to strike .', SUB/ELABORATION(SUB/ELABORATION('This was in the threshold .', SUB/ELABORATION('This was alongside an increase .','Industrial Relations Code introduced more conditions .' )CO/LIST(SUB/ELABORATION('This was in industrial establishments .','The threshold was relating to layoffs and retrenchment .' )SUB/ELABORATION('This was without government permission .', SUB/ELABORATION('This was to employers for hiring and firing workers .','The threshold was having 300 workers from 100 workers to provide more flexibility .'))))))))
+
+Input: If over 50 per cent of a company's workers take concerted casual leave, it will be treated as a strike.
+Prediction: SUB/CONDITION('Over 50 per cent of a company 's workers take concerted casual leave .','It will be treated as a strike .')
+
+Input: However, workers cannot go on strike without a 14 days (not exceeding 60 days) notice.
+Prediction: SUB/ELABORATION('This is without a 14 days .', SUB/ELABORATION('This is however .','Workers can not go on strike -LRB- not exceeding 60 days -RRB- notice .'))
+
+Input: The  Inter-state Migrant Workmen Act 's purpose was to protect workers whose services are requisitioned outside their native states in India .
+Prediction: SUB/ELABORATION('The Inter-state Migrant Workmen Act 's purpose was to protect workers .', SUB/SPATIAL('This is in India .','Workers 's services are requisitioned outside their native states .'))
+
+Input: The National Pension System (NPS) is a defined-contribution pension system in India regulated by Pension Fund Regulatory and Development Authority (PFRDA) which is under the jurisdiction of Ministry of Finance of the Government of India.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('The National Pension System -LRB- NPS -RRB- is a defined-contribution pension system in India .','India was regulated by Pension Fund Regulatory and Development Authority -LRB- PFRDA -RRB- .' ), 'Pension Fund Regulatory and Development Authority -LRB- PFRDA -RRB- is under the jurisdiction of Ministry of Finance of the Government of India .')
+
+Input: A citizen of India, whether resident or non-resident or an OCI card holder can join NPS (Through a circular issued on 29 October 2019 PFRDA has stated that now Overseas Citizen of India (OCIs) can enrol to invest in NPS tier-1 accounts), subject to the certain conditions.
+Prediction: NONE
+
+Input: A non-resident can open an NPS account, but the account will be closed if the citizenship status of the NRI has been changed.
+Prediction: CO/CONTRAST('A non-resident can open an NPS account .', SUB/CONDITION('The account will be closed .','The citizenship status of the NRI has been changed .'))
+
+Input: National Pension System , like PPF and EPF is an EEE ( Exempt-Exempt-Exempt ) instrument in India where the entire corpus escapes tax at maturity and entire pension withdrawal amount is tax-free .
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is like PPF and EPF .','National Pension System is an EEE -LRB- Exempt-Exempt-Exempt -RRB- instrument in India .' ), 'The entire corpus escapes tax at maturity and entire pension withdrawal amount is tax-free .')
+
+Input: NPS started with the decision of the Government of India to stop defined benefit pensions for all its employees who joined after 1 April 2004 .
+Prediction: SUB/PURPOSE('NPS started with the decision of the Government of India .','This was to stop defined benefit pensions for all its employees who joined after 1 April 2004 .')
+
+Input: While the scheme was initially designed for government employees only , NPS was opened up for all citizens of India between the age of 18 and 65 in 2009 , for OCI card holders and PIO 's in October 2019 .
+Prediction: CO/CONTRAST('The scheme was initially designed for government employees only .', SUB/ELABORATION('This was in 2009 .', SUB/ELABORATION('This was for OCI card holders .', CO/LIST('NPS was opened up for all citizens of India between the age of 18 and 65 .','NPS was opened up for all citizens of India between PIO 's in October 2019 .'))))
+
+Input: As per the revised norms , any Indian Citizen , resident or non-resident and Overseas Citizen of India ( OCI ) between the age of 65–70 years can join NPS and continue or defer their NPS Account up to the age of 75 years .
+Prediction: CO/LIST(SUB/ELABORATION('This is as per the revised norms .', CO/LIST('Any Indian Citizen can join NPS .','Resident or non-resident can join NPS .','Overseas Citizen of India -LRB- OCI -RRB- between the age of 65 -- 70 years can join NPS .' )SUB/ELABORATION('This is as per the revised norms .', CO/LIST('Any Indian Citizen can continue or defer their NPS Account up to the age of 75 years .','Resident or non-resident can continue or defer their NPS Account up to the age of 75 years .','Overseas Citizen of India -LRB- OCI -RRB- between the age of 65 -- 70 years can continue or defer their NPS Account up to the age of 75 years .'))))
+
+Input: NPS is considered one of the best tax saving instruments, after 40% of the corpus was made tax-free at the time of maturity and it is ranked just below equity-linked savings scheme.
+Prediction: NONE
+
+Input: One can withdraw 20 percent of the corpus before 60 years but he/she must buy annuity with 80 percent of the corpus .
+Prediction: CO/CONTRAST(SUB/ELABORATION('This is before 60 years .','One can withdraw 20 percent of the corpus .' )SUB/ELABORATION('This is with 80 percent of the corpus .','He/she must buy annuity .'))
+
+Input: In 2016 , the NPS allowed withdrawal of up to 25 % of contributions for specified reasons , if the scheme is at least 3 years old with certain conditions .
+Prediction: SUB/ATTRIBUTION('This was what the NPS allowed withdrawal of up to 25 % of contributions for specified reasons in 2016 .','If the scheme is at least 3 years old with certain conditions .')
+
+Input: One can withdraw the complete amount if the pension collected is less than INR 5,00,000 .
+Prediction: SUB/CONDITION('One can withdraw the complete amount .','The pension collected is less than INR 5,00,000 .')
+
+Input: Mahatma Gandhi National Rural Employment Guarantee Act 2005 or MGNREGA, earlier known as the National Rural Employment Guarantee Act or NREGA,[3] is an Indian labour law and social security measure that aims to guarantee the 'right to work'.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('Mahatma Gandhi National Rural Employment Guarantee Act 2005 or MGNREGA -LSB- .', CO/DISJUNCTION('Mahatma Gandhi National Rural Employment Guarantee Act 2005 is earlier known as the National Rural Employment Guarantee Act or NREGA .','MGNREGA is earlier known as the National Rural Employment Guarantee Act or NREGA .' )SUB/ELABORATION('3 -RSB- is an Indian labour law and social security measure .', CO/LIST('An Indian labour law aims to guarantee the ` right to work ' .',', Social security measure aims to guarantee the ` right to work ' .'))))
+
+Input: NREGA act was passed in 23 August 2005 [ 1 ] under the UPA government of Prime Minister Manmohan Singh following tabling of the bill in parliament by the Minister for Rural Development Raghuvansh Prasad Singh .
+Prediction: SUB/ELABORATION('Manmohan Singh was Prime Minister .', SUB/ELABORATION('Raghuvansh Prasad Singh was Rural Development .','NREGA act was passed in 23 August 2005 -LSB- 1 -RSB- under the UPA government of Manmohan Singh following tabling of the bill in parliament by the Minister for Raghuvansh Prasad Singh .'))
+
+Input: NREGA aims to enhance livelihood security in rural areas by providing at least 100 days of wage employment in a financial year to at least one member of every household whose adult members volunteer to do unskilled manual work .
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is by providing at least 100 days of wage employment in a financial year to at least one member of every household .', SUB/ELABORATION('This is in rural areas .','NREGA aims to enhance livelihood security .' ), 'Every household 's adult members volunteer to do unskilled manual work .'))
+
+Input: Employment is to be provided within 5 km of an applicant 's residence , and minimum wages are to be paid .
+Prediction: CO/LIST('Employment is to be provided within 5 km of an applicant 's residence .','Minimum wages are to be paid .')
+
+Input: If work is not provided within 15 days of applying , applicants are entitled to an unemployment allowance .
+Prediction: SUB/CONDITION('Work is not provided within 15 days of applying .','Applicants are entitled to an unemployment allowance .')
+
+Input: If the government fails to provide employment , it has to provide certain unemployment allowances to those people .
+Prediction: SUB/CONDITION('The government fails to provide employment .', SUB/ELABORATION('This is to those people .','It has to provide certain unemployment allowances .'))
+
+Input: The NREGA law lists permissible works : water conservation and water harvesting ; drought proofing including afforestation ; irrigation works ; restoration of traditional water bodies ; land development ; flood control ; rural connectivity ; and works notified by the government .
+Prediction: CO/LIST('The NREGA law lists permissible works .','The NREGA law lists water conservation .','The NREGA law lists water harvesting ; drought proofing including afforestation ; irrigation works ; restoration of traditional water bodies ; land development ; flood control ; rural connectivity ; and works notified by the government .')
+
+Input: Unemployment allowance must be paid if the work is not provided within the statutory limit of 15 days .
+Prediction: SUB/CONDITION('Unemployment allowance must be paid .','The work is not provided within the statutory limit of 15 days .')
+
+Input: The law stipulates Gram Panchayats to have a single bank account for NREGA works which shall be subjected to public scrutiny .
+Prediction: SUB/ELABORATION('The law stipulates Gram Panchayats to have a single bank account for NREGA works .','A single bank account for NREGA works shall be subjected to public scrutiny .')
+
+Input: To promote transparency and accountability , the NREGA act mandates 'monthly squaring of accounts ' .
+Prediction: SUB/PURPOSE('This is to promote transparency and accountability .','The NREGA act mandates ` monthly squaring of accounts ' .')
+
+Input: To ensure public accountability through public vigilance , the NREGA designates ‘ social audits ' as key to its implementation .
+Prediction: SUB/PURPOSE('This is to ensure public accountability through public vigilance .', SUB/ELABORATION('This is to its implementation .','The NREGA designates ` social audits ' as key .'))
+
+Input: The most detailed part of the NREGA Act ( chapter 10 and 11 ) deals with transparency and accountability that lays out role of the state , the public vigilance and , above all , the social audits .
+Prediction: SUB/ELABORATION('The most detailed part of the NREGA Act -LRB- chapter 10 and 11 -RRB- deals with transparency and accountability .', SUB/ELABORATION('This is above all .', CO/LIST('Transparency and accountability lays out role of the state .','Transparency and accountability lays out role of the public vigilance .','Transparency and accountability lays out role of the social audits .')))
+
+Input: For evaluation of outcomes , the law also requires management of data and maintenance of records , like registers related to employment , job cards , assets , muster rolls and complaints , by the implementing agencies at the village , block and state level .
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is for evaluation of outcomes .', SUB/ELABORATION('This is like registers .','The law also requires management of data and maintenance of records .' )SUB/ELABORATION(CO/LIST('This was by the implementing agencies at the village .','This was by the implementing agencies at block .','This was by the implementing agencies at state level .' ), 'Registers was related to employment , job cards , assets , muster rolls and complaints .')))
+
+Input: Assets created include rural connectivity assets such as pucca roads and brick soling, land development assets which improve productivity of land such as the creation of new plantations, unskilled construction such as poultry shelters, cattle shelters and fish drying yard platform.
+Prediction: CO/LIST('Assets created include rural connectivity assets such as pucca roads .', SUB/ELABORATION(SUB/ELABORATION('Brick soling was land development assets .','Land development assets improve productivity of land such as the creation of new plantations .' ), 'Brick soling unskilled construction such as poultry shelters , cattle shelters and fish drying yard platform .'))
+
+Input: The Public Provident Fund ( PPF ) is a savings-cum-tax-saving instrument in India ,introduced by the National Savings Institute of the Ministry of Finance in 1968 .
+Prediction: SUB/ELABORATION('The Public Provident Fund -LRB- PPF -RRB- is a savings-cum-tax-saving instrument in India .', SUB/ELABORATION('This was in 1968 .','A savings-cum-tax-saving instrument in India was introduced by the National Savings Institute of the Ministry of Finance .'))
+
+Input: The main objective of the PPF scheme is to mobilize small savings by offering an investment with reasonable returns combined with income tax benefits .
+Prediction: SUB/ELABORATION('This was by offering an investment with reasonable returns combined with income tax benefits .','The main objective of the PPF scheme is to mobilize small savings .')
+
+Input: The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing information proactively, preparation of annual reports by the Central Employment Guarantee Council for the Parliament and State Employment Guarantee Councils for state legislatures, undertaking mandatory financial audits by each district along with physical audit, taking action on audit reports, developing a Citizen's Charter, establishing vigilance and monitoring committees, and developing a grievance redressal system.
+Prediction: CO/LIST('The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing information proactively , undertaking mandatory financial audits by each district along with physical audit , taking action on audit reports , developing a Citizen 's Charter , establishing vigilance and monitoring committees , and developing a grievance redressal system .','The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing preparation of annual reports by the Central Employment Guarantee Council for the Parliament , undertaking mandatory financial audits by each district along with physical audit , taking action on audit reports , developing a Citizen 's Charter , establishing vigilance and monitoring committees , and developing a grievance redressal system .','The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing State Employment Guarantee Councils for state legislatures , undertaking mandatory financial audits by each district along with physical audit , taking action on audit reports , developing a Citizen 's Charter , establishing vigilance and monitoring committees , and developing a grievance redressal system .')
+
+Input: Balance in the PPF account is not subject to attachment under any order or decree of court under the Government Savings Banks Act , 1873 .
+Prediction: SUB/ELABORATION('The Government Savings Banks Act are 1873 .','Balance in the PPF account is not subject to attachment under any order or decree of court under the Government Savings Banks Act .')
+
+Input: As of August 2018, according to the Indian Ministry of finance (Department of Economic Affairs), NRIs (Non resident Indians) are not allowed to open new PPF accounts.
+Prediction: SUB/ELABORATION('Ministry of finance -LRB- Department of Economic Affairs was the Indian .', SUB/ELABORATION('This was as of August 2018 .', SUB/ELABORATION('This was according to Ministry of finance -LRB- Department of Economic Affairs -RRB- .','NRIs -LRB- Non resident Indians -RRB- are not allowed to open new PPF accounts .')))
+
+Input: In October 2017, a notification was passed by the Ministry of Finance regarding an amendment to the PPF scheme of 1968, which would deem a PPF account closed from the day a person became a non resident.
+Prediction: SUB/ELABORATION(CO/LIST(SUB/ELABORATION('This was in October 2017 .','A notification was passed by the Ministry of Finance .' )SUB/ELABORATION('This was to the PPF scheme of 1968 .', SUB/ELABORATION('This was in October 2017 .','A notification was regarding an amendment .' )SUB/ELABORATION('The PPF scheme of 1968 would deem .', SUB/ELABORATION('A PPF account closed from the day .','A person became a non resident the day .')))))
+
+Input: Individuals who are residents of India are eligible to open their account under the Public Provident Fund , and are entitled to tax-free returns .
+Prediction: CO/LIST(SUB/ELABORATION('Individuals are eligible to open their account under the Public Provident Fund .','Individuals are residents of India .' )SUB/ELABORATION('Individuals are entitled to tax-free returns .','Individuals are residents of India .'))
+
+Input: An amendment to earlier rules allowing NRIs to invest in PPF was proposed in the finance bill 2018 , but has not yet been approved .
+Prediction: CO/CONTRAST(SUB/ELABORATION('An amendment to earlier rules was proposed in the finance bill 2018 .','Earlier rules were allowing NRIs to invest in PPF .' )SUB/ELABORATION('An amendment to earlier rules has not yet been approved .','Earlier rules were allowing NRIs to invest in PPF .'))
+
+Input: In October 2017 , a notification was passed by the Ministry of finance regarding an amendment to the PPF scheme of 1968 , which would deem a PPF account closed from the day a person became a non resident .
+Prediction: SUB/ELABORATION(CO/LIST(SUB/ELABORATION('This was in October 2017 .','A notification was passed by the Ministry of finance .' )SUB/ELABORATION('This was to the PPF scheme of 1968 .', SUB/ELABORATION('This was in October 2017 .','A notification was regarding an amendment .' )SUB/ELABORATION('The PPF scheme of 1968 would deem .', SUB/ELABORATION('A PPF account closed from the day .','A person became a non resident the day .')))))
+
+Input: A minimum yearly deposit of Rs. 500 is required to open and maintain a PPF account .
+Prediction: NONE
+
+Input: If any contribution of minimum amount in any year is not invested , then the account will be deactivated .
+Prediction: SUB/CONDITION('Any contribution of minimum amount in any year is not invested .','Then the account will be deactivated .')
+
+Input: In case death of account holder then the balance amount will be paid to his nominee or legal heir even before 15 years .
+Prediction: SUB/ELABORATION('This was before 15 years .', SUB/ELABORATION('This was in case death of account holder then .','The balance amount will be paid to his nominee or legal heir even .'))
+
+Input: If balance amount in the account of a deceased is higher than ₹150,000 then the nominee or legal heir has to prove the identity to claim the amount.
+Prediction: SUB/CONDITION('Balance amount in the account of a deceased is higher than 150,000 then .', CO/DISJUNCTION('The nominee has to prove the identity to claim the amount .','Legal heir has to prove the identity to claim the amount .'))
+
+Input: Any amount deposited more than ₹1.5 lacs in a financial year will not earn any interest.
+Prediction: SUB/ELABORATION('Any amount deposited .','More than 1.5 lacs in a financial year will not earn any interest .')
+
+Input: Premature closure of PPF account is permitted after completion of 5 years for medical treatment of family members and for higher education of PPF account holder.
+Prediction: NONE
+
+Input: According to R.K. Mohapatra, General Manager-Finance,[44] IRCON International,[45] and author of the award-winning book ‘Retirement Planning: A Simple Guide for Individuals’, in the falling interest rate era, investment in PPF make senses for people who are in higher income tax brackets because of the advantages of exempt-exempt-exempt (EEE) scheme, which means they get tax deduction under Section 80C when they invest, and the accrual of interest as well as withdrawal is completely tax-free.
+Prediction: CO/LIST(SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('Manager-Finance is General .','R.K. Mohapatra is Manager-Finance .' )SUB/ELABORATION(SUB/ELABORATION('This(SUB/ELABORATION('This is in the falling interest rate era .','-LSB- 45 -RSB- and author of the award-winning book ` Retirement Planning : A Simple Guide for Individuals ' investment in PPF make senses for people .' ), 'People are in higher income tax brackets because of the advantages of exempt-exempt-exempt -LRB- EEE -RRB- scheme .' )SUB/ELABORATION('Exempt-exempt-exempt -LRB- EEE -RRB- scheme means .', SUB/ELABORATION(SUB/ELABORATION('This is under Section 80C .','They get tax deduction .' ), 'They invest .' )SUB/ELABORATION('This('The accrual of interest as well as withdrawal is completely tax-free .'))))))))
+
+Input: India need a universal pension plan for its entire population, especially the elderly which is estimated to reach 31.5 crores (315 million) by 2050 .
+Prediction: SUB/ELABORATION(SUB/ELABORATION('Its entire population was especially the elderly .', SUB/ELABORATION('This was by 2050 .','Especially the elderly is estimated to reach 31.5 crores -LRB- 315 million -RRB- .' ), 'India need a universal pension plan for its entire population .'))
+
+Input: The Supreme Court of India in one of its judgement noted that pension for a retiree "is neither a bounty nor a matter of grace depending upon the sweet will of the employer."
+Prediction: SUB/ATTRIBUTION('This was what the Supreme Court of India in one of its judgement noted .','Pension for a retiree `` is neither a bounty nor a matter of grace depending upon the sweet will of the employer .')
+
+Input: The court held that it is a social welfare measure, aimed at rendering socioeconomic justice "to those who in the heyday of their life ceaselessly toiled for the employer on an assurance that in their old age they would not be left in the lurch.
+Prediction: SUB/ATTRIBUTION('This was what the court held .', SUB/ELABORATION('It is a social welfare measure .', SUB/ELABORATION('A social welfare measure was aimed at rendering socioeconomic justice `` to those .', SUB/ELABORATION(SUB/ELABORATION('This was on an assurance .','Those in the heyday of their life ceaselessly toiled for the employer .' )SUB/ELABORATION('This was in their old age .','They would not be left in the lurch .')))))
+
+Input: After the economic liberalization of 1991, the pay in Private sector was gradually seen as better than that in Public sector.
+Prediction: SUB/ELABORATION('This was after the economic liberalization of 1991 .','The pay in Private sector was gradually seen as better than that in Public sector .')
+
+Input: However, it is also a fact that the work efficiency of most government employees with long service is always under question.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is however .','It is also a fact .' ), 'The work efficiency of most government employees with long service is always under question .')
+
+Input: In 2023, RBI published a report in 2023 titled ', State Finances: A Study of Budgets of 2022-23' in which it remarked the decision of some state governments to restore OPS will give rise to a major risk on "subnational fiscal horizon".
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This was in 2023 .','RBI published a report in 2023 in which it remarked the decision of some state governments to restore OPS will give rise to a major risk on `` subnational fiscal horizon ',' .' )SUB/ELABORATION('This was in which it remarked the decision of some state governments to restore OPS will give rise to a major risk on `` subnational fiscal horizon ',' .','2023 was titled ` State Finances : A Study of Budgets of 2022-23 ' .'))
+
+Input: A large chunk of government finance will go to as pension for a few retired government employees because of which many in the majority population will be deprived of basic health, education and other social welfare measures when the economic constraints rise eventually.
+Prediction: SUB/ELABORATION('This was because of which many in the majority population will be deprived of basic health , education and other social welfare measures when the economic constraints rise eventually .','A large chunk of government finance will go to as pension for a few retired government employees .')
+
+Input: Tamil Nadu has not implemented the NPS for its government employees and is not not in agreement with PFRDA.
+Prediction: CO/LIST('Tamil Nadu has not implemented the NPS for its government employees .','Tamil Nadu is not not in agreement with PFRDA .')
+
+Input: The Amendment simultaneously stated that laws prohibiting "anti-national activities" or the formation of "anti-national associations" could not be invalidated because they infringed on any of the Fundamental Rights.
+Prediction: SUB/ATTRIBUTION('This was what the Amendment stated .', SUB/CAUSE('Laws prohibiting `` anti-national activities ',' or the formation of `` anti-national associations ',' could not be invalidated .','They infringed on any of the Fundamental Rights .'))
+
+Input: The 42nd Amendment granted power to the President, in consultation with the Election Commission, to disqualify members of State Legislatures.
+Prediction: SUB/PURPOSE(SUB/ELABORATION('This was to the President .', SUB/ELABORATION('This was with the Election Commission .', SUB/ELABORATION('This was in consultation .','The 42nd Amendment granted power .' ), 'This was to disqualify members of State Legislatures .')))
+
+Input: If you state in the Constitution that the social organisation of the State shall take a particular form, you are, in my judgment, taking away the liberty of the people to decide what should be the social organisation in which they wish to live.
+Prediction: SUB/CONDITION(SUB/ATTRIBUTION('This is what you state in the Constitution .','The social organisation of the State shall take a particular form .' )SUB/PURPOSE(SUB/ELABORATION('This is in my judgment .','You are taking away the liberty of the people .' ), 'This is to decide what should be the social organisation in which they wish to live .'))
+
+Input: During the Emergency, Indira Gandhi implemented a 20-point program of economic reforms that resulted in greater economic growth, aided by the absence of strikes and trade union conflicts.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This was during the Emergency .','Indira Gandhi implemented a 20-point program of economic reforms .' ), 'A 20-point program of economic reforms resulted in greater economic growth .' )CO/LIST('Greater economic growth was aided by the absence of strikes .','Greater economic growth was aided by the absence of trade union conflicts .'))
+
+Input: Since the Constitution had conferred a limited amending power on the Parliament, the Parliament cannot under the exercise of that limited power enlarge that very power into an absolute power.
+Prediction: SUB/CAUSE(SUB/ELABORATION('This was on the Parliament .','The Constitution had conferred a limited amending power .' )SUB/ELABORATION('This is into an absolute power .','The Parliament can not under the exercise of that limited power enlarge that very power .'))
+
+Input: In March 1943, Prof. B.P.Adarkar was appointed by the Government of India to create a report on the health insurance scheme for industrial workers.
+Prediction: SUB/PURPOSE(SUB/ELABORATION('This was in March 1943 .', SUB/ELABORATION('B.P.Adarkar was Prof. .','B.P.Adarkar was appointed by the Government of India .' ), 'This was to create a report on the health insurance scheme for industrial workers .'))
+
+Input: The primary objective of Shram Suvidha is a unified portal for all compliance pertaining to Chief Labour Commissioner of India, Director General Mines and Safety, Employee State Insurance Corporation, and Employee Provident Fund Organization. There are 16 laws that are covered here like Payment of Wages Act, Minimum Wages Act, Contract Labour (Abolition and Regulation) Act.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(', Contract Labour -LRB- Abolition and Regulation -RRB- Act were Minimum Wages Act .','Minimum Wages Act were Wages Act .' )SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('The primary objective of Shram Suvidha is a unified portal for all compliance .','There are 16 laws all compliance .' )CO/LIST('All compliance is pertaining to Chief Labour Commissioner of India .','All compliance is pertaining to Chief Labour Commissioner of Director General Mines and Safety .','All compliance is pertaining to Chief Labour Commissioner of Employee State Insurance Corporation .','All compliance is pertaining to Chief Labour Commissioner of Employee Provident Fund Organization .' ), '16 laws are covered here like Payment of Wages Act .')))
+
+Input: The primary objective of Shram Suvidha is creation of a unique number known as the Labour Identification Number or LIN to supplement all other registration numbers such as PF Establishment Code, ESIC Registration Number, Contract Labour Registration Number, etc.
+Prediction: SUB/ELABORATION('ESIC Registration Number was PF Establishment Code .', SUB/ELABORATION('PF Establishment Code Contract Labour Registration Number was etc. .', SUB/ELABORATION('The primary objective of Shram Suvidha is creation of a unique number .', SUB/PURPOSE(CO/DISJUNCTION('A unique number was known as the Labour Identification Number .','A unique number was known as LIN .' ), 'This was to supplement all other registration numbers such as PF Establishment Code Contract Labour Registration Number .'))))
+
+Input: The primary objective of Shram Suvidha is online servicing of notices from the labour department and online submission of answers with document.
+Prediction: CO/LIST('The primary objective of Shram Suvidha is online servicing of notices from the labour department .','The primary objective of Shram Suvidha is online servicing of online submission of answers with document .')
+
+Input: The primary objective of Shram Suvidha is employee grievances can now be received online and employer has to clear them and submit proof of clearance.
+Prediction: CO/LIST(SUB/ELABORATION('The primary objective of Shram Suvidha is employee grievances .',', Can now be received online employee grievances .' ), 'Employer has to clear them and submit proof of clearance .')
+
+Input: Registration of all contractors who employs or employed five or more Interstate Migrant Workmen on any day of the preceding 12 months.
+Prediction: NONE
+
+Input: Contrators should furnish the details of workmen periodically in such forms as prescribed by state government .
+Prediction: SUB/ELABORATION('This was periodically in such forms .',', Contrators should furnish the details of workmen as prescribed by state government .')
+
+Input: Contractors should maintain the registers indicating the details of interstate workers and make available for scrutiny by the statutory authorities.
+Prediction: CO/LIST(', Contractors should maintain the registers indicating the details of interstate workers .',', Contractors should make available for scrutiny by the statutory authorities .')
+
+Input: Contractors should issue  passbook affixed with a passport-sized photograph of the workman indicating the name and the place of the establishment where the worker is employed, the period of employment, rates of wages, etc. to every inter-state migrant workman.
+Prediction: SUB/ELABORATION('The establishment where the worker is employed was the period of employment .', SUB/ELABORATION(', Contractors should issue passbook affixed with a passport-sized photograph of the workman .', SUB/ATTRIBUTION('This was what the workman was indicating the name and the place of the establishment .', SUB/ELABORATION('The worker is employed rates of wages .','Etc. to every inter-state migrant workman .'))))
+
+Input: Contractors should report the incidence of fatal accident or serious injury of such workman to the specified authorities of both the States and also the next of kin of the workman.
+Prediction: SUB/SPATIAL(CO/LIST('This is to the specified authorities of both the States .','This is to also the next of kin of the workman .' )CO/DISJUNCTION(', Contractors should report the incidence of fatal accident .',', Contractors should report serious injury of such workman .'))
+
+Input: Contractors are liable for the prescribed punishments for violations committed under  Interstate Migrant Worksmen Act.
+Prediction: SUB/ELABORATION(', Contractors are liable for the prescribed punishments for violations .','Violations were committed under Interstate Migrant Worksmen Act .')
+
+Input: The Interstate Migrant Workers (Regulation of Employment and Conditions of Service) Amendment Bill, 2011 is proposed to make this Act gender neutral by amending its title and replacing the word ‘workman and workmen’ by the words ‘worker and workers’ respectively.
+Prediction: NONE
+
+Input: The remuneration to interstate workers shall be deposited in their bank accounts and not by cash by the contractors.
+Prediction: SUB/ELABORATION('This was by the contractors .','The remuneration to interstate workers shall be deposited in their bank accounts and not by cash .')
+
+Input: No contractor shall deploy the workers outside the state without getting registered in that state.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is without .', SUB/ELABORATION('This is outside the state .','No contractor shall deploy the workers .' ), 'No contractor was getting registered in that state .'))
+
+Input: The state government authorities shall conduct mandatory yearly audit of all employers / contractors in a state regarding deployment of interstate workers and submit yearly compliance status or implementation report to the state assembly for their scrutiny.
+Prediction: CO/LIST('The state government authorities shall conduct mandatory yearly audit of all employers .', SUB/ELABORATION('This is to the state assembly for their scrutiny .','The state government authorities shall submit yearly compliance status or implementation report .'))
+
+Input: The workers employed on minimum guaranteed time rate of wages per day shall be entitled to time rate of minimum wages plus special allowance, if any, for unskilled category of above ground workers revised from time to time by the Central Government in respect of scheduled employment in stone mines.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This was in respect of scheduled employment in stone mines .', SUB/ELABORATION('This was for unskilled category of above ground workers .', SUB/ELABORATION('This was to time .', SUB/ELABORATION('This was by the Central Government .','Above ground workers were revised from time .' )SUB/ELABORATION('This was if any .','The workers employed on minimum guaranteed time rate of wages per day shall be entitled to time rate of minimum wages plus special allowance .')))))
+
+Input: The Mahatma Gandhi National Rural Employment Guarantee Act is an employment guarantee scheme that guarantees employment for 100 days at a wage rate of INR120 per day (as fixed in 2009).
+Prediction: SUB/ELABORATION('The Mahatma Gandhi National Rural Employment Guarantee Act is an employment guarantee scheme .','An employment guarantee scheme guarantees employment for 100 days at a wage rate of INR120 per day -LRB- as fixed in 2009 -RRB- .')
+
+Input: The benefits of Mahatma Gandhi National Rural Employment Guarantee Act can be secured by any household regardless of whether they fall below or above national poverty line.
+Prediction: NONE
+
+Input: While the 1970s in India was a period characterised by political instability, the 1980s was characterised by the beginnings of a distinct turn towards more market-friendly policies, support for industrialists and an implicit opposition to workers.
+Prediction: CO/CONTRAST(SUB/ELABORATION('The 1970s in India was a period .','A period was characterised by political instability .' )CO/LIST('The 1980s was characterised by the beginnings of a distinct turn towards more market-friendly policies .','The 1980s was characterised by the beginnings of support for industrialists .','The 1980s was characterised by the beginnings of an implicit opposition to workers .'))
+
+Input: The first clearly registered trade-union is considered to be the Madras Labour Union founded by B.P. Wadia in 1918, while the first trade union federation to be set up was the All India Trade Union Congress in 1920.
+Prediction: SUB/ATTRIBUTION('This was what the first registered .', SUB/ATTRIBUTION('This was what Trade-union is considered to be the Madras Labour Union founded by B.P. Wadia in 1918 .','While the first trade union federation to be set up was the All India Trade Union Congress in 1920 .'))
+
+Input: This is the default option meaning if subscriber doesn't take any action within one year of his PPF account maturity this option activates automatically.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is the default option .','This option activates automatically the default option .' )SUB/ATTRIBUTION('This is what the default option is meaning .','If subscriber does n't take any action within one year of his PPF account maturity .'))
+
+Input: If subscriber wants to choose Extend the PPF account with contribution option then he needs to submit Form H in the bank where he is having a PPF account within one year from the date of maturity (before the completion of 16 yrs in PPF).
+Prediction: SUB/CONDITION(', Subscriber wants to choose Extend the PPF account with contribution option then .', SUB/ELABORATION('This is in the bank where he is having a PPF account within one year from the date of maturity .','He needs to submit Form H -LRB- before the completion of 16 yrs in PPF -RRB- .'))
+
+Input: The 2019 Public Provident Fund Scheme, introduced by the Government on 12 December 2019, resulted in the rescinding of the earlier 1968 Public Provident Fund Scheme.
+Prediction: SUB/ELABORATION('The 2019 Public Provident Fund Scheme resulted in the rescinding of the earlier 1968 Public Provident Fund Scheme .','The 2019 Public Provident Fund Scheme was introduced by the Government on 12 December 2019 .')
+
+Input: According to Bhalla, the productivity gap sharply worsens when rural unorganised sector is compared to urban unorganised sector, with gross value added productivity gap spiking an additional two to four fold depending on occupation.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is according to Bhalla .','The productivity gap sharply worsens .' )SUB/ELABORATION('Rural unorganised sector is compared to urban unorganised sector .', SUB/ELABORATION('Gross value added .','Productivity gap spiking an additional two to four fold depending on occupation .')))
+
+Input: If state-owned companies and municipal government employees were included, India had a 1.8:1 ratio between public sector employees and private sector employees.
+Prediction: SUB/CONDITION(CO/LIST(', State-owned companies were included .','Municipal government employees were included .' )CO/LIST('India had a 1.8:1 ratio between public sector employees .','India had a 1.8:1 ratio between private sector employees .'))
+
+Input: The period following the economic liberalisation in 1991 was characterised by declining government intervention in the economy, a decline in the creation of public sector employment and encouragement for the private sector.
+Prediction: NONE
+
+Input: A gradual shift in focus about the importance of the Informal sector and 'Informal employment in the formal sector' from the late 1990s onwards meant that trade unions also began to focus on these workers.
+Prediction: SUB/ATTRIBUTION('This was what a gradual shift in focus about the importance of the Informal sector and ` Informal employment in the formal sector ' from the late 1990s onwards meant .','Trade unions also began to focus on these workers .')
+
+Input: Almost all the CTUOs now have at least 20 percent of their official members coming from the informal sector.
+Prediction: SUB/ELABORATION('Almost all the CTUOs now have at least 20 percent of their official members .','Their official members are coming from the informal sector .')
+
+Input: Complications around membership verification have existed due to discrepancies between membership claimed by the unions and actual members.
+Prediction: SUB/ELABORATION(', Complications around membership verification have existed due to discrepancies between membership .', CO/LIST('Membership was claimed by the unions .','Membership was claimed by actual members .'))
+
+Input: According to the Periodic Labour Force Survey (PLFS) of 2019, it shows that the Indian economy has shrunk for the first time in four decades, from 467.7 million in 2011-12 to 461.5 million in 2017-18.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is according to the Periodic Labour Force Survey -LRB- PLFS -RRB- of 2019 .','It shows .' )SUB/ELABORATION('This was to 461.5 million .', SUB/ELABORATION(SUB/ELABORATION('This was in 2017-18 .','This was from 467.7 million in 2011-12 .' ), 'The Indian economy has shrunk for the first time in four decades .')))
+
+Input: Women account for the vast majority of those who have lost their jobs (24.7 million).
+Prediction: SUB/ELABORATION('Women account for the vast majority of those -LRB- 24.7 million -RRB- .','Those have lost their jobs .')
+
+Input: The most significant change was the decentralization of implementation by involving the local people through local village governments or Panchayati Raj Institutions (PRIs) and hence a decreasing role of bureaucracy.
+Prediction: CO/LIST(SUB/ELABORATION('This was by .','The most significant change was the decentralization of implementation .' )CO/LIST('The most significant change was involving the local people through local village governments or Panchayati Raj Institutions -LRB- PRIs -RRB- .','The most significant change was involving hence a decreasing role of bureaucracy .'))
+
+Input: The role of PRIs was reinforced with the local self-government at the district level called the 'Zilla Parishad' as the main implementing authority.
+Prediction: SUB/ELABORATION('The role of PRIs was reinforced with the local self-government at the district level .', SUB/ELABORATION('This was as the main implementing authority .','The district level was called the ` Zilla Parishad ' .'))
+
+Input: The colonial era, when India was governed by the British, is when the problems of poverty and a lack of employment possibilities in rural areas first surfaced.
+Prediction: SUB/SPATIAL(SUB/ELABORATION('The colonial era is .', CO/LIST('The problems of poverty first surfaced .','A lack of employment possibilities in rural areas first surfaced .' ), 'India was governed by the British .'))
+
+Input: The lopsided economic development pattern was caused by the colonial government's emphasis on growing the urban economy at the expense of the rural economy, which remained even after India attained independence.
+Prediction: SUB/ELABORATION(CO/LIST(SUB/ELABORATION('This was on .','The lopsided economic development pattern was caused by the colonial government 's emphasis .' )SUB/ELABORATION('This was at the expense of the rural economy .','The lopsided economic development pattern was growing the urban economy .' ), 'The rural economy remained even after India attained independence .'))
+
+Input: The colonial authority established land revenue procedures that led to a concentration of land ownership in the hands of a select few, which in turn marginalized the rural poor.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('The colonial authority established land revenue procedures .', SUB/ELABORATION('This was in the hands of a select few .','Land revenue procedures led to a concentration of land ownership .' ), 'A select few in turn marginalized the rural poor .'))
+
+Input: The MGNREGA was created with the idea of giving rural households a safety net in the form of guaranteed work possibilities.
+Prediction: NONE
+
+Input: The work entitlement of 100 days per household per year may be shared between different adult members of the same household.
+Prediction: NONE
+
+Input: The MGNREGA Act recommends establishment of 'Technical Resource Support Groups' at district, state and central level and active use of information technology, like creation of a 'Monitoring and Information System (MIS), ' and a NREGA website, to assure quality in implementation of NREGA through technical support.
+Prediction: SUB/PURPOSE(SUB/ELABORATION('This is at district , state and central level and active use of information technology .', SUB/ELABORATION(CO/LIST('This is like creation of a ` Monitoring .','This is like creation of Information System -LRB- MIS -RRB- ' and a NREGA website .' ), 'The MGNREGA Act recommends establishment of ` Technical Resource Support Groups ' .' ), 'This is to assure quality in implementation of NREGA through technical support .'))
+
+Input: The statute also seeks to protect the environment through rural works which is consistent with Article 48A that directs the State to protect the environment.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is through rural works .','The statute also seeks to protect the environment .' ), 'Rural works is consistent with Article 48A that directs the State to protect the environment .')
+
+Input: In accordance with the Article 21 of the Constitution of India that guarantees the right to life with dignity to every citizen of India, this act imparts dignity to the rural people through an assurance of livelihood security.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is to the rural people .', SUB/ELABORATION('This is through an assurance of livelihood security .', SUB/SPATIAL('This is in accordance with the Article 21 of the Constitution of India .','This act imparts dignity .' )SUB/ELABORATION('This is to life with dignity .', SUB/SPATIAL('This is to every citizen of India .','Accordance with the Article 21 of the Constitution of India guarantees the right .')))))
+
+Input: NREGA also follows Article 46 that requires the State to promote the interests of and work for the economic uplift of the scheduled castes and scheduled tribes and protect them from discrimination and exploitation .
+Prediction: SUB/ELABORATION('NREGA also follows Article 46 .', CO/LIST('Article 46 requires the State to promote the interests of and work for the economic uplift of the scheduled castes and protect them from discrimination and exploitation .','Article 46 requires the State to promote the interests of and work for the economic uplift of scheduled tribes and protect them from discrimination and exploitation .'))
+
+Input: Article 40 mandates the State to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government.
+Prediction: NONE
+
+Input: An early overall assessment in 2008 in six north Indian states suggested that NREGA was "making a difference to the lives of the rural poor, slowly but surely."
+Prediction: SUB/ELABORATION('An early overall assessment in 2008 in six north Indian states suggested . ',' .', SUB/ELABORATION('This was to the lives of the rural poor .', SUB/ELABORATION('This was slowly but surely .','NREGA was `` making a difference .')))
+
+Input: A majority of NREGA workers live in kaccha houses, belong to Scheduled Castes and Scheduled Tribes, are illiterate and do not have electricity at home.
+Prediction: CO/LIST('A majority of NREGA workers live in kaccha houses .', CO/LIST('A majority of NREGA workers belong to Scheduled Castes .','A majority of NREGA workers belong to Scheduled Tribes .' ), 'A majority of NREGA workers are illiterate .','A majority of NREGA workers do not have electricity at home .')
+
+Input: Studies have suggested that women's participation has remained high, though there are inter-state variations.
+Prediction: SUB/ELABORATION(', Studies have suggested .', CO/CONTRAST('Women 's participation has remained high .','There are inter-state variations .'))
+
+Input: One study in border villages of Rajasthan, Madhya Pradesh and Gujarat studied the effect on short term migration and child welfare and found that among children who do not migrate, grade completed is higher .
+Prediction: CO/LIST(SUB/ELABORATION('This was on short term migration and child welfare .','One study in border villages of Rajasthan , Madhya Pradesh and Gujarat studied the effect .' )SUB/ELABORATION('One study in border villages of Rajasthan , Madhya Pradesh and Gujarat found .', SUB/ELABORATION(SUB/ELABORATION('This is among children .','Grade completed is higher .' ), ', Children do not migrate .')))
+
+Input: India has placed emphasis on MGNREGA as a contributor to carbon sequestration in its Third Biennial Update Report submitted to the United Nations Framework Convention on Climate Change in 2021.
+Prediction: SUB/ELABORATION('This was as a contributor .', SUB/ELABORATION(SUB/ELABORATION('This was on Climate Change in 2021 .','This was to carbon sequestration in its Third Biennial Update Report submitted to the United Nations Framework Convention .' )SUB/ELABORATION('This was on MGNREGA .','India has placed emphasis .')))
+
+Input: The main problems identified in the audit included: a fall in the level of employment, low rates of completion of works (only 30.3 per cent of planned works had been completed), poor planning (in one-third of Gram Panchayats, the planning process mandated by the act had not been followed), lack of public awareness partly due to poor information, education and communication IEC) by the state governments, shortage of staff (e.g., Gram Rozgar Sewaks had not been appointed in some states) and so on.
+Prediction: SUB/ELABORATION('IEC were education and communication .', SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('Employment was low rates of completion of works .', SUB/ELABORATION('The level of employment -LRB- only 30.3 per cent of planned works had been completed -RRB- were poor planning -LRB- in one-third of Gram Panchayats , the planning process mandated by the act -RRB- .','Had not been followed the act .' )SUB/ELABORATION('Employment was low rates of completion of works .','A fall in the level of employment -LRB- only 30.3 per cent of planned works had been completed -RRB- were lack of public awareness .' )SUB/ELABORATION('A fall in the level of employment was low rates of completion of works .', SUB/ELABORATION(CO/LIST('The audit included .', SUB/ELABORATION('A fall in the level of employment -LRB- only 30.3 per cent of planned works had been completed -RRB- were poor planning -LRB- in one-third of Gram Panchayats , the planning process mandated by the act -RRB- .','Had not been followed the act .' )SUB/ELABORATION('IEC was poor information .', SUB/ELABORATION('The state governments were shortage of staff .', SUB/ELABORATION('This was to poor information .', SUB/ELABORATION('This was partly due .', CO/LIST('The main problems identified in the audit included : a fall in the level of employment -LRB- only 30.3 per cent of planned works had been completed -RRB- -RRB- by the state governments -LRB- e.g. , Gram Rozgar Sewaks had not been appointed in some states -RRB- .','The main problems so on .'))))))))))))
+
+Input: The comprehensive assessment of the performance of the law by the constitutional auditor revealed serious lapses arising mainly due to lack of public awareness, mismanagement and institutional incapacity.
+Prediction: SUB/ELABORATION('The comprehensive assessment of the performance of the law by the constitutional auditor revealed serious lapses .', CO/LIST(', Serious lapses were arising mainly due to lack of public awareness .',', Serious lapses were arising mainly due to lack of mismanagement .',', Serious lapses were arising mainly due to lack of institutional incapacity .'))
+
+Input: Government of India should increase the Central allocation for the scheme so that number of workdays can be increased to 200 and per day wage can be increased to Rs. 300.
+Prediction: SUB/ELABORATION('This was for the scheme .','Government of India should increase the Central allocation so that number of workdays can be increased to 200 and per day wage can be increased to Rs . 300 .')
+
+Input: A major criticism of the MGNREGA is that a lot of money disbursed by the government gets siphoned off by middlemen, thus leaving a number of MGNREGA workers either with unpaid wages or less than standard wages.
+Prediction: SUB/ELABORATION('A major criticism of the MGNREGA is .', SUB/ELABORATION('This was either with unpaid wages or less than standard wages .', SUB/ELABORATION('A lot of money gets siphoned off by middlemen , thus leaving a number of MGNREGA workers .','Money was disbursed by the government .')))
+
+Input: Up to a maximum of 25 percent of the balance at the end of the 2nd immediately preceding year would be allowed as loan.
+Prediction: SUB/ELABORATION('This was up to a maximum of 25 percent of the balance at the end of the 2nd .','Immediately preceding year would be allowed as loan .')
+
+Input: A second loan could be availed as long as you are within the 3rd and before the 6th year, and only if the first one is fully repaid.
+Prediction: NONE
+
+Input: After 15 years of maturity, the full PPF amount can be withdrawn which is tax free, including the interest amount as well.
+Prediction: SUB/ELABORATION('This was after 15 years of maturity .', SUB/ELABORATION('This was including the interest amount as well .','The full PPF amount can be withdrawn which is tax free .'))
+
+Input: Every person employed in an establishment for hire or reward including contract labour, apprentices and part-time employees to do any manual, clerical, skilled, unskilled, technical, operational or supervisory work, is covered by the Act.
+Prediction: CO/LIST('Every person employed in an establishment for hire or reward including contract labour is covered by the Act .','Apprentices is covered by the Act .','Part-time employees to do any manual , clerical , skilled , unskilled , technical , operational or supervisory work , is covered by the Act .')
+
+Input: The Industrial Dispute Act does not apply to persons mainly in managerial or administrative capacity, persons engaged in a supervisory capacity and drawing > 10,000 p.m or executing managerial functions and persons subject to Army Act, Air Force and Navy Act or those in police service or officer or employee of a prison.
+Prediction: CO/LIST(SUB/ELABORATION('This was mainly in managerial or administrative capacity .', SUB/ELABORATION(SUB/ELABORATION('Persons were persons .','Persons were engaged in a supervisory capacity .' ), 'The Industrial Dispute Act does not apply to persons .' )SUB/ELABORATION('Persons drawing > 10,000 p.m or executing managerial functions and persons subject to Army Act , Air Force and Navy Act or those in police service or officer or employee of a prison are managerial or administrative capacity .', SUB/ELABORATION('This is mainly in managerial or administrative capacity .','The Industrial Dispute Act does not apply to persons .'))))
+
+Input: Workers who sought better conditions, and trade unions who campaigned through strike action were frequently, and violently suppressed.
+Prediction: CO/LIST(SUB/ELABORATION('Workers were frequently .', SUB/ELABORATION(CO/LIST('Workers sought better conditions .','Workers sought trade unions .' ), 'Trade unions campaigned through strike action .' )SUB/ELABORATION('Workers suppressed .', SUB/ELABORATION(CO/LIST('Workers sought better conditions .','Workers sought trade unions .' ), 'Trade unions campaigned through strike action .'))))
+
+Input: After independence was won in 1947, the Constitution of India of 1950 embedded a series of fundamental labour rights in the constitution, particularly the right to join and take action in a trade union, the principle of equality at work, and the aspiration of creating a living wage with decent working conditions.
+Prediction: SUB/TEMPORAL('Independence was won in 1947 .', CO/LIST('The Constitution of India of 1950 embedded a series of fundamental labour rights in the constitution .','The Constitution of India of 1950 embedded particularly the right to join and take action in a trade union .','The Constitution of India of 1950 embedded the principle of equality at work .','The Constitution of India of 1950 embedded the aspiration of creating a living wage with decent working conditions .'))
+
+Input: Articles 38-39, and 41-43A, however, like all rights listed in Part IV of the Constitution are not enforceable by courts, rather than creating an aspirational "duty of the State to apply these principles in making laws".
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is however .','Articles 38-39 , and 41-43A like .' )SUB/ELABORATION('This is rather than creating an aspirational `` duty of the State to apply these principles in making laws ',' .','All rights listed in Part IV of the Constitution are not enforceable by courts .'))
+
+Input: The scope of labour laws extend from regulating the height of urinals in workers' washrooms to how often a work space must be lime-washed.
+Prediction: NONE
+
+Input: Among the employment contracts that are regulated in India, the regulation involves significant government involvement which is rare in developed countries.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This is among the employment contracts .','The regulation involves significant government involvement .' ), ', Significant government involvement is rare in developed countries .' ), 'The employment contracts are regulated in India .')
+
+Input: The Industrial Employment (Standing Orders) Act 1946 requires that employers have terms including working hours, leave, productivity goals, dismissal procedures or worker classifications, approved by a government body.
+Prediction: SUB/ELABORATION('The Industrial Employment -LRB- Standing Orders -RRB- Act 1946 requires .', CO/DISJUNCTION('Employers have terms including working hours , approved by a government body .','Employers have terms including leave , approved by a government body .','Employers have terms including productivity goals , approved by a government body .','Employers have terms including dismissal procedures , approved by a government body .','Employers have terms including worker classifications , approved by a government body .'))
+
+Input: The Latin phrase 'dies non' is being widely used by disciplinary authorities in government and industries for denoting the 'unauthorised absence' to the delinquent employees.
+Prediction: CO/LIST(SUB/ELABORATION('This was for .','The Latin phrase ` dies non ' is being widely used by disciplinary authorities in government and industries .' )SUB/ELABORATION('This was to the delinquent employees .','The Latin phrase ` dies non ' was denoting the ` unauthorised absence ' .'))
+
+Input: A person can be marked dies-non, if absent without proper permission , when on duty left without proper permission and while in office but refused to perform duties .
+Prediction: NONE
+
+Input: In cases of such willful and unauthorised absence from work, the leave sanctioning authority may decide and order that the days on which the work is not performed be treated as dies non-on the principle of no work no pay.
+Prediction: CO/LIST(SUB/ELABORATION('This is in cases of such willful and unauthorised absence from work .','The leave sanctioning authority may decide no pay .' )SUB/ELABORATION(SUB/ELABORATION('This is in cases of such willful and unauthorised absence from work .','The leave sanctioning authority may order .' ), 'The days on which the work is not performed be treated as dies non-on the principle of no work no pay .'))
+
+Input: The term 'industry' infuses a contractual relationship between the employer and the employee for sale of products and services which are produced through their cooperative endeavor.
+Prediction: SUB/ELABORATION(CO/LIST('The term ` industry ' infuses a contractual relationship between the employer .','The term ` industry ' infuses the employee for sale of products and services .' ), 'The employee for sale of products and services are produced through their cooperative endeavor .')
+
+Input: Where the contract of employment is not fulfilled or work is not done as prescribed, the principle of 'no work no pay' is brought into play.
+Prediction: NONE
+
+Input: In the Labour Law 2021, the government has approved an overtime payment to the employees working more than 15 minutes of scheduled shift.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This was to the employees .','The employees were working more than 15 minutes of scheduled shift .' )SUB/ELABORATION('This was in the Labour Law 2021 .','The government has approved an overtime payment .'))
+
+Input: Section 6 requires that people are paid in money rather than in kind.
+Prediction: SUB/ELABORATION(', Section 6 requires .','People are paid in money rather than in kind .')
+
+Input: New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees.
+Prediction: SUB/PURPOSE('New Pension Scheme was implemented with the decision of the Union Government .','This was to replace the Old Pension Scheme which had defined-benefit pensions for all its employees .')
+
+Input: On 10 December 2018, the Government of India made NPS an entirely tax-free instrument in India where the entire corpus escapes tax at maturity; the 40% annuity also became tax-free.
+Prediction: CO/LIST(SUB/ELABORATION('This was on 10 .','December 2018 , the Government of India made NPS an entirely tax-free instrument in India where the entire corpus escapes tax at maturity .' ), 'The 40 % annuity also became tax-free .')
+
+Input: In addition to the constitutional prohibition of hazardous child labour, various laws in India, such as the Juvenile Justice (care and protection) of Children Act-2000, and the Child Labour (Prohibition and Abolition) Act 1986 provide a basis in law to identify, prosecute and stop child labour in India.
+Prediction: SUB/SPATIAL('This is in India .', SUB/ELABORATION(SUB/ELABORATION('This is to the constitutional prohibition of hazardous child labour .','This is in addition .' )SUB/ELABORATION(CO/LIST('This is such as the Juvenile Justice -LRB- care -RRB- of Children Act-2000 .','This is such as the Juvenile Justice -LRB- protection -RRB- of Children Act-2000 .' )CO/LIST('Various laws in India provide a basis in law to identify , prosecute and stop child labour .','The Child Labour -LRB- Prohibition and Abolition -RRB- Act 1986 provide a basis in law to identify , prosecute and stop child labour .'))))
+
+Input: Indian government classifies child labourers into two groups: main workers are those who work 6 months or more per year, and marginal child workers are those who work at any time during the year but less than 6 months in a year.
+Prediction: CO/LIST(SUB/ELABORATION('This is into two groups .','Indian government classifies child labourers .' )CO/LIST(SUB/ELABORATION('Main workers are those .', SUB/ELABORATION('This is per year .','Those work 6 months or more .' )SUB/ELABORATION('Marginal child workers are those .', SUB/ELABORATION('This is during the year but less than 6 months in a year .','Those work at any time .')))))
+
+Input: UNICEF, however, points out that India faces major shortages of schools, classrooms and teachers particularly in rural areas where 90 percent of child labour problem is observed.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is however .','UNICEF points out .' )SUB/ELABORATION(SUB/ELABORATION('This is particularly in rural areas .','90 percent of child labour problem is observed .' ), 'India faces major shortages of schools , classrooms and teachers .'))
+
+Input: Income from a child's work is felt to be crucial for his/her own survival or for that of the household.
+Prediction: NONE
+
+Input: According to a 2008 study by ILO,among the most important factors driving children to harmful labour is the lack of availability and quality of schooling.
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is among the most important factors .','This is according to a 2008 study by ILO .' )SUB/ELABORATION('This is to harmful labour .','Driving children is the lack of availability and quality of schooling .'))
+
+Input: Even when schools are sometimes available, they are too far away, difficult to reach, unaffordable or the quality of education is so poor that parents wonder if going to school is really worthwhile.
+Prediction: CO/CONTRAST(', Schools are sometimes available .', CO/DISJUNCTION(SUB/ELABORATION('This is difficult to reach , unaffordable .','They are too far away .' )SUB/ELABORATION('The quality of education is so poor .', SUB/ATTRIBUTION('This is what parents wonder .','If going to school is really worthwhile .'))))
+
+Input: In government-run primary schools, even when children show up, government-paid teachers do not show up 25% of the time.
+Prediction: CO/CONTRAST(', Children show up .', SUB/ELABORATION('This is in government-run primary schools .','Government-paid teachers do not show up 25 % of the time .'))
+
+Input: The 2008 ILO study suggests that illiteracy resulting from a child going to work, rather than a quality primary and secondary school, limits the child's ability to get a basic educational grounding which would in normal situations enable them to acquire skills and to improve their prospects for a decent adult working life.
+Prediction: NONE
+
+Input: While poverty and unavailability of good schools explain the child labour supply side, they suggest that the growth of low paying informal economy rather than higher paying formal economy – called organised economy in India – is amongst the causes of the demand side.
+Prediction: CO/CONTRAST('Poverty and unavailability of good schools explain the child labour supply side .', SUB/ELABORATION('They suggest .','The growth of low paying informal economy rather than higher paying formal economy -- called organised economy in India -- is amongst the causes of the demand side .'))
+
+Input: India has rigid labour laws and numerous regulations that prevent growth of organised sector where work protections are easier to monitor, and work more productive and higher paying.
+Prediction: SUB/ELABORATION(CO/LIST('India has rigid labour laws .','India has numerous regulations .' )SUB/ELABORATION('Numerous regulations prevent growth of organised sector .','Work protections are easier to monitor , and work more productive and higher paying .'))
+
+Input: Even in situations where children are going to school, claim Biggeri and Mehrotra, children engage in routine after-school home-based manufacturing and economic activity.
+Prediction: SUB/ELABORATION('Biggeri is claim .', SUB/ELABORATION(CO/LIST('This is even in situations where children are going to school .'

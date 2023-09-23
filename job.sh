@@ -15,8 +15,6 @@
 # python3 Utils/preprocess.py T5 data/CoordinationDataSet/output/predictions/Prediction_T5_large.coord data/CoordinationDataSet/output/predictions/Prediction_T5_large.conj
 
 
-
-
 spack load anaconda3@2022.05
 conda init bash
 eval "$(conda shell.bash hook)"
