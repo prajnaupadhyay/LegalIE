@@ -23,7 +23,7 @@ def get_PoS_tags(sentence):
     pass
 
 # Define function to process input file
-def process_input_file(file_path, dataset = "Coord"):
+def process_input_file(file_path, dataset = "coord"):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
@@ -38,7 +38,7 @@ def process_input_file(file_path, dataset = "Coord"):
         for line in lines:
             line = line.strip()
             if line.startswith('Input: '):
-                line = get_PoS_tags(line)
+                # line = get_PoS_tags(line)
                 data.append(line.replace('Input: ', '').strip())
             elif line.startswith('Prediction: '):
                 targets.append(line.replace('Prediction: ', '').strip())
@@ -113,12 +113,17 @@ def write_predictions_to_file(file_path, inputs, predictions):
     nlp = spacy.load("en_core_web_sm")
     with open(file_path, 'w', encoding='utf-8') as file:
         for i in range(len(inputs)):
-            file.write("Input: " + inputs[i] + "\n")
+            file.write("Input: " + " ".join([sent.text for sent in nlp(inputs[i])]) + "\n")
             # predictions[i] = predictions[i].replace("..", ".")
             # predictions[i] = predictions[i].replace(",.", ".")
-
-            doc = nlp(predictions[i])
-            file.write(" ".join([sent.text for sent in doc]) + "\n")
+            predictions[i] =  " ".join([sent.text for sent in nlp(predictions[i])]) 
+            predictions[i] = predictions[i].replace("COORDINATION ( \"", "COORDINATION(\"")
+            predictions[i] = predictions[i].replace(". \"", ".\"")
+            predictions[i] = predictions[i].replace(" / ", "\\/")
+            predictions[i] = predictions[i].replace(" - ", "-")
+            predictions[i] = predictions[i].replace(") )", "))")
+            
+            file.write("Prediction: " + predictions[i] + "\n")
             # print("Prediction:", predictions[i])
             file.write("\n")
 
@@ -162,7 +167,7 @@ def prepare_train(model_name):
     if model_name.upper() == 'BART':
         model = BartForConditionalGeneration.from_pretrained("facebook/bart-base").to(device)
     elif model_name.upper() == 'T5':
-        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-large").to(device)
+        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-small").to(device)
     else:
         print('Please enter a valid model name')
 
@@ -224,19 +229,19 @@ if __name__ == '__main__':
     if sys.argv[6].upper() == 'BART':
         tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
     elif sys.argv[6].upper() == 'T5':
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
     else:
         print('Wrong model name. Use BART ot T5')
         sys.exit(1)
         
     # Choose Dataset    
     dataset = "coord"
-    if len(sys.argv) == 8 and sys.argv[7].lower() in ["coord", "subord", "carb"]:
-        dataset = sys.argv[7].lower()
-        print("Dataset: ", dataset.upper())
-    else:
-        print("Wrong Dataset")
-        sys.exit(1)
+    # if len(sys.argv) == 8 and sys.argv[7].lower() in ["coord", "subord", "carb"]:
+    #     dataset = sys.argv[7].lower()
+    #     print("Dataset: ", dataset.upper())
+    # else:
+    #     print("Wrong Dataset")
+    #     sys.exit(1)
     
     # Choose task
     if sys.argv[1] == 'train-test':

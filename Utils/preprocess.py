@@ -363,10 +363,11 @@ def get_sentences_from_tree_labels(model, tree_label):
     # Removing " )) from the end
     if count >= 1:
         tree_label = tree_label[:-(count + 2)]
-    if(model == "OpenIE"):
-        sentences = tree_label.split("\" , \"")
-    else:
-        sentences = tree_label.split("\", \"")
+    # if(model == "OpenIE"):
+    #     sentences = tree_label.split("\" , \"")
+    # else:
+    #     sentences = tree_label.split("\", \"")
+    sentences = tree_label.split("\" , \"")
     new_sentenes = []
     if model == "BART":
         for s in sentences:

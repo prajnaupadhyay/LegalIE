@@ -3,13 +3,14 @@ from rouge_score import rouge_scorer
 import numpy as np
 import sys
 
-def calculate_rouge_score(reference_file, prediction_file):
+def calculate_rouge_score(model, reference_file, prediction_file):
     test_labels = []
     predictions = []
     #REfernce file 
     with open(reference_file, 'r') as file:
         for line in file:
-            if not line.startswith('#') and line.strip() != "":
+            if line.startswith('Prediction:') and line.strip() != "":
+                line = line.strip("Prediction: ")
                 if "COORDINATION(" in line:
                     line = line.replace("COORDINATION(", "")
                     line = line.replace(')', '')
@@ -19,23 +20,30 @@ def calculate_rouge_score(reference_file, prediction_file):
                     
     #test_labesl = np.array(test_labels)
    
-    #Predictions File - BART
-    with open(prediction_file, 'r') as file:
-        for line in file:
-            if line.startswith('Prediction:'):
-                line = line.strip("Prediction: ")
-                
-                if "COORDINATION(" in line:
-                    line = line.replace("COORDINATION(", "")
-                    line = line.replace("COORDINATIONAL(", '')
-                    line = line.replace(')','')
-                    #line = line.replace(',None','')
-                
-                    predictions.append(line.strip())    
-                # if line.endswith(','):
-                #     predictions.append(line.strip()[-1])
-                else:
-                    predictions.append(line.strip())
+    pred_file = open(prediction_file, 'r')
+    if model.lower() == "openie":
+        predictions = pred_file.read().split('\n\n')
+        for i in range(len(predictions)):
+            _t = [s.strip() for s in predictions[i].splitlines() if s.strip() != ""][1:]
+            predictions[i] = " ".join(_t)
+        predictions = predictions[:-1]
+    else:
+        with open(prediction_file, 'r') as file:
+            for line in file:
+                if line.startswith('Prediction:'):
+                    line = line.strip("Prediction: ")
+                    
+                    if "COORDINATION(" in line:
+                        line = line.replace("COORDINATION(", "")
+                        line = line.replace("COORDINATIONAL(", '')
+                        line = line.replace(')','')
+                        #line = line.replace(',None','')
+                    
+                        predictions.append(line.strip())    
+                    # if line.endswith(','):
+                    #     predictions.append(line.strip()[-1])
+                    else:
+                        predictions.append(line.strip())
  
     
     print("Total number of test and predictions:",len(test_labels), len(predictions),"\n", test_labels[0], predictions[0])
@@ -66,18 +74,18 @@ def calculate_rouge_score(reference_file, prediction_file):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
-        print("Usage: python computeRougue.py <input_file> <output_file>")
+    if len(sys.argv) != 4:
+        print("Usage: python computeRougue.py OpenIE/T5/BART <prediction_file> <result_file>")
         exit(0)
-    reference_file_path = 'data/CoordinationDataSet/gold/test.coord'
+    reference_file_path = 'data/CoordinationDataSet/gold/test_copy.coord'
     # prediction_file_path = '/Users/chaitrakaustubh/LegalIE/LegalIE-master/data/NewDataset/ConvertedConj.txt'
 
     # reference_file_path = sys.argv[1]
-    prediction_file_path = sys.argv[1]
+    prediction_file_path = sys.argv[2]
 
 
-    rouge_scores = calculate_rouge_score(reference_file_path, prediction_file_path)
-    result = open(sys.argv[2], "w")
+    rouge_scores = calculate_rouge_score(sys.argv[1], reference_file_path, prediction_file_path)
+    result = open(sys.argv[3], "w")
     for metric, values in rouge_scores.items():
         print(f"{metric}:")
         print(f"  Precision: {values['p']:.4f}")
