@@ -11,10 +11,10 @@ Python 3.10 is needed to run the code.
 Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 folders:
 
 #### 1) `gold`: This contains the gold data or the test data (terms can be interchangeably used). The same dataset is present in 4 formats:
-###### `test.coord`: in the format of coordination trees(with \# for input)
-####### `test_copy.coord`: in the format with Input: and Prediction: from `test.coord`
-####### `test_mod.coord`: with some corrections for punctuation anamolies from `test_copy.coord`
-####### `test_mod2.coord`: with `Preprocessor.get_mod2_file()` from `Utils/wire57.py` on `test.oord`
+##### `test.coord`: in the format of coordination trees(with \# for input)
+###### `test_copy.coord`: in the format with Input: and Prediction: from `test.coord`
+###### `test_mod.coord`: with some corrections for punctuation anamolies from `test_copy.coord`
+###### `test_mod2.coord`: with `Preprocessor.get_mod2_file()` from `Utils/wire57.py` on `test.oord`
 ###### `test.conj`: in the format of split sentences
 ###### `test.labels`: in the format OpenIE uses (we do not use this format)
 ###### `test.txt`: in the format of plain text sentences
