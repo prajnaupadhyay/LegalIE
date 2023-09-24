@@ -15,8 +15,8 @@ Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 
 ###### `test_copy.coord`: in the format with Input: and Prediction: from `test.coord`
 ###### `test_mod.coord`: with some corrections for punctuation anamolies from `test_copy.coord`
 ###### `test_mod2.coord`: with `Preprocessor.get_mod2_file()` from `Utils/wire57.py` on `test.oord`
-###### `test.conj`: in the format of split sentences
-###### `test.labels`: in the format OpenIE uses (we do not use this format)
+##### `test.conj`: in the format of split sentences
+##### `test.labels`: in the format OpenIE uses (we do not use this format)
 ###### `test.txt`: in the format of plain text sentences
 
 #### 2) `input`: all input files with the appropriate formats (contains `train.coord`)
