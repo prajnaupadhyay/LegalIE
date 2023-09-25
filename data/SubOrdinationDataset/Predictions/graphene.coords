@@ -1,3 +1,5 @@
+#The Inter-State Migrant Workmen Act was replaced by the Occupational Safety, Health and Working Conditions Code, 2020.
+SUB/ELABORATION('Working Conditions Code were 2020 .', CO/LIST('The Inter-State Migrant Workmen Act was replaced by the Occupational Safety .','The Inter-State Migrant Workmen Act was replaced by Health .','The Inter-State Migrant Workmen Act was replaced by Working Conditions Code .'))
 #The term 'industry' infuses a contractual relationship between the employer and the employee for sale of products and services which are produced through their cooperative endeavor.
 SUB/ELABORATION(CO/LIST('The term ` industry ' infuses a contractual relationship between the employer .','The term ` industry ' infuses the employee for sale of products and services .' ), 'The employee for sale of products and services are produced through their cooperative endeavor .')
 #If any contribution of minimum amount in any year is not invested , then the account will be deactivated .
@@ -18,8 +20,6 @@ SUB/ELABORATION('The Industrial Employment -LRB- Standing Orders -RRB- Act 1946 
 CO/LIST(SUB/ELABORATION('Workers were frequently .', SUB/ELABORATION(CO/LIST('Workers sought better conditions .','Workers sought trade unions .' ), 'Trade unions campaigned through strike action .' )SUB/ELABORATION('Workers suppressed .', SUB/ELABORATION(CO/LIST('Workers sought better conditions .','Workers sought trade unions .' ), 'Trade unions campaigned through strike action .'))))
 #No working hours were fixed for interstate migrant workers and they had to work on all the days in a week under extremely bad working conditions.
 CO/LIST('No working hours were fixed for interstate migrant workers .', SUB/ELABORATION('This was under extremely bad working conditions .','They had to work on all the days in a week .'))
-#The Inter-State Migrant Workmen Act was replaced by the Occupational Safety, Health and Working Conditions Code, 2020.
-SUB/ELABORATION('Working Conditions Code were 2020 .', CO/LIST('The Inter-State Migrant Workmen Act was replaced by the Occupational Safety .','The Inter-State Migrant Workmen Act was replaced by Health .','The Inter-State Migrant Workmen Act was replaced by Working Conditions Code .'))
 #In addition to the general labour laws applicable to all workers, the interstate workers are entitled with termination of employment after the contract period without any liability.
 SUB/ELABORATION('This was after the contract period .', SUB/ELABORATION('This was without any liability .', SUB/ELABORATION('This was in addition to the general labour laws applicable to all workers .','The interstate workers are entitled with termination of employment .')))
 #The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law that sets the minimum wages that must be paid to skilled and unskilled labours.
@@ -213,4 +213,4 @@ SUB/ELABORATION(SUB/ELABORATION('This was to the employees .','The employees wer
 #Section 6 requires that people are paid in money rather than in kind.
 SUB/ELABORATION(', Section 6 requires .','People are paid in money rather than in kind .')
 #New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees.
-SUB/PURPOSE('New Pension Scheme was implemented with the decision of the Union Government .','This was to replace the Old Pension Scheme which had defined-benefit pensions for all its employees .')
+SUB/PURPOSE('New Pension Scheme was implemented with the decision of the Union Government .','This was to replace the Old Pension Scheme which had defined-benefit pensions for all its employees .)
