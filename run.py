@@ -43,7 +43,7 @@ def process_input_file(file_path, dataset = "coord"):
         for line in lines:
             line = line.strip()
             if line.startswith('Input: '):
-                line = get_PoS_tags(line)
+                # line = get_PoS_tags(line)
                 data.append(line.replace('Input: ', '').strip())
             elif line.startswith('Prediction: '):
                 targets.append(line.replace('Prediction: ', '').strip())
