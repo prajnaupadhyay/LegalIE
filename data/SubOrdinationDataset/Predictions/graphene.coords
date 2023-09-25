@@ -213,4 +213,4 @@ SUB/ELABORATION(SUB/ELABORATION('This was to the employees .','The employees wer
 #Section 6 requires that people are paid in money rather than in kind.
 SUB/ELABORATION(', Section 6 requires .','People are paid in money rather than in kind .')
 #New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees.
-SUB/PURPOSE(
+SUB/PURPOSE('New Pension Scheme was implemented with the decision of the Union Government .','This was to replace the Old Pension Scheme which had defined-benefit pensions for all its employees .')
