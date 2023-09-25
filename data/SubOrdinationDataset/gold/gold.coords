@@ -212,3 +212,5 @@ SUB/ELABORATION(‘This is In the Labour Law 2021.’, SUB/CONDITION(‘This is 
 NONE
 #New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees.
 SUB/PURPOSE('New Pension Scheme was implemented with the decision of the Union Government .',SUB/ELABORATION('This was to replace the Old Pension Scheme.', ' This is which had defined-benefit pensions for all its employees .'))
+#The Inter-State Migrant Workmen Act was replaced by the Occupational Safety, Health and Working Conditions Code, 2020.
+NONE
