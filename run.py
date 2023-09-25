@@ -20,7 +20,12 @@ from transformers import AutoModel
 import spacy
 
 def get_PoS_tags(sentence):
-    pass
+    if sentence.startswith('Input: '):
+        sentence.replace('Input: ', '').strip()
+    nlp = spacy.load("en_core_web_sm")
+    pos = nlp(sentence)
+    sentence += (" " + " ".join([i.pos_ for i in pos]))
+    return sentence
 
 # Define function to process input file
 def process_input_file(file_path, dataset = "coord"):
@@ -38,7 +43,7 @@ def process_input_file(file_path, dataset = "coord"):
         for line in lines:
             line = line.strip()
             if line.startswith('Input: '):
-                # line = get_PoS_tags(line)
+                line = get_PoS_tags(line)
                 data.append(line.replace('Input: ', '').strip())
             elif line.startswith('Prediction: '):
                 targets.append(line.replace('Prediction: ', '').strip())
