@@ -86,8 +86,8 @@ class PostProcessor:
         # path1 = "data/SubordinationDataSet/input/train.txt"
         # path2 = "data/SubordinationDataSet/input/train_IP.txt"
         
-        path1 = "data/SubordinationDataSet/gold/test.txt"
-        path2 = "data/SubordinationDataSet/gold/test_IP.txt"
+        path1 = "data/CoordinationDataSet/input/train.coord"
+        path2 = "data/CoordinationDataSet/input/train_copy.coord"
 
         fr = open(path1, "r")
         fw = open(path2, "w")
@@ -142,10 +142,10 @@ class PostProcessor:
         
 if __name__ == "__main__":
     # Preprocessor.get_mod2_file()
-    # Preprocessor.preprocess_SubordData()
+    PostProcessor.preprocess_SubordData()
     # Preprocessor.get_copy_file()
     
-    if (len(sys.argv) != 3):
-        print("Usage: python3 postprocess.py <input_file> <output_file>")
-        exit(0)
-    PostProcessor.get_in_openie_format(sys.argv[1], sys.argv[2])
+    # if (len(sys.argv) != 3):
+    #     print("Usage: python3 postprocess.py <input_file> <output_file>")
+    #     exit(0)
+    # PostProcessor.get_in_openie_format(sys.argv[1], sys.argv[2])
