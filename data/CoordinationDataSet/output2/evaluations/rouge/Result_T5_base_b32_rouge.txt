@@ -1,0 +1,15 @@
+rouge1:
+
+  Precision: 0.9523
+  Recall: 0.9510
+  F1 Score: 0.9489
+rouge2:
+
+  Precision: 0.8148
+  Recall: 0.8134
+  F1 Score: 0.8113
+rougeL:
+
+  Precision: 0.9498
+  Recall: 0.9485
+  F1 Score: 0.9464
