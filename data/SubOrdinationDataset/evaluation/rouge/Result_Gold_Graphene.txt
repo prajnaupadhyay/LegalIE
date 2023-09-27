@@ -1,0 +1,16 @@
+Total number of test and predictions: 108 108
+rouge1:
+
+  Precision: 0.7625
+  Recall: 0.7819
+  F1 Score: 0.7633
+rouge2:
+
+  Precision: 0.6472
+  Recall: 0.6613
+  F1 Score: 0.6471
+rougeL:
+
+  Precision: 0.7080
+  Recall: 0.7197
+  F1 Score: 0.7062
