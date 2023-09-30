@@ -89,19 +89,19 @@ class PostProcessor:
         # path1 = "data/CoordinationDataSet/input/train.coord"
         # path2 = "data/CoordinationDataSet/input/train_copy.coord"
         
-        path1 = "data/SubordinationDataSet/gold/test_reduced.coord"
-        path2 = "data/SubordinationDataSet/gold/test_reduced_IP.coord"
+        path1 = "data/Others/coordination_tree_encoding"
+        path2 = "data/Others/coordination_tree_encoding_copy.txt"
 
         fr = open(path1, "r")
         fw = open(path2, "w")
         f = fr.readlines()
 
         for i in range(len(f)):
-            if i%2 == 0:
+            if i%3 == 0:
                 f[i] = "Input: " + f[i][1:]
                 # print(f[i])
-            if i%2 == 1:
-                f[i] = "Prediction: " + f[i] + "\n"
+            if i%3 == 1:
+                f[i] = "Prediction: " + f[i]
             fw.write(f[i])
         fr.close()
         fw.close() 

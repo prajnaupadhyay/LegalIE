@@ -25,7 +25,7 @@ def calculate_rouge_score(model, reference_file, prediction_file):
         predictions = pred_file.read().split('\n\n')
         for i in range(len(predictions)):
             _t = [s.strip() for s in predictions[i].splitlines() if s.strip() != ""][1:]
-            predictions[i] = " ".join(_t)
+            predictions[i] = "\"\"".join(_t)
         predictions = predictions[:-1]
     else:
         with open(prediction_file, 'r') as file:

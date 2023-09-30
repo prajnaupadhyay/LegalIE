@@ -8,6 +8,7 @@
 #SBATCH -e logs/slurm.%j.err
 #SBATCH --gres=gpu:1
 
+# sbatch job.sh train-test data/CoordinationDataSet/input/train_copy.coord model_dir_03 data/CoordinationDataSet/gold/test_copy.coord data/CoordinationDataSet/output/Predictions_BART_large.txt BART
 # sbatch job.sh train data/CoordinationDataSet/input/train.coord model_dir data/CoordinationDataSet/gold/test.txt data/CoordinationDataSet/output/Predictions_T5_base.txt T5
 # sbatch job.sh test data/CoordinationDataSet/input/train.coord model_dir data/CoordinationDataSet/gold/test.coord data/CoordinationDataSet/output/Predictions_T5_base.txt T5
 # python3 Utils/wire57.py T5 data/CoordinationDataSet/gold/test_copy.coord  data/CoordinationDataSet/output2/predictions/Prediction_T5_small_b24.coord > data/CoordinationDataSet/output2/evaluations/wire57_f1/Result_T5_small_b24_wire57v2.txt
