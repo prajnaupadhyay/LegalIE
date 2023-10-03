@@ -143,7 +143,8 @@ class PostProcessor:
                 fw.write("Prediction: " + predictions[i] + "\n\n")
         fr.close()
         fw.close()
-        
+     
+            
 if __name__ == "__main__":
     # Preprocessor.get_mod2_file()
     PostProcessor.preprocess_SubordData()
