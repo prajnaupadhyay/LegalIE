@@ -130,7 +130,7 @@ def write_predictions_to_file(file_path, inputs, predictions):
             predictions[i] = predictions[i].replace("COORDINATION ( \"", "COORDINATION(\"")
             predictions[i] = predictions[i].replace("COORDINATIONAL ( \"", "COORDINATION(\"")
             predictions[i] = predictions[i].replace(". \"", ".\"")
-            predictions[i] = predictions[i].replace(" / ", "\\/")
+            # predictions[i] = predictions[i].replace(" / ", "\\/")
             predictions[i] = predictions[i].replace(" - ", "-")
             predictions[i] = predictions[i].replace(") )", "))")
             

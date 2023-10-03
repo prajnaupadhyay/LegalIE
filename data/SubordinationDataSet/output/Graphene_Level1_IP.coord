@@ -1,0 +1,65 @@
+Input: If any contribution of minimum amount in any year is not invested , then the account will be deactivated .
+Prediction: SUB/CONDITION('Any contribution of minimum amount in any year is not invested .','Then the account will be deactivated .')
+
+Input: Workers who sought better conditions, and trade unions who campaigned through strike action were frequently, and violently suppressed.
+Prediction: CO/LIST(SUB/ELABORATION('Workers were frequently .', SUB/ELABORATION(CO/LIST('Workers sought better conditions .','Workers sought trade unions .' ), 'Trade unions campaigned through strike action .' )SUB/ELABORATION('Workers suppressed .', SUB/ELABORATION(CO/LIST('Workers sought better conditions .','Workers sought trade unions .' ), 'Trade unions campaigned through strike action .'))))
+
+Input: The Maternity Benefit (Amendment) Act, 2017 gives female employees of every company the right to take 6 months' worth of fully paid maternity leave.
+Prediction: SUB/ELABORATION('This was 2017 .','The Maternity Benefit -LRB- Amendment -RRB- Act gives female employees of every company the right to take 6 months ' worth of fully paid maternity leave .')
+
+Input: The Maternity Benefit (Amendment) Act, 2017 provides for 6 weeks worth of paid leaves in case of miscarriage or medical termination of pregnancy.
+Prediction: SUB/ELABORATION('This was 2017 .', CO/DISJUNCTION('The Maternity Benefit -LRB- Amendment -RRB- Act provides for 6 weeks worth of paid leaves in case of miscarriage .','The Maternity Benefit -LRB- Amendment -RRB- Act provides for 6 weeks worth of paid leaves in medical termination of pregnancy .'))
+
+Input: A workman who has been employed for over a year can only be dismissed if permission is sought from and granted by the appropriate government office.
+Prediction: SUB/ATTRIBUTION('This was what a workman who has been employed for over a year can only be dismissed .','If permission is sought from and granted by the appropriate government office .')
+
+Input: The 42nd amendment transferred more power from the state governments to the central government, eroding India's federal structure.
+Prediction: CO/LIST(SUB/ELABORATION('This was from the state governments .', SUB/ELABORATION('This was to the central government .','The 42nd amendment transferred more power .' ), 'The 42nd amendment was eroding India 's federal structure .'))
+
+Input: Another purpose of 42nd Amendment was to make any law passed in pursuance of a Directive Principle immune from scrutiny by the Supreme Court.
+Prediction: NONE
+
+Input: India has a new code to simplify law on minimum wages – but it doesn't give workers any real benefit.
+Prediction: CO/CONTRAST('India has a new code to simplify law on minimum wages .','It does n't give workers any real benefit .')
+
+Input: Poverty rates are reported to be significantly higher in families where all working age members have only worked the unorganised sector throughout their lives.
+Prediction: NONE
+
+Input: Bonded labour is a forced relationship between an employer and an employee, where the compulsion is derived from outstanding debt.
+Prediction: SUB/SPATIAL(CO/LIST('Bonded labour is a forced relationship between an employer .','Bonded labour is a forced relationship between an employee .' ), 'The compulsion is derived from outstanding debt .')
+
+Input: Outside of agriculture , child labour is observed in almost all informal sectors of the Indian economy .
+Prediction: SUB/ELABORATION('This was outside of agriculture .',', Child labour is observed in almost all informal sectors of the Indian economy .')
+
+Input: The employees registered under the scheme are entitled to medical treatment for themselves and their dependents , unemployment cash benefit in certain contingencies and maternity benefit in case of women employees .
+Prediction: CO/LIST('The employees registered under the scheme are entitled to medical treatment for themselves and their dependents .','The employees registered under the scheme are entitled to unemployment cash benefit in certain contingencies .','The employees registered under the scheme are entitled to maternity benefit in case of women employees .')
+
+Input: If the number of employee is below 10 , the employer must still pay gratuities .
+Prediction: SUB/CONDITION('The number of employee is below 10 .','The employer must still pay gratuities .')
+
+Input: If over 50 per cent of a company's workers take concerted casual leave, it will be treated as a strike.
+Prediction: SUB/CONDITION('Over 50 per cent of a company 's workers take concerted casual leave .','It will be treated as a strike .')
+
+Input: One can withdraw the complete amount if the pension collected is less than INR 5,00,000 .
+Prediction: SUB/CONDITION('One can withdraw the complete amount .','The pension collected is less than INR 5,00,000 .')
+
+Input: If work is not provided within 15 days of applying , applicants are entitled to an unemployment allowance .
+Prediction: SUB/CONDITION('Work is not provided within 15 days of applying .','Applicants are entitled to an unemployment allowance .')
+
+Input: Unemployment allowance must be paid if the work is not provided within the statutory limit of 15 days .
+Prediction: SUB/CONDITION('Unemployment allowance must be paid .','The work is not provided within the statutory limit of 15 days .')
+
+Input: After the economic liberalization of 1991, the pay in Private sector was gradually seen as better than that in Public sector.
+Prediction: SUB/ELABORATION('This was after the economic liberalization of 1991 .','The pay in Private sector was gradually seen as better than that in Public sector .')
+
+Input: Tamil Nadu has not implemented the NPS for its government employees and is not not in agreement with PFRDA.
+Prediction: CO/LIST('Tamil Nadu has not implemented the NPS for its government employees .','Tamil Nadu is not not in agreement with PFRDA .')
+
+Input: Employees' State Insurance Corporation (abbreviated as ESIC) is one of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment, Government of India, the other being the Employees' Provident Fund Organisation.
+Prediction: SUB/ELABORATION('One of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment are Government of India .','Employees ' State Insurance Corporation -LRB- abbreviated as ESIC -RRB- is one of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment the other being the Employees ' Provident Fund Organisation .')
+
+Input: Six benefits are envisaged to ESI subscribers are Medical benefit, Sickness benefit, Maternity benefit, Disablement benefit, Dependants benefit and funeral expenses.
+Prediction: CO/LIST(', Six benefits are envisaged to ESI subscribers are Medical benefit .',', Six benefits are envisaged to ESI subscribers are Sickness benefit .',', Six benefits are envisaged to ESI subscribers are Maternity benefit .',', Six benefits are envisaged to ESI subscribers are Disablement benefit .',', Six benefits are envisaged to ESI subscribers are Dependants benefit .',', Six benefits are envisaged to ESI subscribers are funeral expenses .')
+
+Input: The Constitution of India prohibits child labour in hazardous industries ( but not in non-hazardous industries ) as a Fundamental Right under Article 24 .
+Prediction: SUB/ELABORATION('This is as a Fundamental Right under Article 24 .','The Constitution of India prohibits child labour in hazardous industries -LRB- but not in non-hazardous industries -RRB- .')

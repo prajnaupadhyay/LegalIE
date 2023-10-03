@@ -89,22 +89,23 @@ class PostProcessor:
         # path1 = "data/CoordinationDataSet/input/train.coord"
         # path2 = "data/CoordinationDataSet/input/train_copy.coord"
         
-        path1 = "data/Others/coordination_tree_encoding"
-        path2 = "data/Others/coordination_tree_encoding_copy.txt"
+        for i in range(5):
+            path1 = f"data/SubordinationDataSet/output/Graphene_Level{i}.coords"
+            path2 = f"data/SubordinationDataSet/output/Graphene_Level{i}_IP.coord"
 
-        fr = open(path1, "r")
-        fw = open(path2, "w")
-        f = fr.readlines()
+            fr = open(path1, "r")
+            fw = open(path2, "w")
+            f = fr.readlines()
 
-        for i in range(len(f)):
-            if i%3 == 0:
-                f[i] = "Input: " + f[i][1:]
-                # print(f[i])
-            if i%3 == 1:
-                f[i] = "Prediction: " + f[i]
-            fw.write(f[i])
-        fr.close()
-        fw.close() 
+            for i in range(len(f)):
+                if i%2 == 0:
+                    f[i] = "Input: " + f[i][1:]
+                    # print(f[i])
+                if i%2 == 1:
+                    f[i] = "Prediction: " + f[i] + "\n"
+                fw.write(f[i])
+            fr.close()
+            fw.close() 
         
     @classmethod
     def get_in_openie_format(cls, path1, path2):
