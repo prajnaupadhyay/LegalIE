@@ -45,10 +45,10 @@ def process_input_file(file_path, dataset = "coord"):
             if line.startswith('Input: '):
                 # line = get_PoS_tags(line)
                 data.append(line.replace('Input: ', '').strip())
-            if len(data) == 0:
-                data.append(line)
             elif line.startswith('Prediction: '):
                 targets.append(line.replace('Prediction: ', '').strip())
+        if len(data) == 0:
+            data = [line.strip() for line in lines]
         if len(targets) == 0:
                 targets = data
                 
