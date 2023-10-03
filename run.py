@@ -47,6 +47,9 @@ def process_input_file(file_path, dataset = "coord"):
                 data.append(line.replace('Input: ', '').strip())
             elif line.startswith('Prediction: '):
                 targets.append(line.replace('Prediction: ', '').strip())
+            if len(targets) == 0:
+                targets = data
+                
         print(len(targets))
         print(len(data))
 
