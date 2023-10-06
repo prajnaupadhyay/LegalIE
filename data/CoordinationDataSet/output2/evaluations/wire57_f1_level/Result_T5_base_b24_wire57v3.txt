@@ -1,12 +1,12 @@
 Level 0 with count 163
 Precision:  0.8282208588957055
 Recall:  0.8282208588957055
-F1 Score:  1.0 
+F1 Score:  0.8282208588957055 
 
 Level 1 with count 716
 Precision:  0.9794251169746272
 Recall:  0.9757712349735637
-F1 Score:  0.9764742228250429 
+F1 Score:  0.9751039790717423 
 
 Level 2 with count 98
 Precision:  0.9352495881164965
