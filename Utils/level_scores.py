@@ -58,6 +58,8 @@ class wire57_scorer_level(wire57_scorer):
                 # print(p, r)
                 if(p != 0 and r != 0):
                     f1 = 2*p*r/(p+r)
+                else:
+                    f1 = 0
                 precision += p
                 recall += r
                 f1_score += f1
