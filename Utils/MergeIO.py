@@ -29,7 +29,6 @@ with open(fileX, "r") as file:
 #file1 = "sampleinput.txt"
 file1 = "testSent.txt"
 #file2 = "sampleflatcoordsTree.txt"
-#file2= "/Users/chaitrakaustubh/CARB_SEntences/openIETRainConj/slurm.44402.out_allFlattened.txt"
 file2 = "TestFlattenedTreeWithoutSplChar1.txt"
 file3=open("TestmergeIO.txt", "w+")
 with open(file1,"r") as f1, open(file2,"r") as f2:

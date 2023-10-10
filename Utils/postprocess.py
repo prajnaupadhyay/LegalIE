@@ -24,11 +24,11 @@ class PostProcessor:
         
     @classmethod
     def get_mod2_file(cls):
-        # path1 = "/media/sankalp/DATA/Legal_NLP/LegalIE/data/CoordinationDataSet/gold/test.coord"
-        # path2 = "/media/sankalp/DATA/Legal_NLP/LegalIE/data/CoordinationDataSet/gold/test_mod2.coord"
+        # path1 = "data/CoordinationDataSet/gold/test.coord"
+        # path2 = "data/CoordinationDataSet/gold/test_mod2.coord"
 
-        path1 = "/media/sankalp/DATA/Legal_NLP/LegalIE/data/CoordinationDataSet/input/train.coord"
-        path2 = "/media/sankalp/DATA/Legal_NLP/LegalIE/data/CoordinationDataSet/input/train_mod2.coord"
+        path1 = "data/CoordinationDataSet/input/train.coord"
+        path2 = "data/CoordinationDataSet/input/train_mod2.coord"
 
 
         fr = open(path1, "r")
@@ -143,13 +143,24 @@ class PostProcessor:
                 fw.write("Prediction: " + predictions[i] + "\n\n")
         fr.close()
         fw.close()
-     
+
+    @classmethod
+    def get_train_levels(cls):
+        path1 = "data/CoordinationDataSet/input/train_copy.coord"
+
+        fr = open(path1, "r")
+        f = fr.readlines()
+        l = [0, 0, 0, 0, 0, 0, 0, 0]
+        for line in f:
+            if line.startswith("Prediction: "):
+                l[line.count("COORDINATION")] += 1
+        print(l)
             
 if __name__ == "__main__":
     # Preprocessor.get_mod2_file()
-    PostProcessor.preprocess_SubordData()
+    # PostProcessor.preprocess_SubordData()
     # Preprocessor.get_copy_file()
-    
+    PostProcessor.get_train_levels()
     # if (len(sys.argv) != 3):
     #     print("Usage: python3 postprocess.py <input_file> <output_file>")
     #     exit(0)

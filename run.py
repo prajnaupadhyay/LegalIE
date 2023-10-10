@@ -170,7 +170,6 @@ def test(test_dataloader, model, output_file_path, tokenizer):
 
 def prepare_train(model_name):
     # Load and preprocess your training data (from input file)
-    # input_file_path = '/home/prajna/LegalIE/exp3/FinalCordinationTree.txt'
     input_file_path = sys.argv[2]
     data, targets = process_input_file(input_file_path)
     
@@ -208,7 +207,6 @@ def prepare_test(model_name, carb = False):
         model = AutoModelForSeq2SeqLM.from_pretrained(sys.argv[3]).to(device)
 
     # Load and preprocess your test data (from input file)
-    # test_file_path = '/home/prajna/LegalIE/exp3/TestFinalCordinationTree.txt'
 
     test_file_path = sys.argv[4]
     test_data, test_targets = process_input_file(test_file_path, carb)
@@ -264,5 +262,3 @@ if __name__ == '__main__':
         prepare_test(sys.argv[6], dataset)
     elif sys.argv[1] == 'predict':
         print('predict')
-
-    # output_file_path = "/home/prajna/LegalIE/exp3/predictions.txt"

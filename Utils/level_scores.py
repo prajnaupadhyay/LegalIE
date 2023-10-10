@@ -74,37 +74,3 @@ if __name__ == "__main__":
         print("Usage: python3 wire57.py T5/BART/OpenIE <refernce_file> <prediction_file>")
         exit(0)
     wire57_scorer_level.scorer(sys.argv[1], sys.argv[2], sys.argv[3])             
-            
-            
-            
-            
-            
-            
-            
-            
-
-
-# class LevelScorer:
-    
-#     @classmethod
-#     def get_level_files(cls):
-#         path1 = "data/CoordinationDataSet/gold/test_copy.coord"
-#         path2 = "data/CoordinationDataSet/output2/predictions/Prediction_T5_large_b03.coord"
-        
-#         ft = open(path1, "r")
-#         fp = open(path2, "r")
-#         test = ft.readlines()
-#         pred = fp.readlines()
-
-#         if (len(test) != len(pred)):
-#             raise Exception("Lengths of test and pred files don't match")
-        
-#         preds = [[]]
-#         tests = [[]]
-        
-#         for i in range(len(pred)):
-#             if pred[i].strip().startswith("Prediction: "):
-#                 count = pred[i].count("COORDINATION")
-#                 preds[count].append(pred[i])
-#                 tests[count].append(test[i])
-                

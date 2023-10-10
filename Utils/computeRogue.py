@@ -78,8 +78,6 @@ if __name__ == '__main__':
         print("Usage: python computeRougue.py OpenIE/T5/BART <prediction_file> <result_file>")
         exit(0)
     reference_file_path = 'data/CoordinationDataSet/gold/test_copy.coord'
-    # prediction_file_path = '/Users/chaitrakaustubh/LegalIE/LegalIE-master/data/NewDataset/ConvertedConj.txt'
-
     # reference_file_path = sys.argv[1]
     prediction_file_path = sys.argv[2]
 
