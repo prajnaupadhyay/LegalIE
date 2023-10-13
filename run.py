@@ -16,7 +16,7 @@ from sklearn.metrics import accuracy_score, f1_score
 import numpy as np
 from sklearn.metrics import f1_score
 import numpy as np
-from transformers import AutoModel
+from transformers import AutoModel, set_seed
 import spacy
 
 def get_PoS_tags(sentence):
@@ -168,14 +168,14 @@ def test(test_dataloader, model, output_file_path, tokenizer):
     write_predictions_to_file(output_file_path, input_texts, predictions)
 
 
-def prepare_train(model_name):
+def prepare_train(model_name, bs = 3):
     # Load and preprocess your training data (from input file)
     input_file_path = sys.argv[2]
     data, targets = process_input_file(input_file_path)
     
     model = None
     if model_name.upper() == 'BART':
-        model = BartForConditionalGeneration.from_pretrained("facebook/bart-base").to(device)
+        model = BartForConditionalGeneration.from_pretrained("lucadiliello/bart-small").to(device)
     elif model_name.upper() == 'T5':
         model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-small").to(device)
     else:
@@ -188,7 +188,7 @@ def prepare_train(model_name):
     train_dataset = [{"source": data[i], "target": targets[i]} for i in range(len(data))]
 
     # Define your training dataloader
-    batch_size = 3
+    batch_size = bs
     train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn= lambda batch: batch_encode_fn(batch, tokenizer))
     num_epochs = 30
 
@@ -198,7 +198,7 @@ def prepare_train(model_name):
     train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
 
 
-def prepare_test(model_name, carb = False):
+def prepare_test(model_name, carb = False, bs = 3):
     # load saved model and tokenizer
     model = None
     if model_name.upper() == 'BART':
@@ -214,7 +214,7 @@ def prepare_test(model_name, carb = False):
     # Define your test dataset
     test_dataset = [{"source": test_data[i], "target": test_targets[i]} for i in range(len(test_data))]
 
-    batch_size = 3
+    batch_size = bs
 
     # Define your test dataloader
     test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, collate_fn= lambda batch: batch_encode_fn(batch, tokenizer))
@@ -229,14 +229,15 @@ def prepare_test(model_name, carb = False):
 if __name__ == '__main__':
     # Set up device (CPU or GPU)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    if len(sys.argv) < 7:
-        print('Usage: python run.py test train.txt model_dir test.txt predictions.txt BART or T5 [CARB]')
+    if len(sys.argv) < 8:
+        print('Usage: python run.py test train.txt model_dir test.txt predictions.txt BART or T5 batch_size seed')
         sys.exit(1)
-    
+    set_seed(int(sys.argv[8]))
+    batch_size = int(sys.argv[7])
     # Choose model    
     tokenizer = None
     if sys.argv[6].upper() == 'BART':
-        tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
+        tokenizer = BartTokenizer.from_pretrained("lucadiliello/bart-small")
     elif sys.argv[6].upper() == 'T5':
         tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
     else:
@@ -254,11 +255,11 @@ if __name__ == '__main__':
     
     # Choose task
     if sys.argv[1] == 'train-test':
-        prepare_train(sys.argv[6])
-        prepare_test(sys.argv[6], dataset)
+        prepare_train(sys.argv[6], batch_size)
+        prepare_test(sys.argv[6], dataset, batch_size)
     elif sys.argv[1] == 'train':
-        prepare_train(sys.argv[6])
+        prepare_train(sys.argv[6], batch_size)
     elif sys.argv[1] == 'test':
-        prepare_test(sys.argv[6], dataset)
+        prepare_test(sys.argv[6], dataset, batch_size)
     elif sys.argv[1] == 'predict':
         print('predict')
