@@ -1,5 +1,6 @@
 import sys
 import spacy
+import pandas as pd
 
 class PostProcessor:
     
@@ -86,26 +87,26 @@ class PostProcessor:
         # path1 = "data/SubordinationDataSet/input/train.txt"
         # path2 = "data/SubordinationDataSet/input/train_IP.txt"
         
-        # path1 = "data/CoordinationDataSet/input/train.coord"
-        # path2 = "data/CoordinationDataSet/input/train_copy.coord"
+        path1 = "data/SubordinationDataSet/input/train_new.txt"
+        path2 = "data/SubordinationDataSet/input/train_new_IP.txt"
         
-        for i in range(5):
-            path1 = f"data/SubordinationDataSet/output/Graphene_Level{i}.coords"
-            path2 = f"data/SubordinationDataSet/output/Graphene_Level{i}_IP.coord"
+        # for i in range(5):
+        #     path1 = f"data/SubordinationDataSet/output/Graphene_Level{i}.coords"
+        #     path2 = f"data/SubordinationDataSet/output/Graphene_Level{i}_IP.coord"
 
-            fr = open(path1, "r")
-            fw = open(path2, "w")
-            f = fr.readlines()
+        fr = open(path1, "r")
+        fw = open(path2, "w")
+        f = fr.readlines()
 
-            for i in range(len(f)):
-                if i%2 == 0:
-                    f[i] = "Input: " + f[i][1:]
-                    # print(f[i])
-                if i%2 == 1:
-                    f[i] = "Prediction: " + f[i] + "\n"
-                fw.write(f[i])
-            fr.close()
-            fw.close() 
+        for i in range(len(f)):
+            if i%2 == 0:
+                f[i] = "Input: " + f[i][1:]
+                # print(f[i])
+            if i%2 == 1:
+                f[i] = "Prediction: " + f[i] + "\n"
+            fw.write(f[i])
+        fr.close()
+        fw.close() 
         
     @classmethod
     def get_in_openie_format(cls, path1, path2):
@@ -155,12 +156,33 @@ class PostProcessor:
             if line.startswith("Prediction: "):
                 l[line.count("COORDINATION")] += 1
         print(l)
-            
+    
+    @classmethod
+    def get_label_numbers(cls):
+        path2 = "data/SubordinationDataSet/gold/test_reduced_IP.coord"
+        path1 = "data/SubordinationDataSet/input/train_IP.txt"
+
+        f1 = open(path1, "r").read()
+        f2 = open(path2, "r").read()
+        # f = fr.readlines()
+        rel = ['CO/ELABORATION', 'SUB/ELABORATION', 'CO/CONDITION', 'SUB/CONDITION', 'CO/LIST', 'SUB/LIST', 'CO/TEMPORAL', 'CO/DISJUNCTION', 'SUB/TEMPORAL', 'CO/PURPOSE', 'SUB/PURPOSE', 'CO/RESULT', 'SUB/RESULT', 'CO/CLAUSE', 'SUB/CLAUSE', 'CO/CONTRAST', 'SUB/CONTRAST', 'SUB/DISJUNCTION', "CO/LSIT", 'SUB/ATTRIBUTION', 'CO/ATTRIBUTION', 'SUB/SPATIAL', 'SUB/BACKGROUND', 'SUB/CAUSE']
+        df = pd.DataFrame(rel, columns=['Relation'])
+        rel_num1 = {i:f1.count(i) for i in rel}
+        rel_num2 = {i:f2.count(i) for i in rel}
+        df['Train'] = rel_num1.values()
+        df['Test'] = rel_num2.values()
+        df.to_csv("sub_stat.csv")
+        print("Train\n", rel_num1)
+        print("Test\n", rel_num2)
+        
+        
+        
 if __name__ == "__main__":
     # Preprocessor.get_mod2_file()
-    # PostProcessor.preprocess_SubordData()
+    PostProcessor.preprocess_SubordData()
     # Preprocessor.get_copy_file()
-    PostProcessor.get_train_levels()
+    # PostProcessor.get_train_levels()
+    # PostProcessor.get_label_numbers()
     # if (len(sys.argv) != 3):
     #     print("Usage: python3 postprocess.py <input_file> <output_file>")
     #     exit(0)
