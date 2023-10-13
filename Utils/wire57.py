@@ -69,8 +69,12 @@ class wire57_scorer:
     def matcher_using_f1(cls, ref_set, pred_set):
         if(len(ref_set) == 0 and len(pred_set) == 0):
             return 1.0, 1.0
+        elif(len(ref_set) == 0 and pred_set[0] == pred_set[-1]):
+            return 1.0, 1.0
         elif(len(ref_set) == 0 or len(pred_set) == 0):
             return 0.0, 0.0
+        
+        # print(pred_set,"\n",ref_set)
         intsec = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
         precision = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
         recall = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
@@ -86,7 +90,9 @@ class wire57_scorer:
                     f1_score[i][j] = (2*precision[i][j]*recall[i][j])/(precision[i][j] + recall[i][j])
                 
         row_ind, col_ind = linear_sum_assignment(f1_score, maximize = True)
-        
+        # print(precision[row_ind, col_ind], precision[row_ind, col_ind].sum())
+        # print(recall[row_ind, col_ind], recall[row_ind, col_ind].sum())
+        # print(len(pred_set), len(ref_set))
         return (precision[row_ind, col_ind].sum())/len(pred_set), (recall[row_ind, col_ind].sum())/len(ref_set)
                 
     @classmethod
