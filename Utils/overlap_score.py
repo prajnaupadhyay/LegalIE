@@ -1,10 +1,13 @@
 import numpy as np
 import sys
 from wire57 import wire57_scorer
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
 
 def get_sentences_from_tree_labels(model = 'T5', tree_label = None):
     relations = ['SUBORDINATION', 'ELABORATION', 'CONDITION', 'LIST', 'TEMPORAL', 'PURPOSE', 'RESULT', 'ATTRIBUTION', 'CLAUSE', 'CONTRAST']
-    r2 = ["),‘", "\",\"", "\", \"", "’,'", "’,’", "','", "’ ,’", "’, ‘", "' , '", "' ,'", "', ‘", ") )", "))" , "), ", ") ," ,"‘ , ‘", "’,‘", "', '" , "”,”" , "', “" , "’, '" , 'SUBORDINATION','CO/ELABORATION', 'SUB/ELABORATION', 'CO/CONDITION', 'SUB/CONDITION', 'CO/LIST', 'SUB/LIST', 'CO/TEMPORAL', 'CO/DISJUNCTION', 'SUB/TEMPORAL', 'CO/PURPOSE', 'SUB/PURPOSE', 'CO/RESULT', 'SUB/RESULT', 'CO/CLAUSE', 'SUB/CLAUSE', 'CO/CONTRAST', 'SUB/CONTRAST', 'SUB/DISJUNCTION', "CO/LSIT", 'SUB/ATTRIBUTION', 'CO/ATTRIBUTION', 'SUB/SPATIAL', 'SUB/BACKGROUND', ")'", "SUB/CAUSE", "SUB / ELABORATION"]
+    r2 = ["),‘", "\",\"", "\", \"", "’,'", "’,’", "','", "’ ,’", "’, ‘", "' , '", "' ,'", "', ‘", ") )", "))" , "), ", ") ," ,"‘ , ‘", "’,‘", "', '" , "”,”" , "', “" , "’, '" , '\'', 'SUBORDINATION','CO/ELABORATION', 'SUB/ELABORATION', 'CO/CONDITION', 'SUB/CONDITION', 'CO/LIST', 'SUB/LIST', 'CO/TEMPORAL', 'CO/DISJUNCTION', 'SUB/TEMPORAL', 'CO/PURPOSE', 'SUB/PURPOSE', 'CO/RESULT', 'SUB/RESULT', 'CO/CLAUSE', 'SUB/CLAUSE', 'CO/CONTRAST', 'SUB/CONTRAST', 'SUB/DISJUNCTION', "CO/LSIT", 'SUB/ATTRIBUTION', 'CO/ATTRIBUTION', 'SUB/SPATIAL', 'SUB/BACKGROUND', ")'", "SUB/CAUSE", "SUB / ELABORATION"]
     if tree_label == "NONE":
         return [""]
     count = tree_label.count("COORDINATION")
@@ -45,6 +48,7 @@ def get_sentences_from_tree_labels(model = 'T5', tree_label = None):
         new_sentenes[i] = new_sentenes[i].replace(".", "")
         new_sentenes[i] = new_sentenes[i].lower()
         new_sentenes[i] = new_sentenes[i].replace(" '", "'")
+        new_sentenes[i] = " ".join([sent.text for sent in nlp(new_sentenes[i])])
     # if new_sentenes[0] == new_sentenes[1]:
     #     new_sentenes = [""]   
     return new_sentenes
