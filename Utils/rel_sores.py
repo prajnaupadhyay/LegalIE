@@ -8,7 +8,7 @@ class rel_overlap_scorer(overlap_scorer):
     def reader(cls, model, ref_path, pred_path):
         ref_file = open(ref_path, "r").read()
         pred_file = open(pred_path, "r")
-        rel = ['CO/ELABORATION', 'SUB/ELABORATION', 'CO/CONDITION', 'SUB/CONDITION', 'CO/LIST', 'SUB/LIST', 'CO/TEMPORAL', 'CO/DISJUNCTION', 'SUB/TEMPORAL', 'CO/PURPOSE', 'SUB/PURPOSE', 'CO/RESULT', 'SUB/RESULT', 'CO/CLAUSE', 'SUB/CLAUSE', 'CO/CONTRAST', 'SUB/CONTRAST', 'SUB/DISJUNCTION', "CO/LSIT", 'SUB/ATTRIBUTION', 'CO/ATTRIBUTION', 'SUB/SPATIAL', 'SUB/BACKGROUND', 'SUB/CAUSE']
+        rel = ['SUBORDINATION', 'subordination', 'CO/ELABORATION', 'SUB/ELABORATION', 'CO/CONDITION', 'SUB/CONDITION', 'CO/LIST', 'SUB/LIST', 'CO/TEMPORAL', 'CO/DISJUNCTION', 'SUB/TEMPORAL', 'CO/PURPOSE', 'SUB/PURPOSE', 'CO/RESULT', 'SUB/RESULT', 'CO/CLAUSE', 'SUB/CLAUSE', 'CO/CONTRAST', 'SUB/CONTRAST', 'SUB/DISJUNCTION', "CO/LSIT", 'SUB/ATTRIBUTION', 'CO/ATTRIBUTION', 'SUB/SPATIAL', 'SUB/BACKGROUND', 'SUB/CAUSE']
         ref, pred, inp = [], [], []
         count = np.zeros((ref_file.count("Prediction: "), len(rel)), np.int8)
         c = 0
@@ -70,7 +70,7 @@ class rel_gen:
         ref_file = open(ref_path, "r").read()
         pred_file = open(pred_path, "r")
         # rel = ['CO/ELABORATION', 'SUB/ELABORATION', 'CO/LIST', 'CO/LSIT', 'SUB/ATTRIBUTION', 'CO/CONTRAST', 'CO/DISJUNCTION', 'SUB/SPATIAL', 'SUB/PURPOSE', 'SUB/CONDITION', 'SUB/CAUSE', 'SUB/TEMPORAL', 'SUB/BACKGROUND', 'SUB/RESULT', 'SUB/CONTRAST', 'SUB/LIST', 'CO/TEMPORAL', 'CO/PURPOSE', 'CO/RESULT',  'CO/CLAUSE', 'SUB/CLAUSE', 'SUB/DISJUNCTION', 'CO/ATTRIBUTION', 'CO/CONDITION']
-        rel = ['SUBORDINATION', 'CO/ELABORATION', 'SUB/BACKGROUND', 'SUB/ELABORATION', 'CO/LIST', 'CO/LSIT', 'SUB/ATTRIBUTION', 'CO/CONTRAST', 'CO/DISJUNCTION', 'SUB/SPATIAL', 'SUB/PURPOSE', 'SUB/CONDITION', 'SUB/CAUSE', 'SUB/TEMPORAL', 'SUB/RESULT', 'SUB/CONTRAST']
+        rel = ['SUBORDINATION', 'subordination','CO/ELABORATION', 'SUB/BACKGROUND', 'SUB/ELABORATION', 'CO/LIST', 'CO/LSIT', 'SUB/ATTRIBUTION', 'CO/CONTRAST', 'CO/DISJUNCTION', 'SUB/SPATIAL', 'SUB/PURPOSE', 'SUB/CONDITION', 'SUB/CAUSE', 'SUB/TEMPORAL', 'SUB/RESULT', 'SUB/CONTRAST']
         ref, ref_org = [], []
         pred, pred_org = [], []
         inp = []
@@ -116,10 +116,10 @@ class rel_gen:
             _t = np.ndarray.tolist(_t[0])
             # print("Printing", _t)
             for j in range(len(_t)):
-                rel_exp[i].append(ref[_t[j]])
-                rel_exp_org[i].append(ref_org[_t[j]])
-                # rel_exp[i].append(pred[_t[j]])
-                # rel_exp_org[i].append(pred_org[_t[j]])
+                # rel_exp[i].append(ref[_t[j]])
+                # rel_exp_org[i].append(ref_org[_t[j]])
+                rel_exp[i].append(pred[_t[j]])
+                rel_exp_org[i].append(pred_org[_t[j]])
                 inp_exp[i].append(inp[_t[j]])
         # print(inp_exp)
         fw1 = open(path, "w")
