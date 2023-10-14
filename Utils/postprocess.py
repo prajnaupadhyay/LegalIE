@@ -174,12 +174,33 @@ class PostProcessor:
         df.to_csv("sub_stat.csv")
         print("Train\n", rel_num1)
         print("Test\n", rel_num2)
+    
+    @classmethod
+    def make_subord(cls):
+        rel = ['CO/ELABORATION', 'SUB/BACKGROUND', 'SUB/ELABORATION', 'CO/LIST', 'CO/LSIT', 'SUB/ATTRIBUTION', 'CO/CONTRAST', 'CO/DISJUNCTION', 'SUB/SPATIAL', 'SUB/PURPOSE', 'SUB/CONDITION', 'SUB/CAUSE', 'SUB/TEMPORAL', 'SUB/RESULT', 'SUB/CONTRAST']
         
+        # path1 = "data/SubordinationDataSet/input/train_IP.txt"
+        # path2 = "data/SubordinationDataSet/input/train_subord_IP.txt"
+        
+        path1 = "data/SubordinationDataSet/gold/test_reduced_IP.txt"
+        path2 = "data/SubordinationDataSet/gold/test_reduced_subord_IP.txt"
+        
+        fr = open(path1, "r")
+        fw = open(path2, "w")
+        f = fr.readlines()
+        for line in f:
+            if line.startswith("Prediction: "):
+                for r in rel:
+                    line = line.replace(r, "SUBORDINATION")
+                fw.write(line)
+            else:
+                fw.write(line)    
         
         
 if __name__ == "__main__":
     # Preprocessor.get_mod2_file()
-    PostProcessor.preprocess_SubordData()
+    # PostProcessor.preprocess_SubordData()
+    PostProcessor.make_subord()
     # Preprocessor.get_copy_file()
     # PostProcessor.get_train_levels()
     # PostProcessor.get_label_numbers()

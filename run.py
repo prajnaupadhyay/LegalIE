@@ -24,7 +24,7 @@ def get_PoS_tags(sentence):
         sentence.replace('Input: ', '').strip()
     nlp = spacy.load("en_core_web_sm")
     pos = nlp(sentence)
-    sentence += (" " + " ".join([i.pos_ for i in pos]))
+    sentence = " ".join([" ".join([i.text, i.pos_]) for i in pos])
     return sentence
 
 # Define function to process input file
