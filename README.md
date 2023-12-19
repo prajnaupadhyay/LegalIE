@@ -84,10 +84,14 @@ Please note that `<referance_file>` and `<prediction_file>` are relative paths a
  | | | | |-Result_<model_name>_<model_size>_b<batch_size>_v<exp_no>_rouge.txt
  | | | |-wire57_f1
  | | | | |-Result_<model_name>_<model_size>_b<batch_size>_v<exp_no>_wire57v3.txt
+ | | | | |-Result_T5_small_b03_ed_e_wire57v2.txt (Ablation Study: Encoder parameters frozen)
+ | | | | |-Result_T5_small_b03_ed_d_wire57v2.txt (Ablation Study: Decoder parameters frozen)
  | | | |-wire57_f1_level
  | | | | |-Result_<model_name>_<model_size>_b<batch_size>_v<exp_no>_wire57v3
  | | |-predictions
  | | | |-Predictions_<model_name>_<model_size>_b<batch_size>_v<exp_no>.txt
+ | | | |-Predictions_T5_small_b03_ed_e.txt (Ablation Study: Encoder parameters frozen)
+ | | | |-Predictions_T5_small_b03_ed_d.txt (Ablation Study: Decoder parameters frozen)
  |-SubordinationDataSet (All files are from Subordination dataset on this directoru unless mentioned otherwise)
  | |-gold (Use files ending with IP when running the code)
  | | |-LIDC_test_IP.txt (LIDC dataset file in correct format.)
@@ -145,6 +149,7 @@ Please note that `<referance_file>` and `<prediction_file>` are relative paths a
  | | | | |-Result_T5_base_b03_PoS_wire57v2.txt (Parts-of-Speech Tagging experiment)
  | | | | |-Result_T5_base_b03_PoSsubord_v1.txt (Parts-of-Speech Tagging with SUBORDINATION experiment)
  | | | | |-Result_T5_small_b03_CL_wire57v2.txt (Custom Loss Experiment)
+ | | | | |-Result_T5_small_b03_ed_e_wire57v2.txt (Ablation Study : Encoder parameters frozen)
  | | | | |-Result_T5_small_b03_ed_d_wire57v2.txt (Ablation Study : Decoder parameters frozen)
  | | |-predictions
  | | | |-LIDC_Predictions_T5_base_b03.txt
@@ -154,5 +159,6 @@ Please note that `<referance_file>` and `<prediction_file>` are relative paths a
  | | | |-Predictions_T5_base_b03_PoS.txt (Parts-of-Speech Tagging experiment)
  | | | |-Predictions_T5_base_b03_PoSsubord_v1.txt (Parts-of-Speech Tagging with SUBORDINATION experiment)
  | | | |-Predictions_T5_small_b03_CL.txt (Custom Loss Experiment)
+ | | | |-Predictions_T5_small_b03_ed_e.txt (Ablation Study : Encoder parameters frozen)
  | | | |-Predictions_T5_small_b03_ed_d.txt (Ablation Study : Decoder parameters frozen)
 ```
