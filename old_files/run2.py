@@ -12,13 +12,59 @@ from torch.utils.data import DataLoader, Dataset
 from sklearn.model_selection import train_test_split
 from transformers import BartTokenizer, BartForConditionalGeneration
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-from transformers import Trainer
+from transformers import Trainer, TrainingArguments, get_constant_schedule
 from sklearn.metrics import accuracy_score, f1_score
 import numpy as np
 from sklearn.metrics import f1_score
 import numpy as np
 from transformers import AutoModel, set_seed
 import spacy
+from Utils.wire57.wire57scorer import matcher_using_f1
+from Utils.overlap_score import get_sentences_from_tree_labels
+
+
+class SubordDataset(Dataset):
+    def __init__(self, encodings, labels):
+        self.encodings = encodings
+        self.labels = labels
+
+    def __getitem__(self, idx):
+        item = {key: torch.tensor(val[idx])
+                for key, val in self.encodings.items()}
+        item['labels'] = torch.tensor(self.labels[idx])
+        return item
+
+    def __len__(self):
+        return len(self.labels)
+
+
+class LeGenTrainer(Trainer):
+    def compute_loss(self, model, inputs, return_outputs=False):
+        labels = inputs.get("labels")
+        outputs = model(**inputs)
+        logits = outputs.get("logits")
+        loss = outputs.get("loss")
+        print(loss)
+
+        # decode predictions and labels
+        predicted_token_ids = torch.argmax(logits, dim=-1)
+        decoded_predictions = [tokenizer.decode(
+            p.tolist(), skip_special_tokens=True) for p in predicted_token_ids]
+        decoded_labels = [tokenizer.decode(
+            l.tolist(), skip_special_tokens=True) for l in labels]
+
+        custom_loss = 0.0
+
+        for dp, dl in zip(decoded_predictions, decoded_labels):
+            predictions_list = get_sentences_from_tree_labels(
+                tree_label=" ".join(dp))
+            labels_list = get_sentences_from_tree_labels(
+                tree_label=" ".join(dl))
+
+            p, r = matcher_using_f1(predictions_list, labels_list)
+            custom_loss += ((1 - p) + (1 - r))
+
+        return (custom_loss, outputs) if return_outputs else loss
 
 
 def get_PoS_tags(sentence):
@@ -73,55 +119,6 @@ def batch_encode_fn(batch, tokenizer):
     inputs = {k: v.to(device) for k, v in inputs.items()}
     targets = {k: v.to(device) for k, v in targets.items()}
     return inputs, targets
-
-
-def train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer):
-    for epoch in range(num_epochs):
-        model.train()
-        total_loss = 0
-        total_correct = 0
-        total_samples = 0
-
-        for batch in train_dataloader:
-            optimizer.zero_grad()
-
-            inputs, targets = batch
-            outputs = model(**inputs, labels=targets["input_ids"])
-
-            loss = outputs.loss
-            total_loss += loss.item()
-
-            logits = outputs.logits
-            predictions = torch.argmax(logits, dim=-1)
-
-            # Flatten the targets and predictions tensors
-            flat_targets = targets["input_ids"].flatten()
-            flat_predictions = predictions.flatten()
-
-            # Move tensor from CUDA device to CPU
-            flat_predictions_cpu = flat_predictions.cpu()
-            flat_targets_cpu = flat_targets.cpu()
-
-            flat_predictions_np = flat_predictions_cpu.numpy()  # Convert tensor to NumPy array
-            flat_targets_np = flat_targets_cpu.numpy()
-
-            correct = (flat_predictions_np == flat_targets_np).sum().item()
-            total_correct += correct
-            total_samples += flat_targets.size(0)
-
-            loss.backward()
-            optimizer.step()
-
-        avg_loss = total_loss / len(train_dataloader)
-        accuracy = total_correct / total_samples
-        accuracy_lib = accuracy_score(flat_targets_np, flat_predictions_np)
-        f1 = f1_score(flat_targets_np, flat_predictions_np, average='micro')
-        print(
-            f"Epoch {epoch + 1}/{num_epochs} - Average Loss: {avg_loss}, Accuracy: {accuracy}, Accuracy_lib: {accuracy_lib}, F1_score: {f1}")
-
-    # Save the trained model
-    model.save_pretrained(output_dir)
-    tokenizer.save_pretrained(output_dir)
 
 
 # Define the function to write predictions to a file
@@ -190,37 +187,37 @@ def prepare_train(model_name, bs=3):
         model = BartForConditionalGeneration.from_pretrained(
             "lucadiliello/bart-small").to(device)
     elif model_name.upper() == 'BERT':
-        model = AutoModel.from_pretrained(
-            "nlpaueb/legal-bert-base-uncased").to(device)
+        model = AutoModel.from_pretrained("nlpaueb/legal-bert-base-uncased")
     elif model_name.upper() == 'T5':
         model = AutoModelForSeq2SeqLM.from_pretrained(
             "google/flan-t5-small").to(device)
     else:
         print('Please enter a valid model name')
 
-    for param in model.decoder.parameters():
-        param.requires_grad = False
-        print('Decoder parameters frozen for finetuning')
-    else:
-        print('Decoder parameters not frozen for finetuning')
+    train_encodings = tokenizer(data, padding=True, truncation=True)
+    train_dataset = SubordDataset(train_encodings, targets)
 
-    # Set up optimizer
+    training_args = TrainingArguments(
+        output_dir=sys.argv[3],          # output directory
+        num_train_epochs=30,              # total number of training epochs
+        per_device_train_batch_size=bs,  # batch size per device during training
+        logging_dir='./trainer_logs',            # directory for storing logs
+        logging_steps=5,
+    )
+
     optimizer = AdamW(model.parameters(), lr=1e-5)
-    print('optimizer done')
-    # Define your training dataset
-    train_dataset = [{"source": data[i], "target": targets[i]}
-                     for i in range(len(data))]
+    schedular = get_constant_schedule(optimizer)
 
-    # Define your training dataloader
-    batch_size = bs
-    train_dataloader = DataLoader(train_dataset, batch_size=batch_size,
-                                  shuffle=True, collate_fn=lambda batch: batch_encode_fn(batch, tokenizer))
-    num_epochs = 30
+    trainer = Trainer(
+        # the instantiated 🤗 Transformers model to be trained
+        model=model,
+        args=training_args,                  # training arguments, defined above
+        train_dataset=train_dataset,         # training dataset
+        tokenizer=tokenizer,
+        optimizers=(optimizer, schedular)
+    )
 
-    # define directory to store the model
-    output_dir = sys.argv[3]
-
-    train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
+    trainer.train()
 
 
 def prepare_test(model_name, carb=False, bs=3):
