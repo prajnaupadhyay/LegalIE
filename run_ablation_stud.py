@@ -7,6 +7,7 @@ Usage: python run.py train train.txt model_dir test.txt predictions.txt T5
 # !pip install transformers
 import torch
 from torch.optim import AdamW
+from torch.nn import CrossEntropyLoss, BCEWithLogitsLoss
 import sys
 from torch.utils.data import DataLoader, Dataset
 from sklearn.model_selection import train_test_split
@@ -19,12 +20,95 @@ from sklearn.metrics import f1_score
 import numpy as np
 from transformers import AutoModel, set_seed
 import spacy
+from scipy.optimize import linear_sum_assignment
+
+nlp = spacy.load("en_core_web_sm")
+
+
+def get_sentences_from_tree_labels(model='T5', tree_label=None):
+    relations = ['SUBORDINATION', 'ELABORATION', 'CONDITION', 'LIST',
+                 'TEMPORAL', 'PURPOSE', 'RESULT', 'ATTRIBUTION', 'CLAUSE', 'CONTRAST']
+    r2 = ["),‘", "\",\"", "\", \"", "’,'", "’,’", "','", "’ ,’", "’, ‘", "' , '", "' ,'", "', ‘", ") )", "))", "), ", ") ,", "‘ , ‘", "’,‘", "', '", "”,”", "', “", "’, '", '\'', 'SUBORDINATION', 'CO/ELABORATION', 'SUB/ELABORATION', 'CO/CONDITION', 'SUB/CONDITION', 'CO/LIST', 'SUB/LIST', 'CO/TEMPORAL',
+          'CO/DISJUNCTION', 'SUB/TEMPORAL', 'CO/PURPOSE', 'SUB/PURPOSE', 'CO/RESULT', 'SUB/RESULT', 'CO/CLAUSE', 'SUB/CLAUSE', 'CO/CONTRAST', 'SUB/CONTRAST', 'SUB/DISJUNCTION', "CO/LSIT", 'SUB/ATTRIBUTION', 'CO/ATTRIBUTION', 'SUB/SPATIAL', 'SUB/BACKGROUND', ")'", "SUB/CAUSE", "SUB / ELABORATION"]
+    if tree_label == "NONE":
+        return [""]
+    count = tree_label.count("COORDINATION")
+    count += tree_label.count("CO/")
+    count += tree_label.count("SUB/")
+    # Removing " )) from the end
+    # if count >= 1:
+    #     tree_label = tree_label[:-(count + 2)]
+    # if(model == "OpenIE"):
+    #     sentences = tree_label.split("\" , \"")
+    # else:
+    #     sentences = tree_label.split("\", \"")
+    # sentences = tree_label.split("\",\"")
+    # sentences = "####".join([s.split("\", \"")])
+    sentences = tree_label
+    new_sentenes = []
+    if model in ["T5", "OpenIE", "BART"]:
+        for d in r2:
+            sentences = "####".join(sentences.split(d))
+        new_sentenes = sentences.split("####")
+    else:
+        print("Invalid model name")
+        sys.exit(0)
+    for i in range(len(new_sentenes)):
+        # print(s)
+        if new_sentenes[i].startswith("("):
+            new_sentenes[i] = new_sentenes[i][1:]
+        new_sentenes[i] = new_sentenes[i].strip()
+        new_sentenes[i] = new_sentenes[i].strip("”")
+        new_sentenes[i] = new_sentenes[i].strip(",,")
+        new_sentenes[i] = new_sentenes[i].strip(",")
+        new_sentenes[i] = new_sentenes[i].strip("(")
+        new_sentenes[i] = new_sentenes[i].strip(")")
+        new_sentenes[i] = new_sentenes[i].strip("\'")
+        new_sentenes[i] = new_sentenes[i].strip("‘")
+        new_sentenes[i] = new_sentenes[i].strip("’")
+        new_sentenes[i] = new_sentenes[i].replace(" .", " ")
+        new_sentenes[i] = new_sentenes[i].replace(".", "")
+        new_sentenes[i] = new_sentenes[i].lower()
+        new_sentenes[i] = new_sentenes[i].replace(" '", "'")
+        new_sentenes[i] = " ".join(
+            [sent.text for sent in nlp(new_sentenes[i])])
+    # if new_sentenes[0] == new_sentenes[1]:
+    #     new_sentenes = [""]
+    return new_sentenes
+
+
+def matcher_using_f1(ref_set, pred_set):
+    if (len(ref_set) == 0 and len(pred_set) == 0):
+        return 1, 1
+    elif (len(ref_set) == 0 and pred_set[0] == pred_set[-1]):
+        return 1, 1
+    elif (len(ref_set) == 0 or len(pred_set) == 0):
+        return 0, 0
+
+    # print(pred_set,"\n",ref_set)
+    intsec = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
+    precision = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
+    recall = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
+    f1_score = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
+    for i in range(len(pred_set)):
+        for j in range(len(ref_set)):
+            intsec[i][j] = len(pred_set[i].intersection(ref_set[j]))
+            precision[i][j] = float(intsec[i][j]) / len(pred_set[i])
+            recall[i][j] = float(intsec[i][j]) / len(ref_set[j])
+            if (precision[i][j] == 0 and recall[i][j] == 0):
+                f1_score[i][j] = 0
+            else:
+                f1_score[i][j] = (2*precision[i][j]*recall[i]
+                                  [j])/(precision[i][j] + recall[i][j])
+    row_ind, col_ind = linear_sum_assignment(f1_score, maximize=True)
+
+    return (precision[row_ind, col_ind].sum())/len(pred_set), (recall[row_ind, col_ind].sum())/len(ref_set)
+    # return row_ind.tolist(), col_ind.tolist()
 
 
 def get_PoS_tags(sentence):
     if sentence.startswith('Input: '):
         sentence.replace('Input: ', '').strip()
-    nlp = spacy.load("en_core_web_sm")
     pos = nlp(sentence)
     sentence = " ".join([" ".join([i.text, i.pos_]) for i in pos])
     return sentence
@@ -79,6 +163,7 @@ def train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
     for epoch in range(num_epochs):
         model.train()
         total_loss = 0
+        total_custom_loss = 0
         total_correct = 0
         total_samples = 0
 
@@ -93,6 +178,42 @@ def train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
 
             logits = outputs.logits
             predictions = torch.argmax(logits, dim=-1)
+
+            predicted_token_ids = torch.argmax(logits, dim=-1)
+            decoded_predictions = [tokenizer.decode(
+                p.tolist(), skip_special_tokens=True) for p in predicted_token_ids]
+            inputs1 = [i for i in inputs]
+
+            repeatation_loss, org_copy_loss, rep_count, org_count = 0, 0, 0, 0
+
+            for dp, inp in zip(decoded_predictions, inputs1):
+                predictions_list1 = get_sentences_from_tree_labels(
+                    tree_label=" ".join(dp))
+                predictions_list = [s.strip()
+                                    for s in predictions_list1 if s.strip() != ""]
+
+                _org_loss = sum(
+                    [1 for s in predictions_list if s == inp])/len(predictions_list)
+                _repeatation_loss = 1 - (len(
+                    set(predictions_list))/len(predictions_list))
+                if _org_loss != 0:
+                    org_copy_loss += _org_loss
+                    org_count += 1
+                elif _repeatation_loss != 0:
+                    repeatation_loss += _repeatation_loss
+                    rep_count += 1
+
+            mul_fac = 1
+
+            # Loss for repeating same leaf sentences. This ususally happens when two or more seperate co-ordinations appear in sentences
+            if rep_count != 0:
+                mul_fac += repeatation_loss/rep_count
+
+            # Loss for copying original sentences in the output. This happens when model halucinates for atomoic/unsplitable sentences and outputs something instaed of NONE
+            if org_count != 0:
+                mul_fac += org_copy_loss/org_count
+
+            loss = mul_fac * loss
 
             # Flatten the targets and predictions tensors
             flat_targets = targets["input_ids"].flatten()
@@ -113,6 +234,7 @@ def train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
             optimizer.step()
 
         avg_loss = total_loss / len(train_dataloader)
+        avg_custom_loss = total_custom_loss / len(train_dataloader)
         accuracy = total_correct / total_samples
         accuracy_lib = accuracy_score(flat_targets_np, flat_predictions_np)
         f1 = f1_score(flat_targets_np, flat_predictions_np, average='micro')
@@ -126,7 +248,6 @@ def train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
 
 # Define the function to write predictions to a file
 def write_predictions_to_file(file_path, inputs, predictions):
-    nlp = spacy.load("en_core_web_sm")
     with open(file_path, 'w', encoding='utf-8') as file:
         for i in range(len(inputs)):
             file.write(
@@ -197,12 +318,6 @@ def prepare_train(model_name, bs=3):
             "google/flan-t5-small").to(device)
     else:
         print('Please enter a valid model name')
-
-    # for param in model.decoder.parameters():
-    #     param.requires_grad = False
-    #     print('Decoder parameters frozen for finetuning')
-    # else:
-    #     print('Decoder parameters not frozen for finetuning')
 
     # Set up optimizer
     optimizer = AdamW(model.parameters(), lr=1e-5)
