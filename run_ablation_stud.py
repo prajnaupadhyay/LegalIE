@@ -192,10 +192,12 @@ def train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
                 predictions_list = [s.strip()
                                     for s in predictions_list1 if s.strip() != ""]
 
-                _org_loss = sum(
-                    [1 for s in predictions_list if s == inp])/len(predictions_list)
-                _repeatation_loss = 1 - (len(
-                    set(predictions_list))/len(predictions_list))
+                _org_loss, _repeatation_loss = 0, 0
+                if (len(predictions_list) != 0):
+                    _org_loss = sum(
+                        [1 for s in predictions_list if s == inp])/len(predictions_list)
+                    _repeatation_loss = 1 - (len(
+                        set(predictions_list))/len(predictions_list))
                 if _org_loss != 0:
                     org_copy_loss += _org_loss
                     org_count += 1
