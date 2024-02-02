@@ -15,6 +15,8 @@
 # python3 Utils/computeRogue.py T5 data/CoordinationDataSet/output2/predictions/Prediction_T5_base_b16.coord data/CoordinationDataSet/output2/evaluations/rouge/Result_T5_base_b16_rouge.txt
 # python3 Utils/preprocess.py T5 data/CoordinationDataSet/output/predictions/Prediction_T5_large.coord data/CoordinationDataSet/output/predictions/Prediction_T5_large.conj
 
+# sbatch job.sh train-test data/SubordinationDataSet/input/train_IP.txt model_dir_T5s_sub_03_def data/SubordinationDataSet/gold/test_reduced_IP.txt data/SubordinationDataSet/output/Predictions_T5_small.txt T5 3 1097
+# sbatch job.sh train-test data/CoordinationDataSet/input/train_copy.coord model_dir_T5s_co_03_org_v2 data/CoordinationDataSet/gold/test_copy.coord data/CoordinationDataSet/predictions/Predictions_T5_small_org_v2.txt T5 3 238
 
 spack load anaconda3@2022.05
 conda init bash

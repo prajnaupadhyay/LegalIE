@@ -80,8 +80,8 @@ class wire57_scorer:
     def matcher_using_f1(cls, ref_set, pred_set):
         if (len(ref_set) == 0 and len(pred_set) == 0):
             return 1.0, 1.0
-        elif (len(ref_set) == 0 and pred_set[0] == pred_set[-1]):
-            return 1.0, 1.0
+        # elif (len(ref_set) == 0 and pred_set[0] == pred_set[-1]):
+        #     return 1.0, 1.0
         elif (len(ref_set) == 0 or len(pred_set) == 0):
             return 0.0, 0.0
 
