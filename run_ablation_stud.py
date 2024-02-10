@@ -35,15 +35,7 @@ def get_sentences_from_tree_labels(model='T5', tree_label=None):
     count = tree_label.count("COORDINATION")
     count += tree_label.count("CO/")
     count += tree_label.count("SUB/")
-    # Removing " )) from the end
-    # if count >= 1:
-    #     tree_label = tree_label[:-(count + 2)]
-    # if(model == "OpenIE"):
-    #     sentences = tree_label.split("\" , \"")
-    # else:
-    #     sentences = tree_label.split("\", \"")
-    # sentences = tree_label.split("\",\"")
-    # sentences = "####".join([s.split("\", \"")])
+
     sentences = tree_label
     new_sentenes = []
     if model in ["T5", "OpenIE", "BART"]:
@@ -72,50 +64,10 @@ def get_sentences_from_tree_labels(model='T5', tree_label=None):
         new_sentenes[i] = new_sentenes[i].replace(" '", "'")
         new_sentenes[i] = " ".join(
             [sent.text for sent in nlp(new_sentenes[i])])
-    # if new_sentenes[0] == new_sentenes[1]:
-    #     new_sentenes = [""]
     return new_sentenes
 
 
-def matcher_using_f1(ref_set, pred_set):
-    if (len(ref_set) == 0 and len(pred_set) == 0):
-        return 1, 1
-    elif (len(ref_set) == 0 and pred_set[0] == pred_set[-1]):
-        return 1, 1
-    elif (len(ref_set) == 0 or len(pred_set) == 0):
-        return 0, 0
-
-    # print(pred_set,"\n",ref_set)
-    intsec = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
-    precision = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
-    recall = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
-    f1_score = np.zeros((len(pred_set), len(ref_set)), dtype=np.float16)
-    for i in range(len(pred_set)):
-        for j in range(len(ref_set)):
-            intsec[i][j] = len(pred_set[i].intersection(ref_set[j]))
-            precision[i][j] = float(intsec[i][j]) / len(pred_set[i])
-            recall[i][j] = float(intsec[i][j]) / len(ref_set[j])
-            if (precision[i][j] == 0 and recall[i][j] == 0):
-                f1_score[i][j] = 0
-            else:
-                f1_score[i][j] = (2*precision[i][j]*recall[i]
-                                  [j])/(precision[i][j] + recall[i][j])
-    row_ind, col_ind = linear_sum_assignment(f1_score, maximize=True)
-
-    return (precision[row_ind, col_ind].sum())/len(pred_set), (recall[row_ind, col_ind].sum())/len(ref_set)
-    # return row_ind.tolist(), col_ind.tolist()
-
-
-def get_PoS_tags(sentence):
-    if sentence.startswith('Input: '):
-        sentence.replace('Input: ', '').strip()
-    pos = nlp(sentence)
-    sentence = " ".join([" ".join([i.text, i.pos_]) for i in pos])
-    return sentence
-
 # Define function to process input file
-
-
 def process_input_file(file_path, dataset="coord"):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -131,10 +83,13 @@ def process_input_file(file_path, dataset="coord"):
         for line in lines:
             line = line.strip()
             if line.startswith('Input: '):
-                # line = get_PoS_tags(line)
-                data.append(line.replace('Input: ', '').strip())
+                line = line.replace('Input: ', '').strip()
+                line = " ".join([i.text for i in nlp(line)])
+                data.append(line)
             elif line.startswith('Prediction: '):
-                targets.append(line.replace('Prediction: ', '').strip())
+                line = line.replace('Prediction: ', '').strip()
+                line = " ".join([i.text for i in nlp(line)])
+                targets.append(line)
         if len(data) == 0:
             data = [line.strip() for line in lines]
         if len(targets) == 0:
@@ -201,7 +156,7 @@ def train(train_dataloader, num_epochs, optimizer, model, output_dir, tokenizer)
                 if _org_loss != 0:
                     org_copy_loss += _org_loss
                     org_count += 1
-                elif _repeatation_loss != 0:
+                if _repeatation_loss != 0:
                     repeatation_loss += _repeatation_loss
                     rep_count += 1
 
@@ -317,7 +272,7 @@ def prepare_train(model_name, bs=3):
             "nlpaueb/legal-bert-base-uncased").to(device)
     elif model_name.upper() == 'T5':
         model = AutoModelForSeq2SeqLM.from_pretrained(
-            "google/flan-t5-small").to(device)
+            "google/flan-t5-base").to(device)
     else:
         print('Please enter a valid model name')
 
@@ -387,7 +342,7 @@ if __name__ == '__main__':
         tokenizer = AutoTokenizer.from_pretrained(
             "nlpaueb/legal-bert-base-uncased")
     elif sys.argv[6].upper() == 'T5':
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
     else:
         print('Wrong model name. Use BART ot T5')
         sys.exit(1)
