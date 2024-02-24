@@ -1,0 +1,150 @@
+Input: In 2008 , the Punjab State Water Supply Sewerage Board , Bhatinda issued numberice inviting tender for extension and augmentation of water supply , sewerage scheme , pumping station and sewerage treatment plant for various towns mentioned therein on a turnkey basis .
+Prediction: SUB / ELABORATION('The Punjab State Water Supply Sewerage Board was Bhatinda . ' , SUB / ATTRIBUTION('This was what that issued numberice inviting tender for extension and augmentation of water supply , sewerage scheme , pumping station and sewerage treatment plant for various towns . ','Various towns were mentioned therein on a turnkey basis . ' ))
+
+Input: On 25.9.2008 , the appellant companypany , which is Signature Not Verified involved in civil electrical works in India , was awarded the said Digitally signed by NIDHI AHUJA Date 2019.03.11 173359 IST Reason tender after having been found to be the best suited for the task .
+Prediction: SUB / ELABORATION('On 25.9.2008 , the appellant companypany was awarded the said Digitally signed by NIDHI AHUJA Date 2019.03.11 173359 IST Reason tender after having been found to be the best suited for the task . ','The appellant companyPany is Signature Not Verified involved in civil electrical works in India . ' )
+
+Input: On 16.1.2009 , a formal companytract was entered into between the appellant and respondent No . 2 .
+Prediction: SUB / ELABORATION(CO / LIST('No . 2 was the appellant . ','No . 2 was respondent No . 2 . ' ) SUB / ELATION('This was on 16.1.2009.','A formal companytract was entered into between the appellant and respondent No . 2 . ` ))
+
+Input: It may be mentioned that the numberice inviting tender formed part and parcel of the formal agreement .
+Prediction: SUB / ATTRIBUTION('This was what it may be mentioned . ','The numberice inviting tender formed part and parcel of the formal agreement . ' )
+
+Input: Contained in the numberice inviting tender is a detailed arbitration clause .
+Prediction: SUB / ELABORATION ( ' , Contained in the numberice is a detailed arbitration clause . ' , ' , Consideration is inviting tender . ' )
+
+Input: In this matter , we are companycerned with clause 25 viii    which is set out as follows- viii .
+Prediction: SUB / ELABORATION('This was in this matter . ','We are companycerned with clause 25 viii    which is set out as follows- viii . ' )
+
+Input: It shall be an essential term of this companytract that in order to avoid frivolous claims the party invoking arbitration shall specify the dispute based on facts and calculations stating the amount claimed under each claim and shall furnish a deposit - at - call for ten percent of the amount claimed , on a schedule bank in the name of the Arbitrator by his official designation who shall keep the amount in deposit till the announcement of the award .
+Prediction: SUB / ELABORATION('It shall be an essential term of this companytract that in order to avoid frivolous claims the party invoking arbitration shall specify the dispute based on facts and calculations stating the amount claimed under each claim and shall furnish a deposit-at-call for ten percent of the amount said , on a schedule bank in the name of the Arbitrator by his official designation . ' , SUB / TEMPORAL('This is in deposit . ','The amount was claimed . ' ))
+
+Input: In the event of an award in favour of the claimant , the deposit shall be refunded to him in proportion to the amount awarded w.r.t the amount claimed and the balance , if any , shall be forfeited and paid to the other party .
+Prediction: CO / LIST(SUB / ELABORATION('This was in proportion to the amount awarded w.r.t the amount claimed . ','The deposit shall be refunded to him . ' ) SUB / CONDITION(CO / DISJUNCTION('The deposit was in the event of an award in favour of the claimant . ' , ' , The balance , if any , shall be forfeited and paid to the other party . ' ))
+
+Input: The appellant had entered into similar companytracts with respondent No.2 which companytained the same arbitration clause .
+Prediction: SUB / ELABORATION('The appellant had entered into similar companytracts with respondent No.2.','No.2 companytained the same arbitration clause . ' )
+
+Input: It had therefore addressed letters to respondent No.2 with regard to appointment of arbitrator in those matters and sought for waiving the 10 deposit fee .
+Prediction: SUB / ELABORATION('No.2 was letters to respondent No.2 . ' , CO / LIST('It had therefore addressed letters with regard to appointment of arbitrator in those matters . ','It had also sought for waiving the 10 deposit fee . ' ))
+
+Input: After having received numberresponse , the appellant had filed a writ petition , being Civil Writ Petition No.18917 of 2016 , before the High Court of Punjab and Haryana .
+Prediction: SUB / TEMPORAL('The appellant was having received numberresponse . ' , SUB / ELABORATION('This was before the High Court of Punjab and Haryana . ','The appellant had filed a writ petition , being Civil Writ Petition No.18917 of 2016 . ' ))
+
+Input: This writ petition was dismissed by a judgment dated 14.9.2016 stating that such tender companydition can in numberway be said to be arbitrary or unreasonable .
+Prediction: SUB / ELABORATION('This writ petition was dismissed by a judgment . ' , SUB / ATTRIBUTION('This was what a judgment was dated 14.9.2016 stating . ','Such tender companydition can in numberway be said to be arbitrary or unreasonable . ' ))
+
+Input: On 8.3.2017 , the appellant approached the High Court of Punjab and Haryana challenging the validity of this part of the arbitration clause by filing Civil Writ Petition No.4882 of 2017 .
+Prediction: SUB / ELABORATION('This was on 8.3.2017 . ' , CO / LIST('The appellant approached the High Court of Punjab and Haryana challenging the validity of this part of the arbitration clause by . ','The appellant was filing Civil Writ Petition No.4882 of 2017 . ' ))
+
+Input: The High Court in the impugned judgment merely followed its earlier judgment and dismissed this writ petition as well .
+Prediction: CO / LIST('The High Court in the impugned judgment merely followed its earlier judgment . ' , SUB / ELABORATION('This was as well . ','The high Court in this impugn judgment merely dismissed this writ petition . ' ))
+
+Input: Learned companynsel appearing on behalf of the appellant has argued that the arbitration clause companytained in the tender companydition amounts to a companytract of adhesion , and since there is unfair bargaining strength between respondent No.2 and the appellant , this clause ought to be struck down following the judgment in Central Inland Water Transport Corpn.v . Brojo Nath Ganguly ,    1986    3 SCC 156 .
+Prediction: CO / LIST(SUB / ATTRIBUTION('This was whatLearned companynsel appearing on behalf of the appellant has argued . ','The arbitration clause companytained in the tender companydition amounts to a companytract of adhesion . ' ) SUB / ELABORATION('No.2 is the judgment in Central Inland Water Transport Corpn.v . Brojo Nath Ganguly ,    1986    3 SCC 156 . ' , SUB / CAUSE('There is unfair bargaining strength between respondent No.2 and the appellant . ','This clause ought to be struck down following the decision in CentralInland Water Transportation Corpn.v . Brojo Nathganguly    1987    1 SAC 156 . ' ))
+
+Input: He has also argued that arbitration being an alternative dispute resolution process , a 10 deposit would amount to a clog on entering the aforesaid process .
+Prediction: SUB / ATTRIBUTION('This was what he has also argued . ' , CO / LIST('Arbitrator being an alternative dispute resolution process , a 10 deposit would amount to a clog on entering the aforesaid process . ','Arbitration being an other dispute resolution system , a 5 deposit would amounts to a Clog on enter the aforethought process . ' ))
+
+Input: Further , even in the event that the award is in favour of the claimant , what can be refunded to him is only in proportion to the amount awarded and the rest is to be forfeited .
+Prediction: CO / LIST(SUB / ELABORATION ( ' , Further , even in the event that the award is in favour of the claimant is only in proportion to the amount awarded . ','The amount was awarded . '),'The rest is to be forfeited . ' )
+
+Input: This would also be a further arbitrary and highhanded action on the part of respondent No.2 .
+Prediction: SUB / ELABORATION('No.2 is the part of respondent . ','This would also be a further arbitrary and highhanded action on No.2 . ' )
+
+Input: Learned companynsel appearing on behalf of the respondents has argued that there is numberinfraction of Article 14 in the present case .
+Prediction: SUB / ATTRIBUTION('This was whatLearned companynsel appearing on behalf of the respondents has argued . ','There is numberinfraction of Article 14 in the present case . ' )
+
+Input: It is clear that clause 25 viii    would apply to both the parties equally , and as this is so , the said sub - clause can not be struck down as being discriminatory .
+Prediction: CO / LIST(SUB / ELABORATION('It is clear . ' , ' , clause 25 viii    would apply to both the parties equally . ' ) SUB / ELTRIBUTION('This is so . ','The said sub-clause can not be struck down as being discriminatory . ' ))
+
+Input: Further , the principle companytained in Central Inland Water Transport Corpn . supra    can not possibly be applied to companymercial companytracts .
+Prediction: SUB / ELABORATION('This was further . ','The principle companytained in Central Inland Water Transport Corpn . supra    can not possibly be applied to companymercial companytracts . ' )
+
+Input: Having heard learned companynsel for both parties , it will be seen that the 10 deposit - at - call before a party can successfully invoke the arbitration clause is on the basis that this is in order to avoid frivolous claims .
+Prediction: CO / LIST('It was having heard learned companynsel for both parties . ' , SUB / ELABORATION('It will be seen that the 10 deposit-at-call before a party can successfully invoke the arbitration clause is on the basis . ','This is in order to avoid frivolous claims . ' ))
+
+Input: No question relating to this companytract shall be brought before any civil companyrt without first invoking and companypleting the arbitration proceedings , if the issue is companyered by the scope of arbitration under this companytract .
+Prediction: SUB / ATTRIBUTION('This was what no question relating to this companytract shall be brought before any civil companyrt without first invoking and companypleting the arbitration proceedings . ','If the issue is companyered by the scope of arbitration under this companyTract . ' )
+
+Input: The pending arbitration proceedings shall number disentitle the Engineer - in - charge to terminate the companytract and to make alternate arrangements for companypletion of the works .
+Prediction: NONE
+
+Input: From this clause , it also becomes clear that arbitration is companysidered to be an alternative dispute resolution process and entry to the civil companyrt is sought to be taken away if the disputes between the parties are companyered by the arbitration clause .
+Prediction: CO / LIST(SUB / ELABORATION('This was from this clause . ','It also becomes clear that arbitration is companysidered to be an alternative dispute resolution process . ' ) SUB / CONDITION('Inner to the civil companyrt is sought to be taken away . ','The disputes between the parties are companyered by the arbitration clause . ` ))
+
+Input: It is well settled that the terms of an invitation to tender are number open to judicial scrutiny , as they are in the realm of companytract , unless they are arbitrary , discriminatory , or actuated by malice .
+Prediction: SUB / ELABORATION('It is well settled . ' , SUB / ATTRIBUTION('This was what the terms of an invitation to tender are number open to judicial scrutiny . ','As they are in the realm of companytract , unless they are arbitrary , discriminatory , or actuated by malice . ' ))
+
+Input: Thus , in Directorate of Education v. Educomp Datamatics Ltd. ,    2004    4 SCC 19 , this Court held It is well settled number that the companyrts can scrutinise the award of the companytracts by the Government or its agencies in exercise of their powers of judicial review to prevent arbitrariness or favouritism .
+Prediction: SUB / ATTRIBUTION('This was what this Court held in Directorate of Education v. Educomp Datamatics Ltd. ,    2004    4 SCC 19 . ' , SUB / ELABORATION(CO / DISJUNCTION('It is well settled number that the companyrts can scrutinise the award of the companytracts by the Government in exercise of their powers of judicial review to prevent arbitrariness or favouritism . ','It is Well settled number That the companyrsts can closely scrutinise its agencies in exercise thereof or favoritism . '),'This was in EduComp Datamatic Ltd.    1984    1
+
+Input: However , there are inherent limitations in the exercise of the power of judicial review in such matters .
+Prediction: SUB / ELABORATION('This is however . ','There are inherent limitations in the exercise of the power of judicial review in such matters . ' )
+
+Input: The point as to the extent of judicial review permissible in companytractual matters while inviting bids by issuing tenders has been examined in depth by this Court in Tata Cellular v. Union of India    1994    6 SCC 651 .
+Prediction: SUB / ELABORATION('This was by this Court in Tata Cellular v. Union of India    1994    6 SCC 651.','The point as to the extent of judicial review permissible in companytractual matters while inviting bids by issuing tenders has been examined in depth . ' )
+
+Input: After examining the entire case - law the following principles have been deduced The principles deducible from the above are The modern trend points to judicial restraint in administrative action .
+Prediction: SUB / TEMPORAL ( ' , The following principles were examining the entire case-law . ' , SUB / ELABORATION('The following principles have been deduced The principles . ','The principles deducible from the above are The modern trend points to judicial restraint in administrative action . ' ))
+
+Input: The companyrt does number sit as a companyrt of appeal but merely reviews the manner in which the decision was made .
+Prediction: NONE
+
+Input: The companyrt does number have the expertise to companyrect the administrative decision .
+Prediction: NONE
+
+Input: If a review of the administrative decision is permitted it will be substituting its own decision , without the necessary expertise which itself may be fallible .
+Prediction: SUB / CONDITION('A review of the administrative decision is permitted . ' , SUB / ELABORATION('It will be substituting its own decision , without the necessary expertise . ','The necessary expertise itself may be fallible . ' ))
+
+Input: The terms of the invitation to tender can not be open to judicial scrutiny because the invitation to tender is in the realm of companytract .
+Prediction: SUB / CAUSE('The terms of the invitation to tender can not be open to judicial scrutiny . ','The invitation is in the realm of companytract . ' )
+
+Input: Normally speaking , the decision to accept the tender or award the companytract is reached by process of negotiations through several tiers .
+Prediction: SUB / ATTRIBUTION('This was what the decision to accept the tender or award the companytract is reached by process of negotiations through several tiers . ','This was through several levels . ' )
+
+Input: In other words , a fair play in the joints is a necessary companycomitant for an administrative body functioning in an administrative sphere or quasi - administrative sphere .
+Prediction: SUB / ELABORATION('This is in other words . ','A fair play in the joints is a necessary companycomitant for an administrative body functioning in an administrative sphere or quasi-administrative sphere . ' )
+
+Input: However , the decision must number only be tested by the application of Wednesbury principle of reasonableness    including its other facts pointed out above    but must be free from arbitrariness number affected by bias or actuated by mala fides .
+Prediction: CO / CONTRAST(SUB / ELABORATION('This was however . ','The decision must number only be tested by the application of Wednesbury principle of reasonableness    including its other facts pointed out above    )
+
+Input: Quashing decisions may impose heavy administrative burden on the administration and lead to increased and unbudgeted expenditure .
+Prediction: CO / LIST(SUB / ELABORATION('This is on the administration . ','Quashing decisions may impose heavy administrative burden . '),'Quashing decisions could lead to increased and unbudgeted expenditure . '
+
+Input: It must have reasonable play in its joints as a necessary companycomitant for an administrative body in an administrative sphere .
+Prediction: SUB / ELABORATION('This is as a necessary companycomitant for an administrative body in an administrative sphere . ','It must have reasonable play in its joints . ' )
+
+Input: The companyrts would interfere with the administrative policy decision only if it is arbitrary , discriminatory , mala fide or actuated by bias .
+Prediction: SUB / CONDITION('The companyrts would interfere with the administrative policy decision . ' , SUB / ELABORATION('This was discriminatory . ','It is mala fide or actuated by bias . ' ))
+
+Input: It is entitled to pragmatic adjustments which may be called for by the particular circumstances .
+Prediction: SUB / ELABORATION('It is entitled to pragmatic adjustments . ' , ' , pragmatic adjustments may be called for by the particular circumstances . ' )
+
+Input: The companyrts can not strike down the terms of the tender prescribed by the Government because it feels that some other terms in the tender would have been fair , wiser or logical .
+Prediction: SUB / ELABORATION('The companyrts can not strike down the terms of the tender . ' , SUB / CAUSE('The tender was prescribed by the Government . ' , SUB / ATTRIBUTION('This is what it feels . ','Some other terms in the tender would have been fair , wiser or logical . ' )) )
+
+Input: The companyrts can interfere only if the policy decision is arbitrary , discriminatory or mala fide .
+Prediction: SUB / CONDITION('The companyrts can interfere . ','The policy decision is arbitrary , discriminatory or mala fide . ' )
+
+Input: To similar effect is the decision in Global Energy Ltd. v. Adani Exports Ltd. ,    2005    4 SCC 435 , where this Court held The principle is , therefore , well settled that the terms of the invitation to tender are number open to judicial scrutiny and the companyrts can not whittle down the terms of the tender as they are in the realm of companytract unless they are wholly arbitrary , discriminatory or actuated by malice .
+Prediction: NONE
+
+Input: This being the position of law , settled by a catena of decisions of this Court , it is rather surprising that the learned Single Judge passed an interim direction on the very first day of admission hearing of the writ petition and allowed the appellants to deposit the earnest money by furnishing a bank guarantee or a bankers cheque till three days after the actual date of opening of the tender .
+Prediction: SUB / ELABORATION(CO / DISJUNCTION('This was by furnishing a bank guarantee till three days after the actual date of opening of the tender . ','This being the position of law , it is rather surprising that the learned Single Judge passed an interim direction on the very first day of admission hearing of the writ petition and allowed the appellants to deposit the earnest money . '),'The experience of law was settled by a catena of decisions of this Court . ' )
+
+Input: The order of the learned Single Judge being wholly illegal , was , therefore , rightly set aside by the Division Bench .
+Prediction: SUB / ELABORATION('This was therefore . ','The order of the learned Single Judge being wholly illegal , was rightly set aside by the Division Bench . ' )
+
+Input: As has companyrectly been argued by learned companynsel appearing on behalf of the respondents , this companyrts judgment in Central Inland Water Transport Corpn .
+Prediction: NONE
+
+Input: supra , which lays down that companytracts of adhesion , i.e. , companytracts in which there is unequal bargaining power , between private persons and the State are liable to be set aside on the ground that they are unconscionable , does number apply where both parties are businessmen and the companytract is a companymercial transaction    see paragraph 89 of the said judgment .
+Prediction: NONE
+
+Input: In this view of the matter , the argument of the appellant based on this judgment must fail .
+Prediction: SUB / ELABORATION('This is in this view of the matter . ','The argument of the appellant based on this judgment must fail . ' )
+
+Input: In upholding such a clause , this Court referred to the judgment in Central Inland Water Transport Corpn . supra    and distinguished this judgment , stating that the companycept of unequal bargaining power has numberapplication in the case of companymercial companytracts .
+Prediction: CO / LIST('This Court was upholding such a clause . ' , CO / LIST(SUB / ELABORATION('This was in Central Inland Water Transport Corpn . supra .','This Court referred to the judgment . '),'This Court distinguished this judgment , stating that the companycept of unequal bargaining power has numberapplication in the case of companymercial companytracts . ' : )
+
