@@ -507,18 +507,14 @@ def preprocess_input(arg1, arg2):
     o.close()
 
 def get_sentences_from_tree_labels_subordination(tree_label, leaf_sentences):
-    print("tree_label is: "+tree_label+"\n")
     org = tree_label
     tree_label1 = tree_label
     for relation in subordination_labels:
-        print(relation)
         # remove root node
         if tree_label.startswith(relation):
             tree_label1 = tree_label.replace(relation, "", 1)
-            print("tree_label1 after removing relation: "+tree_label1)
             break
     if org == tree_label1:
-        print("final: "+tree_label.strip('(\")'))
         leaf_sentences.append(tree_label.strip('(\")'))
     else:
         sentences = tree_label1.split("\",")
@@ -536,4 +532,5 @@ if __name__ == '__main__':
     leaf_sentences = []
 
     get_sentences_from_tree_labels_subordination(label, leaf_sentences)
+    # split sentences are stored in leaf_sentences
     print(leaf_sentences)
