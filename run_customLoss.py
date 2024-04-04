@@ -1,4 +1,3 @@
-# This is Old file. DEPRECTED DO NOT USE THIS
 # -*- coding: utf-8 -*-
 '''
 Usage: python run.py test train.txt model_dir test.txt predictions.txt T5
