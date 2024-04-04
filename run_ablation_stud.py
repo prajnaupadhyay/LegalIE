@@ -1,3 +1,4 @@
+# This custom loss is being used.
 # -*- coding: utf-8 -*-
 '''
 Usage: python run.py test train.txt model_dir test.txt predictions.txt T5
