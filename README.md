@@ -1,25 +1,25 @@
 # LegalIE
 
-#### 1) Create conda environment
+#### 1) Create a conda environment
 Python 3.10 is needed to run the code.
 
 `conda create -n legalIE python=3.10`
 
 `conda activate legalIE`
 #### 2) Install requirements 
-### pip install -r requirements.txt
+ pip install -r requirements.txt
 
 #### 3)python run.py train-test/train/test train.txt model_dir test.txt predictions.txt Model_name batch_size seed
 
-### train-test - both for training the model and testing it on test sentences
-### train- only trains the model
-### test - only tests the model
+ train-test - both for training the model and testing it on test sentences
+ train- only trains the model
+ test - only tests the model
 
-### train.txt - training dataset
-### model_dir - directory where model would be saved
-### test.txt - test file
-### predictions.txt - name of the prediction file
-### Model_name - T5 or BART
+ train.txt - training dataset
+ model_dir - directory where the model would be saved
+ test.txt - test file
+ predictions.txt - name of the prediction file
+ Model_name - T5 or BART
 
        
 
