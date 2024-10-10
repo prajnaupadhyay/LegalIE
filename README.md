@@ -7,7 +7,7 @@ Python 3.10 is needed to run the code.
 
 `conda activate legalIE`
 #### 2) Install requirements 
-pip install -r requirements.txt
+### pip install -r requirements.txt
 
 #### 3)python run.py train-test/train/test train.txt model_dir test.txt predictions.txt Model_name batch_size seed
 
