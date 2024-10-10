@@ -21,7 +21,7 @@ Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 
 
 ## Models
 
-T5 Base: https://huggingface.co/bphclegalie/t5-base-legen
+T5 Base: https://huggingface.co/bphclegalie/t5-base-legen <br>
 T5 Small: https://huggingface.co/bphclegalie/t5-small-custom-loss
 
 
