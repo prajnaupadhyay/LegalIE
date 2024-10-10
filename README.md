@@ -17,28 +17,28 @@ pip install -r requirements.txt
 python run.py train-test/train/test train.txt model_dir test.txt predictions.txt Model_name batch_size seed
 ```
 
-#### `train-test` - both for training the model and testing it on test sentences
+##### `train-test` - both for training the model and testing it on test sentences
  
-#### `train` - only trains the model
+##### `train` - only trains the model
  
-#### `test` - only tests the model
+##### `test` - only tests the model
 
-#### `train.txt` - training dataset
+##### `train.txt` - training dataset
  
-model_dir - directory where the model would be saved 
+##### `model_dir` - directory where the model would be saved 
  
-test.txt - test file 
+##### `test.txt` - test file 
  
-predictions.txt - the name of the prediction file 
+##### `predictions.txt` - the name of the prediction file 
  
-Model_name - T5 or BART
+##### `Model_name` - T5 or BART
 
        
 
 
 ## Dataset
 
-Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 folders:
+Datasets are located under `data/`. There are 3 folders:
 
 #### 1) `gold`: This contains the gold data or the test data (terms can be interchangeably used). The same dataset is present in 4 formats:
 ###### `test.coord`: in the format of coordination trees
@@ -51,6 +51,6 @@ Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 
 
 ## Models
 
-T5 Base: https://huggingface.co/bphclegalie/t5-base-legen <br>
-T5 Small: https://huggingface.co/bphclegalie/t5-small-custom-loss
+##### `T5 Base`: https://huggingface.co/bphclegalie/t5-base-legen <br>
+##### `T5 Small`: https://huggingface.co/bphclegalie/t5-small-custom-loss
 
