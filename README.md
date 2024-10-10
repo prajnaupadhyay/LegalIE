@@ -7,17 +7,17 @@ Python 3.10 is needed to run the code.
 
 `conda activate legalIE`
 #### 2) Install requirements 
-pip install -r requirements.txt
+`pip install -r requirements.txt
 
 #### 3)python run.py train-test/train/test train.txt model_dir test.txt predictions.txt Model_name batch_size seed
-train-test - both for training the model and testing it on test sentences
+`train-test - both for training the model and testing it on test sentences
  
- train- only trains the model
+`train- only trains the model
  
- test - only tests the model
+ `test - only tests the model
 
- train.txt - training dataset<br>
- model_dir - directory where the model would be saved <br>
+ `train.txt - training dataset<br>
+ `model_dir - directory where the model would be saved <br>
  test.txt - test file <br>
  predictions.txt - name of the prediction file <br>
  Model_name - T5 or BART
