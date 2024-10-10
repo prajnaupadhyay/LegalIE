@@ -13,15 +13,17 @@ pip install -r requirements.txt
 ```
 #### 3) Execute run.py in the below format
 
-```python run.py train-test/train/test train.txt model_dir test.txt predictions.txt Model_name batch_size seed```
+```
+python run.py train-test/train/test train.txt model_dir test.txt predictions.txt Model_name batch_size seed
+```
 
-train-test - both for training the model and testing it on test sentences
+#### `train-test` - both for training the model and testing it on test sentences
  
-train- only trains the model
+#### `train` - only trains the model
  
-test - only tests the model
+#### `test` - only tests the model
 
-train.txt - training dataset
+#### `train.txt` - training dataset
  
 model_dir - directory where the model would be saved 
  
