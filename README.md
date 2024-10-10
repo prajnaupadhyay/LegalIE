@@ -50,5 +50,5 @@ COORDINATION(" Seven Big Board stocks -- UAL -- stopped trading ." , " Seven Big
 ## Models
 
 T5 Base: https://huggingface.co/bphclegalie/t5-base-legen
-T5 Small : https://huggingface.co/bphclegalie/t5-small-custom-loss
+T5 Small: https://huggingface.co/bphclegalie/t5-small-custom-loss
 
