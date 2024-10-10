@@ -19,6 +19,12 @@ Coordination Datasets are located under `data/CoordinationDataSet`. There are 3 
 #### 2) `input`: all input files with the appropriate formats (contains `train.coord`)
 #### 3) `output`: all output files with the appropriate formats
 
+## Models
+
+T5 Base: https://huggingface.co/bphclegalie/t5-base-legen
+T5 Small: https://huggingface.co/bphclegalie/t5-small-custom-loss
+
+
 <!---
 ## Steps
 
@@ -47,8 +53,4 @@ Output: <br>
 #Seven Big Board stocks -- UAL , AMR , BankAmerica , Walt Disney , Capital Cities\/ABC , Philip Morris and Pacific Telesis Group -- stopped trading and never resumed . <br>
 COORDINATION(" Seven Big Board stocks -- UAL -- stopped trading ." , " Seven Big Board stocks -- UAL -- never resumed ." , " Seven Big Board stocks -- AMR -- stopped trading ." , " Seven Big Board stocks -- AMR -- never resumed ." , " Seven Big Board stocks -- BankAmerica -- stopped trading ." , " Seven Big Board stocks -- BankAmerica -- never resumed ." , " Seven Big Board stocks -- Walt Disney -- stopped trading ." , " Seven Big Board stocks -- Walt Disney -- never resumed ." , " Seven Big Board stocks -- Capital Cities\/ABC -- stopped trading ." , " Seven Big Board stocks -- Capital Cities\/ABC -- never resumed ." , " Seven Big Board stocks -- Philip Morris -- stopped trading ." , " Seven Big Board stocks -- Philip Morris -- never resumed ." , " Seven Big Board stocks -- Pacific Telesis Group -- stopped trading ." , " Seven Big Board stocks -- Pacific Telesis Group -- never resumed ." ) <br>
 
-## Models
-
-T5 Base: https://huggingface.co/bphclegalie/t5-base-legen
-T5 Small: https://huggingface.co/bphclegalie/t5-small-custom-loss
 
