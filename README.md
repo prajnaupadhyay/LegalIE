@@ -12,21 +12,22 @@ Python 3.10 is needed to run the code.
 pip install -r requirements.txt
 ```
 #### 3)python run.py train-test/train/test train.txt model_dir test.txt predictions.txt Model_name batch_size seed
-`train-test - both for training the model and testing it on test sentences
- 
-`train- only trains the model
- 
- `test - only tests the model
 
- `train.txt - training dataset
+train-test - both for training the model and testing it on test sentences
  
- model_dir - directory where the model would be saved 
+train- only trains the model
  
- test.txt - test file 
+test - only tests the model
+
+train.txt - training dataset
  
- predictions.txt - the name of the prediction file 
+model_dir - directory where the model would be saved 
  
- Model_name - T5 or BART
+test.txt - test file 
+ 
+predictions.txt - the name of the prediction file 
+ 
+Model_name - T5 or BART
 
        
 
