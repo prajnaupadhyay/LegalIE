@@ -1,10 +1,17 @@
 # LegalIE
 
+#### 1) Create conda environment
 Python 3.10 is needed to run the code.
 
 `conda create -n legalIE python=3.10`
 
 `conda activate legalIE`
+#### 2) Install requirements 
+pip install -r requirements.txt
+
+#### 3)python run.py test train.txt model_dir test.txt predictions.txt BART or T5 batch_size seed')
+       
+
 
 ## Dataset
 
