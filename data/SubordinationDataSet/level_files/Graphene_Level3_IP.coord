@@ -1,0 +1,57 @@
+Input: The Indian Constitution has defined a 'living wage' that is the level of income for a worker which will ensure a basic standard of living including good health, dignity, comfort, education and provide for any contingency.
+Prediction: SUB/ELABORATION('The Indian Constitution has defined a ` living wage ' .', SUB/ELABORATION('A ` living wage ' is the level of income for a worker .', CO/LIST('A worker will ensure a basic standard of living including good health , dignity , comfort , education .','A worker will provide for any contingency .')))
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis,[23] and extends to the entire country and is revised within a period of not less than five years, however there is a provision to increase dearness allowance every two years.
+Prediction: CO/CONTRAST(SUB/ELABORATION('A per day basis was -lsb- 23 -RSB- .', CO/LIST(CO/LIST(SUB/ELABORATION('This is on a per day basis .','The Minimum Wages Act 1948 generally specifies minimum wage rates .' ), 'The Minimum Wages Act 1948 generally extends to the entire country .' ), 'The Minimum Wages Act 1948 is revised within a period of not less than five years .' ), 'There is a provision to increase dearness allowance every two years .'))
+
+Input: Industrial Relations Code, 2020 consolidates and amends the laws relating to Trade Unions, conditions of employment in industrial establishment or undertaking, investigation and settlement of industrial disputes.
+Prediction: SUB/ELABORATION('Industrial Relations Code are 2020 .', SUB/ELABORATION('Industrial Relations Code consolidates and amends the laws .', CO/DISJUNCTION('The laws are relating to Trade Unions .','The laws are relating to conditions of employment in industrial establishment .','The laws are relating to undertaking , investigation and settlement of industrial disputes .')))
+
+Input: The Industrial Relations Code Bill, 2020 proposed for amalgamating, simplifying and rationalising the relevant provisions of three Acts namely Trade Unions Act, 1926 , Industrial Employment (Standing Orders) Act, 1946 and Industrial Disputes Act, 1947.
+Prediction: NONE
+
+Input: The Payment of Gratuity Act, 1972 is an Indian law that makes companies pay a one-time gratuity to retired employees or an employee who resigns after a minimum of 5 years of service.
+Prediction: SUB/ELABORATION('Gratuity Act is 1972 .', SUB/ELABORATION(SUB/ELABORATION(CO/DISJUNCTION('The Payment of Gratuity Act is an Indian law .','The Payment of Gratuity Act is an employee .' ), 'An employee resigns after a minimum of 5 years of service .' )SUB/ELABORATION('This is to retired employees .','An Indian law makes companies pay a one-time gratuity .')))
+
+Input: To acquire status as a CTUO , a trade union federation must have a verified membership of at least 500,000 workers who are spread over a minimum of four states and four industries ( including agriculture ) .
+Prediction: SUB/PURPOSE('This was to acquire status as a CTUO .', SUB/ELABORATION('A trade union federation must have a verified membership of at least 500,000 workers .', CO/LIST('A verified membership of at least 500,000 workers are spread over a minimum of four states -LRB- including agriculture -RRB- .','A verified membership of at least 500,000 workers are spread over a minimum of four industries -LRB- including agriculture -RRB- .')))
+
+Input: If an employee is involved in work that categorises his service in two or more scheduled employments, the employee's wage will include respective wage rate of all work for the number of hours dedicated at each task.
+Prediction: SUB/CONDITION(SUB/ELABORATION('An employee is involved in work .', SUB/ELABORATION('This was in two or more scheduled employments .','Work categorises his service .' )SUB/ELABORATION(SUB/ELABORATION('This was for the number of hours .','Hours were dedicated at each task .' ), 'The employee 's wage will include respective wage rate of all work .')))
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis,and extends to the entire country and is revised within a period of not less than five years, however there is a provision to increase dearness allowance every two years.
+Prediction: CO/CONTRAST(CO/LIST(SUB/ELABORATION('This is on a per day basis .','The Minimum Wages Act 1948 generally specifies minimum wage rates .' )CO/LIST('The Minimum Wages Act 1948 generally extends to the entire country .','The Minimum Wages Act 1948 generally is revised within a period of not less than five years .' ), 'There is a provision to increase dearness allowance every two years .'))
+
+Input: India has two broad groups of migrant labourers - one that migrates to temporarily work overseas, and another that migrates domestically on a seasonal and work available basis.
+Prediction: SUB/ELABORATION(SUB/ELABORATION(CO/LIST('India has two broad groups of migrant labourers - one .','India has two broad groups of migrant labourers - another .' )CO/LIST('Another migrates domestically on a seasonal .','Another migrates domestically on work available basis .' ), 'One migrates to temporarily work overseas .'))
+
+Input: Despite importance of migrant labour and despite many of migrant labours praising the state for its welfare schemes and environment, they are often ignored in comparison and suffer from comparatively poor living conditions .
+Prediction: CO/LIST(SUB/ELABORATION(SUB/ELABORATION('This was despite importance of migrant labour and despite many of migrant labours .','Migrant labours were praising the state for its welfare schemes and environment .' ), 'They are often ignored in comparison .' )SUB/ELABORATION(SUB/ELABORATION('This is despite importance of migrant labour and despite many of migrant labours .','Migrant labours are praising the state for its welfare schemes and environment .' ), 'They suffer from comparatively poor living conditions .'))
+
+Input: Some child rights activists argue that child labour must include every child who is not in school because he or she is a hidden child worker.
+Prediction: SUB/ATTRIBUTION('This is what some child rights activists argue .', SUB/ELABORATION(', Child labour must include every child .', SUB/CAUSE('Every child is not in school .','He or she is a hidden child worker .')))
+
+Input: Defined Benefit (DB) scheme like OPS is a type in which the beneficiary pension is based on a defined formula which may have a percentage of salary or a percentage of salary times the years of service or a flat rate per year of service as its parameters .
+Prediction: SUB/ELABORATION('Defined Benefit -LRB- DB -RRB- scheme like OPS is a type in which the beneficiary pension is based on a defined formula .', SUB/ELABORATION('This is as its parameters .', CO/DISJUNCTION('A defined formula may have a percentage of salary .','A defined formula may have a percentage of salary times the years of service or a flat rate per year of service .')))
+
+Input: Defined Contribution (DC) scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service and the receivable pension is based on the balance in his pension fund at the time of his retirement.
+Prediction: SUB/ELABORATION('Defined Contribution -LRB- DC -RRB- scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service and the receivable pension .', SUB/ELABORATION('This was at the time of his retirement the receivable pension .','Is based on the balance in his pension fund .'))
+
+Input: Since pension is both a reward for continuous service till the formal age of retirement as well as a form social security in old age, India favored a restructured pension ensuring a balance between retirement benefit of the government employees and the financial burden on the economy by moving from DB scheme to DC scheme.
+Prediction: SUB/CAUSE(SUB/ELABORATION('This is for continuous service .', SUB/ELABORATION('This is till the formal age of retirement as well as a form social security in old age .','Pension is both a reward .' )SUB/ELABORATION('India favored a restructured pension .', CO/LIST(SUB/ELABORATION('This was by .', CO/LIST('A restructured pension was ensuring a balance between retirement benefit of the government employees .','A restructured pension was ensuring a balance between the financial burden on the economy .' )SUB/ELABORATION('This was to DC scheme .','A restructured pension was moving from DB scheme .'))))))
+
+Input: UNICEF estimates that India with its larger population , has the highest number of labourers in the world under 14 years of age , while sub-Saharan African countries have the highest percentage of children who are deployed as child labourers .
+Prediction: SUB/ATTRIBUTION('This is what UNICEF estimates .', CO/CONTRAST('India with its larger population , has the highest number of labourers in the world under 14 years of age .', SUB/ELABORATION(', Sub-Saharan African countries have the highest percentage of children .',', Children are deployed as child labourers .')))
+
+Input: The companies claim they have strict policies against selling products made by underage children for their own profit , but there are many links in a supply chain making it difficult to oversee them all .
+Prediction: CO/CONTRAST(SUB/ATTRIBUTION('This is what the companies claim .', SUB/ELABORATION('They have strict policies against selling products .',', Selling products were made by underage children for their own profit .' )SUB/ELABORATION('There are many links in a supply chain .','A supply chain is making it difficult to oversee them all .')))
+
+Input: The term 'child labour', suggests ILO, is best defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.
+Prediction: CO/LIST(SUB/ELABORATION('The term ` child labour ' was suggests ILO .', SUB/ELABORATION('The term ` child labour ' is best defined as work .', CO/LIST('Work deprives children of their childhood .','Work deprives children of their potential .','Work deprives children of their dignity .' ), 'That is harmful to physical and mental development .')))
+
+Input: In Maharashtra the mathadis are organised under a welfare board, set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers (Regulation of Employment and Welfare) Act 1969.
+Prediction: NONE
+
+Input: National Pension System , like PPF and EPF is an EEE ( Exempt-Exempt-Exempt ) instrument in India where the entire corpus escapes tax at maturity and entire pension withdrawal amount is tax-free .
+Prediction: SUB/ELABORATION(SUB/ELABORATION('This is like PPF and EPF .','National Pension System is an EEE -LRB- Exempt-Exempt-Exempt -RRB- instrument in India .' ), 'The entire corpus escapes tax at maturity and entire pension withdrawal amount is tax-free .')
+

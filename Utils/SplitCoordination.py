@@ -1,5 +1,5 @@
 
-inputFile = "/Users/chaitrakaustubh/CARB_SEntences/openIETRainConj/testSentPredictions.txt.conj"
+inputFile = "CARB_SEntences/openIETRainConj/testSentPredictions.txt.conj"
 output = open("TestCOORDIANTIONTRee1.txt","w")
 
 prevLine = " "

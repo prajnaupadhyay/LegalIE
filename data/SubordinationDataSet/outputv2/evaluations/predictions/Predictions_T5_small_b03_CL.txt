@@ -1,0 +1,324 @@
+Input: The Inter - State Migrant Workmen Act was replaced by the Occupational Safety , Health and Working Conditions Code , 2020 .
+Prediction: SUB / ELABORATION('The Inter-State Migrant Workmen Act was replaced by the Occupational Safety , Health and Working Conditions Code , 2020.','The Inter-State Migrant Workmen Act was replaced by the Occupational Safety , Health and Working Conditions Code , 2020 . ' )
+
+Input: The term ' industry ' infuses a contractual relationship between the employer and the employee for sale of products and services which are produced through their cooperative endeavor .
+Prediction: SUB / ELABORATION(SUB / ELABORATION('This is for sale of products and services . ' , CO / LIST('The term ' industry infuses a contractual relationship between the employer . ','The term ' industry infuses a contractual relationship between the employee . ' ) SUB / ELABORATION('This was for sale of products and services . ','Products and services are produced through their cooperative endeavor . ' )) )
+
+Input: If any contribution of minimum amount in any year is not invested , then the account will be deactivated .
+Prediction: SUB / CONDITION('Any contribution of minimum amount in any year is not invested . ','The account will be deactivated . ' )
+
+Input: If balance amount in the account of a deceased is higher than 150,000 then the nominee or legal heir has to prove the identity to claim the amount .
+Prediction: SUB / CONDITION('Blead amount in the account of a deceased is higher than 150,000 then the nominee or legal heir has to prove the identity to claim the amount . ','The balance amount in the account of a deceased is higher than 150,000 then the nominee or legal heir has to prove the identity to claim the amount . ' )
+
+Input: Women account for the vast majority of those who have lost their jobs ( 24.7 million ) .
+Prediction: SUB / ELABORATION('Women account for the vast majority of those . ','Those have lost their jobs 24.7 million . ' )
+
+Input: The MGNREGA was created with the idea of giving rural households a safety net in the form of guaranteed work possibilities .
+Prediction: SUB / ELABORATION('This was in the form of guaranteed work possibilities . ','The MGNREGA was created with the idea of giving rural households a safety net . ' )
+
+Input: The work entitlement of 100 days per household per year may be shared between different adult members of the same household .
+Prediction: NONE
+
+Input: The Latin phrase ' dies non ' is being widely used by disciplinary authorities in government and industries for denoting the ' unauthorised absence ' to the delinquent employees .
+Prediction: SUB / ELABORATION('This was for denoting the ' unauthorised absence ' to the delinquent employees . ','The Latin phrase ' dies non ' is being widely used by disciplinary authorities in government and industries for denoting the ' unauthorised absence ' . ' )
+
+Input: The Industrial Employment ( Standing Orders ) Act 1946 requires that employers have terms including working hours , leave , productivity goals , dismissal procedures or worker classifications , approved by a government body .
+Prediction: SUB / ELABORATION('The Industrial Employment(Standing Orders ) Act 1946 requires that employers have terms including working hours , leave , productivity goals , dismissal procedures or worker classifications . ','Already approved by a government body . ' )
+
+Input: Workers who sought better conditions , and trade unions who campaigned through strike action were frequently , and violently suppressed .
+Prediction: SUB / ELABORATION(CO / LIST('Workers were frequently , and violently suppressed . ','Trade unions were frequently , and violently suppressed . ' ))
+
+Input: No working hours were fixed for interstate migrant workers and they had to work on all the days in a week under extremely bad working conditions .
+Prediction: CO / LIST('No working hours were fixed for interstate migrant workers . ' , SUB / ELABORATION('This was in a week under extremely bad working conditions . ','They had to work on all the days in a week . ' ))
+
+Input: In addition to the general labour laws applicable to all workers , the interstate workers are entitled with termination of employment after the contract period without any liability .
+Prediction: SUB / ELABORATION(SUB / ELABORATION('This was after the contract period without any liability . ','This was to the general labor laws applicable to all workers . ' ) SUB / ELABORATION('This was in addition to the general labor laws applicable to all workers . ','The interstate workers are entitled with termination of employment after the contract period without any liability . ' ))
+
+Input: The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labour law that sets the minimum wages that must be paid to skilled and unskilled labours .
+Prediction: SUB / ELABORATION('The Minimum Wages Act 1948 is an Act of Parliament concerning Indian labor law that sets the minimum wages that must be paid to skilled and unskilled labors . ','The minimum wages must be paid to skilled and unskilled labors . ' )
+
+Input: The Indian Constitution has defined a ' living wage ' that is the level of income for a worker which will ensure a basic standard of living including good health , dignity , comfort , education and provide for any contingency .
+Prediction: SUB / ELABORATION('The Indian Constitution has defined a ' living wage ' that is the level of income for a worker which will ensure a basic standard of living including good health , dignity , comfort , education and provide for any contingency . ','A worker will ensure a basic standard of living including good health , dignity , comfort , education and provide for any contingency . ' )
+
+Input: Fair wage is that level of wage that not just maintains a level of employment , but seeks to increase it keeping in perspective the industry 's capacity to pay .
+Prediction: SUB / ELABORATION('Fair wage is that level of wage that not just maintains a level of employment , but seeks to increase it keeping in perspective the industry 's capacity to pay . ','Wage not just maintains a level of employment , but seeks to increase it keeping in perspective the industry 's capacity to pay . ' )
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis,[23 ] and extends to the entire country and is revised within a period of not less than five years , however there is a provision to increase dearness allowance every two years .
+Prediction: CO / LIST(SUB / ELABORATION('This is on a per day basis . ','The Minimum Wages Act 1948 generally specifies minimum wage rates . ' ) SUB / ELABORATION('This was however there is a provision to increase dearness allowance every two years . ','The Minimum Wages Act 1948 generally extends to the entire country . ' ))
+
+Input: The Industrial Disputes Act , 1947 was replaced by the Industrial Relations Code , 2020 .
+Prediction: SUB / ELABORATION('The Industrial Disputes Act , 1947 was replaced by the Industrial Relations Code , 2020.','The Industrial Disputes Act , 1947 was replaced by the Industrial Relations Code , 1947 . ' )
+
+Input: Industrial Relations Code , 2020 consolidates and amends the laws relating to Trade Unions , conditions of employment in industrial establishment or undertaking , investigation and settlement of industrial disputes .
+Prediction: SUB / ELABORATION('This is in industrial establishment or undertaking , investigation and settlement of industrial disputes . ','Industry Relations Code , 2020 consolidates and amends the laws relating to Trade Unions , conditions of employment in industrial establishment or undertaking , investigation and settlement of industrial disputes . ' )
+
+Input: The Industrial Relations Code Bill , 2020 proposed for amalgamating , simplifying and rationalising the relevant provisions of three Acts namely Trade Unions Act , 1926 , Industrial Employment ( Standing Orders ) Act , 1946 and Industrial Disputes Act , 1947 .
+Prediction: SUB / ELABORATION('This was namely Trade Unions Act , 1926 , Industrial Employment(SUB / ELABORATION('This was in 1926.','The Industrial Relations Code Bill , 2020 proposed for amalgamating , simplifying and rationalising the relevant provisions of three Acts namely Trade Unions Act , 1926 , Industrial Employment(SUB / ELABORATION('This was 1947.','This was namely Industrial Disputes Act . ' ) , ' The Industrial Relations Code Bill , 2020 proposed for amalgamating , simplifying and rationalising the relevant provisions of three Acts namely Trade Unions Act , 1926 , Industrial Disputes Act , 1947 . ' )) )
+
+Input: The Payment of Wages Act 1936 mandates the payment of wages on time on the last working day of every month via bank transfer or postal service .
+Prediction: SUB / ELABORATION('This is on time on the last working day of every month via bank transfer or postal service . ','The Payment of Wages Act 1936 mandates the payment of wages . ' )
+
+Input: The Factories Act 1948 and the Shops and Establishment Act 1960 mandate 15 working days of fully paid vacation leave each year to each employee with an additional 7 fully paid sick days .
+Prediction: SUB / ELABORATION('This is to each employee with an additional 7 fully paid sick days . ' , CO / LIST('The Factories Act 1948 mandate 15 working days of fully paid vacation leave each year with an additional 7 fully paid sick days . ','The Shops and Establishment Act 1960 mandate 15 working days of fully paid vacation leave each year with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days with an additional 7 fully paid sick days
+
+Input: The Maternity Benefit ( Amendment ) Act , 2017 gives female employees of every company the right to take 6 months ' worth of fully paid maternity leave .
+Prediction: SUB / ELABORATION('The Maternity Benefit(Amendment ) Act , 2017 gives female employees of every company the right to take 6 months ' worth of fully paid maternity leave . ','The Maternity Benefit(Amendment ) Act , 2017 gives female employees of every company the right to take 6 months ' worth of fully paid maternity leave . ' )
+
+Input: The Maternity Benefit ( Amendment ) Act , 2017 provides for 6 weeks worth of paid leaves in case of miscarriage or medical termination of pregnancy .
+Prediction: SUB / ELABORATION('This is in case of miscarriage or medical termination of pregnancy . ','The Maternity Benefit(Amendment ) Act , 2017 provides for 6 weeks worth of paid leaves . ' )
+
+Input: Workers entitled to be covered under the Employees ' State Insurance ( those making less than Rs 21000 / month ) are also entitled to 90 days worth of paid medical leaves .
+Prediction: SUB / ELABORATION('Workers entitled to be covered under the Employees ' State Insurance-those making less than Rs 21000 / month-are also entitled to 90 days worth of paid medical leaves . ','Those were making less than Rs 21000 / month . ' )
+
+Input: A contract of employment can always provide for more rights than the statutory minimum set rights
+Prediction: NONE
+
+Input: Gratuity is payable to the employee if he or she resigns or retires .
+Prediction: SUB / CONDITION('Girl gratuity is payable to the employee if he or she resigns or retires . ','Girl gratuity is payable to the employee if she resigns or retires . ' )
+
+Input: The Indian government mandates that the gratuity payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of   2000000 .
+Prediction: SUB / ATTRIBUTION('This is what the Indian government mandates . ' , SUB / ELABORATION('This is for each completed year of service subject to a maximum of   2000000.','The gratuity payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of   2000000 . ' ))
+
+Input: The Payment of Gratuity Act , 1972 is an Indian law that makes companies pay a one - time gratuity to retired employees or an employee who resigns after a minimum of 5 years of service .
+Prediction: SUB / ELABORATION(SUB / ELABORATION('The Payment of Gratuity Act , 1972 is an Indian law . ' , CO / DISJUNCTION('An Indian law makes companies pay a one-time gratuity to retired employees . ','An Indian law makes companies pay a one-time gratuity to an employee . ' ) , ' An employee resigns after a minimum of 5 years of service . ' ))
+
+Input: A workman who has been employed for over a year can only be dismissed if permission is sought from and granted by the appropriate government office .
+Prediction: SUB / CONDITION('A workman can only be dismissed if permission is sought from and granted by the appropriate government office . ','A workman has been employed for over a year . ' )
+
+Input: To acquire status as a CTUO , a trade union federation must have a verified membership of at least 500,000 workers who are spread over a minimum of four states and four industries ( including agriculture ) .
+Prediction: SUB / PURPOSE(SUB / ELABORATION('This was as a CTUO.','This was to acquire status . ' ) SUB / ELABORATION('This was including agriculture . ','A trade union federation must have a verified membership of at least 500,000 workers who are spread over a minimum of four states and four industries . ' ))
+
+Input: The 42nd Amendment also amended Preamble and changed the description of India from   sovereign democratic republic ' , ' to a   sovereign , socialist secular democratic republic ' , ' , and also changed the words   unity of the nation ' , ' to   unity and integrity of the nation ' , ' .
+Prediction: CO / LIST(SUB / ELABORATION('This was from   sovereign democratic republic ' , ' to a   sovereign socialist secular democratic republic ' , ' . ' ) SUB / ELABORATION('This was to   unity and integrity of the nation ' , ' The 42nd Amendment also amended Preamble . ' , SUB / ELABORATION('This was from   sovereign democratic republic ' , ' . ' , CO / LIST('The 42nd Amendment also changed the description of India . ','The 42nd Amendment also changed the description of India . ' )) ))
+
+Input: The 42nd Amendment provides for curtailment of fundamental rights , imposes fundamental duties and changes to the basic structure of the constitution .
+Prediction: CO / LIST('The 42nd Amendment provides for curtailment of fundamental rights . ' , SUB / ELABORATION('This is to the basic structure of the constitution . ','The 42nd Amendment imposes fundamental duties . ','The 42nd Amendment imposes changes . ' ))
+
+Input: The 42nd amendment transferred more power from the state governments to the central government , eroding India 's federal structure .
+Prediction: SUB / ELABORATION('This was from the state governments to the central government . ' , SUB / ELABORATION('This was eroding India 's federal structure . ','The 42nd amendment transferred more power . ' ))
+
+Input: The 42nd Amendment gives Parliament unrestrained power to amend any parts of the Constitution , without judicial review .
+Prediction: SUB / PURPOSE('The 42nd Amendment gives Parliament unrestrained power . ','This was to amend any parts of the Constitution , without judicial review . ' )
+
+Input: Another purpose of 42nd Amendment was to make any law passed in pursuance of a Directive Principle immune from scrutiny by the Supreme Court .
+Prediction: SUB / ELABORATION('Another purpose of 42nd Amendment was to make any law passed in pursuance of a Directive Principle immune from scrutiny by the Supreme Court . ','Any law was passed in pursuance of a Directive Principle immune from scrutiny by the Supreme Court . ' )
+
+Input: If an employee is involved in work that categorises his service in two or more scheduled employments , the employee 's wage will include respective wage rate of all work for the number of hours dedicated at each task .
+Prediction: SUB / CONDITION(SUB / ELABORATION('An employee is involved in work that categorises his service in two or more scheduled employments . ','Work categorises his service in two or more scheduled employments . ' ) SUB / ELABORATION('The employee 's wage will include respective wage rate of all work for the number of hours dedicated at each task . ','Work categories his service in two or more scheduled employments . ' ))
+
+Input: The Minimum Wages Act 1948 generally specifies minimum wage rates on a per day basis , and extends to the entire country and is revised within a period of not less than five years , however there is a provision to increase dearness allowance every two years .
+Prediction: CO / LIST(SUB / ELABORATION('This is on a per day basis . ','The Minimum Wages Act 1948 generally specifies minimum wage rates . ' ) SUB / ELABORATION('This was however there is a provision to increase dearness allowance every two years . ','The Minimum Wages Act 1948 generally extends to the entire country . ' ))
+
+Input: Employees ' State Insurance Corporation ( abbreviated as ESIC ) is one of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment , Government of India , the other being the Employees ' Provident Fund Organisation .
+Prediction: SUB / ELABORATION('This is under the ownership of Ministry of Labour and Employment , Government of India , the other being the Employees ' Provident Fund Organisation . ','Employees ' State Insurance Corporation is one of the two main statutory social security bodies under the ownership of Ministry of Labour and Employment , Government of India , the other being the Employees ' Provident Fund Organisation . ' )
+
+Input: The ESI act was initially intended for factory workers but later became applicable to all establishments having 10 or more workers .
+Prediction: CO / CONTRAST('The ESI act was initially intended for factory workers . ' , SUB / ELABORATION('The ESI act later became applicable to all establishments having 10 or more workers . ','All establishments were having 10 or more workers . ' ))
+
+Input: Six benefits are envisaged to ESI subscribers are Medical benefit , Sickness benefit , Maternity benefit , Disablement benefit , Dependants benefit and funeral expenses .
+Prediction: NONE
+
+Input: It was held by the Supreme Court of India in Indian Hume Pipe Co Ltd v Its Workmen that the general principle underlying a gratuity scheme is that by service over a long period the employee is entitled to claim a certain amount as a retirement benefit .
+Prediction: SUB / ELABORATION('It was held by the Supreme Court of India in Indian Hume Pipe Co Ltd v Its Workmen . ' , SUB / ELABORATION('The general principle underlying a gratuity scheme is that by service over a long period the employee is entitled to claim a certain amount as a retirement benefit . ','The general principle underlying a gratuity scheme is that by service over a long period the employee is entitled to claim a certain amount as a retirement benefit . ' ))
+
+Input: Unorganised sector , also known as own account enterprises , refers to all unlicensed , self - employed or unregistered economic activity such as owner manned general stores , handicrafts and handloom workers , rural traders , farmers , etc .
+Prediction: SUB / ELABORATION('Unorganised sector is also known as own account enterprises . ' , SUB / ELABORATION(CO / LIST('This was such as owner manned general stores . ','This was such as handicrafts . ','This was such as handloom workers . ','This was such as farmers . ','This was such as etc .. ' ) , ' Unorganised sector refers to all unlicensed , self-employed or unregistered economic activity such as owner manned general stores . ' ))
+
+Input: Even though unorganised sector accounted for over 94 percent of workers , India 's unorganised sector created just 57 percent of India 's national domestic product in 2006 , or about nine fold less per worker than the organised sector .
+Prediction: CO / CONTRAST('Unorganised sector accounted for over 94 percent of workers . ' , SUB / ELABORATION('This was in 2006 . ' , CO / DISJUNCTION('India 's unorganised sector created just 57 percent of India 's national domestic product . ','India 's unorganised sector created about nine fold less per worker than the organised sector . ' )) )
+
+Input: The state of Kerala at 9,800 trade unions had the highest number of registered unions , but only few filed income and expenditure reports with the government of India .
+Prediction: CO / CONTRAST('The state of Kerala at 9,800 trade unions had the highest number of registered unions . ' , SUB / ELABORATION('This was with the government of India . ','Only few filed income and expenditure reports . ' ))
+
+Input: Migrant workers are typically employed for remuneration in cash or kind , in any household through any agency or directly , to do the household work , but do not include any member of the family of an employer .
+Prediction: SUB / PURPOSE(SUB / ELABORATION('This was in cash or kind . ' , SUB / ELABORATION('This was in any household through any agency or directly . ','Migrant workers are typically employed for remuneration in cash or kind to do the household work . ' ) , ' This was to do the household work , but do not include any member of the family of an employer . ' ))
+
+Input: Article 24 of India 's constitution prohibits child labour , but only in factories , mines or hazardous employment .
+Prediction: SUB / ELABORATION('This is but only in factories , mines or hazardous employment . ','Article 24 of India 's constitution prohibits child labor . ' )
+
+Input: India has a new code to simplify law on minimum wages – but it does n't give workers any real benefit .
+Prediction: CO / CONTRAST('India has a new code to simplify law on minimum wages . ','It does't give workers any real benefit . ' )
+
+Input: Poverty rates are reported to be significantly higher in families where all working age members have only worked the unorganised sector throughout their lives .
+Prediction: SUB / ELABORATION('Poverty rates are reported to be significantly higher in families where all working age members have only worked the unorganised sector throughout their lives . ','All working age members have only worked the unorganised sector throughout their lives . ' )
+
+Input: India has two broad groups of migrant labourers - one that migrates to temporarily work overseas , and another that migrates domestically on a seasonal and work available basis .
+Prediction: SUB / ELABORATION('India has two broad groups of migrant labourers-one that migrates to temporarily work overseas , and another that migrates domestically on a seasonal and work available basis . ','One that migrates to temporarily work overseas . ' )
+
+Input: Despite importance of migrant labour and despite many of migrant labours praising the state for its welfare schemes and environment , they are often ignored in comparison and suffer from comparatively poor living conditions .
+Prediction: CO / LIST(SUB / ELABORATION('This was despite importance of migrant labour . ','They are often ignored in comparison . ' ) SUB / ELABORATION('This was despite many of migrant labours praising the state for its welfare schemes and environment . ','They are often suffer from comparatively poor living conditions . ' ))
+
+Input: Bonded labour is a forced relationship between an employer and an employee , where the compulsion is derived from outstanding debt .
+Prediction: SUB / SPATIAL('Bonded labor is a forced relationship between an employer and an employee . ','The compulsion is derived from outstanding debt . ' )
+
+Input: Although the Industrial Dispute Act does not prohibit layoffs and retrenchments , it does require[96 ] entrepreneurs and companies to get the permission from government officials to fire an employee for absenteeism , retrench employees for economic reasons , or to close an economically nonviable company .
+Prediction: CO / CONTRAST('The Industrial Dispute Act does not prohibit layoffs and retrenchments . ' , SUB / PURPOSE('It does require('96 ) entrepreneurs and companies . ','This is to get the permission from government officials to fire an employee for absenteeism , retrench employees for economic reasons , or to close an economically nonviable company . ' ))
+
+Input: As per the Child and Adolescent Labour ( Prohibition and Regulation ) Act , 1986 , amended in 2016 ( ' CLPR Act ' ) , a ' Child ' is defined as any person below the age of 14 , and the CLPR Act prohibits employment of a Child in any employment including as a domestic help .
+Prediction: CO / LIST(SUB / ELABORATION('This was as per the Child and Adolescent Labour(Prohibition and Regulation ) Act , 1986 , amended in 2016('CLPR Act ' ) , a ' Child ' is defined as any person below the age of 14 , . ' , SUB / ELABORATION('This is including as a domestic help . ','The CLPR Act prohibits employment of a Child in any employment including as a domestic help . ' )) )
+
+Input: Some child rights activists argue that child labour must include every child who is not in school because he or she is a hidden child worker .
+Prediction: SUB / ATTRIBUTION('This is what some child rights activists argue . ' , SUB / CAUSE('Timothy labour must include every child . ' , SUB / CAUSE('Every child is not in school because he or she is a hidden child worker . ','Every child is not in school because he or she is a hidden child worker . ' )) )
+
+Input: Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation .
+Prediction: SUB / TEMPORAL('Girls shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation . ','Girls shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation . ' )
+
+Input: The unpaid gratuity amount is seized by government which is further used in holiday , vacations , parties and other fun related activities .
+Prediction: SUB / ELABORATION('The unpaid gratuity amount is seized by government which is further used in holiday , vacations , parties and other fun related activities . ','Government is further used in holiday , vacations , parties and other fun related activities . ' )
+
+Input: The Gratuity law applies to all companies of at least 20 employees .
+Prediction: NONE
+
+Input: The Payment of Gratuity Act does not applies to apprentices and persons who hold civil posts under the Central Government or State Governments and are subjected to any other act or rule other than this act .
+Prediction: CO / LIST(SUB / ELABORATION('The Payment of Gratuity Act does not applies to apprentices and persons . ','Earnings and persons hold civil posts under the Central Government or State Governments . ' ) SUB / ELABORATION('This was than this act . ','Earnings and persons are subjected to any other act or rule other than this act . ' ))
+
+Input: Defined Benefit ( DB ) scheme like OPS is a type in which the beneficiary pension is based on a defined formula which may have a percentage of salary or a percentage of salary times the years of service or a flat rate per year of service as its parameters .
+Prediction: SUB / ELABORATION('Defined Benefit(DB ) scheme like OPS is a type in which the beneficiary pension is based on a defined formula . ' , SUB / ELABORATION('This was as its parameters . ' , CO / DISJUNCTION('A defined formula may have a percentage of salary times the years of service . ','A defined formula may have a percentage of a percentage of salary times the years of a flat rate per year of service . ' )) )
+
+Input: Defined Contribution ( DC ) scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service and the receivable pension is based on the balance in his pension fund at the time of his retirement .
+Prediction: SUB / ELABORATION('Defined Contribution-DC ) scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service and the receivable pension is based on the balance in his pension fund at the time of his retirement . ','Defined Contribution-DC scheme like NPS is a type of in which the beneficiary makes contributions to a retirement fund during his service and the receivable pension is based on the balance in his pension fund at the time of his retirement . ' )
+
+Input: Since pension is both a reward for continuous service till the formal age of retirement as well as a form social security in old age , India favored a restructured pension ensuring a balance between retirement benefit of the government employees and the financial burden on the economy by moving from DB scheme to DC scheme .
+Prediction: SUB / CAUSE(SUB / ELABORATION('This was to DC scheme . ','Pension is both a reward for continuous service until the formal age of retirement as well as a form social security in old age . ' ) SUB / ELABORATION('This was by moving from DB scheme to DC scheme . ','India favored a restructured pension ensuring a balance between retirement benefit of the government employees and the financial burden . ' ))
+
+Input: A major portion of outgo in government revenue is paid as pension benefits to its retired employees and hence considered as economic liability with potential to adversely impact the ' fiscal soundness of the Government entities ' .
+Prediction: CO / LIST(SUB / ELABORATION('This was to its retired employees . ','A major portion of outgo in government revenue is paid as pension benefits . ' ) SUB / PURPOSE('A major portion of outgo in government revenue hence considered as economic liability with potential . ','This was to adversely impact the ' fiscal soundness of the Government entities ' . ' ))
+
+Input: The 42nd Amendment changed the description of India from a'sovereign democratic republic ' to a'sovereign , socialist secular democratic republic ' , and also changed the words ' unity of the nation ' to ' unity and integrity of the nation ' .
+Prediction: CO / LIST(SUB / ELABORATION('This was from a'sovereign democratic republic ' to a'sovereign , socialist secular democratic republic' . ','The 42nd Amendment changed the description of India . ' ) SUB / ELABORATION('This was to ' unity and integrity of the nation' . ','The 42nd Amendment also changed the words ' unity of the nation ' . ' ))
+
+Input: Children between age of 14 and 18 are defined as   Adolescent ' , ' and the law allows Adolescent to be employed except in the listed hazardous occupation and processes which include mining , inflammable substance and explosives related work and any other hazardous process as per the Factories Act , 1948 .
+Prediction: CO / LIST('Parents between age of 14 and 18 are defined as   Adolescent ' , ' . ' , SUB / ELABORATION('The law allows Adolescent to be employed except in the listed hazardous occupation and processes . ' , CO / LIST('The listed hazardous occupation include mining . ','The listed hazardous occupation include inflammable substance and explosives related work . ','The listed hazardous occupation include any other hazardous process as per the Factories Act , 1948 . ' )) )
+
+Input: The Constitution of India prohibits child labour in hazardous industries ( but not in non - hazardous industries ) as a Fundamental Right under Article 24 .
+Prediction: SUB / ELABORATION('This is as a Fundamental Right under Article 24.','The Constitution of India prohibits child labor in hazardous industries . ' )
+
+Input: UNICEF estimates that India with its larger population , has the highest number of labourers in the world under 14 years of age , while sub - Saharan African countries have the highest percentage of children who are deployed as child labourers .
+Prediction: CO / CONTRAST(SUB / ATTRIBUTION('This is whatUNICEF estimates . ' , SUB / ELABORATION('This is under 14 years of age . ','India with its larger population has the highest number of labourers in the world . ' ) SUB / ELABORATION('United States have the highest percentage of children . ','The highest percentage of children are deployed as child labourers . ' )) )
+
+Input: The International Labour Organization estimates that agriculture , at 60 percent , is the largest employer of child labour in the world , [ 10 ] while the United Nations Food and Agriculture Organization estimates 70 % of child labour is deployed in agriculture and related activities .
+Prediction: CO / CONTRAST(SUB / ATTRIBUTION('This is what the International Labour Organization estimates . ' , SUB / ELABORATION('This is at 60 percent . ','Agriculture is the largest employer of child labor in the world . ' ) SUB / ATTRIBUTION('This is what the United Nations Food and Agriculture Organization estimates . ','70 % of child labor is deployed in agriculture and related activities . ' )) )
+
+Input: Outside of agriculture , child labour is observed in almost all informal sectors of the Indian economy .
+Prediction: SUB / ELABORATION('This was outside of agriculture . ','Two child labor is observed in almost all informal sectors of the Indian economy . ' )
+
+Input: The companies claim they have strict policies against selling products made by underage children for their own profit , but there are many links in a supply chain making it difficult to oversee them all .
+Prediction: CO / CONTRAST(SUB / ATTRIBUTION('This is what the companies claim . ' , SUB / ELABORATION('This was against selling products . ','Products were made by underage children for their own profit . ' ) SUB / ELABORATION('There are many links in a supply chain . ','A supply chain is making it difficult to oversee them all . ' )) )
+
+Input: A   Child ' , ' is defined as any person below the age of 14 and the CLPR Act prohibits employment of a Child in any employment including as a domestic help ( except helping own family in non - hazardous occupations ) .
+Prediction: CO / LIST('A   Child ' , ' is defined as any person below the age of 14 . ' , SUB / ELABORATION('This is including as a domestic help . ' , SUB / ELABORATION('This is except helping own family in non-hazardous occupations . ','The CLPR Act prohibits employment of a Child in any employment including as a domestic help . ' )) )
+
+Input: The term ' child labour ' , suggests ILO , is best defined as work that deprives children of their childhood , their potential and their dignity , and that is harmful to physical and mental development .
+Prediction: SUB / ELABORATION('The term ' child labor ' , suggests ILO , is best defined as work that deprives children of their childhood , their potential and their dignity , and that is harmful to physical and mental development . ','Work deprives children of their childhood , their potential and their dignity . ' )
+
+Input: A large number of brick kilns around Bangalore and Hosur employ bonded and child labour , under the pretext of offering high wages .
+Prediction: SUB / ELABORATION('This was under the pretext of offering high wages . ','A large number of brick kilns around Bangalore and Hosur employ bonded and child labor . ' )
+
+Input: Unorganised Workers ' Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security and welfare of the unorganised workers(meaning home - based workers , self - employed workers or daily - wage workers ) .
+Prediction: SUB / ELABORATION('Unorganised Workers ' Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security and welfare of the unorganised workers(meaning home-based workers , self-employed workers or daily-wage workers )
+
+Input: In Maharashtra the mathadis are organised under a welfare board , set up in compliance to the Maharashtra Hamal , Mathadi and other unprotected workers ( Regulation of Employment and Welfare ) Act 1969 .
+Prediction: SUB / ELABORATION('This was in Maharashtra . ','The mathadis are organised under a welfare board , set up in compliance to the Maharashtra Hamal , Mathadi and other unprotected workers(Regulation of Employment and Welfare ) Act 1969 . ' )
+
+Input: The Occupational Safety , Health And Working Conditions Code , 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment .
+Prediction: SUB / ELABORATION('The Occupational Safety , Health And Working Conditions Code , 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment . ','The laws were regulating the Occupational safety and health and working conditions of the persons employed in an establishment . ' )
+
+Input: The Code on Social Security , 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors .
+Prediction: SUB / ELABORATION('The Code on Social Security , 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors . ','The laws were relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors . ' )
+
+Input: The Social Security Code , 2020 brings unorganised sector , gig workers and platform workers under the ambit of social security schemes , including life insurance and disability insurance , health and maternity benefits , provident insurance , pension and skill upgradation , etc .
+Prediction: SUB / ELABORATION('This is under the ambit of social security schemes . ' , SUB / ELABORATION('This is including life insurance and disability insurance , health and maternity benefits , provident insurance , pension and skill upgradation , etc . ))
+
+Input: If the punishment is harsh , albeit a lesser punishment may be imposed , but such an order can not be passed on an irrational or extraneous factor and certainly not on a compassionate ground .
+Prediction: CO / CONTRAST('The punishment is harsh . ' , SUB / CONDITION('A lesser punishment may be imposed . ' , SUB / ELABORATION('This was certainly not on a compassionate ground . ' , ' , Such an order can be passed on an irrational or extraneous factor and certainly not on a compassionate ground . ' )) )
+
+Input: In Regional Manager , Rajasthan State Road Transport Corporation v Sohan Lal ( 2004 ) 8 SCC 218 , it has been held that it is not the normal jurisdiction of the superior courts to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved .
+Prediction: SUB / ELABORATION('This was in Regional Manager . ' , SUB / ELABORATION('This was in Rajasthan State Road Transport Corporation v Sohan Lal ( 2004 ) 8 SCC 218 , it has been held that it is not the normal jurisdiction of the superior courts to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved . ','The misconduct proved . ' ))
+
+Input: Huge pension costs over long time raises concerns on fiscal sustainability of the economy and given the magnitude of the problem , structural alteration in the existing pension scheme would therefore appear to be necessary .
+Prediction: CO / LIST('Huge pension costs over long time raises concerns on fiscal sustainability of the economy . ' , SUB / ELABORATION('This is given the magnitude of the problem . ' , ' , Structural alteration in the existing pension scheme would therefore appear to be necessary . ' ))
+
+Input: The fund is managed by the Employees'State Insurance Corporation ( ESIC ) according to rules and regulations stipulated in the ESI Act 1948 .
+Prediction: SUB / ELABORATION('The fund is managed by the Employees'State Insurance Corporation . ' , SUB / ELABORATION('This was according to rules and regulations . ','Rules and regulations were stipulated in the ESI Act 1948 . ' ))
+
+Input: Employees'State Insurance Corporation ( ESIC ) , established by ESI Act , is an autonomous corporation under Ministry of Labour and Employment , Government of India .
+Prediction: SUB / ELABORATION('Essentials'State Insurance Corporation , ESIC , is an autonomous corporation under Ministry of Labor and Employment , Government of India . ','Essentials'State Insurance Corporation , established by ESI Act , is an autonomous corporation under Ministry of Labor and Employment , Government of India . ' )
+
+Input: The corporation can set up hospitals either independently or in collaboration with state government or other private entities , but most of the dispensaries and hospitals are run by concerned state governments .
+Prediction: CO / CONTRAST('The corporation can set up hospitals either independently or in collaboration with state government or other private entities . ','Most of the dispensaries and hospitals are run by concerned state governments . ' )
+
+Input: The employees registered under the scheme are entitled to medical treatment for themselves and their dependents , unemployment cash benefit in certain contingencies and maternity benefit in case of women employees .
+Prediction: SUB / ELABORATION(CO / LIST('This was for themselves . ','This was for their dependents . ','This was for unemployment cash benefit in certain contingencies . ','This was for maternity benefit in case of women employees . ' ) , ' The employees registered under the scheme are entitled to medical treatment for themselves . ' )
+
+Input: In case of employment - related disablement or death , there is provision for a disablement benefit and a family pension respectively .
+Prediction: SUB / ELABORATION('This is in case of employment-related disablement or death . ' , CO / LIST('There is provision for a disablement benefit . ','There is provision for a family pension respectively . ' ))
+
+Input: If the number of employee is below 10 , the employer must still pay gratuities .
+Prediction: SUB / CONDITION('The number of employee is below 10.','The employer must still pay gratuities . ' )
+
+Input: Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation .
+Prediction: SUB / TEMPORAL('Gerald is payable to an employee on termination of employment . ' , SUB / ELABORATION('This was for not less than five years in a single organisation . ','Gerald has rendered continuous service . ' ))
+
+Input: If over 50 per cent of a company 's workers take concerted casual leave , it will be treated as a strike .
+Prediction: SUB / CONDITION('Over 50 per cent of a company 's workers take concerted casual leave . ','It will be treated as a strike . ' )
+
+Input: The Inter - state Migrant Workmen Act 's purpose was to protect workers whose services are requisitioned outside their native states in India .
+Prediction: SUB / ELABORATION('The Inter-state Migrant Workmen Act 's purpose was to protect workers . ','Workers 's services are requisitioned outside their native states in India . ' )
+
+Input: A non - resident can open an NPS account , but the account will be closed if the citizenship status of the NRI has been changed .
+Prediction: CO / CONTRAST('A non-resident can open an NPS account . ' , SUB / CONDITION('The account will be closed . ','The citizenship status of the NRI has been changed . ' ))
+
+Input: National Pension System , like PPF and EPF is an EEE ( Exempt - Exempt - Exempt ) instrument in India where the entire corpus escapes tax at maturity and entire pension withdrawal amount is tax - free .
+Prediction: SUB / SPATIAL(SUB / SPATIAL('This is in India . ','National Pension System is an EEE(Exempt-Exempt-Exempt ) instrument . ' ) CO / LIST('The entire corpus escapes tax at maturity . ','The entire pension withdrawal amount is tax-free . ' ))
+
+Input: NPS started with the decision of the Government of India to stop defined benefit pensions for all its employees who joined after 1 April 2004 .
+Prediction: SUB / PURPOSE('NPS started with the decision of the Government of India . ','This was to stop defined benefit pensions for all its employees who joined after 1 April 2004 . ' )
+
+Input: While the scheme was initially designed for government employees only , NPS was opened up for all citizens of India between the age of 18 and 65 in 2009 , for OCI card holders and PIO 's in October 2019 .
+Prediction: CO / CONTRAST('The scheme was initially designed for government employees only . ' , SUB / ELABORATION('This was for OCI card holders and PIO 's in October 2019.','NPS was opened up for all citizens of India between the age of 18 and 65 in 2009 . ' ))
+
+Input: As per the revised norms , any Indian Citizen , resident or non - resident and Overseas Citizen of India ( OCI ) between the age of 65–70 years can join NPS and continue or defer their NPS Account up to the age of 75 years .
+Prediction: SUB / ELABORATION('This is as per the revised norms . ' , CO / LIST('Any Indian Citizen , resident or non-resident and Overseas Citizen of India , OCI , between the age of 65-70 years can join NPS.','Any Indian Citizen , resident or non-resident and Overseas Citizen of India , OCI , between the age of 65-70 years can continue or defer their NPS Account up to the age of 75 years . ' ))
+
+Input: NPS is considered one of the best tax saving instruments , after 40 % of the corpus was made tax - free at the time of maturity and it is ranked just below equity - linked savings scheme .
+Prediction: CO / LIST(SUB / ELABORATION('NPS is considered one of the best tax saving instruments . ' , SUB / ELABORATION('This was at the time of maturity . ','40 % of the corpus was made tax-free . ' ) SUB / ELABORATION('This was after 40 % of the corpus it is ranked just below equity-linked savings scheme . ','It is ranked just below equity-linked savings scheme . ' )) )
+
+Input: One can withdraw the complete amount if the pension collected is less than INR 5,00,000 .
+Prediction: SUB / CONDITION('One can withdraw the complete amount . ','The pension collected is less than INR 5,00,000 . ' )
+
+Input: If work is not provided within 15 days of applying , applicants are entitled to an unemployment allowance .
+Prediction: SUB / CONDITION('Work is not provided within 15 days of applying . ','Officials are entitled to an unemployment allowance . ' )
+
+Input: If the government fails to provide employment , it has to provide certain unemployment allowances to those people .
+Prediction: SUB / CONDITION('The government fails to provide employment . ' , SUB / ELABORATION('This is to those people . ','It has to provide certain unemployment allowances . ' ))
+
+Input: Unemployment allowance must be paid if the work is not provided within the statutory limit of 15 days .
+Prediction: SUB / CONDITION('Unemployment allowance must be paid . ','The work is not provided within the statutory limit of 15 days . ' )
+
+Input: To ensure public accountability through public vigilance , the NREGA designates ‘ social audits'as key to its implementation .
+Prediction: SUB / PURPOSE(SUB / ELABORATION('This is through public vigilance . ','This is to ensure public accountability . ' ) , ' The NREGA designates'social audits'as key . ' )
+
+Input: After the economic liberalization of 1991 , the pay in Private sector was gradually seen as better than that in Public sector .
+Prediction: SUB / ELABORATION('This was after the economic liberalization of 1991.','The pay in Private sector was gradually seen as better than that in Public sector . ' )
+
+Input: Tamil Nadu has not implemented the NPS for its government employees and is not not in agreement with PFRDA .
+Prediction: CO / LIST(SUB / ELABORATION('This was for its government employees . ','Tamil Nadu has not implemented the NPS . ' ) SUB / ELABORATION('This is with PFRDA.','Tamil Nadu is not not in agreement . ' ))
+
+Input: In cases of such willful and unauthorised absence from work , the leave sanctioning authority may decide and order that the days on which the work is not performed be treated as dies non - on the principle of no work no pay .
+Prediction: SUB / ELABORATION('This was in cases of such willful and unauthorised absence from work . ' , SUB / ELABORATION('The leave sanctioning authority may decide and order that the days on which the work is not performed be treated as dies non-on the principle of no work no pay . ','The days on which the work is not performed be treated as dies non-on the principle of no work no pay . ' ))
+
+Input: The term ' industry ' infuses a contractual relationship between the employer and the employee for sale of products and services which are produced through their cooperative endeavor .
+Prediction: SUB / ELABORATION(SUB / ELABORATION('This is for sale of products and services . ' , CO / LIST('The term ' industry infuses a contractual relationship between the employer . ','The term ' industry infuses a contractual relationship between the employee . ' ) SUB / ELABORATION('This was for sale of products and services . ','Products and services are produced through their cooperative endeavor . ' )) )
+
+Input: Where the contract of employment is not fulfilled or work is not done as prescribed , the principle of ' no work no pay ' is brought into play .
+Prediction: SUB / ELABORATION('The contract of employment is not fulfilled or work is not done as prescribed . ','The principle of ' no work no pay ' is brought into play . ' )
+
+Input: In the Labour Law 2021 , the government has approved an overtime payment to the employees working more than 15 minutes of scheduled shift .
+Prediction: SUB / ELABORATION(SUB / ELABORATION('This was to the employees working more than 15 minutes of scheduled shift . ' , SUB / ELABORATION('This was in the Labour Law 2021.','The government has approved an overtime payment . ' ) , ' The employees were working more than 15 minutes of scheduled shift . ' ))
+
+Input: Section 6 requires that people are paid in money rather than in kind .
+Prediction: SUB / ELABORATION ( ' , Section 6 requires that people are paid in money rather than in kind . ','People are paid in money rather than in kind . ' )
+
+Input: New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined - benefit pensions for all its employees .
+Prediction: SUB / PURPOSE('New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees . ','New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees . ' )
+

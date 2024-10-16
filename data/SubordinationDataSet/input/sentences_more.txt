@@ -1,0 +1,946 @@
+#After 22 years, the Supreme Court of India upheld his dismissal.
+SUB/ELABORATION('This was after 22 years .','The Supreme Court of India upheld his dismissal .')
+#Nakate's  case  is  often  used  as  an  example  of  the  problems  with  Indian  labour  law  system  of  requiring government approval before dismissals can take effect.
+SUB/ELABORATION('This was with Indian labour law system of requiring government approval before dismissals can take effect .','Nakate 's case is often used as an example of the problems .')
+#Aside from highlighting the problem of India's lethargic legal system, Uttam's case dramatizes how the country's labor laws actually reduce employment, by making employers afraid to hire workers in the first place.
+CO/LIST('Uttam 's case is highlighting the problem of India 's lethargic legal system .', SUB/ELABORATION('Uttam 's case dramatizes .', CO/LIST(SUB/ELABORATION('This is by .','The country 's labor laws actually reduce employment .' ), 'The country 's labor laws are making employers afraid to hire workers in the first place .')))
+#The fact that we finally got a sound judgement shows we do have a system of checks and balances for those with the stamina to travel the course.
+SUB/ELABORATION(SUB/PURPOSE('This is for those with the stamina .','This is to travel the course .' ), 'The fact that we finally got a sound judgement shows we do have a system of checks and balances .')
+#One reason investors hesitate to put their money into India is the problem of getting any dispute adjudicated and enforced in a reasonable time.
+SUB/ELABORATION(SUB/ELABORATION('One reason investors is the problem of getting any dispute .','Any dispute was adjudicated and enforced in a reasonable time .' )SUB/SPATIAL('This is into India One reason investors .','Hesitate to put their money .'))
+#This act received  the  assent  of  the  President  of  India  on  30  December 2008.
+SUB/ELABORATION('This was on 30 .','This act received the assent of the President of India December 2008 .')
+#The setting up of textile and clothing mills around the port cities of Bombay (now Mumbai), Calcutta (now Kolkata), Madras (now Chennai) and Surat in the second half of the 19th century led to the beginnings of the industrial workforce in India.
+SUB/SPATIAL('This was in India .','The setting up of textile and clothing mills around the port cities of Bombay -LRB- now Mumbai -RRB- , Calcutta -LRB- now Kolkata -RRB- , Madras -LRB- now Chennai -RRB- and Surat in the second half of the 19th century led to the beginnings of the industrial workforce .')
+#Several incidents of strikes and protests by workers have been recorded during this time.
+NONE
+#The credit for the first association of Indian workers is generally given to the Bombay Mill-Hands Association founded by N.M. Lokhande in 1890.
+SUB/ELABORATION('The credit for the first association of Indian workers is generally given to the Bombay Mill-Hands Association .','The Bombay Mill-Hands Association was founded by N.M. Lokhande in 1890 .')
+#This was in the period just after the passing of the 'First' Factories Act in 1881 by the British government of the time.
+SUB/ELABORATION('This was by the British government of the time .','This was in the period just after the passing of the ` First ' Factories Act in 1881 .')
+#The following years saw the formation of several labour associations and unions.
+NONE
+#The first clearly registered trade-union is considered to be the Madras Labour Union founded by B.P.
+NONE
+#Wadia in 1918, while the first trade union federation to be set up was the All India Trade Union Congress in 1920.
+NONE
+#Following the rapid growth of unions around the time of the First World War, the Russian Revolution and the setting up of the ILO, industrial conflict began to increase and over 1,000 strikes were recorded between 1920 and 1924.
+CO/LIST(SUB/ELABORATION(CO/LIST('This was following the rapid growth of unions around the time of the First World War up of the ILO .','This was following the rapid growth of unions around the time of the Russian Revolution up of the ILO .','This was following the rapid growth of unions around the time of the setting up of the ILO .' ), 'Industrial conflict began to increase .' )SUB/ELABORATION(CO/LIST('This was following the rapid growth of unions around the time of the First World War up of the ILO .','This was following the rapid growth of unions around the time of the Russian Revolution up of the ILO .','This was following the rapid growth of unions around the time of the setting up of the ILO .' ), 'Industrial conflict over 1,000 strikes were recorded between 1920 and 1924 .'))
+#The waves of strikes boiled over with the arrest of prominent leaders and trade-unionists in the infamous ', Cawnpore Conspiracy case' in 1924 with the union leaders being arrested and accused of attempting a Communist revolution to try and overthrow the ruling British government.
+SUB/ELABORATION('This was in 1924 .', SUB/ELABORATION('This was in the infamous ` Cawnpore Conspiracy case ' .', SUB/ELABORATION(SUB/ELABORATION('This was with the union leaders .','The union leaders were being arrested and accused of attempting a Communist revolution to try and overthrow the ruling British government .' ), 'The waves of strikes boiled over with the arrest of prominent leaders and trade-unionists .')))
+#Subsequently, the Trade Union Act (1926) was passed which created the rules for the regulation and closer monitoring of trade unions.
+SUB/ELABORATION('This was subsequently .', CO/LIST('The Trade Union Act -LRB- 1926 -RRB- was passed which created the rules for the regulation .','The Trade Union Act -LRB- 1926 -RRB- was passed which created the rules for closer monitoring of trade unions .'))
+#In the first year of the law's operation, 28 unions registered and submitted returns with a total membership 100,619.
+CO/LIST(SUB/ELABORATION('This was in the first year of the law 's operation .','28 unions registered 100,619 .' )SUB/ELABORATION('This was with a total membership 100,619 .', SUB/ELABORATION('This was in the first year of the law 's operation .','28 unions submitted returns .')))
+#[5] The number of unions grew rapidly after that and by the time of independence of India in 1947, there were 2,766 unions registered which had a combined membership of over 1.66 million.
+CO/LIST(SUB/ELABORATION('There was -lsb- 5 -RSB- .', SUB/ELABORATION('This was in 1947 .','The number of unions grew rapidly 5 -RSB- after that and by the time of independence of India .' )SUB/ELABORATION(SUB/ELABORATION('There were 2,766 unions .','2,766 unions were registered .' ), '2,766 unions registered had a combined membership of over 1.66 million .')))
+#This resulted in a wide influence of unions and workers' organisations and led to significantly favourable social legislation being enacted in the first decade of Independence.
+CO/LIST('This resulted in a wide influence of unions and workers ' organisations .','This led to significantly favourable social legislation being enacted in the first decade of Independence .')
+#Several important labour laws were passed during this time.
+NONE
+#Following the country's independence in 1947 and the formation of the republic in 1950, India largely followed a socialist economic approach encouraging public sector employment and pro-worker legislations.
+CO/LIST(SUB/ELABORATION(CO/LIST('This was following the country 's independence in 1947 .','This was following the formation of the republic in 1950 .' ), 'India largely followed a socialist economic approach .' )SUB/ELABORATION(CO/LIST('This was following the country 's independence in 1947 .','This was following the formation of the republic in 1950 .' ), 'India largely was encouraging public sector employment and pro-worker legislations .'))
+#The trade-union movement reflected the main political divisions of the time and was divided mainly along socialist and communist lines.
+CO/LIST('The trade-union movement reflected the main political divisions of the time .','The trade-union movement was divided mainly along socialist and communist lines .')
+#The subsequent decades saw significant expansion in trade union membership with the number of active unions reaching its peak in the mid-1970s and mid-1980s.
+SUB/ELABORATION('This was in trade union membership .', CO/LIST(SUB/ELABORATION('This was with the number of active unions .','The subsequent decades saw significant expansion .' )SUB/ELABORATION('This was in the mid-1970s and mid-1980s .','The subsequent decades were reaching its peak .')))
+#While the 1970s in India was a period characterised by political instability, the 1980s was characterised by the beginnings of a distinct turn towards more market-friendly policies, support for industrialists and an implicit opposition to workers.
+CO/CONTRAST(SUB/ELABORATION('The 1970s in India was a period .','A period was characterised by political instability .' )CO/LIST('The 1980s was characterised by the beginnings of a distinct turn towards more market-friendly policies .','The 1980s was characterised by the beginnings of support for industrialists .','The 1980s was characterised by the beginnings of an implicit opposition to workers .'))
+#Two key events during this period were the 1974 railway strike in India and the Great Bombay textile strike of 1982, the latter of which subsequently led to a long and complicated stalemate.
+CO/LIST('Two key events during this period were the 1974 railway strike in India .','Two key events during this period were the Great Bombay textile strike of 1982 , the latter of which subsequently led to a long and complicated stalemate .')
+#The period following the economic liberalisation in 1991 was characterised by declining government intervention in the economy, a decline in the creation of public sector employment and encouragement for the private sector.
+NONE
+#Efforts for unionisation in the private sectors were often met with opposition and the wider general withdrawal of state support for workers further undermined their bargaining power.
+SUB/ELABORATION(SUB/ELABORATION('This was for workers .','Workers were undermined their bargaining power .' )CO/LIST('Efforts for unionisation in the private sectors were often met with opposition .','Efforts for unionisation in the private sectors were often met with the wider general withdrawal of state support .'))
+#These policies led to a stagnation in the number of unionised formal sector workers.
+SUB/ELABORATION('This was in the number of unionised formal sector workers .','These policies led to a stagnation .')
+#A gradual shift in focus about the importance of the Informal sector and 'Informal employment in the formal sector' from the late 1990s onwards meant that trade unions also began to focus on these workers.
+SUB/ATTRIBUTION('This was what a gradual shift in focus about the importance of the Informal sector and ` Informal employment in the formal sector ' from the late 1990s onwards meant .','Trade unions also began to focus on these workers .')
+#This has led to greater enrolment of these workers and subsequently led to increases in union membership.
+CO/LIST('This has led to greater enrolment of these workers .','This has subsequently led to increases in union membership .')
+#The central trade union organisations (CTU's) increased their combined membership from 13.21 million in 1989 to 24.85 million in 2002.
+SUB/ELABORATION('This was from 13.21 million in 1989 .', SUB/ELABORATION('This was to 24.85 million .', SUB/ELABORATION('This was in 2002 .','The central trade union organisations -LRB- CTU 's -RRB- increased their combined membership .')))
+#Almost all the CTUOs now have at least 20 percent of their official members coming from the informal sector.
+SUB/ELABORATION('Almost all the CTUOs now have at least 20 percent of their official members .','Their official members are coming from the informal sector .')
+#Mahatma Gandhi National Rural Employment Guarantee Act 2005 or MGNREGA, earlier known as the National Rural Employment Guarantee Act or NREGA, is an Indian social welfare measure that aims to guarantee the 'right to work'.
+SUB/ELABORATION(SUB/ELABORATION(CO/DISJUNCTION('Mahatma Gandhi National Rural Employment Guarantee Act 2005 is an Indian social welfare measure .','MGNREGA is an Indian social welfare measure .' ), 'An Indian social welfare measure aims to guarantee the ` right to work ' .' )CO/DISJUNCTION('Mahatma Gandhi National Rural Employment Guarantee Act 2005 is earlier known as the National Rural Employment Guarantee Act or NREGA .','MGNREGA is earlier known as the National Rural Employment Guarantee Act or NREGA .'))
+#This act was passed on 23 August 2005 and was implemented in February 2006 under the UPA government of Prime Minister Manmohan Singh following tabling of the bill in parliament by the Minister for Rural Development Raghuvansh Prasad Singh.
+SUB/ELABORATION('Manmohan Singh was Prime Minister .', SUB/ELABORATION('Raghuvansh Prasad Singh was Rural Development .', CO/LIST('This act was passed on 23 August 2005 .', SUB/ELABORATION('This was under the UPA government of Manmohan Singh following tabling of the bill in parliament by the Minister for Raghuvansh Prasad Singh .','This act was implemented in February 2006 .'))))
+#It aims to enhance livelihood security in rural areas by providing at least 100 days of wage employment in a financial year to at least one member of every household whose adult members volunteer to do unskilled manual work.
+SUB/ELABORATION(SUB/ELABORATION('This is by providing at least 100 days of wage employment in a financial year to at least one member of every household .', SUB/ELABORATION('This is in rural areas .','It aims to enhance livelihood security .' ), 'Every household 's adult members volunteer to do unskilled manual work .'))
+#Women are guaranteed one third of the jobs made available under the MGNREGA.
+SUB/ELABORATION('Women are guaranteed one third of the jobs .','The jobs were made available under the MGNREGA .')
+#Another aim of MGNREGA is to create durable assets (such as roads, canals, ponds and wells).
+NONE
+#Employment is to be provided within 5 km of an applicant's residence, and minimum wages are to be paid.
+CO/LIST('Employment is to be provided within 5 km of an applicant 's residence .','Minimum wages are to be paid .')
+#If work is not provided within 15 days of applying, applicants are entitled to an unemployment allowance.
+SUB/CONDITION('Work is not provided within 15 days of applying .','Applicants are entitled to an unemployment allowance .')
+#That is, if the government fails to provide employment, it has to provide certain unemployment allowances to those people.
+NONE
+#Thus, employment under MGNREGA is a legal entitlement.
+SUB/ELABORATION('This is thus .','Employment under MGNREGA is a legal entitlement .')
+#Apart from providing economic security and creating rural assets, other things said to promote NREGA are that it can help in protecting the environment, empowering rural women, reducing rural-urban migration and fostering social equity, among others."
+CO/LIST('Other things were providing economic security and creating rural assets . ',' .', SUB/ELABORATION('This was among others .','Other things said to promote NREGA are that it can help in protecting the environment , empowering rural women , reducing rural-urban migration and fostering social equity . ',' .'))
+#The act was first proposed in 1991 by then Prime Minister P.V.
+SUB/ELABORATION('P.V. was Prime Minister .', SUB/ELABORATION('This was by then P.V. .','The act was first proposed in 1991 .'))
+#Narasimha Rao.
+NONE
+#It was finally accepted in the parliament and commenced implementation in 625 districts of India.
+CO/LIST('It was finally accepted in the parliament .', SUB/SPATIAL('This was in 625 districts of India .','It commenced implementation .'))
+#Based on this pilot experience, NREGA was scoped up to cover all the districts of India from 1 April 2008.The statute was praised by the government as "the largest and most ambitious social security and public works program in the world".
+SUB/ELABORATION('This was based on this pilot experience .','NREGA was scoped up to cover all the districts of India from 1 April 2008 . The statute was praised by the government as `` the largest and most ambitious social security and public works program in the world ',' .')
+#In 2009 the World Bank had chided the act along with others for hurting development through policy restrictions on internal movement.
+SUB/ELABORATION('This was in 2009 .','The World Bank had chided the act along with others for hurting development through policy restrictions on internal movement .')
+#However in its World Development Report 2014, the World Bank termed it as a "stellar example of rural development".
+SUB/ELABORATION('This was as a `` stellar example of rural development .', SUB/ELABORATION('This was however in its World Development Report 2014 .','The World Bank termed it ',' .'))
+#MGNREGA is to be implemented mainly by gram panchayats (GPs).
+NONE
+#The law stated it provides many safeguards to promote its effective management and implementation.
+SUB/ATTRIBUTION('This was what the law stated .','It provides many safeguards to promote its effective management and implementation .')
+#The act explicitly mentions the principles and agencies for implementation, list of allowed works, financing pattern, monitoring and evaluation, and detailed measures to ensure transparency and accountability.
+CO/LIST('The act explicitly mentions the principles and agencies for implementation , list of allowed works , and detailed measures to ensure transparency and accountability .','The act explicitly mentions the principles and agencies for implementation , list of financing pattern , and detailed measures to ensure transparency and accountability .','The act explicitly mentions the principles and agencies for implementation , list of monitoring , and detailed measures to ensure transparency and accountability .','The act explicitly mentions the principles and agencies for implementation , list of evaluation , and detailed measures to ensure transparency and accountability .')
+#Since 1960, 30 years were expended in struggling to find suitable employment schemes in India's vast rural hinterland.
+SUB/ELABORATION('This was since 1960 .','30 years were expended in struggling to find suitable employment schemes in India 's vast rural hinterland .')
+#The experiences of these decades provided important lessons to the government.
+SUB/ELABORATION('This was to the government .','The experiences of these decades provided important lessons .')
+#These included the 'Rural Manpower Programme' which exposed the tribulations of financial management, the ', Crash Scheme for Rural Employment' on planning for outcomes, a 'Pilot Intensive Rural Employment Programme' of labour-intensive works, the 'Drought Prone Area Programme' of integrated rural development, 'Marginal Farmers and Agricultural Labourers Scheme' of rural economic development, the ‘Food for Work Programme’ (FWP) of holistic development and better coordination with the states, the ‘National Rural Employment Programme’ (NREP) of community development, and the ‘Rural Landless Employment Guarantee Programme’ (RLEGP) of focus on landless households.
+SUB/ELABORATION(SUB/ELABORATION('Financial management was the ` Crash Scheme for Rural Employment ' .', SUB/ELABORATION('Outcomes were a ` Pilot .', SUB/ELABORATION(CO/LIST(SUB/ELABORATION('This was on .','Intensive Rural Employment Programme was the tribulations of financial management .' ), 'Intensive Rural Employment Programme was planning for outcomes .' )CO/LIST('` Rural Manpower Programme ' which exposed Intensive Rural Employment Programme ' of labour-intensive works were the ` Drought Prone Area Programme ' of integrated rural development , ` Marginal Farmers ' -LRB- FWP -RRB- of holistic development and better coordination with the states , the ` National Rural Employment Programme ' -LRB- NREP -RRB- of community development , and the ` Rural Landless Employment Guarantee Programme ' -LRB- RLEGP -RRB- of focus on landless households .','` Rural Manpower Programme ' which exposed Intensive Rural Employment Programme ' of labour-intensive works were the ` Drought Prone Area Programme ' of integrated rural development , ` Agricultural Labourers Scheme ' of rural economic development , the ` Food for Work Programme ' -LRB- FWP -RRB- of holistic development and better coordination with the states , the ` National Rural Employment Programme ' -LRB- NREP -RRB- of community development , and the ` Rural Landless Employment Guarantee Programme ' -LRB- RLEGP -RRB- of focus on landless households .' )SUB/ELABORATION('` Rural Manpower Programme ' which exposed the tribulations of financial management were the ` Crash Scheme for Rural Employment ' .', SUB/ELABORATION('Outcomes were a ` Pilot .', SUB/ELABORATION(CO/LIST(SUB/ELABORATION('This was on .','Intensive Rural Employment Programme was the tribulations of financial management .' ), 'Intensive Rural Employment Programme was planning for outcomes .' )SUB/ELABORATION('These included the ` Rural Manpower Programme ' .','The ` Rural Manpower Programme ' exposed Intensive Rural Employment Programme ' of labour-intensive works .'))))))))
+#The Planning Commission later approved the scheme and it was adopted on national scale.
+CO/LIST('The Planning Commission later approved the scheme .','It was adopted on national scale .')
+#MGNREGA workers removing mud from a dry pond
+SUB/ELABORATION('This is from a dry pond .','MGNREGA workers removing mud .')
+#In April 1989, to converge employment generation, infrastructure development and food security in rural areas, the government integrated NREP and RLEGP[a] into a new scheme Jawahar Rozgar Yojana (JRY).
+NONE
+#The most significant change was the decentralization of implementation by involving the local people through local village governments or Panchayati Raj Institutions (PRIs) and hence a decreasing role of bureaucracy.
+CO/LIST(SUB/ELABORATION('This was by .','The most significant change was the decentralization of implementation .' )CO/LIST('The most significant change was involving the local people through local village governments or Panchayati Raj Institutions -LRB- PRIs -RRB- .','The most significant change was involving hence a decreasing role of bureaucracy .'))
+#In October 1993, the Employment Assurance Scheme (EAS) was initiated to provide employment to agricultural hands during the lean agricultural season.
+SUB/ELABORATION('This was to agricultural hands .', SUB/ELABORATION('This was during the lean agricultural season .', SUB/ELABORATION('This was in October 1993 .','The Employment Assurance Scheme -LRB- EAS -RRB- was initiated to provide employment .')))
+#The role of PRIs was reinforced with the local self-government at the district level called the 'Zilla Parishad' as the main implementing authority.
+SUB/ELABORATION('The role of PRIs was reinforced with the local self-government at the district level .', SUB/ELABORATION('This was as the main implementing authority .','The district level was called the ` Zilla Parishad ' .'))
+#Later, EAS was merged with Sampoorna Gramin Rojgar Yojana (SGRY) in 2001.
+SUB/ELABORATION('This was later .','EAS was merged with Sampoorna Gramin Rojgar Yojana -LRB- SGRY -RRB- in 2001 .')
+#On 1 April 1999, the JRY was revamped and renamed to Jawahar Gram Samridhi Yojana (JGSY) with a similar objective.
+SUB/ELABORATION('This was on 1 .','April 1999 , the JRY was revamped and renamed to Jawahar Gram Samridhi Yojana -LRB- JGSY -RRB- with a similar objective .')
+#The role of PRIs was further reinforced with the local self-government at the village level called the ‘Village Panchayats’ as the sole implementing authority.
+SUB/ELABORATION('The role of PRIs was further reinforced with the local self-government at the village level ' as the sole implementing authority .','The village level was called the ` Village Panchayats .')
+#In 2001, it was merged with SGRY.
+SUB/ELABORATION('This was in 2001 .','It was merged with SGRY .')
+#On 25 September 2001 to converge employment generation, infrastructure development and food security in rural areas, the government integrated EAS and JGSY into a new scheme SGRY.
+SUB/ELABORATION('This was into a new scheme SGRY .', SUB/ELABORATION(SUB/PURPOSE('This was on 25 September 2001 .','This was to converge employment generation , infrastructure development and food security in rural areas .' ), 'The government integrated EAS and JGSY .'))
+#The role of PRIs was retained with the 'Village Panchayats' as the sole implementing authority.
+SUB/ELABORATION('This was as the sole implementing authority .','The role of PRIs was retained with the ` Village Panchayats ' .')
+#Due to implementation issues, it was merged with NREGA in 2006.
+SUB/ELABORATION('This was in 2006 .', SUB/ELABORATION('This was due to implementation issues .','It was merged with NREGA .'))
+#In January 2001, the government introduced a FWP similar to the one that was initiated in 1977.
+SUB/ELABORATION(SUB/ELABORATION('This was in January 2001 .','The government introduced a FWP similar to the one .' ), 'The one was initiated in 1977 .')
+#Once NREGA was enacted, the two were merged in 2006.
+SUB/ELABORATION('NREGA was enacted .','The two were merged in 2006 .')
+#The total government allocation to these precursors of NREGA had been about three-quarters of ₹1 trillion (US$13 billion).
+NONE
+#Employment generation programmes created after 2005 include the Prime Minister Employment Generation Programme (PMEGP).
+SUB/TEMPORAL('Employment generation programmes created .','2005 include the Prime Minister Employment Generation Programme -LRB- PMEGP -RRB- .')
+#The colonial era, when India was governed by the British, is when the problems of poverty and a lack of employment possibilities in rural areas first surfaced.
+SUB/SPATIAL(SUB/ELABORATION('The colonial era is .', CO/LIST('The problems of poverty first surfaced .','A lack of employment possibilities in rural areas first surfaced .' ), 'India was governed by the British .'))
+#The lopsided economic development pattern was caused by the colonial government's emphasis on growing the urban economy at the expense of the rural economy, which remained even after India attained independence.
+SUB/ELABORATION(CO/LIST(SUB/ELABORATION('This was on .','The lopsided economic development pattern was caused by the colonial government 's emphasis .' )SUB/ELABORATION('This was at the expense of the rural economy .','The lopsided economic development pattern was growing the urban economy .' ), 'The rural economy remained even after India attained independence .'))
+#Additionally, the colonial authority established land revenue procedures that led to a concentration of land ownership in the hands of a select few, which in turn marginalized the rural poor.
+SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This was additionally .','The colonial authority established land revenue procedures .' )SUB/ELABORATION('This was in the hands of a select few .','Land revenue procedures led to a concentration of land ownership .' ), 'A select few in turn marginalized the rural poor .'))
+#Additionally, the British promoted the growth of cash crops above food crops, which reduced agricultural productivity and brought about famine in some regions of the nation.
+SUB/ELABORATION(SUB/ELABORATION('This was above food crops .', SUB/ELABORATION('This was additionally .','The British promoted the growth of cash crops .' )CO/LIST('Food crops reduced agricultural productivity .', SUB/ELABORATION('This was in some regions of the nation .','Food crops brought about famine .'))))
+#Despite independence, the legacy of colonialism remains.
+SUB/ELABORATION('This is despite independence .','The legacy of colonialism remains .')
+#Particularly, colonialism had a lasting effect on the economic and social advancement of India, with rural areas and people being the most negatively impacted.
+SUB/SPATIAL('This was on the economic and social advancement of India .', SUB/ELABORATION(SUB/ELABORATION('This was particularly .', SUB/ELABORATION('This was with rural areas and people .',', Colonialism had a lasting effect .' ), 'Rural areas and people were being the most negatively impacted .')))
+#The colonial era is still evident in the underfunding of rural infrastructure, the lack of systemic social assistance programs, and the scarcity of job prospects.
+CO/LIST('The colonial era is still evident in the underfunding of rural infrastructure .','The colonial era is still evident in the lack of systemic social assistance programs .','The colonial era is still evident in the scarcity of job prospects .')
+#To address these difficulties, a determined effort must be made to reverse the historical neglect of rural areas and give them development priority.
+SUB/PURPOSE('This was to address these difficulties .','A determined effort must be made to reverse the historical neglect of rural areas and give them development priority .')
+#In response to the cries for help, the Indian government put together a nationwide welfare scheme aimed at targeting this very issue: The Mahatma Gandhi National Rural Employment Guarantee Act, or MGNREGA.
+SUB/ELABORATION(SUB/ELABORATION('This was to the cries for help .','This was in response .' )CO/DISJUNCTION('The Indian government put together a nationwide welfare scheme aimed at targeting this very issue .','The Indian government put together The Mahatma Gandhi National Rural Employment Guarantee Act .','The Indian government put together MGNREGA .'))
+#The Government of India introduced the MGNREGA social welfare program in 2005 to address the problem of unemployment and poverty in rural areas.
+SUB/PURPOSE('The Government of India introduced the MGNREGA social welfare program in 2005 .','This was to address the problem of unemployment and poverty in rural areas .')
+#Recognizing the high rates of unemployment and poverty in rural India, especially among the underprivileged groups of the population, led to the need for such a program.
+SUB/ELABORATION('This was for such a program .','Recognizing the high rates of unemployment and poverty in rural India , especially among the underprivileged groups of the population , led to the need .')
+#The MGNREGA was created with the idea of giving rural households a safety net in the form of guaranteed work possibilities.
+NONE
+#Every rural household in the nation was to receive 100 days of guaranteed employment each year as part of the program, guaranteeing that each household had access to a minimum amount of income.
+SUB/ELABORATION('Every rural household in the nation was to receive 100 days of guaranteed employment each year as part of the program of income .', SUB/ELABORATION('Guaranteed employment was guaranteeing .','Each household had access to a minimum amount .'))
+#The program was intended to be labor-intensive, with the main sources of employment being initiatives like road building, water conservation, and afforestation.
+SUB/ELABORATION(CO/LIST('This was with the main sources of employment being initiatives like road building .','This was with the main sources of employment being initiatives like water conservation .','This was with the main sources of employment being initiatives like afforestation .' ), 'The program was intended to be labor-intensive .')
+#The Ministry of Rural Development, a section of the Government of India’s economic bureau, was in charge of overseeing the implementation and rollout of the plan.
+SUB/ELABORATION('The Ministry of Rural Development was a section of the Government of India 's economic bureau .','The Ministry of Rural Development was in charge of overseeing the implementation and rollout of the plan .')
+#Gram Panchayats - governing heads in rural villages, were the envoy for implementing the scheme at the local level.
+NONE
+#The registration process involves an application to the Gram Panchayat and issue of job cards.
+CO/LIST('The registration process involves an application to the Gram Panchayat .','The registration process involves issue of job cards .')
+#The wage employment must be provided within 15 days of the date of application.
+NONE
+#The work entitlement of 100 days[b] per household per year may be shared between different adult members of the same household.
+SUB/ELABORATION('The work entitlement of 100 days -LSB- .','B -RSB- per household per year may be shared between different adult members of the same household .')
+#The law lists permissible works: water conservation and water harvesting; drought proofing including afforestation; irrigation works; restoration of traditional water bodies; land development; flood control; rural connectivity; and works notified by the government.
+CO/LIST('The law lists permissible works .','The law lists water conservation .','The law lists water harvesting ; drought proofing including afforestation ; irrigation works ; restoration of traditional water bodies ; land development ; flood control ; rural connectivity ; and works notified by the government .')
+#The Act sets a minimum limit to the wage-material ratio as 60:40.
+SUB/ELABORATION('This is to the wage-material ratio as 60:40 .','The Act sets a minimum limit .')
+#The provision of accredited engineers, worksite facilities and a weekly report on worksites is also mandated by the Act.
+NONE
+#The Act sets a minimum limit to the wages, to be paid with gender equality, either on a time-rate basis or on a piece-rate basis.
+SUB/PURPOSE(SUB/ELABORATION('This is to the wages .','The Act sets a minimum limit .' ), 'This was to be paid with gender equality , either on a time-rate basis or on a piece-rate basis .')
+#The states are required to evolve a set of norms for the measurement of works and schedule of rates.
+NONE
+#Unemployment allowance must be paid if the work is not provided within the statutory limit of 15 days.
+SUB/CONDITION('Unemployment allowance must be paid .','The work is not provided within the statutory limit of 15 days .')
+#The law stipulates Gram Panchayats to have a single bank account for NREGA works which shall be subjected to public scrutiny.
+SUB/ELABORATION('The law stipulates Gram Panchayats to have a single bank account for NREGA works .','A single bank account for NREGA works shall be subjected to public scrutiny .')
+#To promote transparency and accountability, the act mandates 'monthly squaring of accounts'.
+SUB/PURPOSE('This is to promote transparency and accountability .','The act mandates ` monthly squaring of accounts ' .')
+#To ensure public accountability through public vigilance, the NREGA designates ‘social audits’ as key to its implementation.
+SUB/PURPOSE('This is to ensure public accountability through public vigilance .', SUB/ELABORATION('This is to its implementation .','The NREGA designates ` social audits ' as key .'))
+#The most detailed part of the Act (chapter 10 and 11) deals with transparency and accountability that lays out role of the state, the public vigilance and, above all, the social audits.
+SUB/ELABORATION('The most detailed part of the Act -LRB- chapter 10 and 11 -RRB- deals with transparency and accountability .', SUB/ELABORATION('This is above all .', CO/LIST('Transparency and accountability lays out role of the state .','Transparency and accountability lays out role of the public vigilance .','Transparency and accountability lays out role of the social audits .')))
+#For evaluation of outcomes, the law also requires management of data and maintenance of records, like registers related to employment, job cards, assets, muster rolls and complaints, by the implementing agencies at the village, block and state level.
+SUB/ELABORATION(SUB/ELABORATION('This is for evaluation of outcomes .', SUB/ELABORATION('This is like registers .','The law also requires management of data and maintenance of records .' )SUB/ELABORATION(CO/LIST('This was by the implementing agencies at the village .','This was by the implementing agencies at block .','This was by the implementing agencies at state level .' ), 'Registers was related to employment , job cards , assets , muster rolls and complaints .')))
+#The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing information proactively, preparation of annual reports by the Central Employment Guarantee Council for the Parliament and State Employment Guarantee Councils for state legislatures, undertaking mandatory financial audits by each district along with physical audit, taking action on audit reports, developing a Citizen's Charter, establishing vigilance and monitoring committees, and developing a grievance redressal system.
+CO/LIST('The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing information proactively , undertaking mandatory financial audits by each district along with physical audit , taking action on audit reports , developing a Citizen 's Charter , establishing vigilance and monitoring committees , and developing a grievance redressal system .','The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing preparation of annual reports by the Central Employment Guarantee Council for the Parliament , undertaking mandatory financial audits by each district along with physical audit , taking action on audit reports , developing a Citizen 's Charter , establishing vigilance and monitoring committees , and developing a grievance redressal system .','The legislation specifies the role of the state in ensuring transparency and accountability through upholding the right to information and disclosing State Employment Guarantee Councils for state legislatures , undertaking mandatory financial audits by each district along with physical audit , taking action on audit reports , developing a Citizen 's Charter , establishing vigilance and monitoring committees , and developing a grievance redressal system .')
+#The Act recommends establishment of 'Technical Resource Support Groups' at district, state and central level and active use of information technology, like creation of a 'Monitoring and Information System (MIS), ' and a NREGA website, to assure quality in implementation of NREGA through technical support.
+SUB/PURPOSE(SUB/ELABORATION('This is at district , state and central level and active use of information technology .', SUB/ELABORATION(CO/LIST('This is like creation of a ` Monitoring .','This is like creation of Information System -LRB- MIS -RRB- ' and a NREGA website .' ), 'The Act recommends establishment of ` Technical Resource Support Groups ' .' ), 'This is to assure quality in implementation of NREGA through technical support .'))
+#The law allows convergence of NREGA with other programmes.
+SUB/ELABORATION('This is with other programmes .','The law allows convergence of NREGA .')
+#As NREGA intends to create ‘additional’ employment, the convergence should not affect employment provided by other programmes.
+SUB/ELABORATION('NREGA intends to create ` additional ' employment .', SUB/ELABORATION('This was provided by other programmes .','The convergence should not affect employment .'))
+#The Act aims to follow the Directive Principles of State Policy enunciated in Part IV of the Constitution of India.
+SUB/ELABORATION('The Act aims to follow the Directive Principles of State Policy .',', State Policy was enunciated in Part IV of the Constitution of India .')
+#The law by providing a 'right to work' is consistent with Article 41 that directs the State to secure to all citizens the right to work.
+NONE
+#The statute also seeks to protect the environment through rural works which is consistent with Article 48A that directs the State to protect the environment.
+SUB/ELABORATION(SUB/ELABORATION('This is through rural works .','The statute also seeks to protect the environment .' ), 'Rural works is consistent with Article 48A that directs the State to protect the environment .')
+#In accordance with the Article 21 of the Constitution of India that guarantees the right to life with dignity to every citizen of India, this act imparts dignity to the rural people through an assurance of livelihood security.
+SUB/ELABORATION(SUB/ELABORATION('This is to the rural people .', SUB/ELABORATION('This is through an assurance of livelihood security .', SUB/SPATIAL('This is in accordance with the Article 21 of the Constitution of India .','This act imparts dignity .' )SUB/ELABORATION('This is to life with dignity .', SUB/SPATIAL('This is to every citizen of India .','Accordance with the Article 21 of the Constitution of India guarantees the right .')))))
+#The Fundamental Right enshrined in Article 16 of the Constitution of India guarantees equality of opportunity in matters of public employment and prevents the State from discriminating against anyone in matters of employment on the grounds only of religion, race, caste, sex, descent, place of birth, place of residence or any of them.
+CO/LIST(SUB/ELABORATION('This is in matters of public employment .','The Fundamental Right enshrined in Article 16 of the Constitution of India guarantees equality of opportunity .' )CO/LIST(SUB/ELABORATION('This is from .','The Fundamental Right enshrined in Article 16 of the Constitution of India prevents the State .' )SUB/ELABORATION('This is in matters of employment on the grounds only of religion , race , caste , sex , descent , place of birth , place of residence or any of them .','The Fundamental Right enshrined in Article 16 of the Constitution of India is discriminating against anyone .')))
+#NREGA also follows Article 46 that requires the State to promote the interests of and work for the economic uplift of the scheduled castes and scheduled tribes and protect them from discrimination and exploitation.
+SUB/ELABORATION('NREGA also follows Article 46 .', CO/LIST('Article 46 requires the State to promote the interests of and work for the economic uplift of the scheduled castes and protect them from discrimination and exploitation .','Article 46 requires the State to promote the interests of and work for the economic uplift of scheduled tribes and protect them from discrimination and exploitation .'))
+#Article 40 mandates the State to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government.
+NONE
+#Conferring the primary responsibility of implementation on Gram Panchayats, the Act adheres to this constitutional principle.
+CO/LIST(SUB/ELABORATION('This is on Gram Panchayats .','The Act is conferring the primary responsibility of implementation .' ), 'The Act adheres to this constitutional principle .')
+#Also the process of decentralization initiated by 73rd Amendment to the Constitution of India that granted a constitutional status to the Panchayats is further reinforced by the Mahatma Gandhi NREGA that endowed these rural self-government institutions with authority to implement the law.Additionally, the Act also empowers women by mandating at least one-third participation of women in the implementation of works under NREGA.
+CO/LIST(SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This is by .', SUB/ELABORATION('Also the process of decentralization is further reinforced by the Mahatma Gandhi NREGA , the Act also empowers women .', SUB/SPATIAL('This was to the Constitution of India .','Decentralization is initiated by 73rd Amendment .' )SUB/PURPOSE(SUB/ELABORATION('This was with authority .','The Mahatma Gandhi NREGA endowed these rural self-government institutions .' ), 'This was to implement the law.Additionally .' )SUB/ELABORATION('This was to the Panchayats .','The Constitution of India granted a constitutional status .' )SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This is under NREGA .', SUB/ELABORATION('Also the process of decentralization is further reinforced by the Mahatma Gandhi NREGA , the Act also is mandating at least one-third participation of women in the implementation of works .', SUB/SPATIAL('This was to the Constitution of India .','Decentralization is initiated by 73rd Amendment .' )SUB/PURPOSE(SUB/ELABORATION('This was with authority .','The Mahatma Gandhi NREGA endowed these rural self-government institutions .' ), 'This was to implement the law.Additionally .' )SUB/ELABORATION('This was to the Panchayats .','The Constitution of India granted a constitutional status .'))))))))))
+#Academic research has focused on many dimensions of the NREGA: economic security, self-targeting, women's empowerment, asset creation, corruption, how the scheme impacts agricultural wages.
+SUB/SPATIAL(SUB/ELABORATION('Economic security was self-targeting .', CO/LIST('Academic research has focused on many dimensions of the NREGA .', SUB/ELABORATION('Economic security women 's empowerment are asset creation .','Economic security women 's empowerment corruption .' ), 'The scheme impacts agricultural wages .')))
+#An early overall assessment in 2008 in six north Indian states suggested that NREGA was "making a difference to the lives of the rural poor, slowly but surely."
+SUB/ELABORATION('An early overall assessment in 2008 in six north Indian states suggested . ',' .', SUB/ELABORATION('This was to the lives of the rural poor .', SUB/ELABORATION('This was slowly but surely .','NREGA was `` making a difference .')))
+#The composition of NREGA workers included the poorest and socially and economically deprived.
+CO/LIST('The composition of NREGA workers included the poorest and socially .','Economically deprived .')
+#A majority of them live in kaccha houses, belong to Scheduled Castes and Scheduled Tribes, are illiterate and do not have electricity at home.
+CO/LIST('A majority of them live in kaccha houses .', CO/LIST('A majority of them belong to Scheduled Castes .','A majority of them belong to Scheduled Tribes .' ), 'A majority of them are illiterate .','A majority of them do not have electricity at home .')
+#Self-targeting evidence suggests that there is a lot of unmet demand for work.
+SUB/ELABORATION(', Self-targeting evidence suggests .','There is a lot of unmet demand for work .')
+#Agricultural wages have increased, especially for women, since the inception of the scheme.
+SUB/ELABORATION('This was especially for women .','Agricultural wages have increased since the inception of the scheme .')
+#This indicates that overall wage levels have increased due to the act, however, further research highlights that the key benefit of the scheme lies in the reduction of wage volatility.
+SUB/ELABORATION(SUB/ELABORATION('This is however .','This indicates that overall wage levels have increased due to the act , further research highlights .' ), 'The key benefit of the scheme lies in the reduction of wage volatility .')
+#This highlights that NREGA may be an effective insurance scheme.
+SUB/ELABORATION('This highlights .','NREGA may be an effective insurance scheme .')
+#A particular focus has been to understand whether the scheme has reduced migration into urban centres for casual work.
+NONE
+#Studies have suggested that women's participation has remained high, though there are inter-state variations.
+SUB/ELABORATION(', Studies have suggested .', CO/CONTRAST('Women 's participation has remained high .','There are inter-state variations .'))
+#One study in border villages of Rajasthan, Madhya Pradesh and Gujarat studied the effect on short term migration and child welfare and found that among children who do not migrate, grade completed is higher.
+CO/LIST(SUB/ELABORATION('This was on short term migration and child welfare .','One study in border villages of Rajasthan , Madhya Pradesh and Gujarat studied the effect .' )SUB/ELABORATION('One study in border villages of Rajasthan , Madhya Pradesh and Gujarat found .', SUB/ELABORATION(SUB/ELABORATION('This is among children .','Grade completed is higher .' ), ', Children do not migrate .')))
+#The study found that demand for NREGA work is higher, even though migrant wages are higher.
+SUB/ELABORATION('The study found .', CO/CONTRAST('Demand for NREGA work is higher .','Migrant wages are higher .'))
+#A few studies focusing on the potential for asset creation under NREGA suggest that (a) the potential is substantial; (b) in some places, it is being realized, and (c) lack of staff, especially technical staff, rather than lack of material are to blame for poor realization of this potential.
+SUB/ELABORATION(', Staff was especially technical staff .','A few studies focusing on the potential for asset creation under NREGA suggest that -LRB- a -RRB- the potential is substantial ; -LRB- b -RRB- in some places , it is being realized , and -LRB- c -RRB- lack of staff , rather than lack of material are to blame for poor realization of this potential .')
+#Others have pointed out that water harvesting and soil conservation works promoted through NREGA "could have high positive results on environment security and biodiversity and environment conservation" A study conducted by researchers at the Indian Institute of Science and other collaborators found that activities related to natural resource management under the MGNREGA can capture 249 metric tons of carbon dioxide equivalent by 2030.India has placed emphasis on MGNREGA as a contributor to carbon sequestration in its Third Biennial Update Report submitted to the United Nations Framework Convention on Climate Change in 2021.
+SUB/ELABORATION('This was as a contributor .', SUB/ELABORATION(SUB/ELABORATION('This was on Climate Change in 2021 .','This was to carbon sequestration in its Third Biennial Update Report submitted to the United Nations Framework Convention .' )SUB/ELABORATION('This was on MGNREGA .','Others have pointed out that water harvesting and soil conservation works promoted through NREGA `` could have high positive results on environment security and biodiversity and environment conservation ',' A study conducted by researchers at the Indian Institute of Science and other collaborators found that activities related to natural resource management under the MGNREGA can capture 249 metric tons of carbon dioxide equivalent by 2030 . India has placed emphasis .')))
+#Improvements in reducing corruption are attributable to the move to pay NREGA wages through bank and post office accounts.
+NONE
+#Some of the success in battling corruption can also be attributed to the strong provisions for community monitoring.
+NONE
+#Others find that "the overall social audit effects on reducing easy-to-detect malpractices was mostly absent".
+SUB/ELABORATION('Others find .','The overall social audit effects on reducing easy-to-detect malpractices was mostly absent .')
+#A few papers also study the link between electoral gains and implementation of NREGA.
+CO/LIST('A few papers also study the link between electoral gains .','A few papers also study implementation of NREGA .')
+#One studies the effect in Andhra Pradesh - the authors find that "while politics may influence programme expenditure in some places and to a small extent, this is not universally true and does not undermine the effective targeting and good work of the scheme at large."
+CO/LIST('One studies the effect in Andhra Pradesh . ',' .', SUB/ELABORATION('The authors find .', CO/CONTRAST(SUB/ELABORATION('This is in some places and to a small extent .','Politics may influence programme expenditure .' )CO/LIST('This is not universally true .', CO/LIST('This does not undermine the effective targeting .','This does not undermine good work of the scheme at large . ',' .')))))
+#The two other studies focus on these links in Rajasthan and West Bengal.
+NONE
+#Several local case studies are also being conducted to identify the regional impacts of NREGA.
+NONE
+#The Public Provident Fund (PPF) is a savings-cum-tax-saving instrument in India,  introduced by the National Savings Institute of the Ministry of Finance in 1968.
+SUB/ELABORATION('The Public Provident Fund -LRB- PPF -RRB- is a savings-cum-tax-saving instrument in India .', SUB/ELABORATION('This was in 1968 .','A savings-cum-tax-saving instrument in India was introduced by the National Savings Institute of the Ministry of Finance .'))
+#The main objective of the scheme is to mobilize small savings by offering an investment with reasonable returns combined with income tax benefits.
+SUB/ELABORATION('This was by offering an investment with reasonable returns combined with income tax benefits .','The main objective of the scheme is to mobilize small savings .')
+#The scheme is offered by the Central Government.
+NONE
+#Balance in the PPF account is not subject to attachment under any order or decree of court under the Government Savings Banks Act, 1873.
+SUB/ELABORATION('The Government Savings Banks Act are 1873 .','Balance in the PPF account is not subject to attachment under any order or decree of court under the Government Savings Banks Act .')
+#However Income Tax & other Government authorities can attach the account for recovering tax dues.
+NONE
+#The 2019 Public Provident Fund Scheme, introduced by the Government on 12 December 2019, resulted in the rescinding of the earlier 1968 Public Provident Fund Scheme.
+SUB/ELABORATION('The 2019 Public Provident Fund Scheme resulted in the rescinding of the earlier 1968 Public Provident Fund Scheme .','The 2019 Public Provident Fund Scheme was introduced by the Government on 12 December 2019 .')
+#Individuals who are residents of India are eligible to open their account under the Public Provident Fund, and are entitled to tax-free returns.
+CO/LIST(SUB/ELABORATION('Individuals are eligible to open their account under the Public Provident Fund .','Individuals are residents of India .' )SUB/ELABORATION('Individuals are entitled to tax-free returns .','Individuals are residents of India .'))
+#As of August 2018, according to the Indian Ministry of finance (Department of Economic Affairs), NRIs (Non resident Indians) are not allowed to open new PPF accounts.
+SUB/ELABORATION('Ministry of finance -LRB- Department of Economic Affairs was the Indian .', SUB/ELABORATION('This was as of August 2018 .', SUB/ELABORATION('This was according to Ministry of finance -LRB- Department of Economic Affairs -RRB- .','NRIs -LRB- Non resident Indians -RRB- are not allowed to open new PPF accounts .')))
+#However, they are allowed to continue their existing PPF accounts up to its 15 years maturity period.
+SUB/ELABORATION('This was however .','They are allowed to continue their existing PPF accounts up to its 15 years maturity period .')
+#An amendment to earlier rules allowing NRIs to invest in PPF was proposed in the 2018 Finance Bill, but has not yet been approved.
+CO/CONTRAST(SUB/ELABORATION('Bill was Finance .', SUB/ELABORATION('An amendment to earlier rules was proposed in the 2018 Bill .','Earlier rules were allowing NRIs to invest in PPF .' )SUB/ELABORATION('An amendment to earlier rules has not yet been approved .','Earlier rules were allowing NRIs to invest in PPF .')))
+#In October 2017, a notification was passed by the Ministry of Finance regarding an amendment to the PPF scheme of 1968, which would deem a PPF account closed from the day a person became a non resident.
+SUB/ELABORATION(CO/LIST(SUB/ELABORATION('This was in October 2017 .','A notification was passed by the Ministry of Finance .' )SUB/ELABORATION('This was to the PPF scheme of 1968 .', SUB/ELABORATION('This was in October 2017 .','A notification was regarding an amendment .' )SUB/ELABORATION('The PPF scheme of 1968 would deem .', SUB/ELABORATION('A PPF account closed from the day .','A person became a non resident the day .')))))
+#This led to much confusion.
+NONE
+#Subsequently, the ministry issued an office memorandum in February 2018 keeping the above notification in abeyance until any further order on this matter, thus the situation remained unchanged.
+NONE
+#A minimum yearly deposit of ₹500 is required to open and maintain a PPF account.
+NONE
+#A PPF account holder can deposit a maximum of ₹1.5 lacs in his/her PPF account (including those accounts where he is the guardian) per financial year.
+NONE
+#There must be a guardian for PPF accounts opened in the name of minor children.
+SUB/ELABORATION('There must be a guardian for PPF accounts .','PPF accounts were opened in the name of minor children .')
+#Parents can act as guardians in such PPF accounts of minor children.
+NONE
+#Any amount deposited more than ₹1.5 lacs in a financial year will not earn any interest.
+SUB/ELABORATION('Any amount deposited .','More than 1.5 lacs in a financial year will not earn any interest .')
+#The amount can be deposited in lump sum or installments per year.
+NONE
+#However, this does not mean a single deposit is made once a month.
+SUB/ELABORATION(SUB/ELABORATION('This is however .','This does not mean .' ), 'A single deposit is made once a month .')
+#The Ministry of Finance, Government of India announces the rate of interest for PPF account every quarter.
+SUB/ATTRIBUTION('This is what the Ministry of Finance , Government of India announces .','The rate of interest for PPF account every quarter .')
+#This interest is compounded annually and is paid in March every year.
+CO/LIST('This interest is compounded annually .','This interest is paid in March every year .')
+#Interest is calculated on the lowest balance between the close of the fifth day and the last day of every month.
+CO/LIST('Interest is calculated on the lowest balance between the close of the fifth day .','Interest is calculated on the lowest balance between the last day of every month .')
+#Extend the PPF account with no contribution – PPF account can be extended after the completion of 15 years, subscriber doesn't need to put any amount after the maturity.
+CO/LIST(CO/LIST(SUB/ELABORATION('This is with no contribution .',', Subscriber is extend the PPF account .' ), 'PPF account can be extended after the completion of 15 years .' )SUB/ELABORATION('This is after the maturity .',', Subscriber does n't need to put any amount .'))
+#This is the default option meaning if subscriber doesn't take any action within one year of his PPF account maturity this option activates automatically.
+SUB/ELABORATION(SUB/ELABORATION('This is the default option .','This option activates automatically the default option .' )SUB/ATTRIBUTION('This is what the default option is meaning .','If subscriber does n't take any action within one year of his PPF account maturity .'))
+#Any amount can be withdrawn from the PPF account if the option of extension with no contribution is chosen.
+SUB/CONDITION('Any amount can be withdrawn from the PPF account .','The option of extension with no contribution is chosen .')
+#Only restriction is only one withdrawal is permitted in a financial year.
+SUB/ELABORATION('Only restriction is only one withdrawal .','Is permitted in a financial year only one withdrawal .')
+#Rest of the amount keeps earning interest.
+NONE
+#Extend the PPF account with contribution - With this option subscriber can put money in his PPF account after extension.
+CO/LIST(SUB/ELABORATION('This is with contribution .','Extend the PPF account .' )SUB/ELABORATION('This is after extension .', SUB/ELABORATION('This is in his PPF account .', SUB/ELABORATION('This is with this option .',', Subscriber can put money .'))))
+#If subscriber wants to choose this option then he needs to submit Form H in the bank where he is having a PPF account within one year from the date of maturity (before the completion of 16 yrs in PPF).
+SUB/CONDITION(', Subscriber wants to choose this option then .', SUB/ELABORATION('This is in the bank where he is having a PPF account within one year from the date of maturity .','He needs to submit Form H -LRB- before the completion of 16 yrs in PPF -RRB- .'))
+#With this option subscriber can only withdraw maximum 60% of his PPF amount (amount which was there in the PPF account at the beginning of the extended period) within the entire 5 yrs block.
+NONE
+#Every year only a single withdrawal is permitted.
+NONE
+#Loan facility is available from 3rd financial year up to 5th financial year.
+NONE
+#The rate of interest charged on loan taken by the subscriber of a PPF account on or after 12 December 2019 shall be 1% more than the prevailing interest on PPF.
+SUB/ELABORATION('The rate of interest shall be 1 % more than the prevailing interest on PPF .', SUB/ELABORATION('Interest is charged on loan .', SUB/ELABORATION('This was on or after 12 .','Loan was taken by the subscriber of a PPF account December 2019 .')))
+#Public Provident Fund Scheme, 2019 has reduced the interest spread to 1 (one) percent form earlier spread of 2 percent.
+SUB/ELABORATION('Public Provident Fund Scheme was 2019 .','Public Provident Fund Scheme has reduced the interest spread to 1 -LRB- one -RRB- percent form earlier spread of 2 percent .')
+#Up to a maximum of 25 percent of the balance at the end of the 2nd immediately preceding year would be allowed as loan.
+SUB/ELABORATION('This was up to a maximum of 25 percent of the balance at the end of the 2nd .','Immediately preceding year would be allowed as loan .')
+#Such withdrawals are to be repaid within 36 months.
+NONE
+#A second loan could be availed as long as you are within the 3rd and before the 6th year, and only if the first one is fully repaid.
+NONE
+#Also note that once you become eligible for withdrawals, no loans would be permitted.
+NONE
+#Inactive accounts or discontinued accounts are not eligible for loan.
+CO/DISJUNCTION('Inactive accounts are not eligible for loan .','Discontinued accounts are not eligible for loan .')
+#If any contribution of minimum amount in any year is not invested, then the account will be deactivated.
+SUB/CONDITION('Any contribution of minimum amount in any year is not invested .','Then the account will be deactivated .')
+#To activate the bearer needs to pay ₹50 as penalty for each inactive year.
+SUB/ELABORATION('To activate .', SUB/ELABORATION('This is as penalty for each inactive year .','The bearer needs to pay 50 .'))
+#He/she also needs to deposit ₹500 each as each inactive year's contribution.
+SUB/ELABORATION('This is as each inactive year 's contribution .','He/she also needs to deposit 500 each .')
+#In case death of account holder then the balance amount will be paid to his nominee or legal heir even before 15 years.
+SUB/ELABORATION('This was before 15 years .', SUB/ELABORATION('This was in case death of account holder then .','The balance amount will be paid to his nominee or legal heir even .'))
+#Nominees or legal heirs are not eligible to continue the account of the deceased.
+CO/DISJUNCTION('Nominees are not eligible to continue the account of the deceased .','Legal heirs are not eligible to continue the account of the deceased .')
+#If balance amount in the account of a deceased is higher than ₹150,000 then the nominee or legal heir has to prove the identity to claim the amount .
+SUB/CONDITION('Balance amount in the account of a deceased is higher than 150,000 then .', CO/DISJUNCTION('The nominee has to prove the identity to claim the amount .','Legal heir has to prove the identity to claim the amount .'))
+#The Public Provident Fund (Amendment) Scheme, 2016 made changes in Paragraph 9, for sub-rule 3(C) of Public Provident Fund Scheme, 1968 to facilitate the premature closure of PPF Account.
+SUB/ELABORATION('This is for sub-rule 3 -LRB- C -RRB- of Public Provident Fund Scheme .', SUB/PURPOSE(SUB/ELABORATION('This was in Paragraph 9 , 1968 .','The Public Provident Fund -LRB- Amendment -RRB- Scheme , 2016 made changes .' ), 'This was to facilitate the premature closure of PPF Account .'))
+#Premature closure of PPF account is permitted after completion of 5 years for medical treatment of family members and for higher education of PPF account holder.
+NONE
+#However, premature closure comes with an interest rate penalty of 1%.
+SUB/ELABORATION('This is however .','Premature closure comes with an interest rate penalty of 1 % .')
+#As per GOI 12 December 2019 NOTIFICATIONS some new rules for prematurely widrawal added 1.
+SUB/ELABORATION(SUB/ELABORATION('This is as per GOI 12 .','December 2019 NOTIFICATIONS .' ), ', Some new rules for prematurely widrawal added 1 .')
+#If change in residency have to produce Visa and passport or ITR may be closed the account.2.
+NONE
+#Higher education of self or dependent on producing fee Bills or admissions confirm letter account may shut.rest rules are same as demise of holder or medical condition of self or dependent.
+SUB/ELABORATION('Higher education of self or dependent on producing fee Bills or admissions confirm letter account may shut.rest .', CO/DISJUNCTION('Rules are same as demise of holder or dependent .','Rules are same as medical condition of self or dependent .'))
+#Annual contributions qualify for tax deduction under Section 80C of income tax as per the old Tax regime.
+SUB/ELABORATION('This is under Section 80C of income tax as per the old Tax regime .','Annual contributions qualify for tax deduction .')
+#The tax benefit is capped at ₹1.5 lacs per financial year.
+NONE
+#PPF falls under EEE (Exempt, Exempt, Exempt) tax basket.
+SUB/ELABORATION('Exempt is Exempt .','PPF falls under EEE -LRB- Exempt Exempt -RRB- tax basket .')
+#Contribution to PPF account is eligible for tax benefit under Section 80C of the Income Tax Act in the old Tax Regime.
+NONE
+#Interest earned is exempt from income tax and maturity proceeds are also exempt from tax.
+CO/LIST('Interest earned is exempt from income tax .','Maturity proceeds are also exempt from tax .')
+#According to R.K. Mohapatra, General Manager-Finance, IRCON International, and author of the award-winning book ‘Retirement Planning: A Simple Guide for Individuals’, in the falling interest rate era, investment in PPF make senses for people who are in higher income tax brackets because of the advantages of exempt-exempt-exempt (EEE) scheme, which means they get tax deduction under Section 80C when they invest, and the accrual of interest as well as withdrawal is completely tax-free.
+CO/LIST(SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This(SUB/ELABORATION('This is in the falling interest rate era .','Investment in PPF make senses for people .' ), 'People are in higher income tax brackets because of the advantages of exempt-exempt-exempt -LRB- EEE -RRB- scheme .' )SUB/ELABORATION('Exempt-exempt-exempt -LRB- EEE -RRB- scheme means .', SUB/ELABORATION(SUB/ELABORATION('This is under Section 80C .','They get tax deduction .' ), 'They invest .' )SUB/ELABORATION('This('The accrual of interest as well as withdrawal is completely tax-free .')))))))
+#Labour in India refers to employment in the economy of India.
+SUB/SPATIAL('This is in the economy of India .','Labour in India refers to employment .')
+#In 2020, there were around 476.67 million workers in India, the second largest after China.
+SUB/ELABORATION('India was the second largest .', SUB/ELABORATION('This was in 2020 .','There were around 476.67 million workers in India after China .'))
+#Out of which, agriculture industry consist of 41.19%, industry sector consist of 26.18% and service sector consist 32.33% of total labour force.
+NONE
+#Of these over 94 percent work in unincorporated, unorganised enterprises ranging from pushcart vendors to home-based diamond and gem polishing operations.
+SUB/ELABORATION(SUB/ELABORATION('This is of these over 94 .','Percent work in unincorporated , unorganised enterprises .' )SUB/ELABORATION('This is to home-based diamond and gem polishing operations .', SUB/ELABORATION('This is unincorporated .','Unorganised enterprises are ranging from pushcart vendors .')))
+#The organised sector includes workers employed by the government, state-owned enterprises and private sector enterprises.
+SUB/ELABORATION('The organised sector includes workers .', CO/LIST('Workers were employed by the government .','Workers were employed by state-owned enterprises .','Workers were employed by private sector enterprises .'))
+#In 2008, the organised sector employed 27.5 million workers, of which 17.3 million worked for government or government owned entities.
+SUB/ELABORATION(SUB/ELABORATION('This was in 2008 .','The organised sector employed 27.5 million workers owned entities .' ), '17.3 million worked for government or government of 27.5 million workers .')
+#The Human Rights Measurement Initiative finds that India is only doing 43.9% of what should be possible at its level of income for the right to work.
+SUB/ELABORATION('The Human Rights Measurement Initiative finds .','India is only doing 43.9 % of what should be possible at its level of income for the right to work .')
+#Employees are routinely taken advantage of by their employers because of loose labour laws across all industries in India.
+SUB/SPATIAL('This was across all industries in India .','Employees are routinely taken advantage of by their employers because of loose labour laws .')
+#Over 94 percent of India's working population is part of the unorganised sector.
+SUB/ELABORATION('This is over 94 .','Percent of India 's working population is part of the unorganised sector .')
+#In local terms, organised sector or formal sector in India refers to licensed organisations, that is, those who are registered and pay GST.
+SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This is in local terms .','Organised sector or formal sector in India refers to licensed organisations .' ), 'Licensed organisations is , those .' )CO/LIST('Those are registered .','Those are pay GST .'))
+#These include the publicly traded companies, incorporated or formally registered entities, corporations, factories, shopping malls, hotels, and large businesses.
+CO/LIST('These include the publicly traded companies , incorporated or formally registered entities .','These include the publicly traded companies , incorporated or formally registered corporations .','These include the publicly traded companies , incorporated or formally registered factories .','These include the publicly traded companies , incorporated or formally registered shopping malls .','These include the publicly traded companies , incorporated or formally registered hotels .','These include the publicly traded companies , incorporated or formally registered large businesses .')
+#Unorganised sector, also known as own account enterprises, refers to all unlicensed, self-employed or unregistered economic activity such as owner manned general stores, handicrafts and handloom workers, rural traders, farmers, etc.
+NONE
+#India's Ministry of Labour, in its 2008 report, classified the unorganised labour in India into four groups.
+SUB/SPATIAL('This was in India .', SUB/ELABORATION('This was into four groups .', SUB/ELABORATION('This was in its 2008 report .','India 's Ministry of Labour classified the unorganised labour .')))
+#This classification categorized India's unorganised labour force by occupation, nature of employment, specially distressed categories and service categories.
+SUB/ELABORATION('Occupation was nature of employment .', SUB/ELABORATION('This was by occupation .','This classification categorized India 's unorganised labour force , specially distressed categories and service categories .'))
+#The unorganised occupational groups include small and marginal farmers, landless agricultural labourers, sharecroppers, fishermen, those engaged in animal husbandry, beedi rolling, labeling and packing, building and construction workers, leather workers, weavers, artisans, salt workers, workers in brick kilns and stone quarries, workers in saw mills, and workers in oil mills.
+NONE
+#A separate category based on nature of employment includes attached agricultural labourers, bonded labourers, migrant workers, contract and casual labourers.
+CO/LIST('A separate category based on nature of employment includes attached agricultural labourers .','A separate category based on nature of employment includes attached bonded labourers .','A separate category based on nature of employment includes attached migrant workers .','A separate category based on nature of employment includes attached contract .','A separate category based on nature of employment includes attached casual labourers .')
+#Another separate category dedicated to distressed unorganised sector includes toddy tappers, scavengers, carriers of head loads, drivers of animal driven vehicles, loaders and unloaders.
+SUB/ELABORATION('Toddy tappers are scavengers .', SUB/ELABORATION(SUB/ELABORATION('Head loads were drivers of animal .','Animal was driven vehicles , loaders and unloaders .' ), 'Another separate category dedicated to distressed unorganised sector includes toddy tappers carriers of head loads .'))
+#The last unorganised labour category includes service workers such as midwives, domestic workers, barbers, vegetable and fruit vendors, newspaper vendors, pavement vendors, hand cart operators, and the unorganised retail.
+CO/LIST('The last unorganised labour category includes service workers such as midwives .','The last unorganised labour category includes service workers such as domestic workers .','The last unorganised labour category includes service workers such as barbers .','The last unorganised labour category includes service workers such as vegetable and fruit vendors .','The last unorganised labour category includes service workers such as newspaper vendors .','The last unorganised labour category includes service workers such as pavement vendors .','The last unorganised labour category includes service workers such as hand cart operators .','The last unorganised labour category includes service workers such as the unorganised retail .')
+#The unorganised sector has low productivity and offers lower wages.
+CO/LIST('The unorganised sector has low productivity .','The unorganised sector offers lower wages .')
+#Even though it accounted for over 94 percent of workers, India's unorganised sector created just 57 percent of India's national domestic product in 2006, or about nine fold less per worker than the organised sector.
+CO/CONTRAST('It accounted for over 94 percent of workers .', SUB/ELABORATION('India 's unorganised sector created .', SUB/ELABORATION('This is than the organised sector .','Just 57 percent of India 's national domestic product in 2006 , or about nine fold less per worker .')))
+#According to Bhalla, the productivity gap sharply worsens when rural unorganised sector is compared to urban unorganised sector, with gross value added productivity gap spiking an additional two to four fold depending on occupation.
+SUB/ELABORATION(SUB/ELABORATION('This is according to Bhalla .','The productivity gap sharply worsens .' )SUB/ELABORATION('Rural unorganised sector is compared to urban unorganised sector .', SUB/ELABORATION('Gross value added .','Productivity gap spiking an additional two to four fold depending on occupation .')))
+#Some of lowest income jobs are in the rural unorganised sectors.
+NONE
+#Poverty rates are reported to be significantly higher in families where all working age members have only worked the unorganised sector throughout their lives.
+NONE
+#Agriculture, dairy, horticulture and related occupations alone employ 41.49 percent of labour in India.
+CO/LIST('Agriculture alone employ 41.49 percent of labour in India .','Dairy alone employ 41.49 percent of labour in India .','Horticulture alone employ 41.49 percent of labour in India .','Related occupations alone employ 41.49 percent of labour in India .')
+#About 30 million workers are migrant workers, most in agriculture, and local stable employment is unavailable for them.
+CO/LIST(SUB/ELABORATION('Migrant workers are most in agriculture .','About 30 million workers are migrant workers .' ), 'Local stable employment is unavailable for them .')
+#India's National Sample Survey Office in its 67th report found that unorganised manufacturing, unorganised trading/retail and unorganised services employed about 10 percent each of all workers nationwide, as of 2010.
+SUB/ELABORATION('Unorganised manufacturing was unorganised trading/retail and unorganised services .', SUB/ELABORATION('India 's National Sample Survey Office in its 67th report found that unorganised manufacturing .','That unorganised manufacturing was employed about 10 percent each of all workers nationwide , as of 2010 .'))
+#It also reported that India had about 58 million unincorporated non-Agriculture enterprises in 2010.
+SUB/ATTRIBUTION('This was what it reported .','India had about 58 million unincorporated non-Agriculture enterprises in 2010 .')
+#In the organised private sector with more than 10 employees per company, the biggest employers in 2008 were manufacturing at 5 million; social services at 2.2 million, which includes private schools and hospitals; finance at 1.1 million which includes bank, insurance and real estate; and agriculture at 1 million.
+SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This was in the organised private sector with more than 10 employees per company .', CO/LIST('The biggest employers in 2008 were manufacturing at 5 million .','The biggest employers in 2008 were manufacturing at social services at 2.2 million .','The biggest employers in 2008 were manufacturing at finance at 1.1 million .','The biggest employers in 2008 were manufacturing at agriculture at 1 million .' ), 'Finance at 1.1 million includes bank , insurance and real estate .' ), '2.2 million includes private schools and hospitals .'))
+#India had more central and state government employees in 2008, than employees in all private sector companies combined.
+SUB/ELABORATION('This was in 2008 .', SUB/ELABORATION(SUB/ELABORATION('This was than employees in all private sector companies .','India had more central and state government employees .' ), 'All private sector companies were combined .'))
+#If state-owned companies and municipal government employees were included, India had a 1.8:1 ratio between public sector employees and private sector employees.
+SUB/CONDITION(CO/LIST(', State-owned companies were included .','Municipal government employees were included .' )CO/LIST('India had a 1.8:1 ratio between public sector employees .','India had a 1.8:1 ratio between private sector employees .'))
+#In terms of gender equality in employment, male to female ratio was 5:1 in government and government owned enterprises; private sector fared better at 3:1 ratio.
+CO/LIST(SUB/ELABORATION('This was in terms of gender equality in employment .','Male to female ratio was 5:1 in government and government owned enterprises .' ), 'Private sector fared better at 3:1 ratio .')
+#Combined, counting only companies with more than 10 employees per company, the organised public and private sector employed 5.5 million women and 22 million men.
+CO/LIST(SUB/ELABORATION('This was with more than 10 employees per company .', CO/LIST(', Combined were counting only companies .','The organised public were counting only companies .','Private sector were counting only companies .' )CO/LIST(CO/LIST('The organised public were combined .','Private sector were combined .' )CO/LIST('The organised public employed 5.5 million women and 22 million men .','Private sector employed 5.5 million women and 22 million men .'))))
+#Given its natural rate of population growth and aging characteristics, India is adding about 13 million new workers every year to its labour pool.
+SUB/ELABORATION('This is to its labour pool .', SUB/ELABORATION('This is given its natural rate of population growth and aging characteristics .','India is adding about 13 million new workers every year .'))
+#India's economy has been adding about 8 million new jobs every year predominantly in low paying, unorganised sector.
+SUB/ELABORATION('This was in low paying , unorganised sector .','India 's economy has been adding about 8 million new jobs every year predominantly .')
+#The remaining 5 million youth joining the ranks of poorly paid partial employment, casual labour pool for temporary infrastructure and real estate construction jobs, or in many cases, being unemployed.
+SUB/ELABORATION('Poorly paid partial employment was casual labour pool for temporary infrastructure and real estate construction jobs , or in many cases .','The remaining 5 million youth joining the ranks of poorly paid partial employment , being unemployed .')
+#About seven per cent of the 400 million-strong workforce were employed in the formal sector (comprising government and corporates) in 2000 contributing 60 per cent of the nominal GDP of the nation.
+SUB/ELABORATION('About seven per cent of the 400 million-strong workforce were employed in the formal sector -LRB- comprising government and corporates -RRB- in 2000 .','2000 was contributing 60 per cent of the nominal GDP of the nation .')
+#The Trade Unions Act 1926 provided recognition and protection for a nascent India In 1997, India had about 59,000 trade unions registered with the government of India.
+SUB/SPATIAL('This was for a nascent India .', SUB/ELABORATION('The Trade Unions Act 1926 provided recognition and protection .', SUB/ELABORATION(SUB/ELABORATION('This was in 1997 .','India had about 59,000 trade unions .' )CO/LIST('About 59,000 trade unions were registered with the government of India recognition .','About 59,000 trade unions were registered with the government of protection .'))))
+#Of these only 9,900 unions filed income and expenditure reports and claimed to represent 7.4 million workers.
+CO/LIST(SUB/ELABORATION('This was of these .','Only 9,900 unions filed income and expenditure reports .' )SUB/ELABORATION('This was of these .','Only 9,900 unions claimed to represent 7.4 million workers .'))
+#The state of Kerala at 9,800 trade unions had the highest number of registered unions, but only few filed income and expenditure reports with the government of India.
+CO/CONTRAST('The state of Kerala at 9,800 trade unions had the highest number of registered unions .', SUB/SPATIAL('This was with the government of India .','Only few filed income and expenditure reports .'))
+#The state of Karnataka had the fastest growth in number of unions between the 1950s to 1990s.
+SUB/ELABORATION('This was to 1990s .','The state of Karnataka had the fastest growth in number of unions between the 1950s .')
+#In 1995, India had 10 central federations of trade unions, namely (arranged by number of member unions in 1980): INTUC, CITU, BMS, AITUC, HMS, NLO, UTUC, AIUTUC, NFITU and TUCC.
+SUB/ELABORATION('This was namely .', SUB/ELABORATION('This was in 1995 .','India had 10 central federations of trade unions -LRB- arranged by number of member unions in 1980 -RRB- : INTUC , CITU , BMS , AITUC , HMS , NLO , UTUC , AIUTUC , NFITU and TUCC .'))
+#Each federation had numerous local trade union affiliates, with the smallest TUCC with 65 and INTUC with 1604 affiliated unions.
+SUB/ELABORATION(SUB/ELABORATION('This was with 1604 affiliated unions .','This was with the smallest TUCC with 65 and INTUC .' ), 'Each federation had numerous local trade union affiliates .')
+#By 1989, BMS had become India's largest federation of unions with 3,117 affiliated unions, while INTUC remained the largest federation by combined number of members at 2.2 million.
+CO/CONTRAST(SUB/ELABORATION('This was with 3,117 affiliated unions .', SUB/ELABORATION('This was by 1989 .','BMS had become India 's largest federation of unions .' )SUB/ELABORATION('This was by combined number of members .', SUB/ELABORATION('This was at 2.2 million .','INTUC remained the largest federation .'))))
+#The largest federation of trade unions, INTUC, represents about 0.5% of India's labour force in organised sector and unorganised sector.
+SUB/ELABORATION('The largest federation of trade unions were INTUC .', CO/LIST('The largest federation of trade unions represents about 0.5 % of India 's labour force in organised sector .','The largest federation of trade unions unorganised sector .'))
+#In 2010, over 98% of Indian workers did not belong to any trade unions and were not covered by any collective bargaining agreements.
+CO/LIST(SUB/ELABORATION('This was in 2010 .', SUB/ELABORATION('This was over 98 % of Indian .','Workers did not belong to any trade unions .' )SUB/ELABORATION('This was in 2010 .', SUB/ELABORATION('This was over 98 % of Indian .','Workers were not covered by any collective bargaining agreements .'))))
+#A number of economists (e.g.
+NONE
+#: Fallon and Lucas, 1989; Besley and Burgess, 2004) have studied the industrial relations climate in India, with a large number of studies focusing on state-level differences in India's Industrial Disputes Act.
+SUB/ELABORATION(SUB/ELABORATION('Besley and Burgess were 2004 .','Fallon and Lucas were 1989 ; Besley and Burgess -RRB- .' )SUB/SPATIAL('This was in India .', SUB/ELABORATION(SUB/ELABORATION('This was with a large number of studies .',': Fallon and Lucas have studied the industrial relations climate .' ), ', Studies were focusing on state-level differences in India 's Industrial Disputes Act .')))
+#Some studies (e.g.
+NONE
+#: Besley and Burges, 2004) purport to show that pro-worker amendments to the Industrial Disputes Act have had a negative impact on industrial output and employment - as well as on poverty.
+SUB/ELABORATION(': Besley and Burges , 2004 -RRB- purport to show that pro-worker amendments to the Industrial Disputes Act - as well as on poverty .','Have had a negative impact on industrial output and employment the Industrial Disputes Act .')
+#However these studies have faced serious criticism on the grounds that the data used are misinterpreted,  and that the results are not robust with respect to standard econometric tests.
+SUB/ELABORATION(SUB/ELABORATION('This was on the grounds .','However these studies have faced serious criticism .' ), 'The data used are misinterpreted , and that the results are not robust with respect to standard econometric tests .')
+#Between 1950 and 1970, labour disputes nearly tripled in India, from an average of 1000 labour disputes per year, to an average of 3000 labour disputes per year.
+SUB/ELABORATION('This was between 1950 and 1970 .', SUB/ELABORATION('This was from an average of 1000 labour disputes per year .', SUB/ELABORATION('This was to an average of 3000 labour disputes per year .','Labour disputes nearly tripled in India .')))
+#The number of labour relations issues within a year peaked in 1973 at 3,370 labour disputes.
+SUB/ELABORATION('The number of labour relations issues within a year .', SUB/ELABORATION('This was at 3,370 labour disputes .','A year was peaked in 1973 .'))
+#The number of workers who joined labour disputes within the same year, and stopped work, peaked in 1979, at 2.9 million workers.
+SUB/ELABORATION('The number of workers , peaked in 1979 , at 2.9 million workers .', CO/LIST(SUB/ELABORATION('This was within the same year .','Workers joined labour disputes .' ), 'Workers stopped work .'))
+#The number of lost man-days from labour relation issues peaked in 1982 at 74.6 million lost man-days, or about 2.7% of total man-days in organised sector.
+SUB/ELABORATION(CO/DISJUNCTION('This was at 74.6 million lost man-days .','This was at about 2.7 % of total man-days in organised sector .' ), 'The number of lost man-days from labour relation issues peaked in 1982 .')
+#While the 1970s experienced a spike in labour unions and disputes, a sudden reduction in labour disputes was observed during 1975–1977, when Indira Gandhi, then prime minister, declared an emergency and amongst other things suspended many civil rights including the worker's right to strike.
+SUB/SPATIAL(CO/CONTRAST(SUB/ELABORATION('This was in labour unions and disputes .','The 1970s experienced a spike .' ), 'A sudden reduction in labour disputes was observed during 1975 -- 1977 .' )SUB/ELABORATION('Indira Gandhi was then prime minister .', CO/LIST('Indira Gandhi declared an emergency .', SUB/ELABORATION('Indira Gandhi amongst .','Other things suspended many civil rights including the worker 's right to strike .'))))
+#Union membership is concentrated in the organised sector, and in the early 1990s total membership was about 9 million.
+CO/LIST('Union membership is concentrated in the organised sector .', SUB/ELABORATION('This was in the early 1990s .','Total membership was about 9 million .'))
+#Many unions are affiliated with regional or national federations, the most important of which are the Indian National Trade Union Congress, the All India Trade Union Congress, the Centre of Indian Trade Unions, the Hind Mazdoor Sabha, and the Bharatiya Mazdoor Sangh.
+CO/LIST('Many unions are affiliated with regional or national federations , the most important of which are the Indian National Trade Union Congress .','Many unions are affiliated with regional or national federations , the most important of which are the All India Trade Union Congress .','Many unions are affiliated with regional or national federations , the most important of which are the Centre of Indian Trade Unions .','Many unions are affiliated with regional or national federations , the most important of which are the Hind Mazdoor Sabha .','Many unions are affiliated with regional or national federations , the most important of which are the Bharatiya Mazdoor Sangh .')
+#Politicians have often been union leaders, and some analysts believe that strikes and other labour protests are called primarily to further the interests of political parties rather than to promote the interests of the work force.
+CO/LIST('Politicians have often been union leaders .', SUB/ATTRIBUTION('This is what some analysts believe .',', Strikes and other labour protests are called primarily to further the interests of political parties rather than to promote the interests of the work force .'))
+#The government recorded 1,825 strikes and lockouts in 1990.
+SUB/ELABORATION('This was in 1990 .','The government recorded 1,825 strikes and lockouts .')
+#As a result, 24.1 million workdays were lost, 10.6 million to strikes and 13.5 million to lockouts.
+CO/LIST(SUB/ELABORATION('This was as a result .','24.1 million workdays were lost .' )SUB/ELABORATION('This was to strikes .', SUB/ELABORATION('This was as a result .','24.1 million workdays 10.6 million .' )SUB/ELABORATION('This was to lockouts .', SUB/ELABORATION('This was as a result .','24.1 million workdays 13.5 million .'))))
+#More than 1.3 million workers were involved in these labour disputes.
+NONE
+#The number and seriousness of strikes and lockouts have varied from year to year.
+SUB/ELABORATION('This was to year .','The number and seriousness of strikes and lockouts have varied from year .')
+#However, the figures for 1990 and preliminary data from 1991 indicate declines from levels reached in the 1980s, when between 33 and 75 million workdays per year were lost because of labour disputes.
+SUB/SPATIAL(SUB/ELABORATION(SUB/ELABORATION('This was from levels .','Levels were reached in the 1980s .' )SUB/ELABORATION('This is however .', CO/LIST('The figures for 1990 indicate declines .','Preliminary data from 1991 indicate declines .' ), 'Between 33 and 75 million workdays per year were lost because of labour disputes .')))
+#In 1999, the government of India recorded about 927 strikes and lockouts, or about half of those for 1990.
+SUB/ELABORATION('This was in 1999 .', CO/LIST('The government of India recorded about 927 strikes .','The government of India recorded lockouts , or about half of those for 1990 .'))
+#The number of lost man-days were about the same for 1999 and 1991, even though Indian economic output and number of workers had grown significantly over the 1990s.
+CO/CONTRAST('The number of lost man-days were about the same for 1999 and 1991 .', CO/LIST('Indian economic output had grown significantly over the 1990s .','Number of workers had grown significantly over the 1990s .'))
+#Between 2004 and 2011, India has experienced a decline in unionised labour.
+SUB/ELABORATION('This was between 2004 and 2011 .','India has experienced a decline in unionised labour .')
+#The number of labour disputes has dropped to 400 annually over the same period, compared with over 1,000 in the 1990s.
+SUB/ELABORATION('This was compared with over 1,000 in the 1990s .', SUB/ELABORATION('This was annually over the same period .','The number of labour disputes has dropped to 400 .'))
+#The annual number of man-days lost to labour disputes in early 1990s averaged around 27 million; by 2010, while Indian economy has grown significantly and Indian labour force has expanded, the average number of man-days lost has dropped by about 30%.
+CO/LIST(SUB/ELABORATION('The annual number of man-days averaged around 27 million .','Man-days were lost to labour disputes in early 1990s .' )SUB/ELABORATION(SUB/ELABORATION('This was by 2010 .','While Indian economy has grown significantly and Indian labour force has expanded , the average number of man-days has dropped by about 30 % .' ), 'Man-days were lost .'))
+#The downward trend continues both in terms of number of disputes and lost man-days per dispute.
+CO/LIST('The downward trend continues both in terms of number of disputes .','The downward trend continues both in lost man-days per dispute .')
+#For example, India experienced 249 disputes in the first 5 months of 2010, and 101 disputes in 2012 over the same period.
+SUB/ELABORATION(CO/LIST('This was in the first 5 months of 2010 .','This was in 101 disputes in 2012 .' )SUB/ELABORATION('This was over the same period .', SUB/ELABORATION('This was for example .','India experienced 249 disputes .')))
+#India has two broad groups of migrant labourers - one that migrates to temporarily work overseas, and another that migrates domestically on a seasonal and work available basis.
+SUB/ELABORATION(SUB/ELABORATION(CO/LIST('India has two broad groups of migrant labourers - one .','India has two broad groups of migrant labourers - another .' )CO/LIST('Another migrates domestically on a seasonal .','Another migrates domestically on work available basis .' ), 'One migrates to temporarily work overseas .'))
+#There has been a substantial flow of people from Bangladesh and Nepal to India over recent decades in search of better work.
+SUB/SPATIAL('This was to India over recent decades in search of better work .', SUB/SPATIAL('This was from Bangladesh and Nepal .','There has been a substantial flow of people .'))
+#Researchers at the Overseas Development Institute found that these migrant workers are often subject to harassment, violence, and discrimination during their journeys at their destinations and when they return home.
+NONE
+#Domestic migrant workers have been estimated to be about 4.2 million - (Domestic workers, not domestic migrant workers).
+SUB/ELABORATION('Domestic workers were not domestic migrant workers .','Domestic migrant workers have been estimated to be about 4.2 million - -LRB- Domestic workers -RRB- .')
+#These workers range from full-time to part-time workers, temporary or permanent workers.
+NONE
+#They are typically employed for remuneration in cash or kind, in any household through any agency or directly, to do the household work, but do not include any member of the family of an employer.
+CO/CONTRAST(SUB/PURPOSE(SUB/ELABORATION('This was in cash or kind .', SUB/ELABORATION('This was in any household through any agency or directly .','They are typically employed for remuneration .' ), 'This was to do the household work .' ), 'They do not include any member of the family of an employer .'))
+#Some of these work exclusively for a single employer, while others work for more than one employer.
+CO/CONTRAST(', Some of these work exclusively for a single employer .','Others work for more than one employer .')
+#Some are live-in workers, while some are seasonal.
+CO/CONTRAST(', Some are live-in workers .',', Some are seasonal .')
+#The employment of these migrant workers is typically at the will of the employer and the worker, and compensation varies.
+CO/LIST(CO/LIST('The employment of these migrant workers is typically at the will of the employer .','The employment of these migrant workers is typically at the will of the worker .' ), ', Compensation varies .')
+#Migrant labourers in Kerala, India's southernmost state, are a significant economic force in the state; there were around 2.5 million internal migrants in Kerala according to a 2013 study by the Gulati Institute of Finance and Taxation.
+CO/LIST('Migrant labourers in Kerala , India 's southernmost state , are a significant economic force in the state .', SUB/ELABORATION('This was according to a 2013 study by the Gulati Institute of Finance and Taxation .','There were around 2.5 million internal migrants in Kerala .'))
+#Every year, the migrant worker population in Kerala increases by 2.35 lakh (235,000) people.
+NONE
+#The study, based on long-distance trains terminating in Kerala, does not cover migrants from the neighbouring states who use other modes of transport.
+SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This is from the neighbouring states .','The study does not cover migrants .' ), 'The neighbouring states use other modes of transport .' )SUB/ELABORATION('The study is based on long-distance trains .','Long-distance trains were terminating in Kerala .'))
+#Assuming that the estimation is rigorous and extrapolating it, taking into account the net annual addition, possible growth in migration rate, as well as accounting for the migration from the neighbouring states, Kerala is likely to have 3.5 to 4 million inter-state migrant workers in 2017.
+SUB/ELABORATION('The net annual addition is possible growth in migration rate .', CO/LIST(SUB/ATTRIBUTION('This is what Kerala is assuming .', CO/UNKNOWN_COORDINATION(SUB/ELABORATION('This is from the neighbouring states .','The estimation is rigorous and extrapolating it the net annual addition , as well as accounting for the migration .' )SUB/ELABORATION('This is from the neighbouring states .','The estimation is taking into account the net annual addition , as well as accounting for the migration .' ), 'Kerala is likely to have 3.5 to 4 million inter-state migrant workers in 2017 .'))))
+#Despite their importance and despite many of them praising the state for its welfare schemes and environment, they are often ignored in comparison and suffer from comparatively poor living conditions.
+CO/LIST(SUB/ELABORATION('This was despite their importance and despite many of them praising the state for its welfare schemes and environment .','They are often ignored in comparison .' )SUB/ELABORATION('This is despite their importance and despite many of them praising the state for its welfare schemes and environment .','They suffer from comparatively poor living conditions .'))
+#About 4 million Indian-origin labourers are migrant workers in the Middle East alone.
+NONE
+#They are credited to have been the majority of workers who built many of Dubai, Bahrain, Qatar and Persian Gulf modern architecture, including the Burj Khalifa, the tallest building in world's history which opened in January 2010.
+SUB/ELABORATION(SUB/ELABORATION('The Burj Khalifa was the tallest building in world 's history .','The tallest building in world 's history opened in January 2010 .' )SUB/ELABORATION('They are credited to have been the majority of workers .', SUB/SPATIAL('This was including the Burj Khalifa .','Workers built many of Dubai , Bahrain , Qatar and Persian Gulf modern architecture .')))
+#These migrant workers are attracted by better salaries (typically US$2 to 5 per hour), possibility of earning overtime pay, and opportunity to remit funds to support their families in India.
+SUB/ELABORATION(CO/LIST('Better salaries -LRB- typically US$ 2 to 5 per hour -RRB- were possibility of earning overtime pay .','Better salaries -LRB- typically US$ 2 to 5 per hour -RRB- were opportunity to remit funds to support their families in India .' ), 'These migrant workers are attracted by better salaries -LRB- typically US$ 2 to 5 per hour -RRB- .')
+#The Middle East-based migrant workers from India remitted about US$20 billion in 2009.
+SUB/ELABORATION('This was in 2009 .','The Middle East-based migrant workers from India remitted about US$ 20 billion .')
+#Once the projects are over, they are required to return at their own expenses, with no unemployment or social security benefits.
+SUB/ELABORATION('The projects are over .', SUB/ELABORATION(CO/DISJUNCTION('This was with no unemployment .','This was with social security benefits .' ), 'They are required to return at their own expenses .'))
+#In some cases, labour abuses such as unpaid salaries, unsafe work conditions and poor living conditions have been claimed.
+SUB/ELABORATION('This was in some cases .','Labour abuses such as unpaid salaries , unsafe work conditions and poor living conditions have been claimed .')
+#Indian migrant workers during the COVID-19 pandemic have faced multiple hardships.
+NONE
+#With factories and workplaces shut down due to the lockdown imposed in the country, millions of migrant workers had to deal with the loss of income, food shortages and uncertainty about their future.
+SUB/ELABORATION('This was about their future .', SUB/ELABORATION(SUB/ELABORATION('Factories and workplaces shut down due to the lockdown .', CO/LIST('Millions of migrant workers had to deal with the loss of income .','Millions of migrant workers had to deal with the loss of food shortages .','Millions of migrant workers had to deal with the loss of uncertainty .' ), 'The lockdown was imposed in the country .')))
+#Following this, many of them and their families went hungry.Thousands of them then began walking back home, with no means of transport due to the lockdown.
+SUB/ELABORATION(SUB/ELABORATION('This was following this .','Many of them and their families went .' )SUB/ELABORATION('This was with no means of transport due to the lockdown .','Hungry.Thousands of them then began walking back home .'))
+#Due to the lockdown, more than 300 deaths were reported till 5 May, with reasons ranging from starvation, suicides,exhaustion, road and rail accidents, police brutality and denial of timely medical care.
+SUB/ELABORATION(SUB/ELABORATION('This was due to the lockdown .', SUB/ELABORATION('This was with reasons .','More than 300 deaths were reported till 5 May .' ), 'Reasons were ranging from starvation , suicides , exhaustion , road and rail accidents , police brutality and denial of timely medical care .'))
+#Among the reported deaths, most were among the marginalised migrants and labourers.
+SUB/ELABORATION('This was among the reported deaths .','Most were among the marginalised migrants and labourers .')
+#80 died while travelling back home on the Shramik Special trains, in the one month since their launch.
+SUB/ELABORATION('This was in the one month .','80 died while travelling back home on the Shramik Special trains since their launch .')
+#In response, the Central and State Governments took various measures to help them, and later arranged transport for them.
+CO/LIST(SUB/PURPOSE(SUB/ELABORATION('This was in response .','The Central and State Governments took various measures .' ), 'This was to help them .' )SUB/ELABORATION('This was for them .', SUB/ELABORATION('This was in response .','The Central and State Governments later arranged transport .')))
+#Bonded labour is a forced relationship between an employer and an employee, where the compulsion is derived from outstanding debt.
+SUB/SPATIAL(CO/LIST('Bonded labour is a forced relationship between an employer .','Bonded labour is a forced relationship between an employee .' ), 'The compulsion is derived from outstanding debt .')
+#Often the interest accrues at a rate that is so high that the bonded labour lasts a very long periods of time, or indefinitely.
+SUB/ELABORATION('Often the interest accrues at a rate .','A rate is so high that the bonded labour lasts a very long periods of time , or indefinitely .')
+#Sometimes, the employee has no options for employment in the organised or unorganised sectors of India, and prefers the security of any employment including one offered in bonded labour form.
+CO/LIST(SUB/ELABORATION('This is sometimes .','The employee has no options for employment in the organised or unorganised sectors of India .' )SUB/ELABORATION(SUB/ELABORATION('This is sometimes .','The employee prefers the security of any employment including one .' ), 'One was offered in bonded labour form .'))
+#While illegal, bonded labour relationships may be reinforced by force, or they may continue from custom.
+CO/DISJUNCTION('While illegal , bonded labour relationships may be reinforced by force .','They may continue from custom .')
+#Once an employee enters into a bonded relationships, they are characterised by asymmetry of information, opportunity, no time to search for alternative jobs and high exit costs.
+SUB/ELABORATION('Information was opportunity .', SUB/ELABORATION('An employee enters into a bonded relationships .', SUB/PURPOSE('They are characterised by asymmetry of information no time .','This was to search for alternative jobs and high exit costs .')))
+#Estimates of bonded labour in India vary widely, depending on survey methods, assumptions and sources.
+SUB/ELABORATION(CO/LIST('This is depending on survey methods .','This is depending on assumptions .','This is depending on sources .' ), 'Estimates of bonded labour in India vary widely .')
+#Official Indian government estimates claim a few hundred thousand labourers are bonded labourers; while a 1978 estimate placed bonded labour in India to be 2.62 million.
+SUB/ATTRIBUTION('This is what official Indian government estimates claim .','A few hundred thousand labourers are bonded labourers ; while a 1978 estimate placed bonded labour in India to be 2.62 million .')
+#The 32nd National Sample Survey Organisation survey in India estimated 343,000 bonded labourers in 16 major states, of which 285,379 were located and freed by 1996.
+SUB/ELABORATION('The 32nd National Sample Survey Organisation survey in India estimated 343,000 bonded labourers in 16 major states .','285,379 were located and freed by 1996 of 16 major states .')
+#The major employment sectors for debt bonded labour include: agriculture, stone quarries, brick kilns, religious and temple workmen, pottery, rural weaving, fishing, forestry, betel and bidi workers, carpet, illegal mining and fireworks.
+NONE
+#Child labour has been found in family debt bonded situations.
+NONE
+#In each survey, debt bonded labourers have been found in unorganised, unincorporated sector.
+SUB/ELABORATION('This was in each survey .','Debt bonded labourers have been found in unorganised , unincorporated sector .')
+#India enacted Bonded Labour System Abolition Act (1976) to prohibit any and all forms of bonded labour practice, to protect the bonded labour, and to criminalize individuals and entities that hire, keep or seek bonded labour.
+SUB/PURPOSE('India enacted Bonded Labour System Abolition Act -LRB- 1976 -RRB- .','This was to prohibit any and all forms of bonded labour practice , to protect the bonded labour , and to criminalize individuals and entities that hire , keep or seek bonded labour .')
+#According to data from Census year 2011, number of child labourers is 10.1 million, 5.6 million boys and 4.5 million girls in India.
+SUB/ELABORATION(CO/LIST('10.1 million is 5.6 million boys .','10.1 million is 4.5 million girls in India .' )SUB/ELABORATION('This is according to data from Census year 2011 .','Number of child labourers is 10.1 million .'))
+#Total of 152 million children, 64 million girls and 88 million boys are estimated to be in child labour globally, for almost one in ten of all children worldwide.
+SUB/ELABORATION('This was for almost one in ten of all children .','Total of 152 million children , 64 million girls and 88 million boys are estimated to be in child labour globally worldwide .')
+#Poverty, lack of schools, poor education infrastructure and growth of unorganised economy are considered as the most important causes of child labour in India.
+SUB/ELABORATION(CO/LIST('Poverty was lack of schools of unorganised economy .','Poverty was lack of poor education infrastructure of unorganised economy .','Poverty was lack of growth of unorganised economy .' )SUB/SPATIAL('This was in India .','Poverty are considered as the most important causes of child labour .'))
+#Article 24 of India's constitution prohibits child labour, but only in factories, mines or hazardous employment.
+CO/DISJUNCTION('Article 24 of India 's constitution prohibits child labour , but only in factories .','Article 24 of India 's constitution prohibits child labour , but only in mines .','Article 24 of India 's constitution prohibits child labour , but only in hazardous employment .')
+#The Indian Penal Code, the Juvenile Justice (care and protection) of Children Act-2000, and the Child Labour (Prohibition and Abolition) Act-1986 provide a basis in law to identify, prosecute and stop child labour in India.
+SUB/ELABORATION(CO/LIST('The Indian Penal Code is the Juvenile Justice -LRB- care -RRB- of Children Act-2000 .','The Indian Penal Code is the Juvenile Justice -LRB- protection -RRB- of Children Act-2000 .' )SUB/SPATIAL('This is in India .', CO/LIST('The Indian Penal Code provide a basis in law to identify , prosecute and stop child labour .','The Child Labour -LRB- Prohibition and Abolition -RRB- Act-1986 provide a basis in law to identify , prosecute and stop child labour .')))
+#Nevertheless, child labour is observed in almost all unorganised, small scale, informal sectors of the Indian economy.
+SUB/ELABORATION('Almost all unorganised , small scale was informal sectors of the Indian economy .', SUB/ELABORATION('Almost all unorganised was small scale .', SUB/ELABORATION('This was nevertheless .',', Child labour is observed in almost all unorganised .')))
+#Scholars suggest inflexibility and structure of India's labour market, size of informal economy, legal hurdles preventing industries from scaling up and lack of modern manufacturing technologies are major macroeconomic factors encouraging demand for and acceptability of child labour.
+CO/LIST(SUB/ELABORATION('Inflexibility and structure of India 's labour market are size of informal economy .', SUB/ELABORATION('This is from scaling up .',', Scholars suggest inflexibility and structure of India 's labour market legal hurdles preventing industries .' )CO/LIST('Lack of modern manufacturing technologies are major macroeconomic factors encouraging demand for .','Lack of modern manufacturing technologies are acceptability of child labour .')))
+#The labour laws of India originated and express the socio-political views of leaders such as Nehru from pre-1947 independence movement struggle.
+SUB/ELABORATION('This is from pre-1947 independence movement struggle .', SUB/ELABORATION('This is such as Nehru .', CO/LIST('The labour laws of India originated .','The labour laws of India express the socio-political views of leaders .')))
+#These laws were expanded in part after debates in Constituent Assemblies and in part from international conventions and recommendations such as of International Labour Organization.
+SUB/ELABORATION('This was after debates in Constituent Assemblies and in part .', SUB/ELABORATION('This was from international conventions and recommendations such as of International Labour Organization .','These laws were expanded in part .'))
+#The current mosaic of Indian laws on employment are thus a combination of India's history during its colonial heritage, India's experiments with socialism, important human rights and the conventions and standards that have emerged from the United Nations.
+SUB/ELABORATION(SUB/ELABORATION('This is during its colonial heritage .', CO/LIST('The current mosaic of Indian laws on employment are thus a combination of India 's history , India 's experiments with socialism .','The current mosaic of Indian laws on employment are thus a combination of India 's history , India 's experiments with important human rights .','The current mosaic of Indian laws on employment are thus a combination of India 's history , India 's experiments with the conventions and standards .' ), 'India 's experiments with socialism , important human rights and the conventions and standards have emerged from the United Nations .'))
+#The laws cover the right to work of one's choice, right against discrimination, prohibition of child labour, fair and humane conditions of work, social security, protection of wages, redress of grievances, right to organise and form trade unions, collective bargaining and participation in management.
+SUB/ELABORATION('Right against discrimination is prohibition of child labour .', SUB/ELABORATION('Work is social security .', SUB/ELABORATION('Wages are redress of grievances .', SUB/ELABORATION('This is in management .', SUB/ELABORATION('This is right against discrimination .', CO/LIST('The laws cover the right to work of one 's choice fair and humane conditions of work protection of wages , right to organise and form trade unions .','The laws cover the right to work of one 's choice fair and humane conditions of work protection of wages , right to organise and form collective bargaining .','The laws cover the right to work of one 's choice fair and humane conditions of work protection of wages , right to organise and form participation .'))))))
+#India has numerous labour laws such as those prohibiting discrimination and Child labour, those that aim to guarantee fair and human conditions of work, those that provide social security, minimum wage, right to organise, form trade unions and enforce collective bargaining.
+SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION(', Social security is minimum wage .', SUB/ELABORATION('Work is those .','Those provide social security right to organise , form trade unions and enforce collective bargaining .' )SUB/ELABORATION('Those prohibiting discrimination and Child labour are those .','Those aim to guarantee fair and human conditions of work .' )SUB/ELABORATION('India has numerous labour laws such as those .','Those is prohibiting discrimination and Child labour .'))))
+#India also has numerous rigid regulations such as maximum number of employees per company in certain sectors of economy, and limitations on employers on retrenchment and layoffs, requirement of paperwork, bureaucratic process and government approval for change in labour in companies even if these are because of economic conditions.
+SUB/CONDITION(CO/LIST('India also has numerous rigid regulations such as maximum number of employees per company in certain sectors of economy .','India also has limitations on employers on retrenchment and layoffs , requirement of paperwork , bureaucratic process and government approval for change in labour in companies .' ), 'These are because of economic conditions .')
+#Indian labour laws are considered to be very highly regulated and rigid as compared to those of other countries in the world.
+NONE
+#The intensity of these laws have been criticised as the cause of low employment growth, large unorganised sectors, underground economy and low per capita income.
+CO/LIST('The intensity of these laws have been criticised as the cause of low employment growth .','The intensity of these laws have been criticised as the cause of large unorganised sectors .','The intensity of these laws have been criticised as the cause of underground economy .','The intensity of these laws have been criticised as the cause of low per capita income .')
+#These have led many to demand reforms for Labour market flexibility in India.
+NONE
+#India has over 50 major Acts and numerous laws that regulate employers in matters relating to industrial relations, employee unions as well as who, how and when enterprises can employ or terminate employment.
+SUB/ELABORATION('Industrial relations are employee unions as well as who .', SUB/ELABORATION('India has over 50 major Acts and numerous laws .', SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This is in matters .','Numerous laws regulate employers .' ), 'Matters are relating to industrial relations .' ), 'Enterprises can employ or terminate employment .')))
+#Many of these laws survive from British colonial times, while some have been enacted after India's independence from Britain.
+CO/CONTRAST('Many of these laws survive from British colonial times .', SUB/SPATIAL('This was from Britain .',', Some have been enacted after India 's independence .'))
+#India is a federal form of government.
+NONE
+#Labour is a subject in the concurrent list of the Indian Constitution and therefore labour matters are in the jurisdiction of both central and state governments.
+CO/LIST('Labour is a subject in the concurrent list of the Indian Constitution .','Therefore labour matters are in the jurisdiction of both central and state governments .')
+#Both central and state governments have enacted laws on labour relations and employment issues.
+SUB/ELABORATION('This was on labour relations and employment issues .','Both central and state governments have enacted laws .')
+#The Workmen's Compensation Act compensates a workman for any injury suffered during the course of his employment or to his dependents in the case of his death.
+SUB/ELABORATION('The Workmen 's Compensation Act compensates a workman for any injury .', SUB/ELABORATION('This was in the case of his death .','Any injury was suffered during the course of his employment or to his dependents .'))
+#The Act provides for the rate at which compensation shall be paid to an employee.
+NONE
+#This is one of many social security laws in India.
+NONE
+#The Payment of Wages Act regulates by when wages shall be distributed to employees by the employers.
+NONE
+#The law also provides the tax withholdings the employer must deduct and pay to the central or state government before distributing the wages.
+SUB/ELABORATION('The law also provides .', SUB/ELABORATION('The tax withholdings .', SUB/TEMPORAL('The employer must deduct and pay to the central or state government before .','The employer is distributing the wages .')))
+#This Act requires employers in industrial establishments to define and post the conditions of employment by issuing so-called standing orders.
+SUB/ELABORATION('This is by issuing so-called standing orders .','This Act requires employers in industrial establishments to define and post the conditions of employment .')
+#These standing orders must be approved by the government and duly certified.
+CO/LIST('These standing orders must be approved by the government .','These standing orders must be duly certified .')
+#These orders aim to remove flexibility from the employer in terms of job, hours, timing, leave grant, productivity measures and other matters.
+SUB/ELABORATION(CO/LIST('This is from the employer in terms of job .','This is from the employer in terms of hours .','This is from the employer in terms of timing .','This is from the employer in terms of leave grant .','This is from the employer in terms of productivity measures .','This is from the employer in terms of other matters .' ), 'These orders aim to remove flexibility .')
+#The standing orders mandate that the employer classify its employees, state the shifts, payment of wages, rules for vacation, rules for sick leave, holidays, rules for termination amongst others.
+SUB/ELABORATION('The shifts are payment of wages .','The standing orders mandate that the employer classify its employees , state the shifts rules for vacation , rules for sick leave , holidays , rules for termination amongst others .')
+#The Industrial Disputes act 1947 regulates how employers may address industrial disputes such as lockouts, layoffs, retrenchment etc.
+SUB/ELABORATION(SUB/ELABORATION('Layoffs are retrenchment .','Lockouts are layoffs etc. .' )SUB/ELABORATION('The Industrial Disputes act 1947 regulates .','Employers may address industrial disputes such as lockouts .'))
+#It controls the lawful processes for reconciliation, adjudication of labour disputes.
+SUB/ELABORATION('Reconciliation is adjudication of labour disputes .','It controls the lawful processes for reconciliation .')
+#The Act also regulates what rules and conditions employers must comply before the termination or layoff of a workman who has been in continuous service for more than one year with the employer.
+SUB/ELABORATION('The Act also regulates .', SUB/ELABORATION('Rules and conditions employers must comply before the termination or layoff of a workman .','A workman has been in continuous service for more than one year with the employer .'))
+#The employer is required to give notice of termination to the employee with a copy of the notice to appropriate government office seeking government's permission, explain valid reasons for termination, and wait for one month before the employment can be lawfully terminated.
+SUB/ELABORATION('This was to the employee with a copy of the notice to appropriate government office .', SUB/ELABORATION('This was for termination .','The employer is required to give notice of termination seeking government 's permission , explain valid reasons , and wait for one month before the employment can be lawfully terminated .'))
+#The employer may pay full compensation for one month in lieu of the notice.
+SUB/ELABORATION('This is for one month in lieu of the notice .','The employer may pay full compensation .')
+#Furthermore, employer must pay an equivalent to 15 days average pay for each completed year of employees continuous service.
+SUB/ELABORATION('This was furthermore .','Employer must pay an equivalent to 15 days average pay for each completed year of employees continuous service .')
+#Thus, an employee who has worked for four years in addition to various notices and due process, must be paid a minimum of the employee's wage equivalent to 60 days before retrenchment, if the government grants the employer a permission to lay off.
+SUB/CONDITION(SUB/ELABORATION(SUB/ELABORATION('This was to 60 days .', SUB/ELABORATION('This was before retrenchment .', SUB/ELABORATION('This was thus .','An employee , must be paid a minimum of the employee 's wage equivalent .' )SUB/ELABORATION(CO/LIST('This was to various notices .','This was to due process .' ), 'An employee has worked for four years in addition .' )SUB/ELABORATION('The government grants the employer .','A permission to lay off the employer .')))))
+#The Minimum Wages Act prescribes minimum wages in all enterprises, and in some cases those working at home per the schedule of the Act.
+CO/LIST('The Minimum Wages Act prescribes minimum wages in all enterprises .','The Minimum Wages Act prescribes in some cases those working at home per the schedule of the Act .')
+#Central and State Governments can and do revise minimum wages at their discretion.
+CO/LIST(', Central and State Governments can .', SUB/ELABORATION('This is at their discretion .',', Central and State Governments do revise minimum wages .'))
+#The minimum wage is further classified by nature of work, location and numerous other factors at the discretion of the government.
+SUB/ELABORATION('This was at the discretion of the government .','The minimum wage is further classified by nature of work , location and numerous other factors .')
+#The minimum wage ranges between ₹ 143 to ₹ 1120 per day for work in the so-called central sphere.
+SUB/ELABORATION('This is for work in the so-called central sphere .','The minimum wage ranges between 143 to 1120 per day .')
+#State governments have their own minimum wage schedules.
+NONE
+#This law declared numerous key manufacturing industries under its so-called[dubious – discuss] First Schedule.
+SUB/ELABORATION(CO/LIST('This was under its so-called -LSB- dubious .','Discuss -RSB- First Schedule .' ), 'This law declared numerous key manufacturing industries .')
+#It placed many industries under common central government regulations in addition to whatever laws state government enact.
+SUB/ELABORATION('This was under common central government regulations .', SUB/ELABORATION('This was in addition to whatever laws state government enact .','It placed many industries .'))
+#It also reserved over 600 products that can only be manufactured in small scale enterprises, thereby regulating who can enter in these businesses, and above all placing a limit on the number of employees per company for the listed products.
+SUB/ELABORATION(SUB/ELABORATION('This was for the listed products .','It also reserved over 600 products , thereby regulating who can enter in these businesses , and above all placing a limit on the number of employees per company .' ), '600 products can only be manufactured in small scale enterprises .')
+#The list included all key technology and industrial products in the early 1950s, including products ranging from certain iron and steel products, fuel derivatives, motors, certain machinery, machine tools, to ceramics and scientific equipment.
+SUB/ELABORATION(', Certain iron and steel products were fuel derivatives .', SUB/ELABORATION(', Certain machinery was machine tools .', SUB/ELABORATION('This was in the early 1950s .', SUB/ELABORATION(CO/LIST('This was including products ranging from certain iron and steel products motors .','This was including certain machinery to ceramics .','This was including scientific equipment .' )CO/LIST('The list included all key technology .','The list included industrial products .')))))
+#This Act seeks to ensure the financial security of the employees in an establishment by providing for a system of compulsory savings.
+SUB/ELABORATION('This is by providing for a system of compulsory savings .','This Act seeks to ensure the financial security of the employees in an establishment .')
+#The Act provides for establishments of a contributory Provident Fund in which employees' contribution shall be at least equal to the contribution payable by the employer.
+NONE
+#Minimum contribution by the employees shall be 10-12% of the wages.
+NONE
+#This amount is payable to the employee after retirement and could also be withdrawn partly for certain specified purposes.
+CO/LIST('This amount is payable to the employee after retirement .','This amount could also be withdrawn partly for certain specified purposes .')
+#The Maternity Benefit Act regulates the employment of the women and maternity benefits mandated by law.
+SUB/ELABORATION('The Maternity Benefit Act regulates the employment of the women and maternity benefits .','The women and maternity benefits were mandated by law .')
+#Any woman employee who worked in any establishment for a period of at least 80 days during the 12 months immediately preceding the date of her expected delivery, is entitled to receive maternity benefits under the Act.
+SUB/ELABORATION(SUB/ELABORATION('This was under the Act .','Any woman employee , is entitled to receive maternity benefits .' )SUB/ELABORATION('This was during the 12 months immediately preceding the date of her expected delivery .', SUB/ELABORATION('This was for a period of at least 80 days .','Any woman employee worked in any establishment .')))
+#The employer is required to pay maternity benefits, medical allowance, maternity leave and nursing breaks.
+CO/LIST('The employer is required to pay maternity benefits .','The employer is required to pay medical allowance .','The employer is required to pay maternity leave .','The employer is required to pay nursing breaks .')
+#This Act, applies to an enterprise employing 20 or more persons.
+SUB/ELABORATION('This Act , applies to an enterprise .','An enterprise is employing 20 or more persons .')
+#The Act requires employer to pay a bonus to persons on the basis of profits or on the basis of production or productivity.
+SUB/PURPOSE('The Act requires employer .','This is to pay a bonus to persons on the basis of profits or on the basis of production or productivity .')
+#The Act was modified to require companies to pay a minimum bonus, even if the employer suffers losses during the accounting year.
+SUB/CONDITION('The Act was modified to require companies to pay a minimum bonus .', SUB/ELABORATION('This is during the accounting year .','The employer suffers losses .'))
+#This minimum is currently 8.33 percent of the salary.
+NONE
+#This law applies to all establishments employing 10 or more workers.
+SUB/ELABORATION('This law applies to all establishments .','All establishments are employing 10 or more workers .')
+#Gratuity is payable to the employee if he or she resigns or retires.
+SUB/CONDITION('Gratuity is payable to the employee .', CO/DISJUNCTION('He or she resigns .','He or she retires .'))
+#The Indian government mandates that this payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of ₹ 10,00,000.
+SUB/ELABORATION('The Indian government mandates .','This payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of 10,00,000 .')
+#It is an act to provide for a scheme for the payment of gratuity to employees engaged in factories, mines, oilfields, ports, plantations, shops or other establishments and for matters connected therewith or incidental thereto.
+SUB/ELABORATION(SUB/ELABORATION('It is an act to provide for a scheme for the payment of gratuity to employees and for matters .','Matters were connected therewith or incidental thereto .' ), 'Employees were engaged in factories , mines , oilfields , ports , plantations , shops or other establishments .')
+#Scholars suggest India's rigid labour laws and excessive regulations assumed to protect the labour are the cause of slow employment growth in high paying, organised sector.
+CO/LIST(', Scholars suggest India 's rigid labour laws .',', Scholars suggest excessive regulations assumed to protect the labour are the cause of slow employment growth in high paying , organised sector .')
+#India's labour-related acts and regulations have led to labour-market rigidity.
+NONE
+#This encourages shadow economy for entrepreneurs, an economy that prefers to employ informal labour to avoid the complicated and opaque laws.
+SUB/ELABORATION(SUB/ELABORATION('Entrepreneurs are an economy .','An economy prefers to employ informal labour to avoid the complicated and opaque laws .' ), 'This encourages shadow economy for entrepreneurs .')
+#In particular, Indian labour legislation such as the Industrial Disputes Act of 1947 added rigid labour laws and one sided trade union laws.
+SUB/ELABORATION('This was in particular .', CO/LIST('Indian labour legislation such as the Industrial Disputes Act of 1947 added rigid labour laws .','Indian labour legislation such as the Industrial Disputes Act of 1947 added one sided trade union laws .'))
+#Although the Act does not prohibit layoffs and retrenchments, it does require entrepreneurs and companies to get the permission from government officials to fire an employee for absenteeism, retrench employees for economic reasons, or to close an economically nonviable company.
+SUB/ELABORATION('Absenteeism is retrench employees for economic reasons .', CO/CONTRAST('The Act does not prohibit layoffs and retrenchments .', SUB/PURPOSE('It does require entrepreneurs and companies .','This is to get the permission from government officials to fire an employee for absenteeism or to close an economically nonviable company .')))
+#This bureaucratic process can stretch into years, and the government officials have consistently and almost always denied such permission.
+CO/LIST('This bureaucratic process can stretch into years .','The government officials have consistently and almost always denied such permission .')
+#As a result, the scholars argue that India's inflexible labour laws have created a strong disincentive to formally register new companies and hire additional workers in existing organised sector companies.
+SUB/ATTRIBUTION('This is what the scholars argue as a result .', SUB/PURPOSE('India 's inflexible labour laws have created a strong disincentive .','This was to formally register new companies and hire additional workers in existing organised sector companies .'))
+#Unlike China, Indian businesses have avoided substituting India's abundant labour for export or domestic opportunities, or use labour instead of expensive equipment for quality control or other operations.
+SUB/ELABORATION(CO/DISJUNCTION('This was for quality control .','This was for other operations .' )SUB/SPATIAL('This was unlike China .', CO/DISJUNCTION('Indian businesses have avoided substituting India 's abundant labour for export or domestic opportunities .','Indian businesses have avoided substituting use labour instead of expensive equipment .')))
+#These are reasons for India's weak employment growth.
+NONE
+#More recently, a few scholars have completed a comparative study between states of India with different labour regulations.
+SUB/ELABORATION('This was with different labour regulations .', SUB/ELABORATION('This was more recently .','A few scholars have completed a comparative study between states of India .'))
+#They compared states of India who have amended labour legislations to grant more flexibility to employers, to those states in India that have made their labour laws even more rigid and complicated to comply with.
+SUB/ELABORATION('They compared states of India .', SUB/ELABORATION(SUB/PURPOSE(', States of India have amended labour legislations .','This was to grant more flexibility to employers , to those states in India .' )CO/LIST(SUB/ELABORATION('Amended labour legislations have made their labour laws even more rigid .', SUB/ELABORATION('This is to employers .', SUB/SPATIAL('This is to those states in India Amended labour legislations .','To grant more flexibility .' )SUB/ELABORATION('Amended labour legislations have complicated to comply with .', SUB/ELABORATION('This is to employers .', SUB/SPATIAL('This is to those states in India Amended labour legislations .','To grant more flexibility .'))))))))
+#These studies find that states with flexible labour laws have grown significantly faster.
+SUB/ELABORATION('These studies find .',', States with flexible labour laws have grown significantly faster .')
+#Flexible labour states have been able to take advantage of the export opportunities, and the per capita household income has risen much faster in states with flexible labour laws.
+CO/LIST('Flexible labour states have been able to take advantage of the export opportunities .','The per capita household income has risen much faster in states with flexible labour laws .')
+#States with rigid labour laws have led local entrepreneurs to prefer casual workers or contract workers with finite employment time period; in essence, more rigid and inflexible labour law states see increased informal employment.
+CO/LIST(SUB/PURPOSE(', States with rigid labour laws have led local entrepreneurs .','This was to prefer casual workers or contract workers with finite employment time period .' )SUB/ELABORATION('This is in essence .','More rigid and inflexible labour law states see increased informal employment .'))
+#A 2007 article in The Economist finds India to have the most restrictive labour laws in any major economy of the world.
+NONE
+#India's private sector, including its organised manufacturing sector, employs about 10 million Indians.
+SUB/ELABORATION('This is including its organised manufacturing sector .','India 's private sector employs about 10 million Indians .')
+#Manufacturing firms need to obtain government permission to lay off workers from factories, and this permission is usually denied if they have more than 100 staff.
+CO/LIST(SUB/ELABORATION('This is from factories .','Manufacturing firms need to obtain government permission to lay off workers .' )SUB/ATTRIBUTION('This was what this permission is usually denied .','If they have more than 100 staff .'))
+#This partly explains why most Indian firms are small: 87 percent of employment in India's organised manufacturing sector is in firms with fewer than ten employees, compared with only 5 percent in China.
+CO/LIST(SUB/ATTRIBUTION('This is what this explains .','Why most Indian firms are small .' )SUB/SPATIAL('This was compared with only 5 percent in China .','87 percent of employment in India 's organised manufacturing sector is in firms with fewer than ten employees .'))
+#Small Indian firms cannot reap economies of scale or exploit the latest technology, and so suffer from lower productivity than if they scaled up, employed more people and were much bigger companies.
+CO/DISJUNCTION(', Small Indian firms can not reap economies of scale .', CO/LIST(', Small Indian firms can not exploit the latest technology companies .', SUB/CONDITION(', Small Indian firms can not suffer from lower productivity .', CO/LIST('They scaled up .','They employed more people .','They were much bigger companies .'))))
+#This cripples Indian firms ability to rapidly expand or adjust with changes in global economy, both during early opportunity phase and during economic change.
+SUB/PURPOSE('This cripples Indian firms ability .','This was to rapidly expand or adjust with changes in global economy , both during early opportunity phase and during economic change .')
+#One exception is white collar jobs, where companies have stronger lobbies and employees are not unionised, so they have managed to operate freely with a much larger workforce and have been able to lay off a significant portion of their workforce without contravening labour laws.
+SUB/ELABORATION(SUB/SPATIAL('One exception is white collar jobs .', SUB/ELABORATION(CO/LIST(', Companies have stronger lobbies .',', Companies have employees .' ), 'Are not unionised stronger lobbies and employees .' ), 'They have managed to operate freely with a much larger workforce and have been able to lay off a significant portion of their workforce without contravening labour laws .'))
+#In almost all cases white collar employees are forced to resign under threat of negative recommendations and black-listing with industry associations.
+SUB/ELABORATION('This was with industry associations .', SUB/ELABORATION('This was in almost all cases .','White collar employees are forced to resign under threat of negative recommendations and black-listing .'))
+#Djankov and Ramalho have reviewed a number of labour studies on developing countries including India.
+SUB/SPATIAL('This was on developing countries including India .','Djankov and Ramalho have reviewed a number of labour studies .')
+#They find, consistent with above criticisms, that countries with rigid employment laws have larger unorganised sectors and higher unemployment, especially among young workers.
+CO/UNKNOWN_COORDINATION(SUB/ELABORATION('They find .', SUB/ELABORATION('This is especially .', CO/LIST(', Countries with rigid employment laws have larger unorganised sectors .',', Countries with rigid employment laws have higher unemployment among young workers .' )SUB/ELABORATION('This is especially .', CO/LIST('They consistent with above criticisms , that countries with rigid employment laws have larger unorganised sectors .','They consistent with above criticisms , that countries with rigid employment laws have higher unemployment among young workers .')))))
+#They also report the rigid, inflexible labour laws are strongly related to low per capita income.
+SUB/ATTRIBUTION('This is what they report .','The rigid , inflexible labour laws are strongly related to low per capita income .')
+#The Caste Disabilities Removal Act, 1850, was a law passed in British India under East India Company rule, that abolished all laws affecting the rights of people converting to another religion or caste.
+SUB/ELABORATION(SUB/ELABORATION('The Caste Disabilities Removal Act was 1850 .', SUB/ELABORATION('The Caste Disabilities Removal Act was a law .','A law was passed in British India under East India Company rule .' )CO/LIST('East India Company rule abolished all laws .', SUB/ELABORATION('East India Company rule was affecting the rights of people .','People were converting to another religion or caste .'))))
+#The new Act allowed hindus who converted from Hindu religion to another religion equal rights under new law, especially in the case of inheritance.
+SUB/ELABORATION('The new Act allowed hindus .', SUB/ELABORATION(SUB/ELABORATION('This is especially .','This is under new law in the case of inheritance .' )SUB/ELABORATION('This was to another religion equal rights .','Hindus converted from Hindu religion .')))
+#Whereas it is enacted by section 9, Regulation VII, 1832, of the Bengal Code, that "whenever in any civil suit the parties to such suit may be of different persuasions, when one party shall be of the Hindu and the other of the Muhammadan persuasion, or where one or more of the parties to the suit shall not be either of the Muhammadan or Hindu persuasions, the laws of those religions shall not be permitted to operate to deprive such party or parties of any property to which, but for the operation of such laws, they would have been entitled; and whereas it will be beneficial to extend the principle of that enactment throughout the territories subject to the government of the East India Company.
+SUB/ELABORATION('It is enacted by section 9 .','Regulation VII , 1832 , of the Bengal Code , that `` whenever in any civil suit the parties to such suit may be of different persuasions , when one party shall be of the Hindu and the other of the Muhammadan persuasion , or where one or more of the parties to the suit shall not be either of the Muhammadan or Hindu persuasions , the laws of those religions shall not be permitted to operate to deprive such party or parties of any property to which , but for the operation of such laws , they would have been entitled ; and whereas it will be beneficial to extend the principle of that enactment throughout the territories subject to the government of the East India Company .')
+#Indian labour law refers to law regulating labour in India.
+SUB/ELABORATION('Indian labour law refers to law .','Law is regulating labour in India .')
+#Traditionally, the Indian government at the federal and state levels has sought to ensure a high degree of protection for workers, but in practice, this differs due to the form of government and because labour is a subject in the concurrent list of the Indian Constitution.
+SUB/ELABORATION('This was for workers , but in practice .', SUB/ELABORATION('This was traditionally .','The Indian government at the federal and state levels has sought to ensure a high degree of protection , this differs due to the form of government and because labour is a subject in the concurrent list of the Indian Constitution .'))
+#The Minimum Wages Act 1948 requires companies to pay the minimum wage set by the government alongside limiting working weeks to 40 hours (9 hours a day including an hour of break).
+SUB/PURPOSE('The Minimum Wages Act 1948 requires companies -LRB- 9 hours a day including an hour of break -RRB- .','This was to pay the minimum wage set by the government alongside limiting working weeks to 40 hours .')
+#Overtime is strongly discouraged with the premium on overtime being 100% of the total wage.
+CO/LIST('Overtime is strongly discouraged with the premium on overtime .','Overtime was being 100 % of the total wage .')
+#The Payment of Wages Act 1936 mandates the payment of wages on time on the last working day of every month via bank transfer or postal service.
+SUB/ELABORATION(CO/DISJUNCTION('This is on the last working day of every month via bank transfer .','This is on the last working day of every month via postal service .' ), 'The Payment of Wages Act 1936 mandates the payment of wages on time .')
+#The Factories Act 1948 and the Shops and Establishment Act 1960 mandate 15 working days of fully paid vacation leave each year to each employee with an additional 7 fully paid sick days.
+SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This was with an additional 7 fully paid .','This was to each employee .' ), 'The Factories leave each year sick days .' )CO/LIST('Act 1948 mandate 15 working days of fully paid vacation The Factories .','The Shops and Establishment Act 1960 mandate 15 working days of fully paid vacation The Factories .'))
+#The Maternity Benefit (Amendment) Act, 2017 gives female employees of every company the right to take 6 months' worth of fully paid maternity leave.
+SUB/ELABORATION('This was 2017 .','The Maternity Benefit -LRB- Amendment -RRB- Act gives female employees of every company the right to take 6 months ' worth of fully paid maternity leave .')
+#It also provides for 6 weeks worth of paid leaves in case of miscarriage or medical termination of pregnancy.
+CO/DISJUNCTION('It also provides for 6 weeks worth of paid leaves in case of miscarriage .','It also provides for 6 weeks worth of paid leaves in medical termination of pregnancy .')
+#The Employees' Provident Fund Organisation and the Employees' State Insurance, governed by statutory acts provide workers with necessary social security for retirement benefits and medical and unemployment benefits respectively.
+CO/LIST(SUB/ELABORATION('This is with necessary social security for retirement benefits .', CO/LIST('The Employees ' Provident Fund Organisation , governed by statutory acts provide workers .','The Employees ' State Insurance , governed by statutory acts provide workers .' ), 'The Employees ' Provident Fund Organisation and the Employees ' State Insurance , medical and unemployment benefits respectively .'))
+#Workers entitled to be covered under the Employees' State Insurance (those making less than Rs 21000/month) are also entitled to 90 days worth of paid medical leaves.
+NONE
+#A contract of employment can always provide for more rights than the statutory minimum set rights.
+NONE
+#The Indian parliament passed four labour codes in the 2019 and 2020 sessions.
+SUB/ELABORATION('This was in the 2019 and 2020 sessions .','The Indian parliament passed four labour codes .')
+#These four codes will consolidate 44 existing labour laws.
+NONE
+#They are: The Industrial Relations Code 2020, The Code on Social Security 2020, The Occupational Safety, Health and Working Conditions Code, 2020 and The Code on Wages 2019.
+CO/LIST('They are : The Industrial Relations Code 2020 , The Code on Social Security 2020 , 2020 and The Code on Wages 2019 .','They are : The Industrial Relations Code 2020 , The Code on The Occupational Safety , 2020 and The Code on Wages 2019 .','They are : The Industrial Relations Code 2020 , The Code on Health , 2020 and The Code on Wages 2019 .','They are : The Industrial Relations Code 2020 , The Code on Working Conditions Code , 2020 and The Code on Wages 2019 .')
+#Indian labour law is closely connected to the Indian independence movement, and the campaigns of passive resistance leading up to independence.
+CO/LIST('Indian labour law is closely connected to the Indian independence movement .','The campaigns of passive resistance leading up to independence .')
+#Workers who sought better conditions, and trade unions who campaigned through strike action were frequently, and violently suppressed.
+CO/LIST(SUB/ELABORATION('Workers were frequently .', SUB/ELABORATION(CO/LIST('Workers sought better conditions .','Workers sought trade unions .' ), 'Trade unions campaigned through strike action .' )SUB/ELABORATION('Workers suppressed .', SUB/ELABORATION(CO/LIST('Workers sought better conditions .','Workers sought trade unions .' ), 'Trade unions campaigned through strike action .'))))
+#After independence was won in 1947, the Constitution of India of 1950 embedded a series of fundamental labour rights in the constitution, particularly the right to join and take action in a trade union, the principle of equality at work, and the aspiration of creating a living wage with decent working conditions.
+SUB/TEMPORAL('Independence was won in 1947 .', CO/LIST('The Constitution of India of 1950 embedded a series of fundamental labour rights in the constitution .','The Constitution of India of 1950 embedded particularly the right to join and take action in a trade union .','The Constitution of India of 1950 embedded the principle of equality at work .','The Constitution of India of 1950 embedded the aspiration of creating a living wage with decent working conditions .'))
+#In the Constitution of India from 1950, articles 14-16, 19(1)(c), 23-24, 38, and 41-43A directly concern labour rights.
+SUB/ELABORATION(CO/LIST('Articles 14-16 , 19 -LRB- 1 -RRB- -LRB- c -RRB- is 23-24 .','Articles 14-16 , 19 -LRB- 1 -RRB- -LRB- c -RRB- is 38 .','Articles 14-16 , 19 -LRB- 1 -RRB- -LRB- c -RRB- is 41-43A .' )SUB/SPATIAL(SUB/ELABORATION('This is from 1950 .','This is in the Constitution of India .' ), 'Articles 14-16 , 19 -LRB- 1 -RRB- -LRB- c -RRB- directly concern labour rights .'))
+#Article 14 states everyone should be equal before the law, article 15 specifically says the state should not discriminate against citizens, and article 16 extends a right of "equality of opportunity" for employment or appointment under the state.
+CO/LIST(SUB/ATTRIBUTION('This is what Article 14 states .','Everyone should be equal before the law .' )SUB/ATTRIBUTION('This is what Article 15 says .','The state should not discriminate against citizens .' )SUB/ELABORATION('This is under the state .', SUB/ELABORATION('This is for employment or appointment .','Article 16 extends a right of `` equality of opportunity ',' .')))
+#Article 19(1)(c) gives everyone a specific right "to form associations or unions".
+NONE
+#Article 23 prohibits all trafficking and forced labour, while article 24 prohibits child labour under 14 years old in a factory, mine or "any other hazardous employment".
+SUB/ATTRIBUTION('This was what Article 23 prohibits all trafficking and forced labour .','While article 24 prohibits child labour under 14 years old in a factory , mine or `` any other hazardous employment ',' .')
+#Articles 38-39, and 41-43A, however, like all rights listed in Part IV of the Constitution are not enforceable by courts, rather than creating an aspirational "duty of the State to apply these principles in making laws".
+SUB/ELABORATION(SUB/ELABORATION('This is however .','Articles 38-39 , and 41-43A like .' )SUB/ELABORATION('This is rather than creating an aspirational `` duty of the State to apply these principles in making laws ',' .','All rights listed in Part IV of the Constitution are not enforceable by courts .'))
+#The original justification for leaving such principles unenforceable by the courts was that democratically accountable institutions ought to be left with discretion, given the demands they could create on the state for funding from general taxation, although such views have since become controversial.
+SUB/ELABORATION('The original justification for leaving such principles unenforceable by the courts was .', CO/CONTRAST(SUB/ELABORATION(SUB/ELABORATION('Democratically accountable institutions ought to be left with discretion .','Discretion was given the demands .' )CO/LIST(SUB/ELABORATION('This is for .','They could create on the state .' ), 'They is funding from general taxation the demands .' ), ', Such views have since become controversial .')))
+#Article 38(1) says that in general the state should "strive to promote the welfare of the people" with a "social order in which justice, social, economic and political, shall inform all the institutions of national life.
+SUB/ATTRIBUTION('This is what Article 38 -LRB- 1 -RRB- says .', SUB/ELABORATION('This is social , economic and political .', SUB/ELABORATION('This is in general .','The state should `` strive to promote the welfare of the people ',' with a `` social order in which justice shall inform all the institutions of national life .')))
+#In article 38(2) it goes on to say the state should "minimise the inequalities in income" and based on all other statuses.
+CO/LIST(SUB/ELABORATION('This is in article 38 -LRB- 2 -RRB- .','It goes on to say the state should `` minimise the inequalities in income .' )SUB/ELABORATION('This was in article 38 -LRB- 2 -RRB- .','It based on all other statuses .'))
+#Article 41 creates a "right to work", which the National Rural Employment Guarantee Act 2005 attempts to put into practice.
+SUB/ELABORATION(SUB/PURPOSE('Article 41 creates a `` right .','This is to work ',' .' ), 'The National Rural Employment Guarantee Act 2005 attempts to put into practice .')
+#Article 42 requires the state to "make provision for securing just and human conditions of work and for maternity relief".
+NONE
+#Article 43 says workers should have the right to a living wage and "conditions of work ensuring a decent standard of life".
+SUB/ATTRIBUTION('This is what Article 43 says .', SUB/ELABORATION(SUB/ELABORATION(CO/LIST('This is to a living wage .','This is to `` conditions of work .' ), 'Work is ensuring a decent standard of life ',' .' ), 'Workers should have the right .'))
+#Article 43A, inserted by the Forty-second Amendment of the Constitution of India in 1976,creates a constitutional right to codetermination by requiring the state to legislate to "secure the participation of workers in the management of undertakings".
+SUB/ELABORATION('Article 43A creates a constitutional right to codetermination by requiring the state to legislate to `` secure the participation of workers in the management of undertakings ',' .', SUB/ELABORATION('This was in 1976 .','Article 43A is inserted by the Forty-second Amendment of the Constitution of India .'))
+#Indian labour law makes a distinction between people who work in "organised" sectors and people working in "unorganised sectors".
+SUB/ELABORATION('Indian labour law makes a distinction between people .', SUB/ELABORATION(CO/LIST('People work in `` organised ',' sectors .','People work in people .' )CO/LIST('`` organised ',' sectors are working in `` unorganised sectors ',' .','People are working in `` unorganised sectors ',' .')))
+#The laws list the ditors to which various labour rights apply.
+NONE
+#People who do not fall within these sectors, the ordinary law of contract applies.
+SUB/ELABORATION('These sectors are the ordinary law of contract .', SUB/ELABORATION('People applies .','People do not fall within these sectors .'))
+#India's labour laws underwent a major update in the Industrial Disputes Act of 1947.
+SUB/ELABORATION('This was in the Industrial Disputes Act of 1947 .','India 's labour laws underwent a major update .')
+#Since then, an additional 45 national laws expand or intersect with the 1948 act, and another 200 state laws control the relationships between the worker and the company.
+CO/LIST(SUB/ELABORATION('This is since then .','An additional 45 national laws expand or intersect with the 1948 act .' )SUB/ELABORATION('This is since then .', CO/LIST('Another 200 state laws control the relationships between the worker .','Another 200 state laws control the relationships between the company .')))
+#These laws mandate all aspects of employer-employee interaction, such as companies must keep 6 attendance logs, 10 different accounts for overtime wages, and file 5 types of annual returns.
+SUB/ELABORATION('6 attendance logs are 10 different accounts for overtime wages .', CO/LIST(SUB/ELABORATION('These laws mandate logs .', SUB/ELABORATION('This is such as companies .','All aspects of employer-employee interaction must keep 6 attendance These laws mandate .' ), 'These laws file 5 types of annual returns .')))
+#The scope of labour laws extend from regulating the height of urinals in workers' washrooms to how often a work space must be lime-washed.
+NONE
+#Inspectors can examine working space anytime and declare fines for violation of any labour laws and regulations.
+CO/LIST('Inspectors can examine working space anytime .', SUB/ELABORATION('This is for violation of any labour laws and regulations .','Inspectors can declare fines .'))
+#Among the employment contracts that are regulated in India, the regulation involves significant government involvement which is rare in developed countries.
+SUB/ELABORATION(SUB/ELABORATION(SUB/ELABORATION('This is among the employment contracts .','The regulation involves significant government involvement .' ), ', Significant government involvement is rare in developed countries .' ), 'The employment contracts are regulated in India .')
+#The Industrial Employment (Standing Orders) Act 1946 requires that employers have terms including working hours, leave, productivity goals, dismissal procedures or worker classifications, approved by a government body.
+SUB/ELABORATION('The Industrial Employment -LRB- Standing Orders -RRB- Act 1946 requires .', CO/DISJUNCTION('Employers have terms including working hours , approved by a government body .','Employers have terms including leave , approved by a government body .','Employers have terms including productivity goals , approved by a government body .','Employers have terms including dismissal procedures , approved by a government body .','Employers have terms including worker classifications , approved by a government body .'))
+#The employment agreement is also governed by the suitable confidentiality, non-disclosure agreement (NDA) and non-compete clause (NCC) in agreements with employees.
+SUB/ELABORATION('This was in agreements with employees .', CO/LIST('The employment agreement is also governed by the suitable confidentiality .','The employment agreement is also governed by non-disclosure agreement -LRB- NDA -RRB- .','The employment agreement is also governed by non-compete clause -LRB- NCC -RRB- .'))
+#It has its roots in trade secret legislations under common law  and intellectual property law.
+SUB/ELABORATION(CO/LIST('This is under common law .','This is under intellectual property law .' )SUB/ELABORATION('This is in trade secret legislations .','It has its roots .'))
+#These may include the type of information that is likely to be disclosed, the manner in which it should be used and restrictions on disclosure post-termination.
+SUB/ELABORATION(CO/LIST('These may include the type of information .','These may include the manner in which it should be used .','These may include restrictions on disclosure post-termination .' ), 'The type of information is likely to be disclosed .')
+#The Contract Labour (Regulation and Abolition) Act 1970 aims at regulating employment of contract labour so as to place it at par with labour employed directly.
+SUB/PURPOSE('The Contract Labour -LRB- Regulation and Abolition -RRB- Act 1970 aims at regulating employment of contract labour so as .','This was to place it at par with labour employed directly .')
+#Women are now permitted to work night shifts too (10 pm to 6 am).
+NONE
+#The Latin phrase 'dies non' is being widely used by disciplinary authorities in government and industries for denoting the 'unauthorised absence' to the delinquent employees.
+CO/LIST(SUB/ELABORATION('This was for .','The Latin phrase ` dies non ' is being widely used by disciplinary authorities in government and industries .' )SUB/ELABORATION('This was to the delinquent employees .','The Latin phrase ` dies non ' was denoting the ` unauthorised absence ' .'))
+#According to Shri R. P. Saxena, chief engineer, Indian Railways, dies-non is a period which neither counted in service nor considered as break in service.
+SUB/ELABORATION(SUB/ELABORATION(', Chief engineer was Indian Railways .',', Shri R. P. Saxena was chief engineer .' )SUB/ELABORATION(SUB/ELABORATION('This is according to Shri R. P. Saxena .','Dies-non is a period .' )CO/UNKNOWN_COORDINATION('A period neither counted in service .', SUB/ELABORATION('This was in service .','A period neither considered as break .'))))
+#In cases of such willful and unauthorised absence from work, the leave sanctioning authority may decide and order that the days on which the work is not performed be treated as dies non-on the principle of no work no pay.
+CO/LIST(SUB/ELABORATION('This is in cases of such willful and unauthorised absence from work .','The leave sanctioning authority may decide no pay .' )SUB/ELABORATION(SUB/ELABORATION('This is in cases of such willful and unauthorised absence from work .','The leave sanctioning authority may order .' ), 'The days on which the work is not performed be treated as dies non-on the principle of no work no pay .'))
+#This will be without prejudice to any other action that the competent authority might take against the persons resorting to such practises.
+SUB/ELABORATION(SUB/ELABORATION('This is to any other action .','This will be without prejudice .' )SUB/ELABORATION('The competent authority might take against the persons .','The persons are resorting to such practises .'))
+#The principle of "no work no pay" is widely being used in the banking industry in India.
+NONE
+#All other manufacturing industries and large service establishments like railways, posts and telecommunications are also implementing it to minimise the incidences of unauthorised absence of workers.
+NONE
+#The term 'industry' infuses a contractual relationship between the employer and the employee for sale of products and services which are produced through their cooperative endeavor.
+SUB/ELABORATION(CO/LIST('The term ` industry ' infuses a contractual relationship between the employer .','The term ` industry ' infuses the employee for sale of products and services .' ), 'The employee for sale of products and services are produced through their cooperative endeavor .')
+#This contract together with the need to put in efforts in producing goods and services imposes duties (including ancillary duties) and obligations on the part of the employees to render services with the tools provided and in a place and time fixed by the employer.
+NONE
+#And in return, as a quid pro quo, the employer is enjoined to pay wages for work done and or for fulfilling the contract of employment.
+SUB/ELABORATION(SUB/ELABORATION('This was for work or for fulfilling the contract of employment .','Work was done and .' ), 'And in return , as a quid pro quo , the employer is enjoined to pay wages .')
+#Duties generally, including ancillary duties, additional duties, normal duties, emergency duties, which have to be done by the employees and payment of wages therefor.
+SUB/ELABORATION(SUB/ELABORATION('Ancillary duties are additional duties .', SUB/ELABORATION('Ancillary duties normal duties are emergency duties .', SUB/ELABORATION('This is including ancillary duties normal duties .','Duties generally .' )SUB/ELABORATION('Ancillary duties were additional duties .','Ancillary duties normal duties , emergency duties have to be done by the employees and payment of wages therefor .'))))
+#Where the contract of employment is not fulfilled or work is not done as prescribed, the principle of 'no work no pay' is brought into play.
+NONE
+#In the Labour Law 2021, the government has approved an overtime payment to the employees working more than 15 minutes of scheduled shift.
+SUB/ELABORATION(SUB/ELABORATION('This was to the employees .','The employees were working more than 15 minutes of scheduled shift .' )SUB/ELABORATION('This was in the Labour Law 2021 .','The government has approved an overtime payment .'))
+#It is applicable from 1 April 2021.
+NONE
+#The Payment of Wages Act 1936 requires that employees receive wages, on time, and without any unauthorised deductions.
+SUB/ELABORATION('The Payment of Wages Act 1936 requires .', SUB/ELABORATION('This is on time , and without any unauthorised deductions .','Employees receive wages .'))
+#Section 6 requires that people are paid in money rather than in kind.
+SUB/ELABORATION(', Section 6 requires .','People are paid in money rather than in kind .')
+#The law also provides the tax withholdings the employer must deduct and pay to the central or state government before distributing the wages.
+SUB/ELABORATION('The law also provides .', SUB/ELABORATION('The tax withholdings .', SUB/TEMPORAL('The employer must deduct and pay to the central or state government before .','The employer is distributing the wages .')))
+#The Minimum Wages Act 1948 sets wages for the different economic sectors that it states it will cover.
+SUB/ELABORATION('The Minimum Wages Act 1948 sets wages for the different economic sectors .', SUB/ATTRIBUTION('This is what it states .','It will cover .'))
+#It leaves a large number of workers unregulated.
+NONE
+#Central and state governments have discretion to set wages according to kind of work and location, and they range between as much as ₹ 143 to 1120 per day for work in the so-called central sphere.
+CO/LIST(SUB/ELABORATION('This was according to kind of work and location .',', Central and state governments have discretion to set wages .' )SUB/ELABORATION('This is for work in the so-called central sphere .','They range between as much as 143 to 1120 per day .'))
+#State governments have their own minimum wage schedules.
+NONE
+#The Payment of Gratuity Act 1972 applies to establishments with 10 or more workers.
+NONE
+#Gratuity is payable to the employee if he or she resigns or retires.
+SUB/CONDITION('Gratuity is payable to the employee .', CO/DISJUNCTION('He or she resigns .','He or she retires .'))
+#The Indian government mandates that this payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of ₹ 2000000.
+SUB/ELABORATION('The Indian government mandates .','This payment be at the rate of 15 days salary of the employee for each completed year of service subject to a maximum of 2000000 .')
+#The Payment of Bonus Act 1965, which applies only to enterprises with over 20 people, requires bonuses are paid out of profits based on productivity.
+SUB/ELABORATION(SUB/ELABORATION('The Payment of Bonus Act 1965 requires .', SUB/ELABORATION('Bonuses are paid out of profits .','Profits were based on productivity .' ), 'The Payment of Bonus Act 1965 applies only to enterprises with over 20 people .'))
+#The minimum bonus is currently 8.33 per cent of salary.
+NONE
+#The Employees' Provident Fund and Miscellaneous Provisions Act 1952 (repealed in 2020) created the Employees' Provident Fund Organisation of India.
+CO/LIST('The Employees ' Provident Fund created the Employees ' Provident Fund Organisation of India .','Miscellaneous Provisions Act 1952 -LRB- repealed in 2020 -RRB- created the Employees ' Provident Fund Organisation of India .')
+#This functions as a pension fund for old age security for the organised workforce sector.
+NONE
+#For those workers, it creates Provident Fund to which employees and employers contribute equally, and the minimum contributions are 10-12 per cent of wages.
+CO/LIST(SUB/ELABORATION('This is for those workers .','It creates Provident Fund to which employees and employers contribute equally .' )SUB/ELABORATION('This is for those workers .','The minimum contributions are 10-12 per cent of wages .'))
+#The Employees' State Insurance provides health and social security insurance.
+NONE
+#This was created by the Employees' State Insurance Act 1948.
+NONE
+#The Unorganised Workers' Social Security Act 2008 (repealed in 2020) was passed to extend the coverage of life and disability benefits, health and maternity benefits, and old age protection for unorganised workers.
+NONE
+#"Unorganised" is defined as home-based workers, self-employed workers or daily-wage workers.
+CO/DISJUNCTION('`` Unorganised ',' is defined as home-based workers .','`` Unorganised ',' is defined as self-employed workers .','`` Unorganised ',' is defined as daily-wage workers .')
+#The state government was meant to formulate the welfare system through rules produced by the National Social Security Board.
+SUB/ELABORATION(SUB/ELABORATION('This was through rules .','Rules were produced by the National Social Security Board .' ), 'The state government was meant to formulate the welfare system .')
+#The Maternity Benefit Act 1961 (repealed in 2020), creates rights to payments of maternity benefits for any woman employee who worked in any establishment for a period of at least 80 days during the 12 months immediately preceding the date of her expected delivery.
+SUB/ELABORATION(SUB/ELABORATION('This is to payments of maternity benefits for any woman employee .','The Maternity Benefit Act 1961 -LRB- repealed in 2020 -RRB- , creates rights .' )SUB/ELABORATION('This was during the 12 months immediately preceding the date of her expected delivery .', SUB/ELABORATION('This was for a period of at least 80 days .','Payments of maternity benefits for any woman employee worked in any establishment .')))
+#On 30 March 2017 the President of India Pranab Mukherjee approved the Maternity Benefit (Amendment) Act, 2017 which provides for 26-weeks paid maternity leave for women employees.
+SUB/ELABORATION(SUB/ELABORATION('The Maternity Benefit -LRB- Amendment -RRB- Act was 2017 .','2017 provides for 26-weeks paid maternity leave for women employees .' )SUB/ELABORATION('This was on 30 .','March 2017 the President of India Pranab Mukherjee approved the Maternity Benefit -LRB- Amendment -RRB- Act .'))
+#The Employees' Provident Funds and Miscellaneous Provisions Act, 1952 (repealed in 2020), provides for compulsory contributory fund for the future of an employee after his/her retirement or for his/her dependents in case of employee's early death.
+SUB/ELABORATION('Act is 1952 .', SUB/ELABORATION('This is after his/her retirement or for his/her dependents in case of employee 's early death .','The Employees ' Provident Funds and Miscellaneous Provisions Act -LRB- repealed in 2020 -RRB- , provides for compulsory contributory fund for the future of an employee .'))
+#It was the view of many in the Indian Independence Movement, including Mahatma Gandhi, that workers had as much of a right to participate in management of firms as shareholders or other property owners.
+SUB/ELABORATION(SUB/ELABORATION('This was including Mahatma Gandhi .','It was the view of many in the Indian Independence Movement .' )CO/DISJUNCTION('Workers had as much of a right to participate in management of firms as shareholders .','Workers had as much of a right to participate in management of firms as other property owners .'))
+#Article 43A of the Constitution, inserted by the Forty-second Amendment of the Constitution of India in 1976,created a right to codetermination by requiring the state to legislate to "secure the participation of workers in the management of undertakings".
+SUB/ELABORATION('Article 43A of the Constitution created a right to codetermination by requiring the state to legislate to `` secure the participation of workers in the management of undertakings ',' .', SUB/ELABORATION('This was in 1976 .'

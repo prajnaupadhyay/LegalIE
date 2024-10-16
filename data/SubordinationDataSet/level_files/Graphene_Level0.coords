@@ -1,0 +1,20 @@
+#The Inter-State Migrant Workmen Act was replaced by the Occupational Safety, Health and Working Conditions Code, 2020.
+SUB/ELABORATION('Working Conditions Code were 2020 .', CO/LIST('The Inter-State Migrant Workmen Act was replaced by the Occupational Safety .','The Inter-State Migrant Workmen Act was replaced by Health .','The Inter-State Migrant Workmen Act was replaced by Working Conditions Code .'))
+#Women account for the vast majority of those who have lost their jobs (24.7 million).
+SUB/ELABORATION('Women account for the vast majority of those -LRB- 24.7 million -RRB- .','Those have lost their jobs .')
+#The MGNREGA was created with the idea of giving rural households a safety net in the form of guaranteed work possibilities.
+NONE
+#The work entitlement of 100 days per household per year may be shared between different adult members of the same household.
+NONE
+#The Industrial Disputes Act, 1947 was replaced by the Industrial Relations Code, 2020.
+SUB/ELABORATION('The Industrial Disputes Act was 1947 .', SUB/ELABORATION('The Industrial Relations Code were 2020 .','The Industrial Disputes Act was replaced by the Industrial Relations Code .'))
+#Workers entitled to be covered under the Employees' State Insurance (those making less than Rs 21000/month) are also entitled to 90 days worth of paid medical leaves.
+NONE
+#A contract of employment can always provide for more rights than the statutory minimum set rights
+NONE
+#The Gratuity law applies to all companies of at least 20 employees.
+NONE
+#Employees ' State Insurance Corporation ( ESIC ) , established by ESI Act , is an autonomous corporation under Ministry of Labour and Employment , Government of India .
+SUB/ELABORATION('Ministry of Labour and Employment are Government of India .', SUB/ELABORATION('Employees ' State Insurance Corporation -LRB- ESIC -RRB- is an autonomous corporation under Ministry of Labour and Employment .','Employees ' State Insurance Corporation -LRB- ESIC -RRB- is established by ESI Act .'))
+#Section 6 requires that people are paid in money rather than in kind.
+SUB/ELABORATION(', Section 6 requires .','People are paid in money rather than in kind .')

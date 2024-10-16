@@ -6,6 +6,17 @@ import metric
 label_dict = {'CP_START': 2, 'CP': 1,
               'CC': 3, 'SEP': 4, 'OTHERS': 5, 'NONE': 0}
 
+subordination_labels = {'SUB/ELABORATION': 1,
+                        'SUB/SPATIAL': 2,
+                        'SUB/ATTRIBUTION': 3,
+                        'SUB/UNKNOWN_SUBORDINATION': 4,
+                        'CO/CONTRAST': 5,
+                        'CO/LIST': 6,
+                        'CO/DISJUNCTION': 7,
+                        'SUB/CAUSE': 8,
+                        'SUB/CONDITION': 9,
+                        'SUB/PURPOSE': 10}
+
 
 # function that returns the split sentences from
 # openie labels
@@ -40,7 +51,7 @@ def get_sentences_from_openie_labels(input_file, output_file):
                 roots, parent_mapping, child_mapping = coords_to_tree(coords, words)
                 print("parent_mapping: " + str(parent_mapping))
                 for ss in split_sentences:
-                    o1.write(ss+"\n")
+                    o1.write(ss + "\n")
                 o1.write("\n")
 
                 discource_tree = construct_discource_tree(sentences_indices, roots, parent_mapping, coords)
@@ -356,62 +367,102 @@ def remove_unbreakable_conjuncts(conj, words):
         conj.pop(k)
 
 
-def get_sentences_from_tree_labels(model, tree_label):
-    if tree_label == "NONE":
-        return [""]
-    count = tree_label.count("COORDINATION")
-    # Removing " )) from the end
-    if count >= 1:
-        tree_label = tree_label[:-(count + 2)]
-    if(model == "OpenIE"):
+def get_sentences_from_tree_labels_subordination(tree_label):
+    org = tree_label
+    for relation in subordination_labels:
+        # remove root node
+        if tree_label.startswith(relation):
+            tree_label.replace(relation, "")
+    if org == tree_label:
+        print(tree_label)
+    else:
         sentences = tree_label.split("\" , \"")
-    else:
-        sentences = tree_label.split("\", \"")
-    new_sentenes = []
-    if model == "BART":
         for s in sentences:
-            if "\" COORDINATIONAL" in s:
-                s1 = s.split("\" COORDINATIONAL(\"")
-                for ss in s1:
-                    ss = ss.replace("COORDINATION(\" ", "")
-                    new_sentenes.append(ss)
-            elif "COORDINATIONAL" in s:
-                s1 = s.split("COORDINATIONAL(\"")
-                for ss in s1:
-                    ss = ss.replace("COORDINATION(\" ", "")
-                    new_sentenes.append(ss)
-            elif "\" COORDINATION" in s:
-                s1 = s.split("\" COORDINATION(\"")
-                for ss in s1:
-                    ss = ss.replace("COORDINATION(\" ", "")
-                    new_sentenes.append(ss)
-            elif "COORDINATION" in s:
-                s1 = s.split("COORDINATION(\"")
-                for ss in s1:
-                    ss = ss.replace("COORDINATION(\" ", "")
-                    new_sentenes.append(ss)
-            else:
-                s = s.replace("COORDINATION(\" ", "")
-                new_sentenes.append(s)
-    elif model == "T5" or model == "OpenIE":
+            get_sentences_from_tree_labels_subordination(s)
+
+
+
+
+
+def get_sentences_from_tree_labels(model, tree_label, type):
+    if type == "COORDINATION":
+        if tree_label == "NONE":
+            return [""]
+        count = tree_label.count("COORDINATION")
+        # Removing " )) from the end
+        if count >= 1:
+            tree_label = tree_label[:-(count + 2)]
+        # if(model == "OpenIE"):
+        #     sentences = tree_label.split("\" , \"")
+        # else:
+        #     sentences = tree_label.split("\", \"")
+        sentences = tree_label.split("\" , \"")
+        new_sentences = []
+        if model == "BART":
+            for s in sentences:
+                if "\" COORDINATIONAL" in s:
+                    s1 = s.split("\" COORDINATIONAL(\"")
+                    for ss in s1:
+                        ss = ss.replace("COORDINATION(\" ", "")
+                        new_sentences.append(ss)
+                elif "COORDINATIONAL" in s:
+                    s1 = s.split("COORDINATIONAL(\"")
+                    for ss in s1:
+                        ss = ss.replace("COORDINATION(\" ", "")
+                        new_sentences.append(ss)
+                elif "\" COORDINATION" in s:
+                    s1 = s.split("\" COORDINATION(\"")
+                    for ss in s1:
+                        ss = ss.replace("COORDINATION(\" ", "")
+                        new_sentences.append(ss)
+                elif "COORDINATION" in s:
+                    s1 = s.split("COORDINATION(\"")
+                    for ss in s1:
+                        ss = ss.replace("COORDINATION(\" ", "")
+                        new_sentences.append(ss)
+                else:
+                    s = s.replace("COORDINATION(\" ", "")
+                    new_sentences.append(s)
+        elif model == "T5" or model == "OpenIE":
+            for s in sentences:
+                if "\" COORDINATION" in s:
+                    s1 = s.split("\" COORDINATION(\"")
+                    for ss in s1:
+                        ss = ss.replace("COORDINATION(\" ", "")
+                        new_sentences.append(ss)
+                elif "COORDINATION" in s:
+                    s1 = s.split("COORDINATION(\"")
+                    for ss in s1:
+                        ss = ss.replace("COORDINATION(\"", "")
+                        new_sentences.append(ss)
+                else:
+                    s = s.replace("COORDINATION(\" ", "")
+                    new_sentences.append(s)
+        else:
+            print("Invalid model name")
+            sys.exit(0)
+        return new_sentences
+    elif type == "SUBORDINATION":
+        if tree_label == "NONE":
+            return [""]
+        sentences = tree_label.split("\" , \"")
+        new_sentences = []
         for s in sentences:
-            if "\" COORDINATION" in s:
-                s1 = s.split("\" COORDINATION(\"")
-                for ss in s1:
-                    ss = ss.replace("COORDINATION(\" ", "")
-                    new_sentenes.append(ss)
-            elif "COORDINATION" in s:
-                s1 = s.split("COORDINATION(\"")
-                for ss in s1:
-                    ss = ss.replace("COORDINATION(\"", "")
-                    new_sentenes.append(ss)
-            else:
-                s = s.replace("COORDINATION(\" ", "")
-                new_sentenes.append(s)
-    else:
-        print("Invalid model name")
-        sys.exit(0)
-    return new_sentenes
+            for relation in subordination_labels:
+                relation_m = "\"" + relation
+                if relation_m in s:
+                    s1 = s.split(relation_m + "(\"")
+                    for ss in s1:
+                        ss = ss.replace("COORDINATION(\" ", "")
+                        new_sentences.append(ss)
+                elif "COORDINATION" in s:
+                    s1 = s.split("COORDINATION(\"")
+                    for ss in s1:
+                        ss = ss.replace("COORDINATION(\"", "")
+                        new_sentences.append(ss)
+                else:
+                    s = s.replace("COORDINATION(\" ", "")
+                    new_sentences.append(s)
 
 
 def convert_discource_tree_to_conj(model, input_file, output_file):
@@ -427,7 +478,7 @@ def convert_discource_tree_to_conj(model, input_file, output_file):
             new_sentences = get_sentences_from_tree_labels(model, prediction)
             o.write(sentence + "\n")
             for sentences in new_sentences:
-                if sentences.strip()=="":
+                if sentences.strip() == "":
                     continue
                 o.write(sentences.strip() + "\n")
             o.write("\n")
@@ -455,15 +506,31 @@ def preprocess_input(arg1, arg2):
             o.write("JARGON\n")
     o.close()
 
+def get_sentences_from_tree_labels_subordination(tree_label, leaf_sentences):
+    org = tree_label
+    tree_label1 = tree_label
+    for relation in subordination_labels:
+        # remove root node
+        if tree_label.startswith(relation):
+            tree_label1 = tree_label.replace(relation, "", 1)
+            break
+    if org == tree_label1:
+        leaf_sentences.append(tree_label.strip('(\")'))
+    else:
+        sentences = tree_label1.split("\",")
+        for s in sentences:
+            get_sentences_from_tree_labels_subordination(s.strip(), leaf_sentences)
+
 
 if __name__ == '__main__':
-    if len(sys.argv) != 4:
-        print("Usage: python3 preprocess.py T5 <input_file> <output_file>")
-        exit(0)
-    convert_discource_tree_to_conj(sys.argv[1], sys.argv[2], sys.argv[3])
-    # convert_discource_tree_to_conj(
-    #     "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.txt",
-    #     "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/CoordinationDataSet/Prediction_BART_Coordination.conj")
-    # get_sentences_from_openie_labels(
-    #   "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/ptb-test_split.labels",
-    #  "/media/prajna/Files11/bits/faculty/project/labourlaw_kg/LegalIE/data/coordination_tree_encoding")
+    #if len(sys.argv) != 4:
+    #    print("Usage: python3 preprocess.py T5 <input_file> <output_file>")
+    #    exit(0)
+    # convert_discource_tree_to_conj(sys.argv[1], sys.argv[2], sys.argv[3])
+
+    label = "SUB/CONDITION(\"Any contribution of minimum amount in any year is not invested.\", SUB/ELABORATION(\"This was then.\",\"The account will be deactivated.\"))"
+    leaf_sentences = []
+
+    get_sentences_from_tree_labels_subordination(label, leaf_sentences)
+    # split sentences are stored in leaf_sentences
+    print(leaf_sentences)

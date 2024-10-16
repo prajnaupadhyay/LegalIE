@@ -1,0 +1,25 @@
+Level 0 with count 163
+Precision:  0.9693251533742331
+Recall:  0.9693251533742331
+F1 Score:  0.9693251533742331 
+
+Level 1 with count 716
+Precision:  0.8134559414176807
+Recall:  0.735567361314616
+F1 Score:  0.7637505656245439 
+
+Level 2 with count 98
+Precision:  0.7610594042304422
+Recall:  0.6729865634870018
+F1 Score:  0.7065366209575388 
+
+Level 3 with count 6
+Precision:  0.587429470486111
+Recall:  0.42652994791666665
+F1 Score:  0.4883700490304735 
+
+Level 4 with count 2
+Precision:  0.69580078125
+Recall:  0.44140625
+F1 Score:  0.5379687015849957 
+
