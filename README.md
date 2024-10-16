@@ -14,7 +14,9 @@ Python 3.10 is needed to run the code.
 
 ### Training and Prediction
 
-`python run.py train-test <training_data_file> <model_directory> <test_data_file> <prediction_file> <model_name> <batch_size> <seed>`
+``` 
+python run.py train-test <training_data_file> <model_directory> <test_data_file> <prediction_file> <model_name> <batch_size> <seed>
+```
 
 1. You can only use `train` or `test` instead of `train-test` if you want to do these steps individually.
 
