@@ -1,0 +1,74 @@
+following is a few examples of legal input sentences under 'Input' that have been converted into discourse trees which is shown under 'Output'. using the following examples as a format, convert new legal sentences into trees. Create a discourse tree from the provided sentence without introducing new words or explanations.A discourse tree identifies hierarchical text structures and rhetorical relations between text parts. These relations are categorized as coordinations and subordinations. below are some examples for how the discourse tree geenrated should be -\begin{enumerate}
+\item \textbf{SPATIAL}: This relation is used to denote the place of occurrence of an event .
+Eg: The Interstate Migrant Workmen Act 's purpose was to protect workers whose services
+are requisitioned outside their native states in India .
+
+\term{SUB/ELABORATION('The Inter-state Migrant Workmen Act 's purpose was to protect
+workers .', \textbf{SUB/SPATIAL}('This is in India .','Workers 's services are requisitioned outside
+their native states .'))}
+\item \textbf{ATTRIBUTION}: This relation is used when a statement is being made by some
+person or institution. \newline
+Eg: But some militant SCI TV junk-holders say that 's not enough . \newline
+\texttt{ SUB/ATTRIBUTION('This is what some militant SCI TV junk-holders say .',''s not
+enough .')}
+
+\item \textbf{CONTRAST}: This relation is indicated by the words ``althoughâ€ , ``butâ€ , ``but
+nowâ€, ``despiteâ€ , ``even thoughâ€ , ``even whenâ€, ``except whenâ€ , ``howeverâ€, ``insteadâ€ ,
+``ratherâ€, ``stillâ€ , ``thoughâ€ , ``thusâ€, ``until recentlyâ€, ``whileâ€
+and ``yet".
+Eg: This can have its purposes at times , but there 's no reason to cloud the importance and
+allure of Western concepts of freedom and justice .
+\texttt{CO/CONTRAST(SUB/ELABORATION('This is at times .','This can have its purposes .'
+), 'There 's no reason to cloud the importance and allure of Western concepts of freedom and
+justice .')}
+Eg2: No one has worked out the players ' average age , but most appear to be in their late
+30s . \newline
+\texttt{CO/CONTRAST('No one has worked out the players ' average age .',' most appear to be
+in their late 30s . ')}
+\item \textbf{LIST} : This is used to indicate conjunctions ( 'and' or comma seperated words)
+between the sentences
+Eg: He believes in what he plays , \textbf{and} he plays superbly . \newline
+\texttt{ CO/LIST(`He believes in what he plays .',`He plays superbly .')}
+\newline
+\item \textbf{DISJUNCTION}: This is used to show the presence of 'OR' in the sentences.
+Eg: The carpet division had 1988 sales of \$ 368.3 million , or almost 14 \% of Armstrong 's \$
+2.68 billion total revenue .
+
+\texttt{CO/DISJUNCTION('The carpet division had 1988 sales of \$ 368.3 million .','The carpet
+division had 1988 sales of almost 14 \% of Armstrong 's \$ 2.68 billion total revenue .')}
+\item \textbf{CAUSE}: Indicates the presence of the word - because' or since'.
+Eg: Jaguar 's own defenses against a hostile bid are weakened , analysts add , because
+fewer than 3 \% of its shares are owned by employees and management .
+
+SUB/CAUSE('Jaguar 's own defenses against a hostile bid are weakened , analysts
+add .','Fewer than 3 \% of its shares are owned by employees and management .')}
+\item \textbf{CONDITION}: When multiple sentences are connected by phrase 'if' `in
+case',`unless' and 'until', CONDITION relationship phrase is used to denote the connection
+between the sentences.
+Eg: Unless he closes the gap , Republicans risk losing not only the governorship but also the
+assembly next month . \newline
+\texttt{SUB/CONDITION('He closes the gap .','Republicans risk losing not only the governorship
+but also the assembly next month .')}
+\item \textbf{ELABORATION}: Identified by the presence of words such as ``more
+provocatively",``even before" ,`` for example",``recently" ,`` so" ,``so far" ,`` where" ,``whereby"
+and ``whether" .
+
+REGEX: \begin{verbatim}
+``since(\\W(.*?\\W)?)now"
+\end{verbatim}
+Eg: #Not one thing in the house is \textbf{ where} it is supposed to be , but the structure is
+fine . 
+CO/CONTRAST(SUB/ELABORATION('Not one thing in the house is .','It is supposed to
+be .' ), 'The structure is fine .')} \newline
+\item \textbf{TEMPORAL} : Denotes the time or date of occurrence of the event.
+Eg: These days he hustles to house-painting jobs in his Chevy pickup before and after
+training with the Tropics .
+\texttt{SUB/TEMPORAL('These days he hustles to house-painting jobs in his Chevy pickup
+before and after .','These days he is training with the Tropics .')}
+PURPOSE: This kind of relation is identified by the presence f words such as
+``for" or ``to".
+Eg: But we can think of many reasons to stay out for the foreseeable future and well beyond .
+
+ SUB/PURPOSE('But we can think of many reasons .','This is to stay out for the
+foreseeable future and well beyond .')
+
