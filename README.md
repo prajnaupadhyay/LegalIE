@@ -1,7 +1,7 @@
 # LegalIE
 
 ## 🔗 Links
-[Paper](https://aclanthology.org/2024.nllp-1.1/)
+- [Paper](https://aclanthology.org/2024.nllp-1.1/)
 
 
 #### 1) Create a conda environment
