@@ -175,3 +175,12 @@ Trained models can be found in Hugging Face for subordination Task
 ##### `T5 Base`: https://huggingface.co/bphclegalie/t5-base-legen <br>
 ##### `T5 Small`: https://huggingface.co/bphclegalie/t5-small-custom-loss
 
+
+## Prompts
+
+#### GPT models are trained with 3 sets of prompts for the subordination task:
+##### Restricted Prompts: Similar to zer shot but the model was provided with 10 sets of relations.
+##### Unrestricted Relation: The model has to decipher the relation between the clauses.
+##### 11 Shot: 11 examples were given to model to construct the discourse tree. 
+
+##### The coordination task does not have any `restricted ` and `unrestricted` prompts as it has only one kind of relation. 
