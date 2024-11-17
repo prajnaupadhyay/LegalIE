@@ -1,5 +1,7 @@
 # LegalIE
 
+
+
 #### 1) Create a conda environment
 Python 3.10 is needed to run the code.
 
@@ -179,8 +181,8 @@ Trained models can be found in Hugging Face for subordination Task
 ## Prompts
 
 #### GPT models are trained with 3 sets of prompts for the subordination task:
-##### Restricted Prompts: Similar to zer shot but the model was provided with 10 sets of relations.
-##### Unrestricted Relation: The model has to decipher the relation between the clauses.
-##### 11 Shot: 11 examples were given to model to construct the discourse tree. 
+##### 1) Restricted Prompts: Similar to zer shot but the model was provided with 10 sets of relations.
+##### 2) Unrestricted Relation: The model has to decipher the relation between the clauses.
+##### 3) Few shot Learning: 11 examples were given to model to construct the discourse tree. 
 
 ##### The coordination task does not have any `restricted ` and `unrestricted` prompts as it has only one kind of relation. 
