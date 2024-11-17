@@ -1,5 +1,7 @@
 # LegalIE
 
+## 🔗 Links
+[![Paper](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://aclanthology.org/2024.nllp-1.1/)
 
 
 #### 1) Create a conda environment
