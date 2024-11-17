@@ -1,0 +1,12 @@
+Coordinating sentences join independent
+clauses with coordinating conjunctions like ’and’, ’or’, and ’but’, enhancing sentence complexity. Your task is to form independent clauses by identifying the coordinating phrases. 
+To construct the hierarchical tree, follow the below steps:
+
+Step 1: Identify the coordinating phrase like 'and', 'or' and 'but'. Sometimes a sentence can have comma as well to distinguish between different words. Consider that as well while forming independent sentences.
+Step 2: Join all the dependent phrases of the coordinating phrase to make an independent sentence.   Add context while forming independent sentences. Every sentence should be complete.
+Step 3: Loop over all the clauses from step 2, and if there are still coordinating phrases present, repeat steps 1 and step 2 till all the coordinating phrases are identified in the input sentence. The clauses should be completely independent.
+Step 4: Repeat steps 1 to 3 till all the subordinating and coordinating phrases in the individual clauses are identified.
+
+Step 5: Do not print the results of intermediate steps; print only the final output. If there are no coordinating phrases in the input sentence, the output will be NONE. Else, the  output of the hierarchical tree in the format :
+
+```COORDINATION('Clause1', Clause2' , COORDINATION('clause', 'clause2').......)```
